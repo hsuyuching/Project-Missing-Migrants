@@ -7,7 +7,7 @@ d3.csv("data/MissingMigrantsProject.csv").then( matchCSV =>
             d["dead"] = +d["dead"]
         })
         window.migrant = matchCSV
-        console.log(window.migrant)
+        // console.log(window.migrant)
     }
 )
 
