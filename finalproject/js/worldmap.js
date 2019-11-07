@@ -23,22 +23,14 @@ class worldmap{
         const RegionsInclude = data.DefineRegion()
         const countryData = data.WorldMapData()
 
-        console.log(IncidentRegionBasedData)
-        console.log(RegionsInclude)
-        console.log(countryData)
-
-
         // Set tooltips
-        var tip = d3.tip()
-            .attr('class', 'd3-tip')
-            .offset([-10, 0])
-            .html(function(d) {
-                return "<strong>Country: </strong><span class='details'>" + d.properties.name + "<br></span>" + "<strong>Population: </strong><span class='details'>" + d.population +"</span>";
-            })
+        let tooltipdiv = d3.select("body")
+            .append("div")
+            .attr("class", "tooltip-donut")
+            .style("opacity", 0);
 
-        var margin = {top: 20, right: 20, bottom: 30, left: 30};
-            // width = 1200 - margin.left - margin.right,
-            // height = 800 - margin.top - margin.bottom;
+
+        // var margin = {top: 20, right: 20, bottom: 30, left: 30};
         let width = 900, height = 900;
         var color = d3.scaleLinear()
             .domain([0,10,100,300,500,1000,2000,3000,4000,5000])
@@ -53,72 +45,61 @@ class worldmap{
 
         var projection = d3.geoEqualEarth()
             .scale(200)
-            .translate( [width / 2, height / 2]);
+            .translate( [width / 2, height /3]);
 
         var path = d3.geoPath().projection(projection);
 
-        // // svg.call(tip);
-        //
-        // // queue()
-        // //     .defer(d3.json, "data/world-countries.json")
-        // //     // .defer(d3.tsv, "world_population.tsv")
-        // //     .await(ready);
-        //
-        // function ready(error, world) {
-        //     // var populationById = {};
-        //
-        //     // population.forEach(function(d) { populationById[d.id] = +d.population; });
-        //
-
-        //
-        // Object.keys(objCountryExtend).forEach(function(key){
-        //     console.log(key,objCountryExtend[key], objCountryExtend[key].indexOf("Colombia") > -1? key:0)
-        //     console.log(obj[key])
-        // })
-            svg.append("g")
-                .attr("class", "countries")
-                .selectAll("path")
-                .data(countryData)
-                .enter().append("path")
-                .attr("d", path)
-                .style("fill", function(d) {
-                    for (const region of Object.keys(RegionsInclude)){
-                        if (RegionsInclude[region].indexOf(d.properties)>-1){
-                            // console.log(d.properties,"*",region, IncidentRegionBasedData[region])
-                            return color(IncidentRegionBasedData[region])
-                        }
+        svg.append("g")
+            .attr("class", "countries")
+            .selectAll("path")
+            .data(countryData)
+            .enter().append("path")
+            .attr("d", path)
+            .style("fill", function(d) {
+                for (const region of Object.keys(RegionsInclude)){
+                    if (RegionsInclude[region].indexOf(d.properties)>-1){
+                        // console.log(d.properties,"*",region, IncidentRegionBasedData[region])
+                        return color(IncidentRegionBasedData[region])
                     }
-                    return color(0)
-                })
-                .style('stroke', 'white')
-                .style('stroke-width', 1.5)
-                .style("opacity",0.8)
-                // // tooltips
-                // .style("stroke","white")
-                // .style('stroke-width', 0.3)
-                // .on('mouseover',function(d){
-                //     tip.show(d);
-                //
-                //     d3.select(this)
-                //         .style("opacity", 1)
-                //         .style("stroke","white")
-                //         .style("stroke-width",3);
-                // })
-                // .on('mouseout', function(d){
-                //     tip.hide(d);
-                //
-                //     d3.select(this)
-                //         .style("opacity", 0.8)
-                //         .style("stroke","white")
-                //         .style("stroke-width",0.3);
-                // });
+                }
+                return color(0)
+            })
+            .style('stroke', 'white')
+            .style('stroke-width', 1.5)
+            .style("opacity",0.8)
 
-        //     svg.append("path")
-        //         .datum(topojson.mesh(world.features, function(a, b) { return a.id !== b.id; }))
-        //         // .datum(topojson.mesh(data.features, function(a, b) { return a !== b; }))
-        //         .attr("class", "names")
-        //         .attr("d", path);
-        // }
+            // tooltips
+            .style("stroke","white")
+            .style('stroke-width', 0.3)
+            .on('mouseover',function(d){
+                d3.select(this)
+                    .style("opacity", 1)
+                    .style("stroke","white")
+                    .style("stroke-width",3);
+
+                tooltipdiv.transition()
+                    .duration("50")
+                    .style("opacity", "1");
+
+                // text to add
+                tooltipdiv.html(d.properties)
+                    .style("text-transform", "capitalize")
+                    .style("font-size", 50)
+                    .style("font-weight", "bold")
+                    .style("left", (d3.event.pageX + 10) + "px")
+                    .style("top", (d3.event.pageY - 15) + "px")
+            })
+            .on('mouseout', function(d){
+                d3.select(this)
+                    .style("opacity", 0.8)
+                    .style("stroke","white")
+                    .style("stroke-width",0.3);
+
+                tooltipdiv.transition()
+                    .duration('50')
+                    .style("opacity", 0);
+            });
+
 
     }
 

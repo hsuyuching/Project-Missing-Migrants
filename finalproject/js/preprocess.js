@@ -25,20 +25,16 @@ class preprocess{
     */
     IncidentRegionBased(){
         var migrantData =  window.migrant
-
-        /* pre-processing migrantData */
-        /* sum all dead based on incident region */
+        /* pre-processing migrantData: sum all dead based on incident region */
         const IncidentRegionBased={}
         for (let i=0; i<migrantData.length; i++){
             if(!(migrantData[i].incident_region in IncidentRegionBased)){
                 IncidentRegionBased[migrantData[i].incident_region] = 0
             }
             if(migrantData[i].incident_region in IncidentRegionBased){
-                // console.log("haha")
                 IncidentRegionBased[migrantData[i].incident_region] += migrantData[i].dead
             }
         }
-        // console.log("(IncidenRegionData) incident region: dead", IncidentRegionBased)
         return IncidentRegionBased
     }
 
@@ -78,7 +74,6 @@ class preprocess{
         objCountryExtend["U.S./Mexico Border"] = []
         objCountryExtend[""]=[]
 
-        // console.log("incident region: list of countries", objCountryExtend)
         return objCountryExtend
     }
 
