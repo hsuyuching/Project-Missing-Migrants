@@ -410,7 +410,7 @@ id,cause_of_death,region_origin,affected_nationality,missing,dead,incident_regio
 507,,South Asia,Mixed,,14,Mediterranean,27/07/2015,IOM Rome,Partially Verified,35.7465,15.8203
 508,Drowning,Sub-Saharan Africa,"Somalia, Eritrea, Benin, Mali",40,,Mediterranean,23/07/2015,Press TV,Partially Verified,34.2345,14.7437
 509,Drowning,Horn of Africa,Eritrean,,1,Europe,19/07/2015,Calais Migrant Solidarity,Verified,50.9513,1.85869
-510,,MENA,Syria,,6,Mediterranean,16/07/2015,Daily Sabah,Partially verified,,
+510,,MENA,Syria,,6,Mediterranean,16/07/2015,Daily Sabah,Partially verified,0,0
 511,Hit by vehicle,South Asia,Pakistani,,1,Europe,25/10/2015,Calais Migrant Solidarity,Verified,50.9513,1.85869
 512,"Gylcemic crisis (Diabetic, medicine thrown overboard)",MENA,Syria,,1,Mediterranean,15/07/2015,IOM Rome,Verified,35.1738,15.8203
 515,Drowning,,,,100,Mediterranean,14/07/2015,UNHCR and Migrant Report,Verified,32.8279,13.3818
@@ -471,7 +471,7 @@ id,cause_of_death,region_origin,affected_nationality,missing,dead,incident_regio
 9763,Drowning,South Asia,Afghanistan,,4,Mediterranean,26/11/2015,AP,Partially Verified,39.31460629,26.51518486
 10163,Drowning,MENA,,,5,Mediterranean,27/11/2015,Hurriyet Daily News,Partially Verified,39.50297639,26.40694566
 10963,Drowning,MENA,Syria,30,3,Mediterranean,30/11/2015,Anadolu Agency,Partially Verified,38.40624902,26.24627061
-11364,Hit by vehicle,Central America,El Salvador,,1,Central America incl. Mexico,12/11/2015,Diario de Querétaro,Partially Verified,20.59164642,-100.4016229
+11364,Hit by vehicle,Central America,El Salvador,,1,Central America incl. Mexico,12/11/2015,Diario de Querï¿½taro,Partially Verified,20.59164642,-100.4016229
 11763,Drowning,MENA,,,1,Mediterranean,30/11/2015,AP,Partially Verified,36.15921649,29.49891038
 11764,Attacked by hippopotamus,Sub-Saharan Africa,Zimbabwe,,3,Sub-Saharan Africa,03/12/2015,Masasi News First,Partially Verified,-22.2184415,29.98552884
 12163,Electrocution,North Africa,Moroccan,,1,Europe,02/12/2015,IOM Greece,Verified,40.9301106,21.77183904
@@ -637,7 +637,7 @@ id,cause_of_death,region_origin,affected_nationality,missing,dead,incident_regio
 36178,Drowning,Central America & Mexico,Mexico,,1,U.S./Mexico Border,24/02/2016,Via Libre,Partially Verified,26.31514992,-98.74367868
 36577,Fell from train,MENA,Egypt,,1,Europe,10/03/2016,Reuters,Partially Verified,48.11159948,11.72773924
 36578,Drowning,MENA,,,3,Europe,13/03/2016,Reuters,Partially Verified,41.14084733,22.52927579
-36977,Drowning,Sub-Saharan Africa,Maghreb,,1,Mediterranean,11/03/2016,Asociación Pro Derechos Humanos de Andalucía (APDHA),Partially Verified,35.27831382,-2.935604826
+36977,Drowning,Sub-Saharan Africa,Maghreb,,1,Mediterranean,11/03/2016,Asociaciï¿½n Pro Derechos Humanos de Andalucï¿½a (APDHA),Partially Verified,35.27831382,-2.935604826
 37377,,,,,,,,,,32.19125649,30.97289063
 37777,Drowning,South Asia,Pakistan,8,,Mediterranean,13/03/2016,AFP,Partially Verified,36.88626253,27.38601713
 38177,Drowning,Central America,Mexico,,1,U.S./Mexico Border,13/03/2016,La Voz de la Frontera,Partially Verified,32.7053266,-115.0585765
@@ -670,7 +670,7 @@ id,cause_of_death,region_origin,affected_nationality,missing,dead,incident_regio
 44578,Drowning,,Reported as unspecified nationals of Africa,,9,Mediterranean,30/03/2016,IOM Italy,Partially Verified,31.55453191,30.6550957
 44580,Drowning,Horn of Africa,,,20,Horn of Africa,28/02/2016,UNHCR,Verified,12.92413692,43.17494672
 44581,Drowning,Horn of Africa,,,4,Horn of Africa,29/02/2016,UNHCR,Verified,12.69916871,43.3617143
-44582,Hit by vehicle,Central America & Mexico,,,1,Central America incl. Mexico,19/04/2015,AM León (Mexico),Partially Verified,20.53857306,-101.4555325
+44582,Hit by vehicle,Central America & Mexico,,,1,Central America incl. Mexico,19/04/2015,AM Leï¿½n (Mexico),Partially Verified,20.53857306,-101.4555325
 44583,Drowning,Central America & Mexico,Mexican,,1,U.S./Mexico Border,20/10/2015,Zocalo Saltillo,Partially Verified,27.49129071,-99.49022237
 44584,drowning,Central America,Mexican,,1,U.S./Mexico Border,28/07/2015,La Jornada,Partially Verified,27.46370142,-99.48592791
 44585,Drowning,Central America,Mexican,,1,U.S./Mexico Border,13/08/2015,El Manana,Partially Verified,31.31935949,-110.3098935
@@ -701,7 +701,7 @@ id,cause_of_death,region_origin,affected_nationality,missing,dead,incident_regio
 49777,Hit by vehicle,Central America & Mexico,Mexico,,1,U.S./Mexico Border,18/03/2016,"South Austin Patch, Guanajuato Informa",Partially Verified,30.25210496,-97.7358722
 50577,"AH1N1 influenza virus, while stuck at border",Caribbean,Cuba,,1,Central America incl. Mexico,03/01/2016,AFP,Partially Verified,9.370277058,-82.91137395
 50978,Drowning,Central America & Mexico,El Salvador,,1,Central America incl. Mexico,13/10/2015,102Nueve,Partially Verified,26.10209127,-98.30425898
-51377,Hit by train,Central America,,,1,Central America incl. Mexico,09/09/2015,LMTenEspañol,Partially Verified,27.46166501,-99.69148329
+51377,Hit by train,Central America,,,1,Central America incl. Mexico,09/09/2015,LMTenEspaï¿½ol,Partially Verified,27.46166501,-99.69148329
 51778,Drowning,Mixed,,24,8,Mediterranean,16/04/2016,IOM Rome,Partially Verified,35.57684837,12.81494549
 51779,Drowning,,"Egypt (est.80), Ethiopia (est.150), Somalia (est.190), Sudan, Syria",459,,Mediterranean,08/04/2016,"IOM Greece, Reuters",Partially Verified,32.63577598,25.59686922
 52177,Unknown (found dead near train tracks),Central America & Mexico,Honduras,,1,Central America incl. Mexico,13/02/2016,Central Noticias,Partially Verified,17.9979362,-94.63541982
@@ -787,14 +787,14 @@ id,cause_of_death,region_origin,affected_nationality,missing,dead,incident_regio
 65777,Likely suffocation (found dead in a truck),MENA,Afghanistan,,1,Europe,27/12/2015,El Siglo de Torreon,Partially Verified,51.01635195,2.39943772
 65778,Fell from train,Central America & Mexico,,,1,Central America incl. Mexico,11/10/2014,InfoNogales,Partially Verified,30.54229242,-111.1209907
 66177,Drowning,MENA,Algerian,,1,Mediterranean,15/02/2016,Spanish Ministry of the Interior via IOM Spain,Verified,35.99591955,-5.606000646
-66178,Drowning,Sub-Saharan Africa,"Cameroon (2) Gambia (1), Mauritius (1), Ivory Coast (2)",6,,Mediterranean,15/04/2016,Asociación Pro Derechos Humanos de Andalucía (APDHA),Verified,36.71789535,-3.528978961
-66179,Drowning,,,3,,Mediterranean,23/04/2016,Asociación Pro Derechos Humanos de Andalucía (APDHA),Verified,36.64193341,-2.178977745
-66181,Drowning,Sub-Saharan Africa,,10,10,North Africa,10/05/2016,Asociación Pro Derechos Humanos de Andalucía (APDHA),Verified,27.44312007,-14.64234553
+66178,Drowning,Sub-Saharan Africa,"Cameroon (2) Gambia (1), Mauritius (1), Ivory Coast (2)",6,,Mediterranean,15/04/2016,Asociaciï¿½n Pro Derechos Humanos de Andalucï¿½a (APDHA),Verified,36.71789535,-3.528978961
+66179,Drowning,,,3,,Mediterranean,23/04/2016,Asociaciï¿½n Pro Derechos Humanos de Andalucï¿½a (APDHA),Verified,36.64193341,-2.178977745
+66181,Drowning,Sub-Saharan Africa,,10,10,North Africa,10/05/2016,Asociaciï¿½n Pro Derechos Humanos de Andalucï¿½a (APDHA),Verified,27.44312007,-14.64234553
 66182,Drowning,MENA,Syria,,1,Europe,02/06/2016,AP,Partially Verified,46.12930146,20.05177896
 66183,,Sub-Saharan Africa,,,1,Mediterranean,06/06/2016,2M.ma,Partially Verified,35.17586019,-2.935815921
-66577,,,,20,,Mediterranean,06/03/2016,Asociación Pro Derechos Humanos de Andalucía (APDHA),Verified,36.82865274,-2.461843753
-66579,Drowning,,,,1,Mediterranean,04/05/2016,Asociación Pro Derechos Humanos de Andalucía (APDHA),Verified,35.28058146,-2.92616345
-66581,Drowning,Sub-Saharan Africa,Ivory Coast and Guinea Conakry,57,,North Africa,12/05/2016,Asociación Pro Derechos Humanos de Andalucía (APDHA),Verified,27.7235891,-14.24447695
+66577,,,,20,,Mediterranean,06/03/2016,Asociaciï¿½n Pro Derechos Humanos de Andalucï¿½a (APDHA),Verified,36.82865274,-2.461843753
+66579,Drowning,,,,1,Mediterranean,04/05/2016,Asociaciï¿½n Pro Derechos Humanos de Andalucï¿½a (APDHA),Verified,35.28058146,-2.92616345
+66581,Drowning,Sub-Saharan Africa,Ivory Coast and Guinea Conakry,57,,North Africa,12/05/2016,Asociaciï¿½n Pro Derechos Humanos de Andalucï¿½a (APDHA),Verified,27.7235891,-14.24447695
 66582,Drowning,Caribbean,Cuba,,1,Caribbean,06/06/2016,Miami Actualidad,Partially Verified,18.05921041,-67.83736398
 66977,Hit by train,Central America,,,1,Central America incl. Mexico,19/03/2016,Imagen de Veracruz,Partially Verified,19.05015723,-96.39045138
 66978,Drowning,Central America & Mexico,,,1,U.S./Mexico Border,07/04/2016,El Manana,Partially Verified,26.07400662,-98.24272579
@@ -962,9 +962,9 @@ id,cause_of_death,region_origin,affected_nationality,missing,dead,incident_regio
 89779,,Central America,,,1,U.S./Mexico Border,29/07/2016,UnoTV,Partially Verified,31.78497049,-106.5722631
 89780,,Caribbean,,,1,U.S./Mexico Border,31/07/2016,Southern California Patch,Partially Verified,32.64263349,-116.9110898
 89781,Drowning,,Reported as unspecified nationals of Africa,,8,Central America incl. Mexico,31/07/2016,La Prensa and NAM  News Network,Partially Verified,11.25075491,-85.61635813
-89782,Drowning,Sub-Saharan Africa,Morocco,,1,Mediterranean,07/01/2016,Asociación Pro Derechos Humanos De Andalucía (APDHA),Verified,35.28737762,-2.930626646
-89783,Presumed drowning,Sub-Saharan Africa,,56,,North Africa,06/02/2016,Asociación Pro Derechos Humanos de Andalucía (APDHA),Verified,25.24468746,-16.04587061
-89784,Drowning,Sub-Saharan Africa,,7,3,Mediterranean,21/07/2016,Asociación Pro Derechos Humanos de Andalucía (APDHA),Verified,35.84516205,-5.334123704
+89782,Drowning,Sub-Saharan Africa,Morocco,,1,Mediterranean,07/01/2016,Asociaciï¿½n Pro Derechos Humanos De Andalucï¿½a (APDHA),Verified,35.28737762,-2.930626646
+89783,Presumed drowning,Sub-Saharan Africa,,56,,North Africa,06/02/2016,Asociaciï¿½n Pro Derechos Humanos de Andalucï¿½a (APDHA),Verified,25.24468746,-16.04587061
+89784,Drowning,Sub-Saharan Africa,,7,3,Mediterranean,21/07/2016,Asociaciï¿½n Pro Derechos Humanos de Andalucï¿½a (APDHA),Verified,35.84516205,-5.334123704
 89785,Unknown (skeletal remains),,,,1,U.S./Mexico Border,01/07/2016,Pima County Office of the Medical Examiner,Verified,32.07215,-112.972419
 89786,Unknown (skeletal and mummified remains),Central America & Mexico,Mexico,,1,U.S./Mexico Border,03/07/2016,Pima County Office of the Medical Examiner,Verified,32.03956,-113.03051
 89787,Unknown (skeletal remains and mummified),Central America & Mexico,Mexico,,1,U.S./Mexico Border,05/07/2016,Pima County Office of the Medical Examiner,Verified,32.607767,-113.046967
@@ -976,9 +976,9 @@ id,cause_of_death,region_origin,affected_nationality,missing,dead,incident_regio
 89794,Unknown (skeletal remains),Central America & Mexico,,,1,U.S./Mexico Border,19/07/2016,Pima County Office of the Medical Examiner,Verified,31.9639,-112.36573
 89795,Presumed hyperthermia,Central America & Mexico,Honduras,,1,U.S./Mexico Border,20/07/2016,Pima County Office of the Medical Examiner,Verified,32.4995,-113.0767
 89796,Unknown (skeletal remains),,,,1,U.S./Mexico Border,25/07/2016,Pima County Office of the Medical Examiner,Verified,31.77755,-111.8808
-90177,Drowning,Sub-Saharan Africa,Mahgreb,,1,Mediterranean,04/02/2016,Asociación Pro Derechos Humanos De Andalucía (APDHA),Verified,35.99615289,-5.619305132
-90178,Presumed drowning,Sub-Saharan Africa,,28,,North Africa,11/02/2016,Asociación Pro Derechos Humanos de Andalucía (APDHA),Verified,24.78886907,-17.15358351
-90179,Drowning,Sub-Saharan Africa,,,1,Mediterranean,08/05/2016,Asociación Pro Derechos Humanos de Andalucía (APDHA),Verified,36.48796177,-4.272235204
+90177,Drowning,Sub-Saharan Africa,Mahgreb,,1,Mediterranean,04/02/2016,Asociaciï¿½n Pro Derechos Humanos De Andalucï¿½a (APDHA),Verified,35.99615289,-5.619305132
+90178,Presumed drowning,Sub-Saharan Africa,,28,,North Africa,11/02/2016,Asociaciï¿½n Pro Derechos Humanos de Andalucï¿½a (APDHA),Verified,24.78886907,-17.15358351
+90179,Drowning,Sub-Saharan Africa,,,1,Mediterranean,08/05/2016,Asociaciï¿½n Pro Derechos Humanos de Andalucï¿½a (APDHA),Verified,36.48796177,-4.272235204
 90180,Presumed hyperthermia,Central America & Mexico,Mexico,,1,U.S./Mexico Border,03/07/2016,Pima County Office of the Medical Examiner,Verified,32.29616,-113.14816
 90181,Presumed hyperthermia,Central America & Mexico,El Salvador,,1,U.S./Mexico Border,04/07/2016,Pima County Office of the Medical Examiner,Verified,31.903683,-112.146183
 90182,Unknown (postmortem decomposition),,,,1,U.S./Mexico Border,08/07/2016,Pima County Office of the Medical Examiner,Verified,31.890533,-112.163068
@@ -1021,7 +1021,7 @@ id,cause_of_death,region_origin,affected_nationality,missing,dead,incident_regio
 94979,,Central America,,,1,U.S./Mexico Border,15/07/2016,Codigo San Luis,Partially Verified,27.48937055,-99.48798784
 94980,Drowning,MENA,Syria,2,5,Mediterranean,17/08/2016,IOM Italy,Verified,32.89328395,12.50127379
 95377,Presumed exposure,Central America & Mexico,Mexico,,1,U.S./Mexico Border,05/08/2016,Portal de Noticias Altavoz,Partially Verified,31.34212318,-110.8989794
-95378,Presumed drowning,Sub-Saharan Africa,Morocco,1,,Mediterranean,16/08/2016,Asociación Pro Derechos Humanos de Andalucía (APDHA),Verified,35.99979812,-5.613200229
+95378,Presumed drowning,Sub-Saharan Africa,Morocco,1,,Mediterranean,16/08/2016,Asociaciï¿½n Pro Derechos Humanos de Andalucï¿½a (APDHA),Verified,35.99979812,-5.613200229
 95379,Drowning,MENA,Syria,2,1,Mediterranean,20/08/2016,UNHCR,Verified,38.34408544,26.19625451
 95777,,Central America,,,1,U.S./Mexico Border,17/05/2016,Hoy Tamaulipas,Partially Verified,27.03365639,-98.27756083
 96177,,Central America,Mexico,,1,U.S./Mexico Border,14/06/2016,Zocalo Saltillo,Partially Verified,28.86588448,-99.73953263
@@ -1158,16 +1158,16 @@ id,cause_of_death,region_origin,affected_nationality,missing,dead,incident_regio
 112584,Unknown (skeletal remains),Central America,,,1,U.S./Mexico Border,22/09/2016,Pima County Office of the Medical Examiner,Verified,31.92111933,-111.9938426
 112977,Drowning,,,,1,Mediterranean,05/10/2016,Hurriyet Daily News,Partially Verified,37.84753083,27.24369125
 113377,Drowning,MENA,,,1,Mediterranean,23/08/2015,IOM Greece,Verified,39.16094401,26.55395387
-113378,Presumed drowning,Sub-Saharan Africa,Unspecified nationalities of Subsaharan Africa,25,,North Africa,03/03/2015,Asociación Pro Derechos Humanos de Andalucía (APDHA),Partially Verified,20.74616042,-16.93577199
+113378,Presumed drowning,Sub-Saharan Africa,Unspecified nationalities of Subsaharan Africa,25,,North Africa,03/03/2015,Asociaciï¿½n Pro Derechos Humanos de Andalucï¿½a (APDHA),Partially Verified,20.74616042,-16.93577199
 113379,Hit by train,Central America,,,1,Central America incl. Mexico,16/04/2015,Noticiero El Circo,Partially Verified,22.22640152,-102.3202693
-113380,Presumed drowning,Sub-Saharan Africa,Unspecified nationalities of Sub-Saharan Africa,22,,Mediterranean,19/06/2015,Asociación Pro Derechos Humanos de Andalucía (APDHA),Partially Verified,35.35251502,-3.976367974
-113381,Drowning,Sub-Saharan Africa,Unspecified nationality of Sub-Saharan Africa,,1,Mediterranean,30/08/2015,Asociación Pro Derechos Humanos de Andalucía (APDHA),Partially Verified,35.88046291,-5.320929935
-113382,Drowning,Sub-Saharan Africa,Morocco,1,1,Mediterranean,12/10/2015,Asociación Pro Derechos Humanos de Andalucía (APDHA),Partially Verified,35.27294694,-2.924593911
+113380,Presumed drowning,Sub-Saharan Africa,Unspecified nationalities of Sub-Saharan Africa,22,,Mediterranean,19/06/2015,Asociaciï¿½n Pro Derechos Humanos de Andalucï¿½a (APDHA),Partially Verified,35.35251502,-3.976367974
+113381,Drowning,Sub-Saharan Africa,Unspecified nationality of Sub-Saharan Africa,,1,Mediterranean,30/08/2015,Asociaciï¿½n Pro Derechos Humanos de Andalucï¿½a (APDHA),Partially Verified,35.88046291,-5.320929935
+113382,Drowning,Sub-Saharan Africa,Morocco,1,1,Mediterranean,12/10/2015,Asociaciï¿½n Pro Derechos Humanos de Andalucï¿½a (APDHA),Partially Verified,35.27294694,-2.924593911
 113383,Drowning,Central America & Mexico,Mexico,,1,U.S./Mexico Border,16/11/2015,Zupango,Partially Verified,26.08528729,-98.26451937
 113384,Drowning,Central America & Mexico,,,1,U.S./Mexico Border,18/09/2016,La Rancherita del Aire,Partially Verified,28.69377857,-100.5099913
-113777,Fell from boat,,,,1,Mediterranean,25/05/2015,Asociación Pro Derechos Humanos de Andalucía (APDHA),Partially Verified,35.27308709,-2.927512154
+113777,Fell from boat,,,,1,Mediterranean,25/05/2015,Asociaciï¿½n Pro Derechos Humanos de Andalucï¿½a (APDHA),Partially Verified,35.27308709,-2.927512154
 113778,Shot,Central America,Honduras,,1,Central America incl. Mexico,03/08/2015,Tiempo,Partially Verified,20.37373282,-99.64635203
-113779,,Sub-Saharan Africa,Unspecified nationality of North Africa,,1,Mediterranean,09/09/2015,Asociación Pro Derechos Humanos de Andalucía (APDHA),Partially Verified,35.31589034,-2.949141488
+113779,,Sub-Saharan Africa,Unspecified nationality of North Africa,,1,Mediterranean,09/09/2015,Asociaciï¿½n Pro Derechos Humanos de Andalucï¿½a (APDHA),Partially Verified,35.31589034,-2.949141488
 114177,Drowning,Mixed,,,18,Mediterranean,27/09/2016,IOM Libya,Verified,32.03588962,24.03955721
 114178,Drowning,,,,3,Mediterranean,04/10/2016,IOM Libya,Verified,32.94946945,12.02319125
 114179,Hit by vehicle,Horn of Africa,Eritrea,,1,Europe,08/10/2016,BBC,Partially Verified,50.96058326,1.875221378
@@ -1269,9 +1269,9 @@ id,cause_of_death,region_origin,affected_nationality,missing,dead,incident_regio
 128582,Hypothermia,South Asia,Afghanistan,,1,Europe,22/11/2016,Sofia Globe,Partially Verified,43.4163924,23.02246093
 128977,Crushed to death,,,,1,U.S./Mexico Border,12/04/2016,El Siglo,Partially Verified,28.42071113,-100.7722654
 128978,Drowning,Central America & Mexico,El Salvador,,1,Central America incl. Mexico,19/05/2016,"El Mexico, Record Chiapas",Partially Verified,14.883575,-92.24142239
-129377,Cervix cancer,Caribbean,Haiti,,1,Central America incl. Mexico,09/11/2016,Presidency of Costa Rica (Official communiqué),Partially Verified,9.913427331,-84.01792981
+129377,Cervix cancer,Caribbean,Haiti,,1,Central America incl. Mexico,09/11/2016,Presidency of Costa Rica (Official communiquï¿½),Partially Verified,9.913427331,-84.01792981
 129378,Suicide,South Asia,Afghanistan,,1,Europe,22/11/2016,IOM Belgrade,Verified,43.59589735,23.48485441
-129777,Digestive bleeding,South Asia,Nepal,,1,Central America incl. Mexico,14/05/2016,Presidency of Costa Rica (Official communiqué),Partially Verified,9.367276726,-83.7032999
+129777,Digestive bleeding,South Asia,Nepal,,1,Central America incl. Mexico,14/05/2016,Presidency of Costa Rica (Official communiquï¿½),Partially Verified,9.367276726,-83.7032999
 130177,Presumed drowning,Sub-Saharan Africa,Ghana,,5,Central America incl. Mexico,13/06/2015,Ghana WEb and Critica .com,Partially Verified,8.433601232,-77.63891945
 130178,Hit by train,Central America & Mexico,Honduras,,1,Central America incl. Mexico,16/06/2015,Noticiero Televisa,Partially Verified,25.69566745,-100.3290184
 130179,Presumed drowning,Central America & Mexico,Guatemala,,1,U.S./Mexico Border,08/12/2015,Grupo NVI Noticias,,28.76170809,-100.5333467
@@ -1898,21 +1898,21 @@ id,cause_of_death,region_origin,affected_nationality,missing,dead,incident_regio
 146748,Drowning,South East Asia,Indonesia,,4,Southeast Asia,23/01/2017,AFP,Partially Verified,1.874913275,104.1696971
 146749,Drowning,South East Asia,Indonesia,7,10,Southeast Asia,22/01/2017,AFP,Partially Verified,1.991631418,104.1669506
 146750,Unknown (skeletal remains),Central America & Mexico,Nicaragua,,1,U.S./Mexico Border,22/01/2017,La capital mx,Verified,32.618858,-115.436733
-146751,Presumed drowning,Central America & Mexico,El Salvador,,1,U.S./Mexico Border,22/01/2017,El mañana,Partially Verified,26.06684263,-98.21010017
+146751,Presumed drowning,Central America & Mexico,El Salvador,,1,U.S./Mexico Border,22/01/2017,El maï¿½ana,Partially Verified,26.06684263,-98.21010017
 146752,Presumed drowning,,,,10,Mediterranean,23/01/2017,IOM Lybia,Verified,32.95739109,13.23472082
 147146,Drowning,South East Asia,Indonesia,,8,Southeast Asia,25/01/2017,Jakarta Globe,Verified,2.435569135,103.853265
 147147,Presumed drowning,,,2,1,Mediterranean,26/01/2017,Reuters,Verified,32.85638965,12.54570194
 147148,Presumed drowning,Sub-Saharan Africa,Congo,,1,Mediterranean,26/01/2017,AFP,Verified,36.179855,-6.03178196
 147149,,South East Asia,Nigeria,1,1,Mediterranean,28/01/2017,IOM Rome,Verified,37.22486875,12.46903748
 147546,Hypothermia,Sub-Saharan Africa,Ivory Coast,,2,Mediterranean,26/01/2017,IOM Rome,Partially Verified,37.14434869,12.23207794
-147946,Drowning,Central America & Mexico,Guatemala,,1,U.S./Mexico Border,15/01/2017,El mañana,Partially Verified,26.2066228,-98.5010031
+147946,Drowning,Central America & Mexico,Guatemala,,1,U.S./Mexico Border,15/01/2017,El maï¿½ana,Partially Verified,26.2066228,-98.5010031
 147947,Presumed drowning,Central America & Mexico,,,2,U.S./Mexico Border,25/01/2017,La Prensa.mx,Partially Verified,26.09733418,-98.27255185
 147948,Unknown (skeletal remains),Central America & Mexico,,,1,U.S./Mexico Border,28/01/2017,"Zocalo, Maverick County Sheriff",Partially Verified,28.74187332,-100.5074598
 147949,Presumed drowning,Central America & Mexico,,,1,U.S./Mexico Border,29/01/2017,Lider Web Infromativo,Partially Verified,27.49900987,-99.50783181
 147950,Presumed drowning,Central America & Mexico,Honduras,,1,U.S./Mexico Border,29/01/2017,Super Channel 12 via Facebook,Partially Verified,28.65929836,-100.4968742
 147951,Presumed drowning,Central America & Mexico,Honduras,,1,U.S./Mexico Border,31/01/2017,Mi Morelia,Partially Verified,28.69794407,-100.5112032
 147952,Presumed drowning,Central America & Mexico,Honduras,,1,U.S./Mexico Border,31/01/2017,Mi Morelia,Partially Verified,28.69676854,-100.5110558
-148346,Drowning,Central America & Mexico,El Salvador,,1,U.S./Mexico Border,30/01/2017,El mañana,Partially Verified,26.15710453,-98.3687938
+148346,Drowning,Central America & Mexico,El Salvador,,1,U.S./Mexico Border,30/01/2017,El maï¿½ana,Partially Verified,26.15710453,-98.3687938
 148746,Drowning,Central America & Mexico,Honduras,,1,U.S./Mexico Border,04/02/2017,Zocalo,Partially Verified,29.32961234,-100.9308918
 148747,Drowning,Horn of Africa,Ethiopia,,1,Mediterranean,04/02/2017,Daily Sabha,Partially Verified,39.32680774,26.69295326
 149146,Presumed drowning,Central America & Mexico,,,1,U.S./Mexico Border,04/02/2017,Telered Noticias,Partially Verified,27.47941726,-99.4792574
@@ -1950,7 +1950,7 @@ id,cause_of_death,region_origin,affected_nationality,missing,dead,incident_regio
 151147,Hit by train,North Africa,Argelia,,1,Europe,11/12/2016,Sky Bet,Partially Verified,43.79464247,7.605008541
 151148,Drowning,,,,2,Mediterranean,30/12/2016,IOM Tunisia,Verified,33.50365352,11.12054967
 151546,Presumed drowning,Sub-Saharan Africa,,3,0,Mediterranean,29/01/2017,El mundo,Partially Verified,36.51395307,-2.173014985
-151547,Presumed drowning,Sub-Saharan Africa,,2,0,Mediterranean,11/02/2017,Andalucía Informacion and Europa Sur,Partially Verified,36.0024962,-5.623007208
+151547,Presumed drowning,Sub-Saharan Africa,,2,0,Mediterranean,11/02/2017,Andalucï¿½a Informacion and Europa Sur,Partially Verified,36.0024962,-5.623007208
 151946,Drowning,South Asia,Afghanistan,0,1,Europe,02/02/2017,IOM Bulgaria,Verified,46.08660849,20.04484244
 151947,Hypothermia,South Asia,Pakistan,0,1,Europe,11/02/2017,UNHCR,Partially Verified,43.15305749,22.5861082
 151948,Presumed drowning,Sub-Saharan Africa,,9,,Mediterranean,14/02/2017,Salvamento Maritimo via Twitter and Entre Fronteras,Partially Verified,35.83204922,-5.754814862
@@ -1980,12 +1980,12 @@ id,cause_of_death,region_origin,affected_nationality,missing,dead,incident_regio
 156349,Hit by vehicle,Central America & Mexico,,,1,Central America incl. Mexico,23/02/2017,El Orbe,Partially Verified,15.15644602,-92.4782325
 156746,Presumed drowning,,,105,,Mediterranean,18/02/2017,IOM Libya,Partially Verified,32.75587422,14.41983847
 157146,Drowning,,,,13,Mediterranean,21/02/2017,IOM Libya,Partially Verified,32.66007156,14.26006464
-157546,Murdered,Caribbean,Haitian,,1,Caribbean,31/01/2016,7 días,Partially Verified,19.54345523,-71.70899167
-157547,Presumed drowning,,,9,,Mediterranean,10/08/2016,Asociación Pro Derechos Humanos de Andalucía,Partially Verified,35.91218521,-5.323158136
+157546,Murdered,Caribbean,Haitian,,1,Caribbean,31/01/2016,7 dï¿½as,Partially Verified,19.54345523,-71.70899167
+157547,Presumed drowning,,,9,,Mediterranean,10/08/2016,Asociaciï¿½n Pro Derechos Humanos de Andalucï¿½a,Partially Verified,35.91218521,-5.323158136
 157548,"Starvation, sickness",Sub-Saharan Africa,Reported as unspecified nationals of Africa,,12,North Africa,25/02/2017,Agencia Nova,Partially Verified,31.74078946,13.99680879
 157549,Electrocution on railway,Horn of Africa,Somalia,,1,Europe,26/02/2017,La Provincia,Partially Verified,45.84876787,9.007684583
 157550,Unknown (remains),Caribbean,Haiti,,1,Caribbean,14/02/2017,Notidiarias,Partially Verified,19.56016818,-71.70798106
-157946,Presumed drowning,North Africa,Algerian,3,1,Mediterranean,11/10/2016,Asociación Pro Derechos Humanos de Andalucía,Partially Verified,35.904219,-5.316549173
+157946,Presumed drowning,North Africa,Algerian,3,1,Mediterranean,11/10/2016,Asociaciï¿½n Pro Derechos Humanos de Andalucï¿½a,Partially Verified,35.904219,-5.316549173
 157947,Unknown (remains),Central America & Mexico,,,1,Central America incl. Mexico,23/11/2016,Minuto Chiapas,Partially Verified,16.73836151,-93.07303445
 158346,Presumed drowning,,,,1,Mediterranean,25/02/2017,Informador,Partially Verified,36.49102343,-6.322044316
 158347,Presumed drowning,South America,Brazil,,1,U.S./Mexico Border,27/02/2017,Lider Web,Partially Verified,27.4256824,-99.5320073
@@ -2021,7 +2021,7 @@ id,cause_of_death,region_origin,affected_nationality,missing,dead,incident_regio
 159947,Presumed drowning,Caribbean,Cuban,,1,South America,31/07/2015,El Colombiano,Partially Verified,8.523924852,-77.28751142
 159948,Drowning,,,,7,Mediterranean,29/12/2015,IOM Tunisia,Verified,33.54701636,11.09801346
 160346,Presumed drowning,Central America & Mexico,,,1,U.S./Mexico Border,05/03/2017,La prensa.mx,Partially Verified,26.09580448,-98.27295545
-160746,Hit by vehicle,Central America & Mexico,Honduras,,1,Central America incl. Mexico,06/03/2017,La Noticia SV & La prensa gráfica,Partially Verified,13.7905808,-89.27489911
+160746,Hit by vehicle,Central America & Mexico,Honduras,,1,Central America incl. Mexico,06/03/2017,La Noticia SV & La prensa grï¿½fica,Partially Verified,13.7905808,-89.27489911
 161146,Drowning,,,,3,Mediterranean,07/03/2017,IOM Lybia,Verified,32.65750775,14.27353748
 161147,Sickness_and_lack_of_access_to_medicines Starvation Dehydration Excessive_physical_abuse,Horn of Africa,,,3,North Africa,03/01/2017,Regional Mixed Migration Secretariat,Partially Verified,30.75544713,20.2262566
 161148,Sickness_and_lack_of_access_to_medicines Starvation Excessive_physical_abuse Sexual_abuse,Horn of Africa,,,1,North Africa,09/01/2017,Regional Mixed Migration Secretariat,Partially Verified,17.70373749,33.98701916
@@ -2369,7 +2369,7 @@ id,cause_of_death,region_origin,affected_nationality,missing,dead,incident_regio
 177146,Drowning,,,,6,Mediterranean,30/04/2017,MSF,Verified,33.4499879,15.40669749
 177147,Electrocution on railway,,,,1,Europe,01/05/2017,The Independent,Partially Verified,48.88315418,2.350762377
 177148,Presumed drowning,Caribbean,,8,,Caribbean,26/04/2017,Hoy Digital,Partially Verified,18.46201942,-68.16810295
-177546,Drowning,Central America & Mexico,,,1,U.S./Mexico Border,01/05/2017,Líder Informativo,Partially Verified,27.49539839,-99.49269942
+177546,Drowning,Central America & Mexico,,,1,U.S./Mexico Border,01/05/2017,Lï¿½der Informativo,Partially Verified,27.49539839,-99.49269942
 177547,Drowning,Central America & Mexico,,,1,U.S./Mexico Border,01/05/2017,Lider Informativo,Partially Verified,27.48055088,-99.48016814
 177548,Dehydration,Sub-Saharan Africa,,,8,North Africa,01/05/2017,VOA Afrique,Partially Verified,19.06434645,7.923608162
 177946,Drowning,,,,19,Mediterranean,02/05/2017,IOM Italy,Partially Verified,32.96049446,12.79744456
@@ -2379,15 +2379,15 @@ id,cause_of_death,region_origin,affected_nationality,missing,dead,incident_regio
 177950,Presumed drowning,Mixed,,80,,Mediterranean,06/05/2017,ANSA Italy,Partially Verified,34.57615736,14.55931328
 178346,Shot,Sub-Saharan Africa,Gambia,,1,Mediterranean,04/05/2017,Reuters,Partially Verified,34.57463806,13.97847484
 178746,Hit by train,Central America & Mexico,,,1,U.S./Mexico Border,06/05/2017,Expreso,Partially Verified,29.07461788,-110.9479555
-178747,Drowning,Central America & Mexico,,,1,U.S./Mexico Border,07/05/2017,El Mañana,Partially Verified,27.47826647,-99.48016814
+178747,Drowning,Central America & Mexico,,,1,U.S./Mexico Border,07/05/2017,El Maï¿½ana,Partially Verified,27.47826647,-99.48016814
 179146,Drowning,Central America & Mexico,Guatemala,,1,Central America incl. Mexico,06/05/2017,Prensa Libre,Partially Verified,32.33868379,-117.0591491
 179147,Drowning,Sub-Saharan Africa,Comoran,10,1,Sub-Saharan Africa,07/05/2017,La Gazette des Comores,Partially Verified,-12.29294089,44.81766898
 179546,Crushed / drowning,Mixed,"20 Unknown, 1 Bangladesh, 1 Senegal",15,7,Mediterranean,13/05/2017,IOM Italy,Verified,36.5756658,12.64363576
 179547,Fell from train,Central America & Mexico,,,1,Central America incl. Mexico,13/05/2017,Central Noticias Imagen del Golfo,Partially Verified,17.9125475,-94.0875367
 179946,Drowning,Central America & Mexico,,,1,U.S./Mexico Border,20/04/2017,Hoy Tamaulipas,Partially Verified,25.87406214,-97.48557656
 179947,Presumed drowning,Caribbean,Haitian,,1,Caribbean,13/05/2017,Antigua Observer,Partially Verified,25.10864487,-76.17220031
-180346,Drowning,Central America & Mexico,,,1,U.S./Mexico Border,14/05/2017,Líder Informativo,Partially Verified,27.49997261,-99.50242991
-180347,Presumed drowning,,,1,,Mediterranean,15/05/2017,Salvamento Marítimo,Partially Verified,35.84634379,-5.776402957
+180346,Drowning,Central America & Mexico,,,1,U.S./Mexico Border,14/05/2017,Lï¿½der Informativo,Partially Verified,27.49997261,-99.50242991
+180347,Presumed drowning,,,1,,Mediterranean,15/05/2017,Salvamento Marï¿½timo,Partially Verified,35.84634379,-5.776402957
 180746,Presumed drowning,,,,1,Mediterranean,15/05/2017,IOM Libya,Verified,32.80431419,12.49050618
 180747,Presumed drowning,,,,1,Mediterranean,15/05/2017,IOM Libya,Verified,32.89190875,13.18677257
 180748,Presumed drowning,,,,2,Mediterranean,15/05/2017,IOM Libya,Verified,32.79183778,12.719922
@@ -2403,7 +2403,7 @@ id,cause_of_death,region_origin,affected_nationality,missing,dead,incident_regio
 182746,Drowning,Sub-Saharan Africa,Unspecified nationals of Sub-Saharan Africa,,7,Mediterranean,25/05/2017,IOM Italy,Verified,32.95127595,12.92275737
 182747,Presumed drowning,,,,7,Mediterranean,26/05/2017,IOM Italy,Verified,33.47719529,13.02556094
 182748,Presumed drowning,,,18,2,Mediterranean,26/05/2017,IOM Italy,Verified,33.23486391,12.46703829
-183146,Drowning,Central America & Mexico,,,1,U.S./Mexico Border,19/02/2017,"La Jornada, Líder Informativo",Partially Verified,27.47875192,-99.4790738
+183146,Drowning,Central America & Mexico,,,1,U.S./Mexico Border,19/02/2017,"La Jornada, Lï¿½der Informativo",Partially Verified,27.47875192,-99.4790738
 183546,Murdered (bandits),,,,1,North Africa,30/09/2016,MHub,Partially Verified,32.86076829,13.20599864
 183946,Murdered (militia),,,,1,North Africa,30/09/2016,MHub,Partially Verified,26.86893652,18.23046665
 184346,Drowning,Middle East,Iraq,,1,Middle East,25/03/2017,EASO Social Media Monitoring Reports,Partially Verified,37.10047894,42.51251663
@@ -2414,8 +2414,8 @@ id,cause_of_death,region_origin,affected_nationality,missing,dead,incident_regio
 184351,,Sub-Saharan Africa,Nigeria,,1,Mediterranean,27/05/2017,IOM Tunisia,Verified,33.6401401,11.73975186
 184352,Hypothermia,Sub-Saharan Africa,Ghana,,1,North America,26/05/2017,CBC,Partially Verified,48.99861611,-97.20450734
 184353,Drowning,Central America & Mexico,Guatemala,,1,U.S./Mexico Border,30/05/2017,Hoy Tamaulipas,Partially Verified,27.48146463,-99.47999648
-184746,Drowning,Central America & Mexico,,,1,U.S./Mexico Border,20/05/2017,Líder Informativo,Partially Verified,27.45526745,-99.49338606
+184746,Drowning,Central America & Mexico,,,1,U.S./Mexico Border,20/05/2017,Lï¿½der Informativo,Partially Verified,27.45526745,-99.49338606
 184747,Train accident,Central America & Mexico,Honduras,,1,U.S./Mexico Border,26/05/2017,netnoticias.mx,Partially Verified,28.71290062,-100.497975
-184748,,Central America & Mexico,Honduras,,1,U.S./Mexico Border,27/05/2017,Águilas del Desierto,Partially Verified,32.30441966,-112.9046514
-184749,Train accident,Central America & Mexico,,,1,Central America incl. Mexico,29/05/2017,Zócalo,Partially Verified,26.77761098,-101.4295476
+184748,,Central America & Mexico,Honduras,,1,U.S./Mexico Border,27/05/2017,ï¿½guilas del Desierto,Partially Verified,32.30441966,-112.9046514
+184749,Train accident,Central America & Mexico,,,1,Central America incl. Mexico,29/05/2017,Zï¿½calo,Partially Verified,26.77761098,-101.4295476
 184750,Dehydration,Sub-Saharan Africa,"Ghana, Nigeria",,44,North Africa,31/05/2017,IOM Niger,Verified,18.917266,12.4775092
