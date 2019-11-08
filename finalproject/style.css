@@ -93,7 +93,7 @@ div.tooltip-donut {
 
 #map-chart {
     width: 900px;
-    height: 900px;
+    height: 600px;
     /*margin-top: 50px;*/
     float: left;
 }
@@ -169,7 +169,7 @@ tbody td {
     width: 25px;
     height: 25px;
     border-radius: 50%;
-    background: #4CAF50;
+    background: rgb(8,81,156);
     cursor: pointer;
 }
 
