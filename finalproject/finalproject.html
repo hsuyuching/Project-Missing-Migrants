@@ -10,6 +10,7 @@
 
     <script type="application/javascript" src="js/preprocess.js" ></script>
     <script type="application/javascript" src="js/worldmap.js" ></script>
+    <script type="application/javascript" src="js/table.js" ></script>
     <script type="application/javascript" src="js/script.js" ></script>
     <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,700&display=swap" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/1.6.19/topojson.js"></script>
@@ -30,9 +31,17 @@
     </div>
     <div id="buttons"></div>
     <div id="map-chart"></div>
-    <div id="table">
+    <div id="ranking-table">
         <table id="matchTable">
-            <thead></thead>
+            <thead>
+                <tr id="sortHeader">
+                    <th>Nationality</th>
+                    <th>Death</th>
+                    <th>Missing</th>
+                    <th>Incident Region</th>
+                    <th>Cause of Death</th>
+                </tr>
+            </thead>
             <tbody></tbody>
         </table>
     </div>

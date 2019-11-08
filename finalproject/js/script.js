@@ -28,7 +28,10 @@
 // loadData();
 
 loadData().then(data=>{
-    let world = new worldmap(data)
+    let world = new worldmap(data);
+    let table = new Table(data);
+    table.createTable();
+    table.updateTable(data);
     d3.json("data/world-countries.json").then(mapData=>{
         world.createMap(mapData)
     })
@@ -37,10 +40,10 @@ loadData().then(data=>{
 async function loadFile(file) {
     let data = await d3.csv(file).then( matchCSV => {
         matchCSV.forEach( (d, i) => {
-            d.id = d.id
-            d.cause_of_death = d.cause_of_death
+            d["id"] = +d["id"]
             d["missing"] = +d["missing"]
             d["dead"] = +d["dead"]
+            
         })
         return matchCSV
     });

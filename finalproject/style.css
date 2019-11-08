@@ -42,6 +42,7 @@
     background-color: MidnightBlue;
     opacity: 0.3;
 }
+
 h3 {
     font-weight: 400;
     text-align: center;
@@ -50,6 +51,7 @@ h3 {
     top: 130px;
     width: 900px;
 }
+
 h1 {
     font: 800 3em/1 'Raleway', sans-serif;
     color: white;
@@ -67,6 +69,7 @@ h1 {
     stroke: #fff;
     stroke-linejoin: round;
 }
+
 /* tooltip style */
 div.tooltip-donut {
     position: absolute;
@@ -82,17 +85,69 @@ div.tooltip-donut {
 }
 
 /* position in container (multiple div) */
-#header{
+#header {
     width: 900px;
     height: 230px;
     float: left;
 }
-#map-chart{
+
+#map-chart {
     width: 900px;
     height: 900px;
     /*margin-top: 50px;*/
     float: left;
 }
+
+#ranking-table {
+    width: 900px;
+    height: 900px;
+    float: left;
+}
+
+#sortHeader {
+    color: red;
+}
+
+table {
+    border-collapse: collapse;
+    font: 14px sans-serif;
+    /*width: 720px;*/
+}
+
+th {
+    font-weight: normal;
+    padding-right: 6px;
+    min-width: 125px;
+}
+
+thead td,
+th {
+    cursor: s-resize;
+    text-align: left;
+}
+
+tbody tr:first-child td {
+    padding-top: 2px;
+}
+
+tbody th {
+    cursor: pointer;
+    font-weight: bold;
+    font-size: small;
+    text-align: left;
+}
+
+.aggregate {
+    color: #317f19;
+}
+
+tbody td {
+    padding-right: 5px;
+    padding-left: 5px;
+    border-left: solid 1px #000;
+    color: black
+}
+
 /* slider for # view of route */
 /* slider styling */
 
