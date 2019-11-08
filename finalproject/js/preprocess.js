@@ -1,4 +1,55 @@
 class preprocess{
+    constructor(){
+    }
+    /*
+    0: "Middle East : 402.57421888, 25.9580601"
+    1: "Central America & Mexico : 264.12890397, 16.77088981" (lon, lat)
+    2: "MENA( Middle East and North Africa) 43.03124785, 28.64431799"
+    3: "South East Asia: 466.87500335, 13.54775471"
+    4: "": 0,0
+    5: "South Asia: 438.01171996, 22.95031305"
+    6: "Middle East/ South Asia: 24.774265, 46.738586"
+    7: "Sub-Saharan Africa: 383.73046674, 3.65378603"
+    8: "Horn of Africa: 403.7695346, 6.42013471"
+    9: "Caribbean: 283.64062071, 20.33638895"
+    10: "South America: 300.9375, -11.62641141"
+    11: "East Asia: 469.26561534, 35.17380481"
+    12: "Central America:  274.32421982, 13.27417061"
+    13: "North Africa: 377.2265625, 24.59108635"
+    14: "Southern Europe: 13.53515625, 41.56120985"
+    15: "Mixed: 0,0"
+    16: "Horn of Africa (P): 403.7695346, 6.42013471"
+     */
+    OriginRegion(){
+        // let migrantData =  window.migrant
+        // let OriginRegionBased ={}
+        // var map = d3.map(migrantData, function (d) {
+        //     return d.region_origin
+        // })
+        // console.log(map.keys())
+        let OriginRegionBased =[
+        {region: "Middle East", lon: 402.57421888, lat: 25.9580601},
+        {region: "Central America & Mexico",lon: 264.12890397, lat:16.77088981},
+        {region: "MENA", lon: 43.03124785,lat: 28.64431799},
+        {region: "South East Asia", lon:  466.87500335,  lat:13.54775471},
+        {region: "", lon:  0, lat:0},
+        {region: "South Asia", lon:  438.01171996, lat: 22.95031305},
+        {region: "Middle East/ South Asia", lon:  24.774265, lat: 46.738586},
+        {region: "Sub-Saharan Africa", lon:  383.73046674, lat: 3.65378603},
+        {region: "Horn of Africa", lon:  403.7695346,  lat:6.42013471},
+        {region: "Caribbean", lon:  283.64062071,  lat:20.33638895},
+        {region: "South America", lon:  300.9375,  lat:-11.62641141},
+        {region: "East Asia", lon:  469.26561534,  lat:35.17380481},
+        {region: "Central America", lon:   274.32421982,  lat:13.27417061},
+        {region: "North Africa", lon:  377.2265625,  lat:24.59108635},
+        {region: "Southern Europe", lon:  13.53515625, lat: 41.56120985},
+        {region: "Mixed", lon:  0, lat:0},
+        {region: "Horn of Africa (P)", lon:  403.7695346,  lat:6.42013471}
+        ]
+        return OriginRegionBased
+    }
+
+
     /*
     * Function: include world map
     * output: 0 … 99]
@@ -76,5 +127,6 @@ class preprocess{
 
         return objCountryExtend
     }
+
 
 }

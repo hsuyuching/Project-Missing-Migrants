@@ -1,11 +1,4 @@
 class CountryData {
-    /**
-     *
-     * @param type refers to the geoJSON type- countries are considered features
-     * @param properties contains the value mappings for the data
-     * @param geometry contains array of coordinates to draw the country paths
-     * @param region the country region
-     */
     constructor(type, id, properties, geometry) {
 
         this.type = type;
@@ -15,13 +8,18 @@ class CountryData {
     }
 }
 class worldmap{
-    constructor(){
+    constructor(data){
+        console.log("construct migrant", data)
+        window.migrant = data;
     }
-    createMap(){
+    createMap(world){
+        console.log("createMap world map", world)
+        window.worldData = world
         let data = new preprocess()
         const IncidentRegionBasedData = data.IncidentRegionBased()
-        const RegionsInclude = data.DefineRegion()
+        window.RegionsInclude = data.DefineRegion()
         const countryData = data.WorldMapData()
+        window.startData = data.OriginRegion()
 
         // Set tooltips
         let tooltipdiv = d3.select("body")
@@ -38,6 +36,7 @@ class worldmap{
 
         var svg = d3.select("#map-chart")
             .append("svg")
+            .attr("id", "svgmap")
             .attr("width", width)
             .attr("height", height)
             .append('g')
@@ -100,8 +99,92 @@ class worldmap{
                     .style("opacity", 0);
             });
 
+        /* draw migrant incident point */
+        d3.select("#svgmap").append("g")
+            .selectAll("circle")
+            .data(window.migrant.filter(function(d){return d.lon != ""})).enter()
+            .append("circle").attr("class", d=>{return d.id})
+            .attr("cx", d=> projection([parseFloat(d.lon),parseFloat(d.lat)])[0])
+            .attr("cy", d=> projection([parseFloat(d.lon),parseFloat(d.lat)])[1])
+            .attr("r", "3px")
+            .attr("fill", "red")
 
+
+        /* draw path from region_origin */
+        console.log("migrant", window.migrant)
+        d3.select("#svgmap").append("g")
+            .selectAll("circle")
+            .data(window.migrant.filter(function(d){return d.lon != "" && d.region_origin!=""}))
+            .enter()
+            .append("circle").attr("class", d=>{return d.id})
+            .attr("cx", d=> {
+                let coord = getstartpoint(d.region_origin)
+                return projection([coord[0],coord[1]])[0]
+            })
+            .attr("cy", d=> {
+                let coord = getstartpoint(d.region_origin)
+                return projection([coord[0],coord[1]])[1]
+            })
+            .attr("r", d=> {
+                let coord = getstartpoint(d.region_origin)
+                return coord[0] === 0? "0px": "3px"
+            })
+            .attr("fill", "black")
+
+        d3.select("#svgmap").append("g")
+            .selectAll("line")
+            .data(window.migrant.filter(function(d){return d.lon != "" && d.region_origin!=""}))
+            .enter()
+            .append("line").attr("class", d=>{return d.id})
+            .attr("x1", d=> {
+                let coord = getstartpoint(d.region_origin)
+                return projection([coord[0],coord[1]])[0]
+            })
+            .attr("y1", d=>{
+                let coord = getstartpoint(d.region_origin)
+                return projection([coord[0],coord[1]])[1]
+            })
+            .attr("x2", d=> projection([parseFloat(d.lon),parseFloat(d.lat)])[0])
+            .attr("y2", d=> projection([parseFloat(d.lon),parseFloat(d.lat)])[1])
+            .attr("stroke", "black")
+            .attr("stroke-width", "3px")
+            .on("click", function (d) {
+                d3.select(this)
+                    .style("opacity", 1)
+                    .style("stroke","yellow")
+                    .style("stroke-width",5)
+                console.log(this)
+            })
+        d3.select("#buttons").append("div").attr("id", "NrountBar")
     }
 
-}
+    numRounteBar(){
+        let that = this;
+        //Slider to change the activeYear of the data
+        let yearScale = d3.scaleLinear().domain([0, 2420]).range([30, 730]);
 
+        console.log("numRounteBar")
+        let yearSlider = d3.select("#NrountBar")
+            .append("div").classed(".slider-wrap", true)
+            .append("input").classed(".slider", true)
+            .attr("type", "range")
+            .attr("min", 1800)
+            .attr("max", 2020)
+            .attr("value", 2000);
+
+        let sliderLabel = d3.select(".slider-wrap")
+            .append("div").classed(".slider-label", true)
+            .append("svg");
+
+        let sliderText = sliderLabel.append('text').text("ddd");
+
+        sliderText.attr('x', yearScale(2000));
+        sliderText.attr('y', 25);
+    }
+}
+function getstartpoint(region) {
+    let coord = window.startData.filter(function (d) {
+        return d.region == region
+    })
+    return [coord[0].lon, coord[0].lat]
+}
