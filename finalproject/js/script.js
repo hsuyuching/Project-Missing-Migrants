@@ -31,7 +31,6 @@ loadData().then(data=>{
     let world = new worldmap(data);
     let table = new Table(data);
     table.createTable();
-    table.updateTable(data);
     d3.json("data/world-countries.json").then(mapData=>{
         world.createMap(mapData)
     })
