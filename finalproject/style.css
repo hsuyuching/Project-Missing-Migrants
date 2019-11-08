@@ -67,6 +67,9 @@ h1 {
     stroke: #fff;
     stroke-linejoin: round;
 }
+.active {
+    fill: #98f5ff;
+}
 /* tooltip style */
 div.tooltip-donut {
     position: absolute;
@@ -89,7 +92,7 @@ div.tooltip-donut {
 }
 #map-chart{
     width: 900px;
-    height: 900px;
+    height: 600px;
     /*margin-top: 50px;*/
     float: left;
 }
@@ -115,7 +118,7 @@ div.tooltip-donut {
     width: 25px;
     height: 25px;
     border-radius: 50%;
-    background: #4CAF50;
+    background: rgb(8,81,156);
     cursor: pointer;
 }
 
