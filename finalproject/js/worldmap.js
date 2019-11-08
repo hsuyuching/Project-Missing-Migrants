@@ -9,11 +9,11 @@ class CountryData {
 }
 class worldmap{
     constructor(data){
-        console.log("construct migrant", data)
+        //console.log("construct migrant", data)
         window.migrant = data;
     }
     createMap(world){
-        console.log("createMap world map", world)
+        //console.log("createMap world map", world)
         window.worldData = world
         let data = new preprocess()
         const IncidentRegionBasedData = data.IncidentRegionBased()
@@ -111,7 +111,7 @@ class worldmap{
 
 
         /* draw path from region_origin */
-        console.log("migrant", window.migrant)
+        //console.log("migrant", window.migrant)
         d3.select("#svgmap").append("g")
             .selectAll("circle")
             .data(window.migrant.filter(function(d){return d.lon != "" && d.region_origin!=""}))
@@ -153,7 +153,7 @@ class worldmap{
                     .style("opacity", 1)
                     .style("stroke","yellow")
                     .style("stroke-width",5)
-                console.log(this)
+                //console.log(this)
             })
         d3.select("#buttons").append("div").attr("id", "NrountBar")
     }
@@ -163,7 +163,7 @@ class worldmap{
         //Slider to change the activeYear of the data
         let yearScale = d3.scaleLinear().domain([0, 2420]).range([30, 730]);
 
-        console.log("numRounteBar")
+        //console.log("numRounteBar")
         let yearSlider = d3.select("#NrountBar")
             .append("div").classed(".slider-wrap", true)
             .append("input").classed(".slider", true)

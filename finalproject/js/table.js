@@ -36,7 +36,7 @@ class Table {
                 switch (col) {
                     case "Nationality":
                         sorted = that.data.sort(function (a, b) {
-                            return d3.ascending(a.affected_nationality, b.affected_nationality);
+                            return d3.ascending(a.key, b.key);
                         });
                         break;
                     case "Death":
@@ -77,13 +77,29 @@ class Table {
         var table = d3.select("#matchTable");
 
         var tbody = table.select("tbody");
-        var tbodytr = tbody.selectAll("tr").data(updatedData)
+        var aggregated = d3.nest()
+            .key(d => {
+                return d.affected_nationality;
+            })
+            .rollup(v => {
+                return {
+                    death: d3.sum(v, d => {
+                        return d.dead;
+                    }),
+                    missing: d3.sum(v, d => {
+                        return d.missing;
+                    })
+                }
+            })
+            .entries(updatedData);
+        console.log(aggregated);
+        var tbodytr = tbody.selectAll("tr").data(aggregated)
             .enter()
             .append("tr");
         tbodytr.selectAll("th")
             .data(trdata => {
                 return [{
-                    "key": trdata.affected_nationality
+                    "key": trdata.key
                 }]
             })
             .enter()
@@ -91,10 +107,9 @@ class Table {
             .attr("class", "nationality")
             .text(d => {
                 if (d.key.length > 0) {
-                    //console.log(d.key + " " +d.key.length);
                     return d.key;
                 } else {
-                    return "Unknown";
+                    return "not known";
                 }
             });
 
@@ -103,12 +118,12 @@ class Table {
                 return [{
                         "vis": "death count",
                         "key": "dead",
-                        "value": d.dead
+                        "value": +d.value.death
                     },
                     {
                         "vis": "miss count",
                         "key": "missing",
-                        "value": d.missing
+                        "value": d.value.missing
                     },
                     {
                         "vis": "incident region",
@@ -145,7 +160,7 @@ class Table {
                 return d.value;
             });
 
-        let incidentRegion = rowtd.filter(d => {
+        /*let incidentRegion = rowtd.filter(d => {
             return d.vis == "incident region";
         });
 
@@ -163,7 +178,7 @@ class Table {
             .style("text-align", "center")
             .text(d => {
                 return d.value;
-            });
+            });*/
 
     }
 }
