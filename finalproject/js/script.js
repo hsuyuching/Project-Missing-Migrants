@@ -31,6 +31,6 @@ async function loadFile(file) {
     return data;
 }
 async function loadData() {
-    let migrant = await loadFile('data/MissingMigrantsProject.csv');
+    let migrant = await loadFile('data/export_dataframe.csv');
     return migrant;
 }
