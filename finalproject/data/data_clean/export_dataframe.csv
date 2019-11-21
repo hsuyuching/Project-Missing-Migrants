@@ -20,7 +20,6 @@ id,cause_of_death,missing,dead,affected_nationality
 21,Drowning,32.0,7.0,UNKNOWN
 22,Drowning,4.0,3.0,UNKNOWN
 23,Drowning,2.0,,UNKNOWN
-24,UNKNOWN,0,8.0,UNKNOWN
 25,Drowning,0,1.0,UNKNOWN
 28,Drowning,0,4.0,UNKNOWN
 29,Drowning,0,2.0,UNKNOWN
@@ -34,7 +33,6 @@ id,cause_of_death,missing,dead,affected_nationality
 37,Drowning,1.0,1.0,UNKNOWN
 38,Drowning,0,1.0,Syrian
 39,Suffocation,0,52.0,UNKNOWN
-42,UNKNOWN,0,1.0,Nigerian
 43,Drowning,0,1.0,Guinean
 45,Drowning,0,43.0,UNKNOWN
 46,Presumed drowning,1.0,4.0,UNKNOWN
@@ -42,9 +40,7 @@ id,cause_of_death,missing,dead,affected_nationality
 48,Drowning,0,6.0,UNKNOWN
 49,Drowning,11.0,12.0,UNKNOWN
 50,Drowning,1.0,1.0,Senegal
-53,UNKNOWN,0,24.0,UNKNOWN
 56,Drowning,1.0,4.0,Syrian
-57,UNKNOWN,0,1.0,UNKNOWN
 59,Drowning,3.0,4.0,Iraqi
 61,Drowning,0,13.0,Afghanistan
 61,Drowning,0,13.0,Syria
@@ -70,7 +66,6 @@ id,cause_of_death,missing,dead,affected_nationality
 78,Drowning,0,95.0,UNKNOWN
 79,Hit by train,0,1.0,Eritrea
 82,drowning,0,2.0,Afghan
-83,UNKNOWN,0,3.0,Ecuadorian
 85,Hi by truck,0,1.0,Iraqi
 86,Drowning,5.0,1.0,Syria
 87,Crushed to death,0,1.0,Iraqi
@@ -87,7 +82,6 @@ id,cause_of_death,missing,dead,affected_nationality
 102,Drowning,0,13.0,Syria
 103,Drowning,0,1.0,Syrian
 104,Electrocution,0,1.0,Syria
-105,UNKNOWN,0,1.0,Nigerian
 106,Drowning,0,22.0,Reported as unspecified nationals of Syria
 106,Drowning,0,22.0,Afghanistan
 106,Drowning,0,22.0,Iraq
@@ -96,8 +90,6 @@ id,cause_of_death,missing,dead,affected_nationality
 108,Drowning,0,1.0,Syria
 109,Hit by vehicle,0,1.0,Eritrea
 111,Presumed drowning,0,10.0,UNKNOWN
-112,UNKNOWN,0,36.0,Rohingya
-113,"Unknown, torture involved",0,106.0,Myanmar
 114,Train accident,0,1.0,Afghanistan
 119,Drowning,0,1.0,UNKNOWN
 120,Drowning,0,3.0,Eritrea (2)
@@ -174,23 +166,15 @@ id,cause_of_death,missing,dead,affected_nationality
 165,Drowning,33.0,3.0,Ethiopia and Somalia
 167,Drowning,2.0,8.0,Guinea Conakry
 168,Drowning,49.0,8.0,Bangladesh
-169,UNKNOWN,0,1.0,Haiti
-173,UNKNOWN,20.0,1.0,Survivors from Burkina Faso
-173,UNKNOWN,20.0,1.0,Malia
-173,UNKNOWN,20.0,1.0,Guinea
-173,UNKNOWN,20.0,1.0,and the Ivory Coast
 174,Drowning,36.0,9.0,Reported as unspecified nationals of Africa
 175,Severe exhaustion and dehydration,0,2.0,Ethnic Rohingya
 176,Beating/shot by traffickers,0,1.0,Ethnic Rohingya
 180,Drowning,0,2.0,Zimbabwe
 183,Drowning,0,1.0,Cuba
-184,UNKNOWN,0,1.0,Reported as unspecified nationals of Horn of Africa
-185,UNKNOWN,0,1.0,Reported as unspecified nationals of the Horn of Africa
 188,Shot,0,1.0,Ethiopian
 189,Starvation,0,2.0,Somalia
 193,Drowning,9.0,,Syrian Arab Republic
 194,Drowning,0,2.0,Syrian Arab Republic
-195,UNKNOWN,30.0,,UNKNOWN
 196,Drowning,0,5.0,UNKNOWN
 197,Drowning,0,9.0,UNKNOWN
 198,Drowning,0,1.0,Cuba
@@ -198,14 +182,12 @@ id,cause_of_death,missing,dead,affected_nationality
 200,Drowning,3.0,21.0,Ethiopia
 201,Presumed drowning,23.0,,Reported as unspecified nationals of Sub-Saharan Africa
 202,Hypothermia,0,17.0,Reported as unspecified nationals of Sub-Saharan Africa
-203,Unknown (found on motorway),0,1.0,UNKNOWN
 204,Burned to death hiding in truck,0,2.0,UNKNOWN
 205,Drowning,6.0,,Reported as unspecified nationals of Sub-Saharan Africa
 206,Drowning,12.0,,Reported as unspecified nationals of Sub-Saharan Africa
 207,Presumed drowning,30.0,,Ethiopia
 208,Drowning,0,4.0,Afghanistan
 209,Drowning,11.0,27.0,Afghanistan
-210,UNKNOWN,0,1.0,UNKNOWN
 211,Presumed drowning,20.0,,Reported as unspecified nationals of Africa
 214,Drowning,2.0,,Cuba
 215,Hit by truck,0,1.0,Syria
@@ -214,24 +196,17 @@ id,cause_of_death,missing,dead,affected_nationality
 220,Drowning,0,1.0,UNKNOWN
 221,Drowning due to forced disembarcation,0,1.0,UNKNOWN
 222,Drowning,0,1.0,UNKNOWN
-223,UNKNOWN,0,1.0,UNKNOWN
 224,Drowning,0,1.0,UNKNOWN
 225,Drowning,0,1.0,UNKNOWN
 226,Drowning,0,1.0,UNKNOWN
 229,Drowning,4.0,,Unknown. Survivors from Bangladesh
 229,Drowning,4.0,,Burma
 229,Drowning,4.0,,or are ethnic Rohingya
-230,UNKNOWN,0,1.0,UNKNOWN
 231,"Hyperthermia, starvation",0,3.0,UNKNOWN
 233,Presumed drowning,2.0,,UNKNOWN
 234,Drowning,0,64.0,UNKNOWN
 235,Drowning,85.0,10.0,Reported as unspecified nationals of Sub-Saharan Africa
 236,Drowning,6.0,2.0,Reported as unspecified nationals of Sub-Saharan Africa
-237,UNKNOWN,0,1.0,UNKNOWN
-238,UNKNOWN,0,1.0,UNKNOWN
-239,UNKNOWN,0,1.0,UNKNOWN
-240,UNKNOWN,0,1.0,UNKNOWN
-241,UNKNOWN,0,1.0,UNKNOWN
 242,Drowning,33.0,10.0,UNKNOWN
 243,Drowning,73.0,15.0,15 dead from Palestine. Missing are from Palestine
 243,Drowning,73.0,15.0,Syria
@@ -241,12 +216,7 @@ id,cause_of_death,missing,dead,affected_nationality
 246,Drowning,497.0,3.0,Syrian Arab Republic
 246,Drowning,497.0,3.0,Egypt
 246,Drowning,497.0,3.0,Sudan
-247,UNKNOWN,0,1.0,UNKNOWN
 248,Hyperthermia,0,1.0,UNKNOWN
-249,UNKNOWN,0,1.0,UNKNOWN
-251,UNKNOWN,0,1.0,UNKNOWN
-252,UNKNOWN,0,1.0,UNKNOWN
-253,UNKNOWN,0,1.0,Mexico
 254,Presumed drowning,100.0,,UNKNOWN
 255,Tortured to death,0,1.0,Bangladesh
 256,Presumed drowning,9.0,,China
@@ -255,101 +225,57 @@ id,cause_of_death,missing,dead,affected_nationality
 258,Presumed drowning,23.0,,Haiti
 259,"Dehydration, Presumed drowning",6.0,11.0,Cuba
 260,Drowning,0,1.0,Haiti
-261,Unknown (skeletal remains),0,1.0,UNKNOWN
 262,Drowning,0,24.0,UNKNOWN
 263,Unspecified location between North Africa and Italy. Body brought to Calabria.,0,1.0,UNKNOWN
 264,Drowning,5.0,4.0,Cuba
 265,Drowning,8.0,18.0,Reported as unspecified nationals of Sub-Saharan Africa
-266,Unknown (skeletal remains),0,1.0,UNKNOWN
 267,Drowning,81.0,170.0,Sub-Saharan Africa
 268,Hyperthermia,0,1.0,UNKNOWN
-269,Unknown (skeletal remains),0,1.0,UNKNOWN
 270,"Homicide, likely by asphyxiation",0,1.0,Afghanistan
-271,Unknown (skeletal remains),0,1.0,UNKNOWN
-272,Unknown (skeletal remains),0,1.0,UNKNOWN
-273,Unknown (skeletal remains),0,1.0,Unnknown
-274,Unknown (skeletal remains),0,1.0,UNKNOWN
 275,Drowning,170.0,2.0,Syrian Arab Republic
 276,Hit by train,0,1.0,UNKNOWN
-277,Unknown (skeletal remains),0,1.0,UNKNOWN
 278,Electrocution,0,1.0,Mexico
-279,Unknown (skeletal remains),0,1.0,UNKNOWN
-280,Unknown (skeletal remains),0,1.0,UNKNOWN
 281,Drowning,108.0,20.0,Survivors from Sub-Saharan Africa
-282,Unknown (skeletal remains),0,1.0,UNKNOWN
 283,Hyperthermia,0,1.0,UNKNOWN
-284,Unknown (skeletal remains),0,1.0,UNKNOWN
 285,Hit by truck,0,1.0,Eritrea
 286,Drowning,14.0,5.0,UNKNOWN
 287,Drowning,0,3.0,'Mostly African'
 288,Drowning,53.0,2.0,Egypt
 288,Drowning,53.0,2.0,Syrian Arab Republic
 289,On board violence,0,29.0,'Sub-Saharan African'
-290,Unknown (skeletal remains),0,1.0,UNKNOWN
 291,Drowning,0,3.0,UNKNOWN
 292,Presumed drowning,41.0,,Survivors were from Gambia
 292,Presumed drowning,41.0,,Ghana and Mali
 293,Drowning,18.0,2.0,Indonesia
 294,Drowning,109.0,1.0,UNKNOWN
-295,Unknown (skeletal remains),0,1.0,UNKNOWN
 296,Presumed drowning,0,12.0,UNKNOWN
 297,Drowning,21.0,4.0,UNKNOWN
 299,Drowning,188.0,12.0,Syrian Arab Republic
-300,UNKNOWN,0,13.0,UNKNOWN
-301,Unknown (skeletal remains),0,1.0,UNKNOWN
 302,Hyperthermia,0,1.0,UNKNOWN
-303,Unknown (skeletal remains),0,1.0,UNKNOWN
-304,Unknown (skeletal remains),0,1.0,UNKNOWN
 305,Drowning,75.0,,UNKNOWN
 306,Asphyxiation and crushing,0,45.0,Syrian Arab Republic
 306,Asphyxiation and crushing,0,45.0,Eritrea
 306,Asphyxiation and crushing,0,45.0,Somalia
 306,Asphyxiation and crushing,0,45.0,Cameroon
 307,Drowning,4.0,2.0,Syrian Arab Republic
-308,Unknown (skeletal remains),0,1.0,UNKNOWN
 309,Presumed drowning,240.0,,Eritrea
-310,Unknown (skeletal remains),0,1.0,UNKNOWN
-311,Unknown (skeletal remains),0,1.0,UNKNOWN
-312,Unknown (skeletal remains),0,1.0,UNKNOWN
 313,Hyperthermia,0,1.0,UNKNOWN
 314,Drowning,26.0,9.0,Indonesia
 315,Clubbed/beaten to death,0,4.0,Reported as unspecified nationals of Africa
-316,UNKNOWN,0,1.0,UNKNOWN
-317,UNKNOWN,0,1.0,Syrian Arab Republic
-318,Unknown (skeletal remains),0,1.0,UNKNOWN
 319,Hyperthermia,0,1.0,UNKNOWN
 320,Drowning,0,10.0,UNKNOWN
-321,Unknown (skeletal remains),0,1.0,UNKNOWN
-322,Unknown (skeletal remains),0,1.0,UNKNOWN
-323,Unknown (skeletal remains),0,1.0,UNKNOWN
 324,Hyperthermia,0,1.0,UNKNOWN
-325,Unknown (skeletal remains),0,1.0,UNKNOWN
-327,Unknown (skeletal remains),0,1.0,UNKNOWN
 328,Hyperthermia,0,1.0,UNKNOWN
 329,Drowning,2.0,3.0,'African'
 330,Hyperthermia,0,1.0,UNKNOWN
-331,Unknown (skeletal remains),0,1.0,UNKNOWN
 332,Drowning,0,4.0,Central African Republic
-333,Unknown (skeletal remains),0,1.0,UNKNOWN
-334,UNKNOWN,0,3.0,UNKNOWN
 335,Hyperthermia,0,1.0,Mexico
-336,Unknown (skeletal remains),0,1.0,UNKNOWN
 337,Drowning,0,62.0,Mostly Ethiopian. Others were Somalian and 2 Yemeni crew
-338,Unknown (skeletal remains),0,1.0,UNKNOWN
-339,Unknown (skeletal remains),0,1.0,UNKNOWN
-340,Unknown (skeletal remains),0,1.0,Mexico
-341,Unknown (skeletal remains),0,1.0,UNKNOWN
 342,Asphyxiation,0,1.0,Afghanistan
 343,Fell from truck,0,1.0,Sudan
-344,Unknown (skeletal remains),0,1.0,UNKNOWN
-345,Unknown (skeletal remains),0,1.0,UNKNOWN
-346,Unknown (skeletal remains),0,1.0,Mexico
 347,Drowning,200.0,17.0,UNKNOWN
 348,Blunt force injuries,0,1.0,UNKNOWN
 349,"Starvation, Dehydration, Exhaustion",33.0,13.0,Niger
-350,Unknown (skeletal remains),0,1.0,UNKNOWN
-351,UNKNOWN,0,1.0,Eritrea
-352,Unknown (skeletal remains),0,1.0,UNKNOWN
 353,Drowning,33.0,44.0,UNKNOWN
 354,Drowning,7.0,22.0,UNKNOWN
 355,Drowning,0,4.0,Eritrea
@@ -357,42 +283,23 @@ id,cause_of_death,missing,dead,affected_nationality
 355,Drowning,0,4.0,Somalia
 356,Fell from truck,0,1.0,Eritrea
 357,Drowning,3.0,6.0,UNKNOWN
-358,Unknown (skeletal remains),0,1.0,UNKNOWN
 359,Drowning,40.0,,Somalia
-360,Unknown (skeletal remains),0,1.0,UNKNOWN
 361,Blunt force injuries,0,1.0,Mexico
 362,Hyperthermia,0,1.0,Mexico
 363,Shot,0,1.0,UNKNOWN
 364,Shot,0,5.0,China (ethnic Uighur)
-365,Unknown (skeletal remains),0,1.0,UNKNOWN
-366,Unknown (skeletal remains),0,1.0,UNKNOWN
 367,Drowning,1.0,8.0,Syrian Arab Republic
-368,UNKNOWN,0,1.0,UNKNOWN
-369,Unknown (skeletal remains),0,1.0,UNKNOWN
-370,Unknown (skeletal remains),0,1.0,UNKNOWN
 371,"Hyperthermia, Abandoned by smugglers in the desert",0,10.0,Sudan (6)
 371,"Hyperthermia, Abandoned by smugglers in the desert",0,10.0,Ethiopia (2)
 371,"Hyperthermia, Abandoned by smugglers in the desert",0,10.0,Eritrea (1)
 371,"Hyperthermia, Abandoned by smugglers in the desert",0,10.0,Unknown (1)
-372,Unknown (skeletal remains),0,1.0,UNKNOWN
-373,Unknown (skeletal remains),0,1.0,UNKNOWN
 374,Drowning,0,17.0,Zimbabwe
-375,UNKNOWN,0,1.0,UNKNOWN
-376,Unknown (skeletal remains),0,1.0,Mexico
-377,Unknown (skeletal remains),0,1.0,UNKNOWN
-378,Unknown (skeletal remains),0,1.0,UNKNOWN
 379,Blunt force injuries,0,1.0,UNKNOWN
 380,Fell from wall,0,1.0,El Salvador
-381,Unknown (skeletal remains),0,1.0,UNKNOWN
-382,Unknown (skeletal remains),0,1.0,UNKNOWN
-383,Unknown (skeletal remains),0,1.0,UNKNOWN
 384,Drowning,0,251.0,Democratic Republic of the Congo
 385,Drowning,2.0,7.0,Syria
 386,Toxic fumes/asphyxiation,0,1.0,'African'
 387,Vehicle accident,0,1.0,Ethiopia
-388,Unknown (skeletal remains),0,1.0,UNKNOWN
-389,Unknown (skeletal remains),0,1.0,UNKNOWN
-390,UNKNOWN,0,1.0,Ethiopia
 391,Vehicle accident,0,1.0,Ethiopia
 392,Drowning,44.0,,Somalia
 393,Found hanged,0,1.0,Ecuador
@@ -401,34 +308,15 @@ id,cause_of_death,missing,dead,affected_nationality
 396,Drowning after being thrown overboard by other passengers,0,7.0,Somalia
 397,Shot,0,1.0,Bangladesh
 398,Drowning,6.0,11.0,Ethiopia
-399,Unknown (skeletal remains),0,1.0,UNKNOWN
-400,Unknown (skeletal remains),0,1.0,UNKNOWN
 401,Drowning,0,8.0,Haiti
-402,UNKNOWN,0,1.0,UNKNOWN
 403,Shot,0,1.0,Mexico
-404,Unknown (skeletal remains),0,1.0,UNKNOWN
-405,UNKNOWN,0,2.0,Somalia
-406,Unknown (skeletal remains),0,1.0,UNKNOWN
-407,Unknown (skeletal remains),0,1.0,UNKNOWN
-408,Unknown (skeletal remains),0,1.0,UNKNOWN
 409,Shot,0,15.0,Reported as unspecified nationals of Africa
 410,Vehicle accident,0,1.0,Iran
 411,Drowning,0,1.0,Haiti
-412,Unknown (skeletal remains),0,1.0,UNKNOWN
-413,Unknown (skeletal remains),0,1.0,UNKNOWN
-414,Unknown (skeletal remains),0,1.0,UNKNOWN
-415,Unknown (skeletal remains),0,1.0,Mexico
-416,Unknown (skeletal remains),0,1.0,UNKNOWN
-417,Unknown (skeletal remains),0,1.0,UNKNOWN
-418,Unknown (skeletal remains),0,1.0,UNKNOWN
 419,Drowning,0,12.0,Afghanistan
 419,Drowning,0,12.0,Syrian Arab Republic
-420,UNKNOWN,0,1.0,UNKNOWN
 421,Shot,0,1.0,Mexico
 422,Hyperthermia,0,1.0,Sudan
-423,Unknown (skeletal remains),0,1.0,UNKNOWN
-424,Unknown (skeletal remains),0,1.0,UNKNOWN
-425,Unknown (skeletal remains),0,1.0,Guatemala
 427,"Mostly starvation, dehydration, and beatings by crew members",750.0,,Mixed
 428,Mixed,0,41.0,Guatemala
 430,Mixed,0,64.0,El Salvador
@@ -450,11 +338,8 @@ id,cause_of_death,missing,dead,affected_nationality
 453,Drowning,0,5.0,Syria
 454,Drowning,0,1.0,Syrian
 455,Drowning,0,1.0,UNKNOWN
-456,Unknown (bodies recovered from boat),0,4.0,UNKNOWN
 458,Killed,0,1.0,UNKNOWN
 459,"Suffocation, Trampled",0,2.0,Nigeria
-461,UNKNOWN,0,1.0,UNKNOWN
-462,UNKNOWN,0,6.0,UNKNOWN
 463,Pulmonary edema,0,1.0,Somalia
 464,Drowning,0,37.0,UNKNOWN
 465,Drowning,91.0,111.0,Mixed
@@ -462,33 +347,25 @@ id,cause_of_death,missing,dead,affected_nationality
 467,Suffocation,0,71.0,Syrian
 467,Suffocation,0,71.0,Iraqi
 467,Suffocation,0,71.0,Afghan
-468,UNKNOWN,0,1.0,Somalia
 469,Drowning,4.0,2.0,Iraq
-470,Unknown (body recovered from boat),0,1.0,Syria
-471,Unknown (found dead on top of train),0,1.0,UNKNOWN
 472,Drowning,0,1.0,UNKNOWN
-474,UNKNOWN,0,1.0,Unknown. Survivors all from Sub-Saharan African nations.
 475,Drowning,0,6.0,Syrian. An infant was among the dead.
 477,Drowning,0,9.0,Pakistan
-479,Unknown (body recovered from boat),0,1.0,Somalia
 483,Presumed drowning,0,30.0,Syria
 484,"Drowning, Trampling",0,12.0,UNKNOWN
 486,Drowning,60.0,,UNKNOWN
 492,Presumed asphyxiation,0,49.0,Mixed
 493,Vehicle accident,0,10.0,Syria
 494,Drowning,202.0,25.0,Syria
-496,UNKNOWN,0,5.0,UNKNOWN
 498,Suffocation,0,1.0,Moroccan
 499,Drowning,0,4.0,Nigeria (2) Cameroon (2)
 504,Road accident,0,1.0,Pakistani
 506,Hit by vehicle,0,1.0,Sudan
-507,UNKNOWN,0,14.0,Mixed
 508,Drowning,40.0,,Somalia
 508,Drowning,40.0,,Eritrea
 508,Drowning,40.0,,Benin
 508,Drowning,40.0,,Mali
 509,Drowning,0,1.0,Eritrean
-510,UNKNOWN,0,6.0,Syria
 511,Hit by vehicle,0,1.0,Pakistani
 512,"Gylcemic crisis (Diabetic, medicine thrown overboard)",0,1.0,Syria
 515,Drowning,0,100.0,UNKNOWN
@@ -504,9 +381,6 @@ id,cause_of_death,missing,dead,affected_nationality
 536,Drowning,0,3.0,Gambia (2) Guinea  Bissau (1)
 543,Violent robbery,0,3.0,UNKNOWN
 545,Hit by vehicle,0,1.0,Eritrea
-546,UNKNOWN,8.0,17.0,Ivory Coast (1) Unknown (16)
-549,UNKNOWN,0,2.0,Bangladeshi
-549,UNKNOWN,0,2.0,Rohingya
 550,Fell from train,0,1.0,Unkown
 551,Drowning,0,5.0,African
 552,Drowning,0,5.0,Tunisia
@@ -520,7 +394,6 @@ id,cause_of_death,missing,dead,affected_nationality
 564,Drowning,0,5.0,UNKNOWN
 565,Vehicle accident,0,12.0,Nigeria
 566,Crushed by bus on ferry,0,1.0,Afghan
-568,UNKNOWN,0,1.0,Syria
 569,Drowning,0,3.0,Syria
 569,Drowning,0,3.0,Afghanistan
 1363,Crushed by pallets,0,1.0,Afghanistan
@@ -531,19 +404,15 @@ id,cause_of_death,missing,dead,affected_nationality
 2163,Drowning,0,7.0,UNKNOWN
 2164,Presumed drowning,7.0,,UNKNOWN
 2166,Drowning,0,1.0,Syria
-2167,UNKNOWN,0,1.0,UNKNOWN
 2563,Drowning,2.0,4.0,UNKNOWN
 3363,Drowning,0,1.0,UNKNOWN
 3763,Hit by train,0,1.0,UNKNOWN
-3764,UNKNOWN,0,2.0,Syrian
 3765,Shot,0,15.0,Sudan
 3766,Shot,0,1.0,Sudan
 4564,"Drowning, Asphyxiation",2.0,9.0,UNKNOWN
-4566,UNKNOWN,0,,UNKNOWN
 5763,Drowning,0,8.0,Egypt
 6563,Suffocation,0,2.0,UNKNOWN
 6564,Drowning,2.0,1.0,UNKNOWN
-6963,UNKNOWN,0,1.0,UNKNOWN
 6973,Presumed drowning,0,1.0,UNKNOWN
 7763,Shot,0,5.0,Sudan
 7764,Drowning,7.0,8.0,Syria
@@ -569,7 +438,6 @@ id,cause_of_death,missing,dead,affected_nationality
 13763,Drowning,13.0,12.0,UNKNOWN
 14163,Drowning,0,4.0,UNKNOWN
 14563,Presumed drowning,0,1.0,UNKNOWN
-14564,UNKNOWN,3.0,2.0,Syrian
 14565,Drowning,0,2.0,Iraq
 14963,Drowning,3.0,3.0,UNKNOWN
 14964,Drowning,0,1.0,UNKNOWN
@@ -615,7 +483,6 @@ id,cause_of_death,missing,dead,affected_nationality
 19765,Drowning,0,11.0,Syria
 19766,Drowning,0,1.0,UNKNOWN
 19767,Drowning,0,1.0,UNKNOWN
-19768,UNKNOWN,0,2.0,UNKNOWN
 19769,Drowning,0,1.0,UNKNOWN
 19770,Shot,0,1.0,Palestine
 19771,Drowning,0,4.0,UNKNOWN
@@ -624,14 +491,11 @@ id,cause_of_death,missing,dead,affected_nationality
 19774,Drowning,0,5.0,Iraq
 19775,Drowning,0,4.0,Syria
 19776,Drowning,0,18.0,UNKNOWN
-19778,UNKNOWN,0,1.0,UNKNOWN
 20163,Hypothermia,0,2.0,UNKNOWN
-20164,UNKNOWN,0,1.0,Honduras
 20165,Vehicle accident,0,14.0,Zimbabwe
 20167,Drowning,0,1.0,UNKNOWN
 20169,Vehicle accident,0,20.0,Reported as unspecified nationals of Central America
 20171,Train accident,0,1.0,Honduras
-20172,UNKNOWN,0,1.0,Honduras
 20173,Plane stowaway,0,1.0,UNKNOWN
 20563,Raped and murdered,0,1.0,Haiti
 20565,Fell from train,0,1.0,UNKNOWN
@@ -639,9 +503,7 @@ id,cause_of_death,missing,dead,affected_nationality
 20567,Unspecified deaths on 'La Bestia' train,0,2.0,Honduras and Guatemala
 20568,Presumed shot,0,1.0,Reported as unspecified nationals of Central America
 20569,Shot,0,1.0,UNKNOWN
-20570,UNKNOWN,0,1.0,Mexican
 20571,drowning,0,1.0,UNKNOWN
-20963,"Unknown, plane stowaway",0,1.0,Mozambican
 21363,Drowning,8.0,1.0,UNKNOWN
 21364,Attacked by hippopotamus,0,1.0,Malawian
 21763,Drowning,0,8.0,UNKNOWN
@@ -681,7 +543,6 @@ id,cause_of_death,missing,dead,affected_nationality
 27372,Vehicle accident,0,3.0,Ecuador
 27373,Drowning,0,1.0,Ethiopian
 27374,Drowning,0,1.0,Salvadoran
-27375,UNKNOWN,0,4.0,UNKNOWN
 27379,Beating/shot by traffickers,0,3.0,Ethnic Rohingya
 27767,Mixed,0,10.0,Reported as unspecified nationals of Rohingya
 27768,Presumed drowning,130.0,,Rohingya
@@ -697,7 +558,6 @@ id,cause_of_death,missing,dead,affected_nationality
 28574,Drowning,0,1.0,UNKNOWN
 28576,Drowning,0,1.0,UNKNOWN
 28977,Presumed drowning,19.0,3.0,Comoran
-29777,UNKNOWN,0,3.0,Honduras
 29778,"Exposure, Hypothermia",0,1.0,UNKNOWN
 29779,Hypothermia,0,1.0,Syria
 29780,Hypothermia,0,3.0,Syria
@@ -713,7 +573,6 @@ id,cause_of_death,missing,dead,affected_nationality
 31377,Exposure,0,1.0,Afghanistan
 31777,Drowning,1.0,,Cuba
 32177,Presumed drowning,0,2.0,UNKNOWN
-32577,UNKNOWN,0,1.0,UNKNOWN
 32977,Asphyxiation,0,5.0,UNKNOWN
 33377,mixed,0,11.0,UNKNOWN
 33777,Electrocution on railway,0,1.0,UNKNOWN
@@ -728,21 +587,13 @@ id,cause_of_death,missing,dead,affected_nationality
 36577,Fell from train,0,1.0,Egypt
 36578,Drowning,0,3.0,UNKNOWN
 36977,Drowning,0,1.0,Maghreb
-37377,UNKNOWN,0,,UNKNOWN
 37777,Drowning,8.0,,Pakistan
 38177,Drowning,0,1.0,Mexico
 38577,Boat fire,0,4.0,UNKNOWN
 38579,Drowning,0,49.0,mostly from Sudan
 38579,Drowning,0,49.0,Bangladesh
-38580,Unknown (bodies recovered on boat),0,2.0,UNKNOWN
-38581,Unknown (bodies recovered on boat),0,2.0,UNKNOWN
-38582,UNKNOWN,4.0,,UNKNOWN
 38977,Drowning,0,3.0,UNKNOWN
 38978,Shot,0,1.0,Cuba
-39377,Unknown (bodies recovered on boat),0,9.0,Cuba
-39378,UNKNOWN,0,1.0,UNKNOWN
-39379,UNKNOWN,0,1.0,UNKNOWN
-39778,Unknown (bodies found decomposed),0,2.0,UNKNOWN
 40177,Lung infection,0,1.0,Somalia
 40577,Drowning,0,2.0,UNKNOWN
 40977,Drowning,86.0,4.0,UNKNOWN
@@ -753,7 +604,6 @@ id,cause_of_death,missing,dead,affected_nationality
 42178,Hit by vehicle,0,1.0,UNKNOWN
 42179,Drowning,84.0,,UNKNOWN
 42180,Truck crash (was clinging to bottom of truck),0,1.0,Unknown (Kurdish)
-42577,UNKNOWN,0,4.0,El Salvador
 43377,Drowning,0,1.0,UNKNOWN
 43777,Drowning,0,1.0,UNKNOWN
 44177,Drowning,0,1.0,Guatemala
@@ -774,7 +624,6 @@ id,cause_of_death,missing,dead,affected_nationality
 44980,drowning,0,1.0,Honduras
 45377,Drowning,0,1.0,UNKNOWN
 45378,Drowning,0,1.0,UNKNOWN
-45777,UNKNOWN,0,1.0,UNKNOWN
 45778,Hypothermia,0,1.0,Mexico
 46178,Drowning,4.0,5.0,UNKNOWN
 46577,Hit by truck,0,1.0,Afghan
@@ -787,7 +636,6 @@ id,cause_of_death,missing,dead,affected_nationality
 48178,Car accident,0,1.0,Mexico
 48577,Shot,0,1.0,Guatemala
 48978,Hyperthermia,0,1.0,Honduras
-48979,Unknown (found dead near train tracks),0,1.0,UNKNOWN
 49377,Drowning,0,1.0,Syria
 49777,Hit by vehicle,0,1.0,Mexico
 50577,"AH1N1 influenza virus, while stuck at border",0,1.0,Cuba
@@ -799,8 +647,6 @@ id,cause_of_death,missing,dead,affected_nationality
 51779,Drowning,459.0,,Somalia (est.190)
 51779,Drowning,459.0,,Sudan
 51779,Drowning,459.0,,Syria
-52177,Unknown (found dead near train tracks),0,1.0,Honduras
-52179,Unknown (found dead near train tracks),0,1.0,UNKNOWN
 52181,Drowning,0,2.0,Cuban
 52578,Mixed,0,147.0,Various
 53377,Drowning,0,12.0,UNKNOWN
@@ -813,15 +659,11 @@ id,cause_of_death,missing,dead,affected_nationality
 54578,Drowning,18.0,2.0,Sudan
 54578,Drowning,18.0,2.0,Mali
 54579,Drowning,9.0,,UNKNOWN
-54977,UNKNOWN,0,1.0,Honduras
 54978,Drowning,2.0,5.0,Madagascar
 54979,Drowning,0,1.0,UNKNOWN
-54980,UNKNOWN,0,1.0,UNKNOWN
 54981,Drowning,0,1.0,UNKNOWN
 55377,Drowning,0,1.0,Mexico
-55378,UNKNOWN,0,1.0,Dominican Republic
 55379,Heart Attack,0,1.0,UNKNOWN
-55777,UNKNOWN,0,1.0,El Salvador
 56177,gang violence (body dismembered),0,1.0,Honduras
 56178,Shot,0,1.0,Syria
 56179,Beat-up and killed,0,1.0,Syria
@@ -829,37 +671,13 @@ id,cause_of_death,missing,dead,affected_nationality
 56977,Shot,0,1.0,Syria
 56978,Shot,0,2.0,Syria
 57377,Vehicle accident,0,4.0,Reported as unspecified nationals of Honduras and Guatemala
-57777,Unknown (skeletal remains),0,1.0,UNKNOWN
-57778,Unknown (skeletal remains),0,1.0,UNKNOWN
 57779,"Exposure, Hypothermia",0,1.0,Guatemala
-57780,UNKNOWN,0,1.0,UNKNOWN
-57781,Unknown (skeletal remains),0,1.0,Mexico
-57782,Unknown (skeletal remains),0,1.0,UNKNOWN
-57783,Unknown (skeletal remains),0,1.0,UNKNOWN
-57784,Unknown (skeletal remains),0,1.0,UNKNOWN
-57785,UNKNOWN,0,1.0,Mexico
-57786,Unknown (skeletal remains),0,1.0,UNKNOWN
-57787,Unknown (skeletal remains),0,1.0,UNKNOWN
 57788,"Exposure, Hypothermia",0,1.0,UNKNOWN
-57789,UNKNOWN,0,1.0,UNKNOWN
-57790,UNKNOWN,0,1.0,Uknown
-58177,Unknown (skeletal remains),0,1.0,UNKNOWN
-58178,Unknown (skeletal remains),0,1.0,UNKNOWN
-58179,Unknown (skeletal remains),0,1.0,Mexico
-58180,Unknown (skeletal remains),0,1.0,UNKNOWN
-58181,Unknown (skeletal remains),0,1.0,Mexico
 58182,"Exposure, Hypothermia",0,1.0,Mexico
-58183,Unknown (skeletal remains),0,1.0,UNKNOWN
-58184,Unknown (skeletal remains),0,1.0,Mexico
-58185,Unknown (skeletal remains),0,2.0,UNKNOWN
-58186,Unknown (skeletal remains),0,1.0,UNKNOWN
 58577,Drowning,0,1.0,Egypt
 58578,Drowning,0,1.0,Somalia
 58977,Pulmonary complications,0,1.0,Haiti
-59377,UNKNOWN,0,1.0,UNKNOWN
-59378,UNKNOWN,0,1.0,UNKNOWN
 60177,Drowning,0,1.0,Algeria
-60178,UNKNOWN,10.0,,UNKNOWN
 60577,Drowning,250.0,5.0,UNKNOWN
 60578,Violent robbery,0,1.0,Guatemala
 60977,Murdered,0,1.0,El Salvador
@@ -873,11 +691,6 @@ id,cause_of_death,missing,dead,affected_nationality
 62979,Presumed drowning,0,1.0,UNKNOWN
 62980,Presumed drowning,9.0,,UNKNOWN
 63377,Drowning,0,1.0,UNKNOWN
-63777,Unknown (skeletal remains),0,1.0,UNKNOWN
-63778,Unknown (skeletal remains),0,1.0,UNKNOWN
-63780,Unknown (skeletal remains),0,1.0,UNKNOWN
-63781,Unknown (skeletal remains),0,1.0,UNKNOWN
-63782,Unknown (skeletal remains),0,1.0,UNKNOWN
 64178,Bronchopneumonia,0,1.0,UNKNOWN
 64577,Drowning,0,1.0,UNKNOWN
 64977,Drowning,329.0,10.0,Egypt
@@ -896,8 +709,6 @@ id,cause_of_death,missing,dead,affected_nationality
 66179,Drowning,3.0,,UNKNOWN
 66181,Drowning,10.0,10.0,UNKNOWN
 66182,Drowning,0,1.0,Syria
-66183,UNKNOWN,0,1.0,UNKNOWN
-66577,UNKNOWN,20.0,,UNKNOWN
 66579,Drowning,0,1.0,UNKNOWN
 66581,Drowning,57.0,,Ivory Coast and Guinea Conakry
 66582,Drowning,0,1.0,Cuba
@@ -908,15 +719,10 @@ id,cause_of_death,missing,dead,affected_nationality
 67379,Heart Attack,0,1.0,Guatemala
 67777,Hypothermia,0,1.0,Honduras
 67778,Plane Stowaway,0,1.0,UNKNOWN
-68177,UNKNOWN,0,2.0,UNKNOWN
 68178,Vehicle accident,0,1.0,UNKNOWN
-68179,UNKNOWN,0,1.0,UNKNOWN
 68577,Drowning,0,1.0,UNKNOWN
-68977,UNKNOWN,0,1.0,El Salvador
-69377,UNKNOWN,0,1.0,UNKNOWN
 69777,Presumed dehydration,0,34.0,2 from Niger
 70209,Suffocation,0,19.0,Ethiopia
-72177,UNKNOWN,0,1.0,UNKNOWN
 72187,Bronchial aspiration,0,1.0,UNKNOWN
 72188,Fell from train,0,1.0,Honduras
 72977,Drowning,1.0,3.0,At least 1 from Mexico
@@ -927,7 +733,6 @@ id,cause_of_death,missing,dead,affected_nationality
 74177,Vehicle accident,0,1.0,El Salvador
 74178,Hit by vehicle,0,1.0,Afghanistan
 74977,Presumed asphyxiation,0,2.0,UNKNOWN
-74978,UNKNOWN,0,1.0,UNKNOWN
 74980,Shot,0,1.0,Syria
 74981,Shot,0,11.0,Syria
 74982,Shot,0,1.0,Syria
@@ -977,7 +782,6 @@ id,cause_of_death,missing,dead,affected_nationality
 77777,Shot,0,1.0,UNKNOWN
 78177,Assaulted by smugglers,0,1.0,Cuban
 78577,Murdered (head wound),0,1.0,UNKNOWN
-78578,UNKNOWN,0,1.0,UNKNOWN
 78580,Drowning,0,1.0,Mexican
 78581,Dehydration and exposure to the elements,0,18.0,Niger (3)
 78581,Dehydration and exposure to the elements,0,18.0,Mali(3)
@@ -989,120 +793,80 @@ id,cause_of_death,missing,dead,affected_nationality
 78582,Dehydration and exposure to the elements,0,15.0,UNKNOWN
 78977,Shot,0,4.0,Mali
 78978,Suffocation,0,2.0,Cameroonian
-79377,UNKNOWN,0,10.0,UNKNOWN
 79777,Drowning,0,1.0,El Salvador
-79778,UNKNOWN,0,1.0,UNKNOWN
-79779,Unknown (body found in desert),0,1.0,Honduras
-80177,UNKNOWN,0,6.0,UNKNOWN
 80178,Drowning,4.0,13.0,Tunisia
 80179,Raped and murdered,0,1.0,Honduras
-80577,Unknown (mummified remains),0,1.0,UNKNOWN
-80578,Unknown (skeletal remains),0,1.0,Guatemala
 80579,Presumed hyperthermia,0,1.0,Honduras
 80580,Hyperthermia,0,1.0,Mexico
-80581,Unknown (mummified remains),0,1.0,Guatemala
 80582,Presumed hyperthermia,0,1.0,Mexico
 80583,Presumed hyperthermia,0,1.0,Mexico
 80584,Hyperthermia,0,1.0,Guatemala
-80585,Unknown (skeletal remains and mummified),0,1.0,Mexico
 80586,Presumed hyperthermia,0,1.0,Mexico
 80977,Presumed hyperthermia,0,1.0,Mexico
 80978,Hyperthermia,0,1.0,Mexico
 80979,Hyperthermia,0,1.0,Guatemala
-80980,Unknown (skeletal remains),0,1.0,UNKNOWN
 80981,Shot,0,1.0,Mexico
 80982,Presumed hyperthermia,0,1.0,UNKNOWN
 80983,Presumed hyperthermia,0,1.0,UNKNOWN
-80984,Unknown (mummified remains),0,1.0,UNKNOWN
 80985,Presumed hyperthermia,0,1.0,Mexico
-80986,Unknown (skeletal remains),0,1.0,UNKNOWN
-80987,Unknown (skeletal remains),0,1.0,El Salvador
 80988,Hit by vehicle,0,1.0,UNKNOWN
 81380,Hit by train,0,1.0,UNKNOWN
 81381,Hypothermia,0,1.0,UNKNOWN
 81777,Drowning,2.0,1.0,UNKNOWN
 81778,Hit by train,0,1.0,UNKNOWN
-81779,Unknown (skeletal remains),0,1.0,UNKNOWN
-81780,"Unknown, Skeletal Remains",0,1.0,UNKNOWN
-81781,Unknown (skeletal remains),0,1.0,UNKNOWN
 81782,Hit by vehicle,0,1.0,Honduras
 81783,Fell from train,0,1.0,UNKNOWN
 81784,Vehicle accident,0,1.0,Honduras or El Salvador
 82177,Drowning,3.0,4.0,UNKNOWN
 82178,Suffocation,0,4.0,UNKNOWN
 82179,Murdered,0,1.0,El Salvador
-82180,Unknown (skeletal remains),0,1.0,UNKNOWN
 82181,Hit by vehicle,0,1.0,Eritria
 82183,Presumed dehydration,0,1.0,Mexico
-82577,UNKNOWN,0,1.0,UNKNOWN
 82578,Drowning,0,1.0,UNKNOWN
 82977,Vehicle Accident,0,1.0,Honduras
 83377,Criminal Violence,0,1.0,Nicaragua
-83778,UNKNOWN,0,2.0,Likely Rohingya
-83781,UNKNOWN,0,1.0,Honduras
 83782,Presumed drowning,20.0,1.0,Reported as unspecified nationals of West Africa
 83783,Drowning,0,1.0,Reported as unspecified nationals of Honduras
 84177,Presumed drowning,15.0,,13 Cuba
 84177,Presumed drowning,15.0,,1 Dominican Republic
 84177,Presumed drowning,15.0,,1 Colombia
 84577,Mixed,0,32.0,Mixed
-84977,Unknown (found dead near train tracks),0,1.0,UNKNOWN
-84978,UNKNOWN,0,1.0,UNKNOWN
-84979,UNKNOWN,0,22.0,Reported as unspecified nationals of West Africa
 84980,Drowning,0,1.0,Unkown
-85377,UNKNOWN,2.0,,Cuba
 85777,Drowning,0,1.0,UNKNOWN
 85779,Hit by vehicle,0,1.0,Sudan
 85780,Presumed drowning,0,120.0,UNKNOWN
 86177,Drowning,0,1.0,UNKNOWN
-86178,UNKNOWN,0,18.0,UNKNOWN
 86577,Drowning,11.0,15.0,Indonesia
 86977,Violence during riot,0,1.0,Ethiopia
 86978,Presumed dehydration,0,1.0,Mexico
 87377,Drowning,0,1.0,Mexico
-87777,Unknown (body found in advanced state of decomposition),0,1.0,UNKNOWN
 88177,Poison,0,1.0,Mexico
 88577,Drowning,0,1.0,UNKNOWN
 88977,Drowning,0,1.0,Honduras
-88978,UNKNOWN,0,1.0,UNKNOWN
 88979,Drowning,0,1.0,Mexico
-88980,UNKNOWN,0,1.0,UNKNOWN
 88981,Drowning,0,4.0,UNKNOWN
-89377,Unknown (skeletal remains),0,1.0,UNKNOWN
 89378,Shot,0,9.0,Sudan
 89777,Drowning,0,1.0,Mexico
 89778,Drowning,0,1.0,UNKNOWN
-89779,UNKNOWN,0,1.0,UNKNOWN
-89780,UNKNOWN,0,1.0,UNKNOWN
 89781,Drowning,0,8.0,Reported as unspecified nationals of Africa
 89782,Drowning,0,1.0,Morocco
 89783,Presumed drowning,56.0,,UNKNOWN
 89784,Drowning,7.0,3.0,UNKNOWN
-89785,Unknown (skeletal remains),0,1.0,UNKNOWN
-89786,Unknown (skeletal and mummified remains),0,1.0,Mexico
-89787,Unknown (skeletal remains and mummified),0,1.0,Mexico
 89788,Presumed hyperthermia,0,1.0,Guatemala
 89790,Presumed hyperthermia,0,1.0,Mexico
-89791,UNKNOWN,0,1.0,Mexico
 89792,Presumed hyperthermia,0,1.0,Honduras
-89793,Unknown (mummified remains),0,1.0,UNKNOWN
-89794,Unknown (skeletal remains),0,1.0,UNKNOWN
 89795,Presumed hyperthermia,0,1.0,Honduras
-89796,Unknown (skeletal remains),0,1.0,UNKNOWN
 90177,Drowning,0,1.0,Mahgreb
 90178,Presumed drowning,28.0,,UNKNOWN
 90179,Drowning,0,1.0,UNKNOWN
 90180,Presumed hyperthermia,0,1.0,Mexico
 90181,Presumed hyperthermia,0,1.0,El Salvador
-90182,Unknown (postmortem decomposition),0,1.0,UNKNOWN
 90183,Presumed hyperthermia,0,1.0,Honduras
 90184,Presumed hyperthermia,0,1.0,Guatemala
-90185,Unknown (skeletal remains),0,1.0,Mexico
 90186,Hyperthermia,0,1.0,Ecuador
 90187,Hyperthermia,0,1.0,Guatemala
 90188,Multiple blunt force injuries,0,1.0,Mexico
 90189,Presumed hyperthermia,0,1.0,Guatemala
-90190,UNKNOWN,0,1.0,UNKNOWN
 90577,Presumed exposure,0,1.0,Guatemala
 90578,Drowning,0,2.0,UNKNOWN
 90977,Drowning,0,1.0,UNKNOWN
@@ -1123,7 +887,6 @@ id,cause_of_death,missing,dead,affected_nationality
 93377,Presumed exposure,0,1.0,UNKNOWN
 93378,Presumed Dehydration,0,1.0,Guatemala
 93777,Dehydration,0,1.0,Dominican Republic
-93778,UNKNOWN,0,1.0,UNKNOWN
 94177,Dehydration,0,1.0,El Salvador
 94178,Presumed drowning,0,1.0,UNKNOWN
 94179,Presumed drowning,0,3.0,UNKNOWN
@@ -1132,79 +895,49 @@ id,cause_of_death,missing,dead,affected_nationality
 94977,Murdered,0,4.0,1 Honduran
 94977,Murdered,0,4.0,3 Mexican
 94978,Vehicle accident,0,1.0,Mexico
-94979,UNKNOWN,0,1.0,UNKNOWN
 94980,Drowning,2.0,5.0,Syria
 95377,Presumed exposure,0,1.0,Mexico
 95378,Presumed drowning,1.0,,Morocco
 95379,Drowning,2.0,1.0,Syria
-95777,UNKNOWN,0,1.0,UNKNOWN
-96177,UNKNOWN,0,1.0,Mexico
 96577,Car accident,0,1.0,Guatemala
 96977,Drowning,2.0,1.0,Mexican
 96978,Drowning,0,9.0,UNKNOWN
 96979,Head injury from fall,0,1.0,Eritrea
 97377,Stabbed,0,1.0,Sudan
 97378,Hit by train,0,1.0,UNKNOWN
-97777,UNKNOWN,0,1.0,UNKNOWN
 97778,Presumed drowning,151.0,,'Sub-Saharan African'
 98177,Drowning,0,1.0,Mexico
-98577,UNKNOWN,0,1.0,UNKNOWN
 98977,Fell from train,0,1.0,UNKNOWN
 98978,Drowning,0,1.0,UNKNOWN
 99377,Fell from train,0,1.0,UNKNOWN
-99777,UNKNOWN,0,2.0,UNKNOWN
-100177,UNKNOWN,0,1.0,Cameroon
 100178,Renal insufficiency and pulmonary edema,0,1.0,Cuban
 100179,Drowning,0,1.0,Guatemala
-100577,UNKNOWN,0,6.0,UNKNOWN
 100578,Vehicle accident,0,6.0,Guatemala
 100578,Vehicle accident,0,6.0,Honduras
 100578,Vehicle accident,0,6.0,El Salvador
 100977,Cut in half by train,0,1.0,UNKNOWN
-101377,UNKNOWN,0,50.0,Mixed
 101779,Drowning,0,1.0,Honduras
 101780,Murdered,0,1.0,Honduras
 101781,Hit by vehicle,0,1.0,UNKNOWN
-101782,UNKNOWN,0,1.0,Honduras
-102177,UNKNOWN,0,3.0,UNKNOWN
 102577,Presumed hyperthermia,0,1.0,Mexico
 102578,Presumed hyperthermia,0,1.0,UNKNOWN
 102579,Presumed hyperthermia,0,1.0,Mexico
 102581,Presumed hyperthermia,0,1.0,UNKNOWN
-102582,Unknown (skeletal remains),0,1.0,Unknown (skeletal remains)
-102583,Unknown (skeletal remains),0,1.0,UNKNOWN
 102584,Presumed hyperthermia,0,1.0,Guatemala
-102585,Unknown (skeletal remains),0,1.0,Guatemala
-102586,Unknown (skeletal remains),0,1.0,UNKNOWN
-102587,Unknown (skeletal remains),0,1.0,Guatemala
 102588,Murdered,0,2.0,Honduras
-102589,UNKNOWN,0,1.0,UNKNOWN
-102590,UNKNOWN,0,3.0,UNKNOWN
 102977,Blunt force head trauma,0,1.0,Mexico
-102978,Unknown (skeletal remains),0,1.0,UNKNOWN
 102979,Presumed hyperthermia,0,1.0,Mexico
 102980,Presumed hyperthermia,0,1.0,Mexico
-102981,Unknown (skeletal remains),0,1.0,Mexico
-102982,Unknown (skeletal remains),0,1.0,UNKNOWN
 102983,Hyperthermia,0,1.0,Mexico
-102984,Unknown (skeletal remains),0,1.0,Mexico
-102985,Unknown (skeletal remains),0,1.0,UNKNOWN
-102986,Unknown (skeletal remains),0,1.0,UNKNOWN
 102987,Hyperthermia,0,1.0,UNKNOWN
 102988,Hit by vehicle,0,1.0,Honduras
-102989,UNKNOWN,0,1.0,New Guinea
-102990,UNKNOWN,0,3.0,UNKNOWN
 103377,Fell from train,0,1.0,UNKNOWN
 103378,Drowning,0,2.0,UNKNOWN
 103379,Drowning,0,1.0,UNKNOWN
 103777,Vehicle accident,0,3.0,Honduras
 103778,Drowning,0,7.0,Reported as unspecified nationals of Africa
 103779,Drowning,0,1.0,Mexico
-103780,UNKNOWN,0,7.0,UNKNOWN
-104177,UNKNOWN,0,7.0,UNKNOWN
-104178,UNKNOWN,0,1.0,UNKNOWN
 104577,Presumed drowning,0,5.0,UNKNOWN
-104578,UNKNOWN,0,1.0,El Salvador
 104977,Presumed drowning,0,4.0,UNKNOWN
 105377,Vehicle accident,0,3.0,Ethiopia
 105377,Vehicle accident,0,3.0,Somalia
@@ -1212,21 +945,17 @@ id,cause_of_death,missing,dead,affected_nationality
 105379,Drowning,0,6.0,Iraq
 105380,Shot,0,1.0,Afghanistan
 105777,Violent robbery,0,2.0,Cuba
-106177,UNKNOWN,0,5.0,UNKNOWN
 106577,Drowning,0,1.0,Honduras
 106578,Heart attack,0,1.0,Honduras
-106977,UNKNOWN,0,1.0,UNKNOWN
 107377,Heart attack,0,1.0,Haiti
 107378,"Pulmonary edema, Kidney failure",0,1.0,Cuba
 107379,Drowning,0,1.0,UNKNOWN
-107380,UNKNOWN,0,1.0,UNKNOWN
 107381,Drowning,0,1.0,UNKNOWN
 107382,Respiratory illness,0,1.0,Democratic Republic of Congo
 107383,Drowning,0,1.0,UNKNOWN
 107384,Hit by vehicle,0,1.0,Afghanistan
 107385,Mixed - mostly drownings or shootings,0,7.0,UNKNOWN
 107777,Mixed,0,25.0,Mixed
-108177,UNKNOWN,0,1.0,Mexico
 108178,Stabbed,0,1.0,Afghanistan
 108179,"Hunger, fatigue",0,1.0,Algerian
 108577,Drowning,84.0,204.0,Egyptian
@@ -1238,7 +967,6 @@ id,cause_of_death,missing,dead,affected_nationality
 109777,Drowning,0,1.0,UNKNOWN
 109778,Sickness,0,1.0,Haiti
 109779,Presumed drowning,1.0,,Mexico
-110177,UNKNOWN,0,1.0,Mexico
 110178,Drowning,15.0,5.0,Cuba
 110577,Drowning,0,1.0,Reported as unspecified national of Sub-Saharan Africa
 110578,Drowning,0,1.0,UNKNOWN
@@ -1248,7 +976,6 @@ id,cause_of_death,missing,dead,affected_nationality
 111378,Drowning,20.0,7.0,Afghanistan
 111378,Drowning,20.0,7.0,Pakistan
 111379,Vehicle accident,0,14.0,Afghanistan
-111380,UNKNOWN,0,10.0,UNKNOWN
 111381,Drowning,0,30.0,Libya
 111381,Drowning,0,30.0,Morocco
 111381,Drowning,0,30.0,Syria
@@ -1261,31 +988,8 @@ id,cause_of_death,missing,dead,affected_nationality
 111382,Asphyxiation,0,28.0,Somalia
 111383,"Dehydration, Asphyxiation",0,6.0,Guatemala
 111383,"Dehydration, Asphyxiation",0,6.0,Ecuador
-111777,UNKNOWN,0,,UNKNOWN
-111778,UNKNOWN,0,,UNKNOWN
-111779,UNKNOWN,0,,UNKNOWN
-112177,Unknown (skeletal remains),0,1.0,Mexico
-112178,Unknown (skeletal remains),0,1.0,UNKNOWN
-112179,Unknown (skeletal remains),0,1.0,UNKNOWN
-112180,Unknown (skeletal remains),0,1.0,UNKNOWN
-112181,Unknown (skeletal remains),0,1.0,UNKNOWN
 112182,Presumed hyperthermia,0,1.0,Mexico
-112183,Unknown (skeletal remains),0,1.0,UNKNOWN
-112184,Unknown (skeletal remains),0,1.0,UNKNOWN
-112185,Unknown (skeletal remains),0,1.0,UNKNOWN
-112186,Unknown (skeletal remains),0,1.0,UNKNOWN
-112187,Unknown (postmortem decomposition),0,1.0,Mexico
-112188,Unknown (skeletal remains),0,1.0,UNKNOWN
-112189,Unknown (skeletal remains),0,1.0,UNKNOWN
 112190,Presumed drowning,0,1.0,UNKNOWN
-112577,Unknown (skeletal remains),0,1.0,UNKNOWN
-112578,Unknown (skeletal remains),0,1.0,UNKNOWN
-112579,Unknown (skeletal remains),0,1.0,UNKNOWN
-112580,Unknown (skeletal remains),0,1.0,UNKNOWN
-112581,Unknown (skeletal remains),0,1.0,UNKNOWN
-112582,Unknown (skeletal remains),0,1.0,UNKNOWN
-112583,Unknown (skeletal remains),0,1.0,UNKNOWN
-112584,Unknown (skeletal remains),0,1.0,UNKNOWN
 112977,Drowning,0,1.0,UNKNOWN
 113377,Drowning,0,1.0,UNKNOWN
 113378,Presumed drowning,25.0,,Unspecified nationalities of Subsaharan Africa
@@ -1297,7 +1001,6 @@ id,cause_of_death,missing,dead,affected_nationality
 113384,Drowning,0,1.0,UNKNOWN
 113777,Fell from boat,0,1.0,UNKNOWN
 113778,Shot,0,1.0,Honduras
-113779,UNKNOWN,0,1.0,Unspecified nationality of North Africa
 114177,Drowning,0,18.0,UNKNOWN
 114178,Drowning,0,3.0,UNKNOWN
 114179,Hit by vehicle,0,1.0,Eritrea
@@ -1315,9 +1018,7 @@ id,cause_of_death,missing,dead,affected_nationality
 116578,Vehicle accident,0,7.0,Ethiopia
 116579,Drowning,0,1.0,Guatemala
 116580,Drowning,0,1.0,Honduras
-116581,UNKNOWN,4.0,5.0,UNKNOWN
 116977,Drowning,0,13.0,UNKNOWN
-116978,UNKNOWN,0,1.0,Honduras
 117377,Drowning,0,1.0,UNKNOWN
 117378,Drowning,0,1.0,UNKNOWN
 117379,Drowning,0,2.0,1 Venezuelan
@@ -1328,15 +1029,12 @@ id,cause_of_death,missing,dead,affected_nationality
 118178,Drowning,0,2.0,UNKNOWN
 118179,"Drowning, Asphyxiation",30.0,,UNKNOWN
 118180,Mixed,0,44.0,Honduras
-118577,UNKNOWN,0,14.0,Ethiopia
 118977,Fuel Inhalation,0,29.0,UNKNOWN
 119377,Drowning,29.0,1.0,UNKNOWN
 119378,Drowning,29.0,,UNKNOWN
-119379,UNKNOWN,1.0,9.0,UNKNOWN
 119380,Drowning,0,97.0,Senegal
 119380,Drowning,0,97.0,Mali
 119380,Drowning,0,97.0,Guinea
-119381,UNKNOWN,32.0,2.0,UNKNOWN
 120577,Presumed drowning,10.0,,UNKNOWN
 120578,Drowning,0,1.0,UNKNOWN
 120579,Fell from train,0,1.0,Honduras
@@ -1346,34 +1044,14 @@ id,cause_of_death,missing,dead,affected_nationality
 121377,Drowning,4.0,2.0,UNKNOWN
 121777,Drowning,99.0,12.0,UNKNOWN
 121778,Presumed drowning,128.0,,UNKNOWN
-122177,UNKNOWN,0,,UNKNOWN
-122178,UNKNOWN,0,1.0,UNKNOWN
-122179,Unknown (Skeletal remains),0,1.0,UNKNOWN
-122180,UNKNOWN,0,1.0,UNKNOWN
-122182,Unknown (Mummified remains),0,1.0,UNKNOWN
 122184,Hit by vehicle,0,1.0,Syria
-122577,UNKNOWN,0,10.0,Ethiopia
-122578,Unknown (Skeletal remains),0,1.0,UNKNOWN
-122579,Unknown (Skeletal remains),0,1.0,UNKNOWN
-122580,Unknown (Skeletal remains),0,1.0,UNKNOWN
-122581,Unknown (Skeletal remains),0,1.0,UNKNOWN
-122582,Unknown (Skeletal remains),0,1.0,UNKNOWN
-122583,UNKNOWN,0,1.0,UNKNOWN
-122584,UNKNOWN,0,1.0,UNKNOWN
-122585,UNKNOWN,0,1.0,UNKNOWN
-122586,Unknown (Skeletal remains),0,1.0,Guatemala
-122587,Unknown (Skeletal remains),0,1.0,UNKNOWN
-122588,Unknown (Skeletal remains),0,1.0,UNKNOWN
-122589,UNKNOWN,4.0,6.0,UNKNOWN
 122977,Dehydration,0,1.0,El Salvador
 122978,Drowning,0,1.0,Mexico
 122979,Drowning,0,1.0,UNKNOWN
-122980,UNKNOWN,0,1.0,UNKNOWN
 122981,"Hyperthermia, Dehydration",0,1.0,Mexico
 123377,Fell from train,0,1.0,Honduras
 123378,Drowning,0,1.0,Nicaragua
 123379,Drowning,0,1.0,Honduras
-123380,UNKNOWN,12.0,10.0,Reported as unspecified national of Africa
 123381,Drowning,0,1.0,Reported as unspecified national of Africa
 123777,"Drowning, Asphyxiation",0,1.0,Mexico
 124177,Drowning,0,1.0,Mexico
@@ -1390,16 +1068,11 @@ id,cause_of_death,missing,dead,affected_nationality
 126181,Heart attack,0,1.0,Cuba
 126577,Drowning,96.0,7.0,UNKNOWN
 126977,Presumed drowning,25.0,,UNKNOWN
-127377,UNKNOWN,25.0,1.0,Cuba
 127777,Drowning,3.0,6.0,Syria
 127778,Mixed,0,6.0,Mixed
 128177,Presumed drowning,0,1.0,Mexico
 128178,Stabbed,0,1.0,Afghanistan
-128577,UNKNOWN,0,1.0,Sudan
-128578,UNKNOWN,0,1.0,Sudan
 128579,Fell from train,0,1.0,Reported as unspecified national of Central America
-128580,UNKNOWN,26.0,2.0,UNKNOWN
-128581,UNKNOWN,0,7.0,UNKNOWN
 128582,Hypothermia,0,1.0,Afghanistan
 128977,Crushed to death,0,1.0,UNKNOWN
 128978,Drowning,0,1.0,El Salvador
@@ -1413,16 +1086,8 @@ id,cause_of_death,missing,dead,affected_nationality
 130978,Drowning,0,1.0,Nigeria
 130979,Drowning,0,1.0,Reported as unspecified national of Sub-Saharan Africa
 131377,Dehydration,0,8.0,UNKNOWN
-131778,Unknown (skeletal remains),0,1.0,UNKNOWN
-131779,Unknown (skeletal remains),0,1.0,UNKNOWN
-131780,Unknown (skeletal remains),0,1.0,UNKNOWN
-131781,Unknown (skeletal remains),0,1.0,UNKNOWN
-131782,Unknown (skeletal remains),0,1.0,UNKNOWN
 131783,Fell from train,0,1.0,Honduran
 131784,Hit by truck,0,2.0,UNKNOWN
-132177,Unknown (skeletal remains),0,1.0,UNKNOWN
-132178,Unknown (skeletal remains),0,1.0,UNKNOWN
-132179,Unknown (skeletal remains),0,1.0,UNKNOWN
 132180,Hypothermia,0,1.0,Mexico
 132181,Hypothermia,0,2.0,UNKNOWN
 132182,Drowning,6.0,14.0,UNKNOWN
@@ -1432,17 +1097,12 @@ id,cause_of_death,missing,dead,affected_nationality
 132580,Hypothermia,0,2.0,UNKNOWN
 132581,Presumed hypothermia,0,1.0,Dominican Republic
 132979,Presumed drowning,20.0,,UNKNOWN
-133377,UNKNOWN,0,6.0,UNKNOWN
-133378,UNKNOWN,0.0,2.0,Reported as unspecified nationals of Sub-Saharan Africa
-133379,UNKNOWN,0.0,1.0,Reported as unspecified nationals of Sub-Saharan Africa
 133380,Hit by train,0,1.0,Honduras
 133381,Heart attack,0,1.0,Honduras
 133777,Asphyxiation (Silica sand inhalation),0,1.0,Guatemala
 133778,Fell from wall,0,1.0,El Salvador
 133779,Drowning,0,1.0,UNKNOWN
 134177,Drowning,0,11.0,Reported as unspecified nationals of Sub-Saharan Africa
-134178,UNKNOWN,0,5.0,UNKNOWN
-134179,UNKNOWN,0,15.0,UNKNOWN
 134180,Vehicle accident,0,2.0,Honduras
 134181,Drowning,20.0,,UNKNOWN
 134183,Sickness_and_lack_of_access_to_medicines Starvation Harsh_weather_lack_of_adequate_shelter,0,6.0,UNKNOWN
@@ -1760,9 +1420,6 @@ id,cause_of_death,missing,dead,affected_nationality
 134889,Sickness_and_lack_of_access_to_medicines,0,1.0,UNKNOWN
 134890,Excessive_physical_abuse,0,1.0,UNKNOWN
 134891,Harsh_weather_lack_of_adequate_shelter,0,1.0,UNKNOWN
-134977,UNKNOWN,0,10.0,UNKNOWN
-134978,UNKNOWN,0,8.0,UNKNOWN
-135377,UNKNOWN,0,1.0,Mexico
 135777,Presumed drowning,87.0,,UNKNOWN
 136177,Shot_or_Stabbed,0,2.0,UNKNOWN
 136178,"Sickness_and_lack_of_access_to_medicines, Starvation, Harsh_weather_lack_of_adequate_shelter, Excessive_physical_abuse, Sexual_abuse",0,1.0,UNKNOWN
@@ -1783,40 +1440,17 @@ id,cause_of_death,missing,dead,affected_nationality
 137377,Glycemic crisis (Lack of Insuline Treatment),0.0,1.0,Mexican
 137777,Drowning,0,5.0,UNKNOWN
 137778,shot,0,1.0,Rohingya
-137779,UNKNOWN,0,7.0,UNKNOWN
-137780,Unknown (skeletal remains),0,1.0,Honduras
 138177,Hypothermia,0,1.0,Somalia
-138577,UNKNOWN,0,1.0,Democratic Republic of Congo
-138578,Unknown (skeletal remains),0,1.0,UNKNOWN
 138579,Fell from train,0,1.0,Honduras
 138580,Plane stowaway,0,1.0,UNKNOWN
-138581,Unknown (skeletal remains),0,1.0,UNKNOWN
-138582,Unknown (skeletal remains),0,1.0,UNKNOWN
-138583,Unknown (skeletal remains),0,1.0,UNKNOWN
-138584,Unknown (skeletal remains),0,1.0,UNKNOWN
-138585,Unknown (skeletal remains),0,1.0,UNKNOWN
-138586,Unknown (skeletal remains),0,1.0,UNKNOWN
 138587,Fell from truck,0,1.0,Unknown (Kurdish)
 138588,Vehicle accident,0,1.0,Haiti
-138977,UNKNOWN,19.0,,Brazil (12)
-138977,UNKNOWN,19.0,,Dominican Republic (5)
-138977,UNKNOWN,19.0,,Cuba (2)
 138978,Beat-up and thrown into river,0,1.0,Brazil
-138979,Unknown (skeletal remains),0,1.0,UNKNOWN
-138980,Unknown (skeletal remains),0,1.0,UNKNOWN
-138981,Unknown (decomposed remains),0,1.0,Guatemala
-138982,Unknown (skeletal remains),0,1.0,UNKNOWN
-138983,Unknown (skeletal remains),0,1.0,UNKNOWN
-138984,Unknown (skeletal remains),0,1.0,UNKNOWN
 138985,Pending,0,1.0,UNKNOWN
-138986,UNKNOWN,57.0,1.0,Reported as unspecified nationals of West Africa
-138987,UNKNOWN,40.0,7.0,Reported as unspecified nationals of West Africa
 138988,Drowning,56.0,5.0,Reported as unspecified nationals of West Africa
 138989,Drowning,3.0,4.0,Cameroon
 138989,Drowning,3.0,4.0,Senegal and Ivory Coast
-138990,UNKNOWN,0,1.0,UNKNOWN
 138991,Various,0,12.0,UNKNOWN
-138992,UNKNOWN,0,1.0,Cuba
 138993,Drowning,3.0,,UNKNOWN
 139377,Drowning,0,1.0,UNKNOWN
 139378,Vehicle accident,0,3.0,Afghanistan
@@ -1825,9 +1459,6 @@ id,cause_of_death,missing,dead,affected_nationality
 139381,Drowning,0,5.0,"Reported as ""mostly"" Senegal"
 139382,Drowning,0,3.0,UNKNOWN
 139777,Hypothermia,0,2.0,Iraq
-140177,UNKNOWN,0,4.0,UNKNOWN
-140577,UNKNOWN,0,2.0,Cameroon
-140577,UNKNOWN,0,2.0,Guinea
 140578,"Hypothermia, Exhaustion",0,2.0,Syria
 140977,Fell from train,0,1.0,Honduras
 141377,Hypothermia,0,14.0,UNKNOWN
@@ -1841,12 +1472,7 @@ id,cause_of_death,missing,dead,affected_nationality
 143378,Presumed drowning,0,1.0,UNKNOWN
 143379,Presumed drowning,0,1.0,UNKNOWN
 143380,Drowning,0,1.0,Mexican
-143381,UNKNOWN,0,1.0,Democratic Republic of the Congo
 143382,Drowning,3.0,,UNKNOWN
-143383,UNKNOWN,0,1.0,UNKNOWN
-143777,Unknown (skeletal remains),0,1.0,Mexico
-143778,UNKNOWN,0,1.0,UNKNOWN
-143779,UNKNOWN,0,1.0,UNKNOWN
 143780,Drowning,0,1.0,El Salvador
 143781,Presumed drowning,0,1.0,UNKNOWN
 144177,Drowning,0,1.0,El Salvador
@@ -2020,14 +1646,9 @@ id,cause_of_death,missing,dead,affected_nationality
 144744,Shot_or_Stabbed,0,1.0,UNKNOWN
 144745,Shot_or_Stabbed,0,1.0,UNKNOWN
 144747,Murdered,0,1.0,Honduras
-144749,UNKNOWN,0,1.0,UNKNOWN
-144750,UNKNOWN,0,1.0,UNKNOWN
 145146,Van accident,0,1.0,El Salvador
 145546,Presumed drowning,0,5.0,Venezulean
 145547,Hit by truck,0,1.0,Ethiopia
-145548,UNKNOWN,0,1.0,UNKNOWN
-145549,UNKNOWN,5.0,1.0,Cuba
-145946,UNKNOWN,0,1.0,UNKNOWN
 146346,Presumed drowning,0,1.0,UNKNOWN
 146347,Presumed drowning,0,5.0,UNKNOWN
 146348,Presumed drowning,0,1.0,UNKNOWN
@@ -2035,17 +1656,14 @@ id,cause_of_death,missing,dead,affected_nationality
 146747,Drowning,0,2.0,Indonesia
 146748,Drowning,0,4.0,Indonesia
 146749,Drowning,7.0,10.0,Indonesia
-146750,Unknown (skeletal remains),0,1.0,Nicaragua
 146751,Presumed drowning,0,1.0,El Salvador
 146752,Presumed drowning,0,10.0,UNKNOWN
 147146,Drowning,0,8.0,Indonesia
 147147,Presumed drowning,2.0,1.0,UNKNOWN
 147148,Presumed drowning,0,1.0,Congo
-147149,UNKNOWN,1.0,1.0,Nigeria
 147546,Hypothermia,0,2.0,Ivory Coast
 147946,Drowning,0,1.0,Guatemala
 147947,Presumed drowning,0,2.0,UNKNOWN
-147948,Unknown (skeletal remains),0,1.0,UNKNOWN
 147949,Presumed drowning,0,1.0,UNKNOWN
 147950,Presumed drowning,0,1.0,Honduras
 147951,Presumed drowning,0,1.0,Honduras
@@ -2055,23 +1673,9 @@ id,cause_of_death,missing,dead,affected_nationality
 148747,Drowning,0,1.0,Ethiopia
 149146,Presumed drowning,0,1.0,UNKNOWN
 149546,Hit by train,0,1.0,UNKNOWN
-149946,Unknown (skeletal remains),0,1.0,UNKNOWN
-149947,Unknown (skeletal remains),0,1.0,UNKNOWN
-149948,Unknown (skeletal remains),0,1.0,UNKNOWN
-149949,Unknown (skeletal remains),0,1.0,UNKNOWN
-149951,Unknown (skeletal remains),0,1.0,UNKNOWN
 149952,Head trauma (hit by boat propeller),0,1.0,Somalia
 149953,Presumed Drowning,3.0,,UNKNOWN
 149954,Hit by train,0,1.0,UNKNOWN
-150346,Unknown (skeletal remains),0,1.0,UNKNOWN
-150347,Unknown (skeletal remains),0,1.0,UNKNOWN
-150348,Unknown (skeletal remains),0,1.0,UNKNOWN
-150349,Unknown (skeletal remains),0,1.0,UNKNOWN
-150350,Unknown (skeletal remains),0,1.0,UNKNOWN
-150351,Unknown (skeletal remains),0,1.0,UNKNOWN
-150352,Unknown (skeletal remains),0,1.0,UNKNOWN
-150353,Unknown (skeletal remains),0,1.0,UNKNOWN
-150354,Unknown (skeletal remains),0,1.0,UNKNOWN
 150355,Drowning,0,7.0,Somalia
 150356,"Undernourished, dehydration",0,1.0,Ethiopia
 150746,Hit by vehicle,0,1.0,Eritrea
@@ -2084,7 +1688,6 @@ id,cause_of_death,missing,dead,affected_nationality
 150753,Hit by car,0,1.0,Sudan
 150754,Heart attack,0,1.0,El Salvador
 150755,Renal insufficiency,0,1.0,Guatemala
-151146,Unknown (skeletal remains),0,1.0,UNKNOWN
 151147,Hit by train,0,1.0,Argelia
 151148,Drowning,0,2.0,UNKNOWN
 151546,Presumed drowning,3.0,0.0,UNKNOWN
@@ -2099,7 +1702,6 @@ id,cause_of_death,missing,dead,affected_nationality
 152746,Drowning,0,3.0,Myanmar
 153146,Raped and Murdured,0,1.0,Honduras
 153546,Drowning,0,74.0,Mixed
-153547,UNKNOWN,0,1.0,UNKNOWN
 153548,Hypothermia,0,1.0,Iraqui
 153946,Starvation Dehydration Harsh_weather_lack_of_adequate_shelter Suffocation Excessive_physical_abuse,0,1.0,UNKNOWN
 154346,Mixed,0,18.0,Mixed
@@ -2122,9 +1724,7 @@ id,cause_of_death,missing,dead,affected_nationality
 157547,Presumed drowning,9.0,,UNKNOWN
 157548,"Starvation, sickness",0,12.0,Reported as unspecified nationals of Africa
 157549,Electrocution on railway,0,1.0,Somalia
-157550,Unknown (remains),0,1.0,Haiti
 157946,Presumed drowning,3.0,1.0,Algerian
-157947,Unknown (remains),0,1.0,UNKNOWN
 158346,Presumed drowning,0,1.0,UNKNOWN
 158347,Presumed drowning,0,1.0,Brazil
 158348,Presumed drowning,0,1.0,UNKNOWN
@@ -2133,28 +1733,12 @@ id,cause_of_death,missing,dead,affected_nationality
 158748,Presumed drowning,0,1.0,UNKNOWN
 158749,Presumed drowning,25.0,,UNKNOWN
 158750,Presumed drowning,6.0,,UNKNOWN
-158751,Unknown (skeletal remains),0,1.0,UNKNOWN
-158752,Unknown (skeletal remains),0,1.0,UNKNOWN
-158754,Unknown (skeletal remains),0,1.0,UNKNOWN
-158755,Unknown (skeletal remains),0,1.0,UNKNOWN
-158756,Unknown (skeletal remains),0,1.0,UNKNOWN
 158757,Pima County (see spreadsheet for exact location),0,1.0,UNKNOWN
-158758,Unknown (skeletal remains),0,1.0,UNKNOWN
-158759,Unknown (skeletal remains),0,1.0,UNKNOWN
-158760,Unknown (skeletal remains),0,1.0,UNKNOWN
-158761,Unknown (skeletal remains),0,1.0,UNKNOWN
 158762,Sickness,0,1.0,UNKNOWN
-158763,Unknown (skeletal remains),0,1.0,UNKNOWN
 159146,Suffocation,0,1.0,Ethiopia
 159147,Presumed drowning,0,1.0,UNKNOWN
 159148,Shot,0,22.0,UNKNOWN
-159149,Unknown (skeletal remains),0,1.0,UNKNOWN
-159150,Unknown (skeletal remains),0,1.0,UNKNOWN
-159151,Unknown (skeletal remains),0,1.0,UNKNOWN
-159152,Unknown (skeletal remains),0,1.0,UNKNOWN
 159153,Sickness,0,1.0,Mexico
-159154,Unknown (skeletal remains),0,1.0,UNKNOWN
-159546,UNKNOWN,0,1.0,Ecuator
 159946,heart attack,0,1.0,Cuban
 159947,Presumed drowning,0,1.0,Cuban
 159948,Drowning,0,7.0,UNKNOWN
@@ -2165,7 +1749,6 @@ id,cause_of_death,missing,dead,affected_nationality
 161148,Sickness_and_lack_of_access_to_medicines Starvation Excessive_physical_abuse Sexual_abuse,0,1.0,UNKNOWN
 161149,Sickness_and_lack_of_access_to_medicines Starvation Excessive_physical_abuse Sexual_abuse,0,1.0,UNKNOWN
 161150,Sickness_and_lack_of_access_to_medicines Starvation Excessive_physical_abuse Sexual_abuse,0,1.0,UNKNOWN
-161546,UNKNOWN,0,1.0,Uknown
 161547,Sickness_and_lack_of_access_to_medicines Vehicle_Accident,0,3.0,UNKNOWN
 161548,Sickness_and_lack_of_access_to_medicines Excessive_physical_abuse Sexual_abuse,0,2.0,UNKNOWN
 161549,Starvation Excessive_physical_abuse,0,3.0,UNKNOWN
@@ -2310,16 +1893,13 @@ id,cause_of_death,missing,dead,affected_nationality
 164747,Shot,0,2.0,Somalia
 164747,Shot,0,2.0,Ethiopia
 165146,Beaten to death on train,0,1.0,Honduras
-165546,UNKNOWN,0,1.0,UNKNOWN
 165547,Likely drowning,0,11.0,UNKNOWN
 165548,Fuel burns,0,10.0,UNKNOWN
 165549,Likely drowning,8.0,,UNKNOWN
 165550,Electrocution on railway,0,1.0,UNKNOWN
 165946,Likely drowning,0,3.0,UNKNOWN
-165947,Unknown (found dead on dinghy),0,1.0,UNKNOWN
 166346,Presumed drowning,66.0,2.0,UNKNOWN
 166347,Shot,0,1.0,Honduras
-166348,UNKNOWN,0,1.0,UNKNOWN
 166349,Drowning,0,3.0,Syria
 166746,Hypothermia,0,5.0,Unspecified national of Sub-Saharan Africa
 166747,Violent robbery,0,1.0,Honduras
@@ -2330,30 +1910,18 @@ id,cause_of_death,missing,dead,affected_nationality
 167546,Drowning,0,1.0,UNKNOWN
 167547,Drowning,5.0,1.0,Unspecfied nationals of Western Africa
 167946,Fell from train,0,2.0,UNKNOWN
-167947,UNKNOWN,0,1.0,UNKNOWN
 167948,Probable drowning,0,4.0,UNKNOWN
 167949,Drowning,0,1.0,UNKNOWN
 167950,Probable drowning,0,1.0,UNKNOWN
 168346,Probable drowning,0,3.0,UNKNOWN
 168746,Unknow (skeletal remains),0,1.0,UNKNOWN
-168747,Unknown (skeletal remains),0,1.0,UNKNOWN
-168748,Unknown (skeletal remains),0,1.0,UNKNOWN
-168749,Unknown (skeletal remains),0,1.0,UNKNOWN
-168750,Unknown (skeletal remains),0,1.0,UNKNOWN
-168751,Unknown (skeletal remains),0,1.0,UNKNOWN
-168752,UNKNOWN,0,1.0,UNKNOWN
-169146,Unknown (skeletal remains),0,1.0,UNKNOWN
-169147,Unknown (skeletal remains),0,1.0,UNKNOWN
 169546,Vehicle accident,0,1.0,El Salvador
 169547,Train accident,0,1.0,UNKNOWN
 169946,Murdered,0,2.0,Honduras
-169947,UNKNOWN,0,1.0,UNKNOWN
 170346,Violence,0,1.0,UNKNOWN
 170347,Violence,0,1.0,UNKNOWN
 170348,Starvation,0,6.0,UNKNOWN
-170349,UNKNOWN,0,3.0,UNKNOWN
 170350,Violence,0,1.0,UNKNOWN
-170351,UNKNOWN,0,2.0,UNKNOWN
 170352,Violence,0,1.0,UNKNOWN
 170353,Hypothermia,0,2.0,UNKNOWN
 170354,Dehydration,0,2.0,UNKNOWN
@@ -2372,13 +1940,11 @@ id,cause_of_death,missing,dead,affected_nationality
 170367,Murdered,0,2.0,UNKNOWN
 170368,Harsh conditions,0,3.0,UNKNOWN
 170369,Dehydration,0,1.0,UNKNOWN
-170370,UNKNOWN,0,2.0,UNKNOWN
 170371,Starvation,0,1.0,UNKNOWN
 170372,Murdered,0,1.0,UNKNOWN
 170373,Murdered,0,1.0,UNKNOWN
 170374,Sickness,0,1.0,UNKNOWN
 170375,Murdered,0,7.0,UNKNOWN
-170376,UNKNOWN,0,2.0,UNKNOWN
 170377,Vehicle accident,0,1.0,UNKNOWN
 170378,Hit by train,0,1.0,UNKNOWN
 170379,Dehydration,0,1.0,Mexico
@@ -2397,7 +1963,6 @@ id,cause_of_death,missing,dead,affected_nationality
 170754,Murdered,0,1.0,UNKNOWN
 170755,Murdered,0,1.0,UNKNOWN
 170756,Violence,0,1.0,UNKNOWN
-170757,UNKNOWN,0,3.0,UNKNOWN
 170758,Hypothermia,0,1.0,UNKNOWN
 170759,Vehicle accident,0,1.0,UNKNOWN
 170760,Murdered,0,3.0,UNKNOWN
@@ -2436,30 +2001,24 @@ id,cause_of_death,missing,dead,affected_nationality
 172754,Shot,0,1.0,Myanmar
 172755,Starvation,0,1.0,UNKNOWN
 172756,Sickness,0,2.0,UNKNOWN
-172757,UNKNOWN,0,4.0,UNKNOWN
 172758,Murdered,0,12.0,UNKNOWN
 172759,Dehydration,0,7.0,UNKNOWN
 172760,Hypothermia,0,2.0,Iraq
-172761,UNKNOWN,0,1.0,UNKNOWN
 172762,Violence,0,2.0,UNKNOWN
 172763,Vehicle accident,0,1.0,UNKNOWN
 172764,Suffocation,0,1.0,UNKNOWN
-172765,UNKNOWN,0,1.0,UNKNOWN
 172766,"Dehydration, Starvation",0,2.0,UNKNOWN
 172767,Violence,0,1.0,UNKNOWN
 173146,Presumed drowning,0,1.0,Honduras
 173546,"Dehydration, Starvation",0,1.0,UNKNOWN
 173547,Vehicle accident,0,3.0,UNKNOWN
-173548,UNKNOWN,0,1.0,UNKNOWN
 173549,Vehicle accident,0,1.0,UNKNOWN
 173550,Starvation,0,3.0,UNKNOWN
 173551,"Exposure, Hyperthermia",0,1.0,UNKNOWN
-173552,UNKNOWN,0,3.0,UNKNOWN
 173553,Murdered,0,1.0,UNKNOWN
 173554,Murdered,0,2.0,UNKNOWN
 173555,Hit by train,0,1.0,UNKNOWN
 173556,Fell from train,0,1.0,UNKNOWN
-173557,UNKNOWN,0,2.0,UNKNOWN
 173558,Sickness,0,2.0,UNKNOWN
 173559,Violence,0,1.0,UNKNOWN
 173560,Violence,0,2.0,UNKNOWN
@@ -2472,9 +2031,7 @@ id,cause_of_death,missing,dead,affected_nationality
 173567,Hypothermia,0,1.0,UNKNOWN
 173568,Violence,0,2.0,UNKNOWN
 173569,Dehydration,0,1.0,UNKNOWN
-173570,UNKNOWN,0,1.0,UNKNOWN
 173571,Murdered,0,1.0,UNKNOWN
-173572,UNKNOWN,0,1.0,UNKNOWN
 173573,Starvation,0,1.0,UNKNOWN
 173574,Murdered,0,1.0,UNKNOWN
 173946,Violence,0,1.0,UNKNOWN
@@ -2499,18 +2056,11 @@ id,cause_of_death,missing,dead,affected_nationality
 175547,Presumed drowning,30.0,,UNKNOWN
 175548,Presumed drowning,35.0,,UNKNOWN
 175549,Presumed drowning,10.0,,UNKNOWN
-175550,UNKNOWN,0,1.0,UNKNOWN
 175946,Vehicle accident,0,1.0,Iran
 175947,Sickness,0,1.0,UNKNOWN
 175948,Presumed violence,0,15.0,UNKNOWN
-175949,Unknown (Skeletal remains),0,1.0,UNKNOWN
-175950,Unknown (Skeletal remains),0,1.0,UNKNOWN
-175951,Unknown (Skeletal remains),0,1.0,UNKNOWN
 175952,Presumed drowning,0,1.0,UNKNOWN
 176746,Vehicle incident,0,3.0,Afghanistan
-176747,Unknown (Skeletal remains),0,1.0,UNKNOWN
-176748,Unknown (Skeletal remains),0,1.0,UNKNOWN
-176749,Unknown (Skeletal remains),0,1.0,UNKNOWN
 177146,Drowning,0,6.0,UNKNOWN
 177147,Electrocution on railway,0,1.0,UNKNOWN
 177148,Presumed drowning,8.0,,UNKNOWN
@@ -2556,14 +2106,11 @@ id,cause_of_death,missing,dead,affected_nationality
 184346,Drowning,0,1.0,Iraq
 184347,Drowning,0,1.0,UNKNOWN
 184348,Dehydration,0,1.0,Mexican
-184349,UNKNOWN,0,2.0,UNKNOWN
 184350,Presumed drowning,82.0,,UNKNOWN
-184351,UNKNOWN,0,1.0,Nigeria
 184352,Hypothermia,0,1.0,Ghana
 184353,Drowning,0,1.0,Guatemala
 184746,Drowning,0,1.0,UNKNOWN
 184747,Train accident,0,1.0,Honduras
-184748,UNKNOWN,0,1.0,Honduras
 184749,Train accident,0,1.0,UNKNOWN
 184750,Dehydration,0,44.0,Ghana
 184750,Dehydration,0,44.0,Nigeria
