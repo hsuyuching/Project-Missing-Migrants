@@ -30,7 +30,7 @@ new_df = df.drop('affected_nationality', axis=1).join(
     .reset_index(drop=True, level=1)
     .rename('affected_nationality'))
 
-new_df = new_df.groupby('id').apply(lambda x: np.repeat())
+
 to_drop = ['source',
            'reliability',
            'date',
