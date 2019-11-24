@@ -1,10 +1,10 @@
 id,cause_of_death,missing,dead,affected_nationality
-1,Presumed drowning,1.0,1.0,Iraq
+1,Drowning,1.0,1.0,Iraq
 3,Fell from train,0.0,1.0,Honduras
 7,Vehicle accident,0.0,4.0,Cambodia
 12,Died of unknown cause in hospital shortly after rescue,0.0,1.0,Syria
 13,Drowning,0.0,1.0,Iran
-14,Presumed drowning,7.0,3.0,Afghanistan
+14,Drowning,7.0,3.0,Afghanistan
 16,Drowning,0.0,4.0,Afghanistan
 17,Exposure. Died upon entry to refugee camp.,0.0,1.0,Afghan
 19,Drowning,0.0,8.0,Likely Comorian
@@ -20,7 +20,7 @@ id,cause_of_death,missing,dead,affected_nationality
 63,Hit by vehicle,0.0,1.0,Syrian
 65,Shot,0.0,1.0,Afghanistan
 66,Drowning,0.0,3.0,Syria
-69,Presumed drowning,0.0,2.0,Iraq
+69,Drowning,0.0,2.0,Iraq
 70,Drowning,2.0,7.0,Lebanese
 71,Vehicle accident,0.0,8.0,Ethiopia
 72,Drowning,0.0,3.6666666666666665,Syrian
@@ -130,14 +130,14 @@ id,cause_of_death,missing,dead,affected_nationality
 198,Drowning,0.0,1.0,Cuba
 199,Vehicle accident,0.0,1.0,Sudan
 200,Drowning,3.0,21.0,Ethiopia
-201,Presumed drowning,23.0,0.0,Reported as unspecified nationals of Sub-Saharan Africa
+201,Drowning,23.0,0.0,Reported as unspecified nationals of Sub-Saharan Africa
 202,Hypothermia,0.0,17.0,Reported as unspecified nationals of Sub-Saharan Africa
 205,Drowning,6.0,0.0,Reported as unspecified nationals of Sub-Saharan Africa
 206,Drowning,12.0,0.0,Reported as unspecified nationals of Sub-Saharan Africa
-207,Presumed drowning,30.0,0.0,Ethiopia
+207,Drowning,30.0,0.0,Ethiopia
 208,Drowning,0.0,4.0,Afghanistan
 209,Drowning,11.0,27.0,Afghanistan
-211,Presumed drowning,20.0,0.0,Reported as unspecified nationals of Africa
+211,Drowning,20.0,0.0,Reported as unspecified nationals of Africa
 214,Drowning,2.0,0.0,Cuba
 215,Hit by truck,0.0,1.0,Syria
 218,Hit by vehicle,0.0,1.0,Ethiopia
@@ -150,11 +150,11 @@ id,cause_of_death,missing,dead,affected_nationality
 246,Drowning,165.66666666666666,1.0,Egypt
 246,Drowning,165.66666666666666,1.0,Sudan
 255,Tortured to death,0.0,1.0,Bangladesh
-256,Presumed drowning,9.0,0.0,China
+256,Drowning,9.0,0.0,China
 257,Drowning,0.0,42.0,Syrian Arab Republic
-258,Presumed drowning,11.5,0.0,Dominican Republic
-258,Presumed drowning,11.5,0.0,Haiti
-259,"Dehydration, Presumed drowning",6.0,11.0,Cuba
+258,Drowning,11.5,0.0,Dominican Republic
+258,Drowning,11.5,0.0,Haiti
+259,Drowning,6.0,11.0,Cuba
 260,Drowning,0.0,1.0,Haiti
 264,Drowning,5.0,4.0,Cuba
 265,Drowning,8.0,18.0,Reported as unspecified nationals of Sub-Saharan Africa
@@ -168,8 +168,8 @@ id,cause_of_death,missing,dead,affected_nationality
 288,Drowning,26.5,1.0,Egypt
 288,Drowning,26.5,1.0,Syrian Arab Republic
 289,On board violence,0.0,29.0,'Sub-Saharan African'
-292,Presumed drowning,20.5,0.0,Survivors were from Gambia
-292,Presumed drowning,20.5,0.0,Ghana and Mali
+292,Drowning,20.5,0.0,Survivors were from Gambia
+292,Drowning,20.5,0.0,Ghana and Mali
 293,Drowning,18.0,2.0,Indonesia
 299,Drowning,188.0,12.0,Syrian Arab Republic
 306,Asphyxiation and crushing,0.0,11.25,Syrian Arab Republic
@@ -177,7 +177,7 @@ id,cause_of_death,missing,dead,affected_nationality
 306,Asphyxiation and crushing,0.0,11.25,Somalia
 306,Asphyxiation and crushing,0.0,11.25,Cameroon
 307,Drowning,4.0,2.0,Syrian Arab Republic
-309,Presumed drowning,240.0,0.0,Eritrea
+309,Drowning,240.0,0.0,Eritrea
 314,Drowning,26.0,9.0,Indonesia
 315,Clubbed/beaten to death,0.0,4.0,Reported as unspecified nationals of Africa
 329,Drowning,2.0,3.0,'African'
@@ -245,8 +245,8 @@ id,cause_of_death,missing,dead,affected_nationality
 469,Drowning,4.0,2.0,Iraq
 475,Drowning,0.0,6.0,Syrian. An infant was among the dead.
 477,Drowning,0.0,9.0,Pakistan
-483,Presumed drowning,0.0,30.0,Syria
-492,Presumed asphyxiation,0.0,49.0,Mixed
+483,Drowning,0.0,30.0,Syria
+492,Asphyxiation,0.0,49.0,Mixed
 493,Vehicle accident,0.0,10.0,Syria
 494,Drowning,202.0,25.0,Syria
 498,Suffocation,0.0,1.0,Moroccan
@@ -281,7 +281,7 @@ id,cause_of_death,missing,dead,affected_nationality
 569,Drowning,0.0,1.5,Syria
 569,Drowning,0.0,1.5,Afghanistan
 1363,Crushed by pallets,0.0,1.0,Afghanistan
-1766,Presumed drowning,0.0,10.0,Afghanistan
+1766,Drowning,0.0,10.0,Afghanistan
 2166,Drowning,0.0,1.0,Syria
 3765,Shot,0.0,15.0,Sudan
 3766,Shot,0.0,1.0,Sudan
@@ -327,7 +327,7 @@ id,cause_of_death,missing,dead,affected_nationality
 20171,Train accident,0.0,1.0,Honduras
 20563,Raped and murdered,0.0,1.0,Haiti
 20567,Unspecified deaths on 'La Bestia' train,0.0,2.0,Honduras and Guatemala
-20568,Presumed shot,0.0,1.0,Reported as unspecified nationals of Central America
+20568,Shot,0.0,1.0,Reported as unspecified nationals of Central America
 21364,Attacked by hippopotamus,0.0,1.0,Malawian
 21765,Drowning,11.0,13.0,Iraq
 22564,Drowning,0.0,1.0,Somalia
@@ -353,14 +353,14 @@ id,cause_of_death,missing,dead,affected_nationality
 27374,Drowning,0.0,1.0,Salvadoran
 27379,Beating/shot by traffickers,0.0,3.0,Ethnic Rohingya
 27767,Mixed,0.0,10.0,Reported as unspecified nationals of Rohingya
-27768,Presumed drowning,130.0,0.0,Rohingya
+27768,Drowning,130.0,0.0,Rohingya
 28166,Drowning,13.0,0.0,at least 4 Syrian
 28168,Drowning,0.0,3.0,Mexican
 28170,Drowning,0.0,1.0,Mexican
 28171,Drowning,0.0,1.0,Honduras
 28566,Drowning,3.0,2.0,Syrian
 28572,Drowning,0.0,1.0,Mexican
-28977,Presumed drowning,19.0,3.0,Comoran
+28977,Drowning,19.0,3.0,Comoran
 29779,Hypothermia,0.0,1.0,Syria
 29780,Hypothermia,0.0,3.0,Syria
 30178,Hypothermia,0.0,2.0,Afghanistan
@@ -457,7 +457,7 @@ id,cause_of_death,missing,dead,affected_nationality
 66582,Drowning,0.0,1.0,Cuba
 67379,Heart Attack,0.0,1.0,Guatemala
 67777,Hypothermia,0.0,1.0,Honduras
-69777,Presumed dehydration,0.0,34.0,2 from Niger
+69777,Dehydration,0.0,34.0,2 from Niger
 70209,Suffocation,0.0,19.0,Ethiopia
 72188,Fell from train,0.0,1.0,Honduras
 72977,Drowning,1.0,3.0,At least 1 from Mexico
@@ -503,7 +503,7 @@ id,cause_of_death,missing,dead,affected_nationality
 75395,Shot,0.0,1.0,Syria
 75396,Shot,0.0,1.0,Syria
 76579,Drowning,0.0,1.0,Nigeria
-76580,Presumed drowning,17.0,0.0,Ethiopia
+76580,Drowning,17.0,0.0,Ethiopia
 77377,Murdered by gang members,0.0,1.0,Honduras
 78177,Assaulted by smugglers,0.0,1.0,Cuban
 78580,Drowning,0.0,1.0,Mexican
@@ -519,35 +519,35 @@ id,cause_of_death,missing,dead,affected_nationality
 79777,Drowning,0.0,1.0,El Salvador
 80178,Drowning,4.0,13.0,Tunisia
 80179,Raped and murdered,0.0,1.0,Honduras
-80579,Presumed hyperthermia,0.0,1.0,Honduras
+80579,Hyperthermia,0.0,1.0,Honduras
 80580,Hyperthermia,0.0,1.0,Mexico
-80582,Presumed hyperthermia,0.0,1.0,Mexico
-80583,Presumed hyperthermia,0.0,1.0,Mexico
+80582,Hyperthermia,0.0,1.0,Mexico
+80583,Hyperthermia,0.0,1.0,Mexico
 80584,Hyperthermia,0.0,1.0,Guatemala
-80586,Presumed hyperthermia,0.0,1.0,Mexico
-80977,Presumed hyperthermia,0.0,1.0,Mexico
+80586,Hyperthermia,0.0,1.0,Mexico
+80977,Hyperthermia,0.0,1.0,Mexico
 80978,Hyperthermia,0.0,1.0,Mexico
 80979,Hyperthermia,0.0,1.0,Guatemala
 80981,Shot,0.0,1.0,Mexico
-80985,Presumed hyperthermia,0.0,1.0,Mexico
+80985,Hyperthermia,0.0,1.0,Mexico
 81782,Hit by vehicle,0.0,1.0,Honduras
 81784,Vehicle accident,0.0,1.0,Honduras or El Salvador
 82179,Murdered,0.0,1.0,El Salvador
 82181,Hit by vehicle,0.0,1.0,Eritria
-82183,Presumed dehydration,0.0,1.0,Mexico
+82183,Dehydration,0.0,1.0,Mexico
 82977,Vehicle Accident,0.0,1.0,Honduras
 83377,Criminal Violence,0.0,1.0,Nicaragua
-83782,Presumed drowning,20.0,1.0,Reported as unspecified nationals of West Africa
+83782,Drowning,20.0,1.0,Reported as unspecified nationals of West Africa
 83783,Drowning,0.0,1.0,Reported as unspecified nationals of Honduras
-84177,Presumed drowning,5.0,0.0,13 Cuba
-84177,Presumed drowning,5.0,0.0,1 Dominican Republic
-84177,Presumed drowning,5.0,0.0,1 Colombia
+84177,Drowning,5.0,0.0,13 Cuba
+84177,Drowning,5.0,0.0,1 Dominican Republic
+84177,Drowning,5.0,0.0,1 Colombia
 84577,Mixed,0.0,32.0,Mixed
 84980,Drowning,0.0,1.0,Unkown
 85779,Hit by vehicle,0.0,1.0,Sudan
 86577,Drowning,11.0,15.0,Indonesia
 86977,Violence during riot,0.0,1.0,Ethiopia
-86978,Presumed dehydration,0.0,1.0,Mexico
+86978,Dehydration,0.0,1.0,Mexico
 87377,Drowning,0.0,1.0,Mexico
 88177,Poison,0.0,1.0,Mexico
 88977,Drowning,0.0,1.0,Honduras
@@ -556,22 +556,22 @@ id,cause_of_death,missing,dead,affected_nationality
 89777,Drowning,0.0,1.0,Mexico
 89781,Drowning,0.0,8.0,Reported as unspecified nationals of Africa
 89782,Drowning,0.0,1.0,Morocco
-89788,Presumed hyperthermia,0.0,1.0,Guatemala
-89790,Presumed hyperthermia,0.0,1.0,Mexico
-89792,Presumed hyperthermia,0.0,1.0,Honduras
-89795,Presumed hyperthermia,0.0,1.0,Honduras
+89788,Hyperthermia,0.0,1.0,Guatemala
+89790,Hyperthermia,0.0,1.0,Mexico
+89792,Hyperthermia,0.0,1.0,Honduras
+89795,Hyperthermia,0.0,1.0,Honduras
 90177,Drowning,0.0,1.0,Mahgreb
-90180,Presumed hyperthermia,0.0,1.0,Mexico
-90181,Presumed hyperthermia,0.0,1.0,El Salvador
-90183,Presumed hyperthermia,0.0,1.0,Honduras
-90184,Presumed hyperthermia,0.0,1.0,Guatemala
+90180,Hyperthermia,0.0,1.0,Mexico
+90181,Hyperthermia,0.0,1.0,El Salvador
+90183,Hyperthermia,0.0,1.0,Honduras
+90184,Hyperthermia,0.0,1.0,Guatemala
 90186,Hyperthermia,0.0,1.0,Ecuador
 90187,Hyperthermia,0.0,1.0,Guatemala
 90188,Multiple blunt force injuries,0.0,1.0,Mexico
-90189,Presumed hyperthermia,0.0,1.0,Guatemala
-90577,Presumed exposure,0.0,1.0,Guatemala
+90189,Hyperthermia,0.0,1.0,Guatemala
+90577,Exposure,0.0,1.0,Guatemala
 91377,Hit by vehicle,0.0,1.0,Haiti
-91777,Presumed Drowning,0.0,21.0,Mixed
+91777,Drowning,0.0,21.0,Mixed
 92177,Vehicle accident,0.0,1.0,Mexico
 92178,Vehicle accident,0.0,4.0,Mexico
 92179,Vehicle accident,0.0,1.0,Honduras
@@ -579,7 +579,7 @@ id,cause_of_death,missing,dead,affected_nationality
 92578,Drowning,0.0,1.0,Guatemala
 92579,Fell from train,0.0,1.0,Honduras
 92979,Dehydration,0.0,1.0,Mexico
-93378,Presumed Dehydration,0.0,1.0,Guatemala
+93378,Dehydration,0.0,1.0,Guatemala
 93777,Dehydration,0.0,1.0,Dominican Republic
 94177,Dehydration,0.0,1.0,El Salvador
 94180,Dehydration,0.0,1.0,Honduras
@@ -588,14 +588,14 @@ id,cause_of_death,missing,dead,affected_nationality
 94977,Murdered,0.0,2.0,3 Mexican
 94978,Vehicle accident,0.0,1.0,Mexico
 94980,Drowning,2.0,5.0,Syria
-95377,Presumed exposure,0.0,1.0,Mexico
-95378,Presumed drowning,1.0,0.0,Morocco
+95377,Exposure,0.0,1.0,Mexico
+95378,Drowning,1.0,0.0,Morocco
 95379,Drowning,2.0,1.0,Syria
 96577,Car accident,0.0,1.0,Guatemala
 96977,Drowning,2.0,1.0,Mexican
 96979,Head injury from fall,0.0,1.0,Eritrea
 97377,Stabbed,0.0,1.0,Sudan
-97778,Presumed drowning,151.0,0.0,'Sub-Saharan African'
+97778,Drowning,151.0,0.0,'Sub-Saharan African'
 98177,Drowning,0.0,1.0,Mexico
 100178,Renal insufficiency and pulmonary edema,0.0,1.0,Cuban
 100179,Drowning,0.0,1.0,Guatemala
@@ -604,13 +604,13 @@ id,cause_of_death,missing,dead,affected_nationality
 100578,Vehicle accident,0.0,2.0,El Salvador
 101779,Drowning,0.0,1.0,Honduras
 101780,Murdered,0.0,1.0,Honduras
-102577,Presumed hyperthermia,0.0,1.0,Mexico
-102579,Presumed hyperthermia,0.0,1.0,Mexico
-102584,Presumed hyperthermia,0.0,1.0,Guatemala
+102577,Hyperthermia,0.0,1.0,Mexico
+102579,Hyperthermia,0.0,1.0,Mexico
+102584,Hyperthermia,0.0,1.0,Guatemala
 102588,Murdered,0.0,2.0,Honduras
 102977,Blunt force head trauma,0.0,1.0,Mexico
-102979,Presumed hyperthermia,0.0,1.0,Mexico
-102980,Presumed hyperthermia,0.0,1.0,Mexico
+102979,Hyperthermia,0.0,1.0,Mexico
+102980,Hyperthermia,0.0,1.0,Mexico
 102983,Hyperthermia,0.0,1.0,Mexico
 102988,Hit by vehicle,0.0,1.0,Honduras
 103777,Vehicle accident,0.0,3.0,Honduras
@@ -637,7 +637,7 @@ id,cause_of_death,missing,dead,affected_nationality
 108977,Fell from train,0.0,1.0,Honduras
 109377,Hit by train,0.0,1.0,Sudan
 109778,Sickness,0.0,1.0,Haiti
-109779,Presumed drowning,1.0,0.0,Mexico
+109779,Drowning,1.0,0.0,Mexico
 110178,Drowning,15.0,5.0,Cuba
 110577,Drowning,0.0,1.0,Reported as unspecified national of Sub-Saharan Africa
 111378,Drowning,10.0,3.5,Afghanistan
@@ -655,9 +655,9 @@ id,cause_of_death,missing,dead,affected_nationality
 111382,Asphyxiation,0.0,4.0,Somalia
 111383,"Dehydration, Asphyxiation",0.0,3.0,Guatemala
 111383,"Dehydration, Asphyxiation",0.0,3.0,Ecuador
-112182,Presumed hyperthermia,0.0,1.0,Mexico
-113378,Presumed drowning,25.0,0.0,Unspecified nationalities of Subsaharan Africa
-113380,Presumed drowning,22.0,0.0,Unspecified nationalities of Sub-Saharan Africa
+112182,Hyperthermia,0.0,1.0,Mexico
+113378,Drowning,25.0,0.0,Unspecified nationalities of Subsaharan Africa
+113380,Drowning,22.0,0.0,Unspecified nationalities of Sub-Saharan Africa
 113381,Drowning,0.0,1.0,Unspecified nationality of Sub-Saharan Africa
 113382,Drowning,1.0,1.0,Morocco
 113383,Drowning,0.0,1.0,Mexico
@@ -668,7 +668,7 @@ id,cause_of_death,missing,dead,affected_nationality
 114978,Drowning,8.5,0.0,Senegal
 114979,Hit by train,0.0,1.0,Iraq
 115777,Suffocation,0.0,1.0,Eritrea
-115778,Presumed drowning,0.0,1.0,Cuba
+115778,Drowning,0.0,1.0,Cuba
 116177,Injured from a fight,0.0,1.0,Sudan
 116578,Vehicle accident,0.0,7.0,Ethiopia
 116579,Drowning,0.0,1.0,Guatemala
@@ -695,14 +695,14 @@ id,cause_of_death,missing,dead,affected_nationality
 124577,Drowning,22.0,4.0,Reported as unspecified nationals of Africa
 125377,Road accident,0.0,1.0,Pakistan
 125777,Drowning,1.0,5.0,Reported as unspecified nationals of West Africa
-125778,Presumed drowning,135.0,0.0,Reported as unspecified nationals of West Africa
+125778,Drowning,135.0,0.0,Reported as unspecified nationals of West Africa
 125782,Shot,0.0,1.0,Rohingya
 126179,Drowning,0.0,1.0,Venezuela
 126180,Hit by vehicle,0.0,1.0,Honduras
 126181,Heart attack,0.0,1.0,Cuba
 127777,Drowning,3.0,6.0,Syria
 127778,Mixed,0.0,6.0,Mixed
-128177,Presumed drowning,0.0,1.0,Mexico
+128177,Drowning,0.0,1.0,Mexico
 128178,Stabbed,0.0,1.0,Afghanistan
 128579,Fell from train,0.0,1.0,Reported as unspecified national of Central America
 128582,Hypothermia,0.0,1.0,Afghanistan
@@ -710,17 +710,17 @@ id,cause_of_death,missing,dead,affected_nationality
 129377,Cervix cancer,0.0,1.0,Haiti
 129378,Suicide,0.0,1.0,Afghanistan
 129777,Digestive bleeding,0.0,1.0,Nepal
-130177,Presumed drowning,0.0,5.0,Ghana
+130177,Drowning,0.0,5.0,Ghana
 130178,Hit by train,0.0,1.0,Honduras
-130179,Presumed drowning,0.0,1.0,Guatemala
-130977,Presumed hypothermia,0.0,1.0,Dominican Republic
+130179,Drowning,0.0,1.0,Guatemala
+130977,Hypothermia,0.0,1.0,Dominican Republic
 130978,Drowning,0.0,1.0,Nigeria
 130979,Drowning,0.0,1.0,Reported as unspecified national of Sub-Saharan Africa
 131783,Fell from train,0.0,1.0,Honduran
 132180,Hypothermia,0.0,1.0,Mexico
 132577,Hit by train,0.0,1.0,Eritrea
 132578,Drowning,4.0,26.0,Myanmar (Rohingya)
-132581,Presumed hypothermia,0.0,1.0,Dominican Republic
+132581,Hypothermia,0.0,1.0,Dominican Republic
 133380,Hit by train,0.0,1.0,Honduras
 133381,Heart attack,0.0,1.0,Honduras
 133777,Asphyxiation (Silica sand inhalation),0.0,1.0,Guatemala
@@ -749,20 +749,20 @@ id,cause_of_death,missing,dead,affected_nationality
 144177,Drowning,0.0,1.0,El Salvador
 144747,Murdered,0.0,1.0,Honduras
 145146,Van accident,0.0,1.0,El Salvador
-145546,Presumed drowning,0.0,5.0,Venezulean
+145546,Drowning,0.0,5.0,Venezulean
 145547,Hit by truck,0.0,1.0,Ethiopia
-146746,Presumed drowning,51.0,17.0,Haiti
+146746,Drowning,51.0,17.0,Haiti
 146747,Drowning,0.0,2.0,Indonesia
 146748,Drowning,0.0,4.0,Indonesia
 146749,Drowning,7.0,10.0,Indonesia
-146751,Presumed drowning,0.0,1.0,El Salvador
+146751,Drowning,0.0,1.0,El Salvador
 147146,Drowning,0.0,8.0,Indonesia
-147148,Presumed drowning,0.0,1.0,Congo
+147148,Drowning,0.0,1.0,Congo
 147546,Hypothermia,0.0,2.0,Ivory Coast
 147946,Drowning,0.0,1.0,Guatemala
-147950,Presumed drowning,0.0,1.0,Honduras
-147951,Presumed drowning,0.0,1.0,Honduras
-147952,Presumed drowning,0.0,1.0,Honduras
+147950,Drowning,0.0,1.0,Honduras
+147951,Drowning,0.0,1.0,Honduras
+147952,Drowning,0.0,1.0,Honduras
 148346,Drowning,0.0,1.0,El Salvador
 148746,Drowning,0.0,1.0,Honduras
 148747,Drowning,0.0,1.0,Ethiopia
@@ -783,7 +783,7 @@ id,cause_of_death,missing,dead,affected_nationality
 151947,Hypothermia,0.0,1.0,Pakistan
 152346,Drowning,0.0,5.0,Myanmar
 152347,Shot,0.0,1.0,Myanmar
-152348,Presumed drowning,0.0,18.0,Myanmar
+152348,Drowning,0.0,18.0,Myanmar
 152349,Shot,0.0,1.0,Myanmar
 152746,Drowning,0.0,3.0,Myanmar
 153146,Raped and Murdured,0.0,1.0,Honduras
@@ -791,21 +791,21 @@ id,cause_of_death,missing,dead,affected_nationality
 153548,Hypothermia,0.0,1.0,Iraqui
 154346,Mixed,0.0,18.0,Mixed
 154746,Drowning,8.0,4.0,Domican Republic
-155146,Presumed Drowning,6.0,7.0,Indonesia
+155146,Drowning,6.0,7.0,Indonesia
 155147,Fell from train,0.0,1.0,Guatemala
-155149,Presumed drowning,0.0,3.0,Pakistan
-155546,Presumed drowning,0.0,1.0,Honduras
+155149,Drowning,0.0,3.0,Pakistan
+155546,Drowning,0.0,1.0,Honduras
 157546,Murdered,0.0,1.0,Haitian
 157548,"Starvation, sickness",0.0,12.0,Reported as unspecified nationals of Africa
 157549,Electrocution on railway,0.0,1.0,Somalia
-157946,Presumed drowning,3.0,1.0,Algerian
-158347,Presumed drowning,0.0,1.0,Brazil
+157946,Drowning,3.0,1.0,Algerian
+158347,Drowning,0.0,1.0,Brazil
 158746,Vehicle accident,0.0,1.0,Ethiopia
 158747,Drowning,0.0,4.0,Ethiopia
 159146,Suffocation,0.0,1.0,Ethiopia
 159153,Sickness,0.0,1.0,Mexico
 159946,heart attack,0.0,1.0,Cuban
-159947,Presumed drowning,0.0,1.0,Cuban
+159947,Drowning,0.0,1.0,Cuban
 160746,Hit by vehicle,0.0,1.0,Honduras
 164346,Hit by train,0.0,1.0,Honduras
 164746,Shot by Apache helicopter,0.0,42.0,Somalia
@@ -816,7 +816,7 @@ id,cause_of_death,missing,dead,affected_nationality
 166349,Drowning,0.0,3.0,Syria
 166746,Hypothermia,0.0,5.0,Unspecified national of Sub-Saharan Africa
 166747,Violent robbery,0.0,1.0,Honduras
-166750,Presumed drowning,0.0,1.0,Unspecified national of Sub-Saharan Africa
+166750,Drowning,0.0,1.0,Unspecified national of Sub-Saharan Africa
 167547,Drowning,5.0,1.0,Unspecfied nationals of Western Africa
 169546,Vehicle accident,0.0,1.0,El Salvador
 169946,Murdered,0.0,2.0,Honduras
@@ -827,7 +827,7 @@ id,cause_of_death,missing,dead,affected_nationality
 170383,Hyperthermia,0.0,1.0,Mexico
 170765,Fell from train,0.0,1.0,Mexico
 171947,Drowning,0.0,3.0,Unspecified national of Sub-Saharan Africa
-171948,Presumed drowning,97.0,0.0,Unspecified nationals of Africa
+171948,Drowning,97.0,0.0,Unspecified nationals of Africa
 171949,Drowning,0.0,1.6666666666666667,2 Senegal
 171949,Drowning,0.0,1.6666666666666667,2 Guinea
 171949,Drowning,0.0,1.6666666666666667,1 Ghana
@@ -835,7 +835,7 @@ id,cause_of_death,missing,dead,affected_nationality
 172346,Violence,0.0,1.0,Ghana
 172754,Shot,0.0,1.0,Myanmar
 172760,Hypothermia,0.0,2.0,Iraq
-173146,Presumed drowning,0.0,1.0,Honduras
+173146,Drowning,0.0,1.0,Honduras
 174748,Hypothermia,0.0,1.0,Afghanistan
 175146,Shot,0.0,1.0,Mexico
 175147,Drowning,1.75,4.0,Cameroon
@@ -850,9 +850,9 @@ id,cause_of_death,missing,dead,affected_nationality
 178346,Shot,0.0,1.0,Gambia
 179146,Drowning,0.0,1.0,Guatemala
 179147,Drowning,10.0,1.0,Comoran
-179947,Presumed drowning,0.0,1.0,Haitian
+179947,Drowning,0.0,1.0,Haitian
 181146,Drowning,1.0,1.0,Unspecified nationals of West Africa
-181546,Presumed drowning,156.0,0.0,Unspecified nationals of West Africa
+181546,Drowning,156.0,0.0,Unspecified nationals of West Africa
 181547,Shot,0.0,1.0,Syria
 182347,Fall from cliff,0.0,1.0,Bangladesh
 182746,Drowning,0.0,7.0,Unspecified nationals of Sub-Saharan Africa
