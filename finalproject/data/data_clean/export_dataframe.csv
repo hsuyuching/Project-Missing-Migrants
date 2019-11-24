@@ -1,2116 +1,865 @@
 id,cause_of_death,missing,dead,affected_nationality
 1,Presumed drowning,1.0,1.0,Iraq
-3,Fell from train,0,1.0,Honduras
-4,Presumed drowning,0,1.0,UNKNOWN
-6,Drowning,6.0,4.0,UNKNOWN
-7,Vehicle accident,0,4.0,Cambodia
-8,Drowning,0,11.0,UNKNOWN
-9,Drowning,0,1.0,UNKNOWN
-10,Drowning,0,1.0,UNKNOWN
-11,Drowning,0.0,3.0,UNKNOWN
-12,Died of unknown cause in hospital shortly after rescue,0,1.0,Syria
-13,Drowning,0,1.0,Iran
+3,Fell from train,0.0,1.0,Honduras
+7,Vehicle accident,0.0,4.0,Cambodia
+12,Died of unknown cause in hospital shortly after rescue,0.0,1.0,Syria
+13,Drowning,0.0,1.0,Iran
 14,Presumed drowning,7.0,3.0,Afghanistan
-15,Presumed drowning,0,1.0,UNKNOWN
-16,Drowning,0,4.0,Afghanistan
-17,Exposure. Died upon entry to refugee camp.,0,1.0,Afghan
-18,Drowning,0,1.0,UNKNOWN
-19,Drowning,0,8.0,Likely Comorian
-20,Drowning,0,1.0,UNKNOWN
-21,Drowning,32.0,7.0,UNKNOWN
-22,Drowning,4.0,3.0,UNKNOWN
-23,Drowning,2.0,,UNKNOWN
-25,Drowning,0,1.0,UNKNOWN
-28,Drowning,0,4.0,UNKNOWN
-29,Drowning,0,2.0,UNKNOWN
-30,Drowning,1.0,3.0,UNKNOWN
-31,Drowning,0,3.0,Afghanistan
-32,Presumed drowning,0,19.0,UNKNOWN
-33,Presumed drowning,0,1.0,UNKNOWN
-34,Drowning,0,1.0,Afghanistan
-35,Died of unknown cause in hospital shortly after rescue,0,1.0,UNKNOWN
-36,Drowning,13.0,43.0,UNKNOWN
-37,Drowning,1.0,1.0,UNKNOWN
-38,Drowning,0,1.0,Syrian
-39,Suffocation,0,52.0,UNKNOWN
-43,Drowning,0,1.0,Guinean
-45,Drowning,0,43.0,UNKNOWN
-46,Presumed drowning,1.0,4.0,UNKNOWN
-47,Drowning,1.0,2.0,UNKNOWN
-48,Drowning,0,6.0,UNKNOWN
-49,Drowning,11.0,12.0,UNKNOWN
+16,Drowning,0.0,4.0,Afghanistan
+17,Exposure. Died upon entry to refugee camp.,0.0,1.0,Afghan
+19,Drowning,0.0,8.0,Likely Comorian
+31,Drowning,0.0,3.0,Afghanistan
+34,Drowning,0.0,1.0,Afghanistan
+38,Drowning,0.0,1.0,Syrian
+43,Drowning,0.0,1.0,Guinean
 50,Drowning,1.0,1.0,Senegal
 56,Drowning,1.0,4.0,Syrian
 59,Drowning,3.0,4.0,Iraqi
-61,Drowning,0,13.0,Afghanistan
-61,Drowning,0,13.0,Syria
-62,Presumed drowning,1.0,7.0,UNKNOWN
-63,Hit by vehicle,0,1.0,Syrian
-64,Hit by train,0,1.0,UNKNOWN
-65,Shot,0,1.0,Afghanistan
-66,Drowning,0,3.0,Syria
-67,Presumed drowning,0,1.0,UNKNOWN
-68,Shot,0,1.0,UNKNOWN
-69,Presumed drowning,0,2.0,Iraq
+61,Drowning,0.0,6.5,Afghanistan
+61,Drowning,0.0,6.5,Syria
+63,Hit by vehicle,0.0,1.0,Syrian
+65,Shot,0.0,1.0,Afghanistan
+66,Drowning,0.0,3.0,Syria
+69,Presumed drowning,0.0,2.0,Iraq
 70,Drowning,2.0,7.0,Lebanese
-71,Vehicle accident,0,8.0,Ethiopia
-72,Drowning,0,11.0,Syrian
-72,Drowning,0,11.0,Egyptian
-72,Drowning,0,11.0,other African
-73,Drowning,0,1.0,Syria
-74,Drowning,0,2.0,Cameroon
-74,Drowning,0,2.0,Guinea
-75,Vehicle accident,0,3.0,Haitian
-76,Vehicle accident,0,1.0,UNKNOWN
-77,Presumed drowning,0,2.0,UNKNOWN
-78,Drowning,0,95.0,UNKNOWN
-79,Hit by train,0,1.0,Eritrea
-82,drowning,0,2.0,Afghan
-85,Hi by truck,0,1.0,Iraqi
+71,Vehicle accident,0.0,8.0,Ethiopia
+72,Drowning,0.0,3.6666666666666665,Syrian
+72,Drowning,0.0,3.6666666666666665,Egyptian
+72,Drowning,0.0,3.6666666666666665,other African
+73,Drowning,0.0,1.0,Syria
+74,Drowning,0.0,1.0,Cameroon
+74,Drowning,0.0,1.0,Guinea
+75,Vehicle accident,0.0,3.0,Haitian
+79,Hit by train,0.0,1.0,Eritrea
+82,drowning,0.0,2.0,Afghan
+85,Hi by truck,0.0,1.0,Iraqi
 86,Drowning,5.0,1.0,Syria
-87,Crushed to death,0,1.0,Iraqi
-89,Drowning,0,17.0,Mostly from Syria
-89,Drowning,0,17.0,possibly some from Iraq
-91,Presumed drowning,0,1.0,UNKNOWN
-92,Hit by train,0,1.0,Likely Eritrea
-94,Presumed drowning,0,1.0,UNKNOWN
-95,Presumed drowning,0,1.0,UNKNOWN
+87,Crushed to death,0.0,1.0,Iraqi
+89,Drowning,0.0,8.5,Mostly from Syria
+89,Drowning,0.0,8.5,possibly some from Iraq
+92,Hit by train,0.0,1.0,Likely Eritrea
 97,Drowning,24.0,2.0,Syrian Kurds
-98,Drowning,2.0,,UNKNOWN
-100,Drowning. Boat collided with ferry,13.0,13.0,UNKNOWN
-101,Fell from train,0,1.0,UNKNOWN
-102,Drowning,0,13.0,Syria
-103,Drowning,0,1.0,Syrian
-104,Electrocution,0,1.0,Syria
-106,Drowning,0,22.0,Reported as unspecified nationals of Syria
-106,Drowning,0,22.0,Afghanistan
-106,Drowning,0,22.0,Iraq
-106,Drowning,0,22.0,Iran
-107,Drowning,0,2.0,Syrian
-108,Drowning,0,1.0,Syria
-109,Hit by vehicle,0,1.0,Eritrea
-111,Presumed drowning,0,10.0,UNKNOWN
-114,Train accident,0,1.0,Afghanistan
-119,Drowning,0,1.0,UNKNOWN
-120,Drowning,0,3.0,Eritrea (2)
-120,Drowning,0,3.0,Syria (1)
-121,"Drowning, Asphyxiation",0,750.0,Syria
-121,"Drowning, Asphyxiation",0,750.0,Somalia
-121,"Drowning, Asphyxiation",0,750.0,Gambia
-121,"Drowning, Asphyxiation",0,750.0,Ivory Coast
-121,"Drowning, Asphyxiation",0,750.0,Mali
-121,"Drowning, Asphyxiation",0,750.0,Tunisia
-121,"Drowning, Asphyxiation",0,750.0,Sierra Leone
-121,"Drowning, Asphyxiation",0,750.0,Bangladesh
-121,"Drowning, Asphyxiation",0,750.0,Algeria
-121,"Drowning, Asphyxiation",0,750.0,Egypt
-121,"Drowning, Asphyxiation",0,750.0,Niger
-121,"Drowning, Asphyxiation",0,750.0,Zambia
-121,"Drowning, Asphyxiation",0,750.0,Ghana
-122,Burns from cooking gas explosion in connection house in Libya,0,1.0,Eritrea or Somalia
-123,Drowning,0,41.0,Survivors from Nigeria
-123,Drowning,0,41.0,Ghana
-123,Drowning,0,41.0,Niger
-124,Drowning after being thrown overboard by other passengers,12.0,,Ghana
-124,Drowning after being thrown overboard by other passengers,12.0,,Nigeria
-125,Drowning,391.0,9.0,UNKNOWN
-127,Drowning,15.0,,China
-129,Drowning,3.0,,Costa rica
-130,Drowning,0,1.0,Survivors from Syria
-130,Drowning,0,1.0,Iraq
-130,Drowning,0,1.0,and Somalia
-131,Drowning,0,2.0,Somalia (1) Eritrea (1)
+102,Drowning,0.0,13.0,Syria
+103,Drowning,0.0,1.0,Syrian
+104,Electrocution,0.0,1.0,Syria
+106,Drowning,0.0,5.5,Reported as unspecified nationals of Syria
+106,Drowning,0.0,5.5,Afghanistan
+106,Drowning,0.0,5.5,Iraq
+106,Drowning,0.0,5.5,Iran
+107,Drowning,0.0,2.0,Syrian
+108,Drowning,0.0,1.0,Syria
+109,Hit by vehicle,0.0,1.0,Eritrea
+114,Train accident,0.0,1.0,Afghanistan
+120,Drowning,0.0,1.5,Eritrea (2)
+120,Drowning,0.0,1.5,Syria (1)
+121,"Drowning, Asphyxiation",0.0,57.69230769230769,Syria
+121,"Drowning, Asphyxiation",0.0,57.69230769230769,Somalia
+121,"Drowning, Asphyxiation",0.0,57.69230769230769,Gambia
+121,"Drowning, Asphyxiation",0.0,57.69230769230769,Ivory Coast
+121,"Drowning, Asphyxiation",0.0,57.69230769230769,Mali
+121,"Drowning, Asphyxiation",0.0,57.69230769230769,Tunisia
+121,"Drowning, Asphyxiation",0.0,57.69230769230769,Sierra Leone
+121,"Drowning, Asphyxiation",0.0,57.69230769230769,Bangladesh
+121,"Drowning, Asphyxiation",0.0,57.69230769230769,Algeria
+121,"Drowning, Asphyxiation",0.0,57.69230769230769,Egypt
+121,"Drowning, Asphyxiation",0.0,57.69230769230769,Niger
+121,"Drowning, Asphyxiation",0.0,57.69230769230769,Zambia
+121,"Drowning, Asphyxiation",0.0,57.69230769230769,Ghana
+122,Burns from cooking gas explosion in connection house in Libya,0.0,1.0,Eritrea or Somalia
+123,Drowning,0.0,13.666666666666666,Survivors from Nigeria
+123,Drowning,0.0,13.666666666666666,Ghana
+123,Drowning,0.0,13.666666666666666,Niger
+124,Drowning after being thrown overboard by other passengers,6.0,0.0,Ghana
+124,Drowning after being thrown overboard by other passengers,6.0,0.0,Nigeria
+127,Drowning,15.0,0.0,China
+129,Drowning,3.0,0.0,Costa rica
+130,Drowning,0.0,0.3333333333333333,Survivors from Syria
+130,Drowning,0.0,0.3333333333333333,Iraq
+130,Drowning,0.0,0.3333333333333333,and Somalia
+131,Drowning,0.0,2.0,Somalia (1) Eritrea (1)
 132,Drowning,19.0,21.0,Haiti
-133,Drowning,4.0,7.0,Syria
-133,Drowning,4.0,7.0,Iraq
-135,Drowning,0,1.0,Mexican
-136,Drowning,0,1.0,Cuba or Dominican Republic
-141,Drowning,0,3.0,1 Nigerian
-141,Drowning,0,3.0,others unknown. Survivors all from Sub-Saharan Africa
-143,Drowning,3.0,5.0,Syria
-143,Drowning,3.0,5.0,Iraq
-144,Train accident,0,6.0,Honduras
-145,Drowning,8.0,4.0,UNKNOWN
-146,Hypothermia,0,2.0,Ethnic Yazidis (Iraq)
-147,Drowning,0,42.0,UNKNOWN
-148,Drowning,0,4.0,UNKNOWN
-150,Drowning,40.0,10.0,Eritrea
-150,Drowning,40.0,10.0,Sudan
-151,Drowning,0,1.0,UNKNOWN
-156,"Unclear, possibly related to earlier beating by truck driver",0,1.0,Ethiopian
-157,Drowning,103.0,,Senegal
-157,Drowning,103.0,,Ivory Coast
-157,Drowning,103.0,,Gambia
-157,Drowning,103.0,,Guinea
-157,Drowning,103.0,,Niger
-157,Drowning,103.0,,Mali and Mauritania
-158,Drowning,100.0,,Senegal
-158,Drowning,100.0,,Ivory Coast
-158,Drowning,100.0,,Gambia
-158,Drowning,100.0,,Guinea
-158,Drowning,100.0,,Niger
-158,Drowning,100.0,,Mali and Mauritania
-159,Drowning,104.0,,Senegal
-159,Drowning,104.0,,Ivory Coast
-159,Drowning,104.0,,Gambia
-159,Drowning,104.0,,Guinea
-159,Drowning,104.0,,Niger
-159,Drowning,104.0,,Mali and Mauritania
-160,Hypothermia,0,29.0,Ivory Coast (15)
-160,Hypothermia,0,29.0,Mali (7)
-160,Hypothermia,0,29.0,Senegal (5)
-160,Hypothermia,0,29.0,Guinea (1)
-160,Hypothermia,0,29.0,Mauritania (1)
+133,Drowning,2.0,3.5,Syria
+133,Drowning,2.0,3.5,Iraq
+135,Drowning,0.0,1.0,Mexican
+136,Drowning,0.0,1.0,Cuba or Dominican Republic
+141,Drowning,0.0,1.5,1 Nigerian
+141,Drowning,0.0,1.5,others unknown. Survivors all from Sub-Saharan Africa
+143,Drowning,1.5,2.5,Syria
+143,Drowning,1.5,2.5,Iraq
+144,Train accident,0.0,6.0,Honduras
+146,Hypothermia,0.0,2.0,Ethnic Yazidis (Iraq)
+150,Drowning,20.0,5.0,Eritrea
+150,Drowning,20.0,5.0,Sudan
+156,"Unclear, possibly related to earlier beating by truck driver",0.0,1.0,Ethiopian
+157,Drowning,17.166666666666668,0.0,Senegal
+157,Drowning,17.166666666666668,0.0,Ivory Coast
+157,Drowning,17.166666666666668,0.0,Gambia
+157,Drowning,17.166666666666668,0.0,Guinea
+157,Drowning,17.166666666666668,0.0,Niger
+157,Drowning,17.166666666666668,0.0,Mali and Mauritania
+158,Drowning,16.666666666666668,0.0,Senegal
+158,Drowning,16.666666666666668,0.0,Ivory Coast
+158,Drowning,16.666666666666668,0.0,Gambia
+158,Drowning,16.666666666666668,0.0,Guinea
+158,Drowning,16.666666666666668,0.0,Niger
+158,Drowning,16.666666666666668,0.0,Mali and Mauritania
+159,Drowning,17.333333333333332,0.0,Senegal
+159,Drowning,17.333333333333332,0.0,Ivory Coast
+159,Drowning,17.333333333333332,0.0,Gambia
+159,Drowning,17.333333333333332,0.0,Guinea
+159,Drowning,17.333333333333332,0.0,Niger
+159,Drowning,17.333333333333332,0.0,Mali and Mauritania
+160,Hypothermia,0.0,5.8,Ivory Coast (15)
+160,Hypothermia,0.0,5.8,Mali (7)
+160,Hypothermia,0.0,5.8,Senegal (5)
+160,Hypothermia,0.0,5.8,Guinea (1)
+160,Hypothermia,0.0,5.8,Mauritania (1)
 161,Drowning,2.0,7.0,Iran and Iraq
-164,Drowning,0,3.0,UNKNOWN
 165,Drowning,33.0,3.0,Ethiopia and Somalia
 167,Drowning,2.0,8.0,Guinea Conakry
 168,Drowning,49.0,8.0,Bangladesh
 174,Drowning,36.0,9.0,Reported as unspecified nationals of Africa
-175,Severe exhaustion and dehydration,0,2.0,Ethnic Rohingya
-176,Beating/shot by traffickers,0,1.0,Ethnic Rohingya
-180,Drowning,0,2.0,Zimbabwe
-183,Drowning,0,1.0,Cuba
-188,Shot,0,1.0,Ethiopian
-189,Starvation,0,2.0,Somalia
-193,Drowning,9.0,,Syrian Arab Republic
-194,Drowning,0,2.0,Syrian Arab Republic
-196,Drowning,0,5.0,UNKNOWN
-197,Drowning,0,9.0,UNKNOWN
-198,Drowning,0,1.0,Cuba
-199,Vehicle accident,0,1.0,Sudan
+175,Severe exhaustion and dehydration,0.0,2.0,Ethnic Rohingya
+176,Beating/shot by traffickers,0.0,1.0,Ethnic Rohingya
+180,Drowning,0.0,2.0,Zimbabwe
+183,Drowning,0.0,1.0,Cuba
+188,Shot,0.0,1.0,Ethiopian
+189,Starvation,0.0,2.0,Somalia
+193,Drowning,9.0,0.0,Syrian Arab Republic
+194,Drowning,0.0,2.0,Syrian Arab Republic
+198,Drowning,0.0,1.0,Cuba
+199,Vehicle accident,0.0,1.0,Sudan
 200,Drowning,3.0,21.0,Ethiopia
-201,Presumed drowning,23.0,,Reported as unspecified nationals of Sub-Saharan Africa
-202,Hypothermia,0,17.0,Reported as unspecified nationals of Sub-Saharan Africa
-204,Burned to death hiding in truck,0,2.0,UNKNOWN
-205,Drowning,6.0,,Reported as unspecified nationals of Sub-Saharan Africa
-206,Drowning,12.0,,Reported as unspecified nationals of Sub-Saharan Africa
-207,Presumed drowning,30.0,,Ethiopia
-208,Drowning,0,4.0,Afghanistan
+201,Presumed drowning,23.0,0.0,Reported as unspecified nationals of Sub-Saharan Africa
+202,Hypothermia,0.0,17.0,Reported as unspecified nationals of Sub-Saharan Africa
+205,Drowning,6.0,0.0,Reported as unspecified nationals of Sub-Saharan Africa
+206,Drowning,12.0,0.0,Reported as unspecified nationals of Sub-Saharan Africa
+207,Presumed drowning,30.0,0.0,Ethiopia
+208,Drowning,0.0,4.0,Afghanistan
 209,Drowning,11.0,27.0,Afghanistan
-211,Presumed drowning,20.0,,Reported as unspecified nationals of Africa
-214,Drowning,2.0,,Cuba
-215,Hit by truck,0,1.0,Syria
-218,Hit by vehicle,0,1.0,Ethiopia
-219,Drowning,0,1.0,UNKNOWN
-220,Drowning,0,1.0,UNKNOWN
-221,Drowning due to forced disembarcation,0,1.0,UNKNOWN
-222,Drowning,0,1.0,UNKNOWN
-224,Drowning,0,1.0,UNKNOWN
-225,Drowning,0,1.0,UNKNOWN
-226,Drowning,0,1.0,UNKNOWN
-229,Drowning,4.0,,Unknown. Survivors from Bangladesh
-229,Drowning,4.0,,Burma
-229,Drowning,4.0,,or are ethnic Rohingya
-231,"Hyperthermia, starvation",0,3.0,UNKNOWN
-233,Presumed drowning,2.0,,UNKNOWN
-234,Drowning,0,64.0,UNKNOWN
+211,Presumed drowning,20.0,0.0,Reported as unspecified nationals of Africa
+214,Drowning,2.0,0.0,Cuba
+215,Hit by truck,0.0,1.0,Syria
+218,Hit by vehicle,0.0,1.0,Ethiopia
 235,Drowning,85.0,10.0,Reported as unspecified nationals of Sub-Saharan Africa
 236,Drowning,6.0,2.0,Reported as unspecified nationals of Sub-Saharan Africa
-242,Drowning,33.0,10.0,UNKNOWN
-243,Drowning,73.0,15.0,15 dead from Palestine. Missing are from Palestine
-243,Drowning,73.0,15.0,Syria
-243,Drowning,73.0,15.0,and Egypt
-244,Drowning,94.0,70.0,UNKNOWN
-245,Drowning,16.0,2.0,UNKNOWN
-246,Drowning,497.0,3.0,Syrian Arab Republic
-246,Drowning,497.0,3.0,Egypt
-246,Drowning,497.0,3.0,Sudan
-248,Hyperthermia,0,1.0,UNKNOWN
-254,Presumed drowning,100.0,,UNKNOWN
-255,Tortured to death,0,1.0,Bangladesh
-256,Presumed drowning,9.0,,China
-257,Drowning,0,42.0,Syrian Arab Republic
-258,Presumed drowning,23.0,,Dominican Republic
-258,Presumed drowning,23.0,,Haiti
+243,Drowning,24.333333333333332,5.0,15 dead from Palestine. Missing are from Palestine
+243,Drowning,24.333333333333332,5.0,Syria
+243,Drowning,24.333333333333332,5.0,and Egypt
+246,Drowning,165.66666666666666,1.0,Syrian Arab Republic
+246,Drowning,165.66666666666666,1.0,Egypt
+246,Drowning,165.66666666666666,1.0,Sudan
+255,Tortured to death,0.0,1.0,Bangladesh
+256,Presumed drowning,9.0,0.0,China
+257,Drowning,0.0,42.0,Syrian Arab Republic
+258,Presumed drowning,11.5,0.0,Dominican Republic
+258,Presumed drowning,11.5,0.0,Haiti
 259,"Dehydration, Presumed drowning",6.0,11.0,Cuba
-260,Drowning,0,1.0,Haiti
-262,Drowning,0,24.0,UNKNOWN
-263,Unspecified location between North Africa and Italy. Body brought to Calabria.,0,1.0,UNKNOWN
+260,Drowning,0.0,1.0,Haiti
 264,Drowning,5.0,4.0,Cuba
 265,Drowning,8.0,18.0,Reported as unspecified nationals of Sub-Saharan Africa
 267,Drowning,81.0,170.0,Sub-Saharan Africa
-268,Hyperthermia,0,1.0,UNKNOWN
-270,"Homicide, likely by asphyxiation",0,1.0,Afghanistan
+270,"Homicide, likely by asphyxiation",0.0,1.0,Afghanistan
 275,Drowning,170.0,2.0,Syrian Arab Republic
-276,Hit by train,0,1.0,UNKNOWN
-278,Electrocution,0,1.0,Mexico
+278,Electrocution,0.0,1.0,Mexico
 281,Drowning,108.0,20.0,Survivors from Sub-Saharan Africa
-283,Hyperthermia,0,1.0,UNKNOWN
-285,Hit by truck,0,1.0,Eritrea
-286,Drowning,14.0,5.0,UNKNOWN
-287,Drowning,0,3.0,'Mostly African'
-288,Drowning,53.0,2.0,Egypt
-288,Drowning,53.0,2.0,Syrian Arab Republic
-289,On board violence,0,29.0,'Sub-Saharan African'
-291,Drowning,0,3.0,UNKNOWN
-292,Presumed drowning,41.0,,Survivors were from Gambia
-292,Presumed drowning,41.0,,Ghana and Mali
+285,Hit by truck,0.0,1.0,Eritrea
+287,Drowning,0.0,3.0,'Mostly African'
+288,Drowning,26.5,1.0,Egypt
+288,Drowning,26.5,1.0,Syrian Arab Republic
+289,On board violence,0.0,29.0,'Sub-Saharan African'
+292,Presumed drowning,20.5,0.0,Survivors were from Gambia
+292,Presumed drowning,20.5,0.0,Ghana and Mali
 293,Drowning,18.0,2.0,Indonesia
-294,Drowning,109.0,1.0,UNKNOWN
-296,Presumed drowning,0,12.0,UNKNOWN
-297,Drowning,21.0,4.0,UNKNOWN
 299,Drowning,188.0,12.0,Syrian Arab Republic
-302,Hyperthermia,0,1.0,UNKNOWN
-305,Drowning,75.0,,UNKNOWN
-306,Asphyxiation and crushing,0,45.0,Syrian Arab Republic
-306,Asphyxiation and crushing,0,45.0,Eritrea
-306,Asphyxiation and crushing,0,45.0,Somalia
-306,Asphyxiation and crushing,0,45.0,Cameroon
+306,Asphyxiation and crushing,0.0,11.25,Syrian Arab Republic
+306,Asphyxiation and crushing,0.0,11.25,Eritrea
+306,Asphyxiation and crushing,0.0,11.25,Somalia
+306,Asphyxiation and crushing,0.0,11.25,Cameroon
 307,Drowning,4.0,2.0,Syrian Arab Republic
-309,Presumed drowning,240.0,,Eritrea
-313,Hyperthermia,0,1.0,UNKNOWN
+309,Presumed drowning,240.0,0.0,Eritrea
 314,Drowning,26.0,9.0,Indonesia
-315,Clubbed/beaten to death,0,4.0,Reported as unspecified nationals of Africa
-319,Hyperthermia,0,1.0,UNKNOWN
-320,Drowning,0,10.0,UNKNOWN
-324,Hyperthermia,0,1.0,UNKNOWN
-328,Hyperthermia,0,1.0,UNKNOWN
+315,Clubbed/beaten to death,0.0,4.0,Reported as unspecified nationals of Africa
 329,Drowning,2.0,3.0,'African'
-330,Hyperthermia,0,1.0,UNKNOWN
-332,Drowning,0,4.0,Central African Republic
-335,Hyperthermia,0,1.0,Mexico
-337,Drowning,0,62.0,Mostly Ethiopian. Others were Somalian and 2 Yemeni crew
-342,Asphyxiation,0,1.0,Afghanistan
-343,Fell from truck,0,1.0,Sudan
-347,Drowning,200.0,17.0,UNKNOWN
-348,Blunt force injuries,0,1.0,UNKNOWN
+332,Drowning,0.0,4.0,Central African Republic
+335,Hyperthermia,0.0,1.0,Mexico
+337,Drowning,0.0,62.0,Mostly Ethiopian. Others were Somalian and 2 Yemeni crew
+342,Asphyxiation,0.0,1.0,Afghanistan
+343,Fell from truck,0.0,1.0,Sudan
 349,"Starvation, Dehydration, Exhaustion",33.0,13.0,Niger
-353,Drowning,33.0,44.0,UNKNOWN
-354,Drowning,7.0,22.0,UNKNOWN
-355,Drowning,0,4.0,Eritrea
-355,Drowning,0,4.0,Ethiopia
-355,Drowning,0,4.0,Somalia
-356,Fell from truck,0,1.0,Eritrea
-357,Drowning,3.0,6.0,UNKNOWN
-359,Drowning,40.0,,Somalia
-361,Blunt force injuries,0,1.0,Mexico
-362,Hyperthermia,0,1.0,Mexico
-363,Shot,0,1.0,UNKNOWN
-364,Shot,0,5.0,China (ethnic Uighur)
+355,Drowning,0.0,1.3333333333333333,Eritrea
+355,Drowning,0.0,1.3333333333333333,Ethiopia
+355,Drowning,0.0,1.3333333333333333,Somalia
+356,Fell from truck,0.0,1.0,Eritrea
+359,Drowning,40.0,0.0,Somalia
+361,Blunt force injuries,0.0,1.0,Mexico
+362,Hyperthermia,0.0,1.0,Mexico
+364,Shot,0.0,5.0,China (ethnic Uighur)
 367,Drowning,1.0,8.0,Syrian Arab Republic
-371,"Hyperthermia, Abandoned by smugglers in the desert",0,10.0,Sudan (6)
-371,"Hyperthermia, Abandoned by smugglers in the desert",0,10.0,Ethiopia (2)
-371,"Hyperthermia, Abandoned by smugglers in the desert",0,10.0,Eritrea (1)
-371,"Hyperthermia, Abandoned by smugglers in the desert",0,10.0,Unknown (1)
-374,Drowning,0,17.0,Zimbabwe
-379,Blunt force injuries,0,1.0,UNKNOWN
-380,Fell from wall,0,1.0,El Salvador
-384,Drowning,0,251.0,Democratic Republic of the Congo
+374,Drowning,0.0,17.0,Zimbabwe
+380,Fell from wall,0.0,1.0,El Salvador
+384,Drowning,0.0,251.0,Democratic Republic of the Congo
 385,Drowning,2.0,7.0,Syria
-386,Toxic fumes/asphyxiation,0,1.0,'African'
-387,Vehicle accident,0,1.0,Ethiopia
-391,Vehicle accident,0,1.0,Ethiopia
-392,Drowning,44.0,,Somalia
-393,Found hanged,0,1.0,Ecuador
-394,Hit by vehicle,0,1.0,Albania
-395,Hyperthermia,0,1.0,Guatemala
-396,Drowning after being thrown overboard by other passengers,0,7.0,Somalia
-397,Shot,0,1.0,Bangladesh
+386,Toxic fumes/asphyxiation,0.0,1.0,'African'
+387,Vehicle accident,0.0,1.0,Ethiopia
+391,Vehicle accident,0.0,1.0,Ethiopia
+392,Drowning,44.0,0.0,Somalia
+393,Found hanged,0.0,1.0,Ecuador
+394,Hit by vehicle,0.0,1.0,Albania
+395,Hyperthermia,0.0,1.0,Guatemala
+396,Drowning after being thrown overboard by other passengers,0.0,7.0,Somalia
+397,Shot,0.0,1.0,Bangladesh
 398,Drowning,6.0,11.0,Ethiopia
-401,Drowning,0,8.0,Haiti
-403,Shot,0,1.0,Mexico
-409,Shot,0,15.0,Reported as unspecified nationals of Africa
-410,Vehicle accident,0,1.0,Iran
-411,Drowning,0,1.0,Haiti
-419,Drowning,0,12.0,Afghanistan
-419,Drowning,0,12.0,Syrian Arab Republic
-421,Shot,0,1.0,Mexico
-422,Hyperthermia,0,1.0,Sudan
-427,"Mostly starvation, dehydration, and beatings by crew members",750.0,,Mixed
-428,Mixed,0,41.0,Guatemala
-430,Mixed,0,64.0,El Salvador
+401,Drowning,0.0,8.0,Haiti
+403,Shot,0.0,1.0,Mexico
+409,Shot,0.0,15.0,Reported as unspecified nationals of Africa
+410,Vehicle accident,0.0,1.0,Iran
+411,Drowning,0.0,1.0,Haiti
+419,Drowning,0.0,6.0,Afghanistan
+419,Drowning,0.0,6.0,Syrian Arab Republic
+421,Shot,0.0,1.0,Mexico
+422,Hyperthermia,0.0,1.0,Sudan
+427,"Mostly starvation, dehydration, and beatings by crew members",750.0,0.0,Mixed
+428,Mixed,0.0,41.0,Guatemala
+430,Mixed,0.0,64.0,El Salvador
 432,Drowning,4.0,34.0,Syrian and Iraqi
-433,Drowning,0,4.0,Iraqi
-434,Drowning,1.0,,Syrian
-436,Plane stowaway,0,1.0,Reported as unspecified national of Africa
-441,Drowning,0,1.0,Syrian
-443,Drowning,20.0,,Gambia
-443,Drowning,20.0,,Nigeria and Senegal
-444,Drowning,1.0,1.0,UNKNOWN
-447,Drowning,43.0,1.0,Reported as unspecified nationals of Somalia
-447,Drowning,43.0,1.0,Sudan and Nigeria
-448,Head injury,0,1.0,UNKNOWN
-449,Hit by train,0,1.0,UNKNOWN
-450,Drowning,0,61.0,Indonesia
-452,Drowning,3.0,7.0,Syria
-452,Drowning,3.0,7.0,Iraq
-453,Drowning,0,5.0,Syria
-454,Drowning,0,1.0,Syrian
-455,Drowning,0,1.0,UNKNOWN
-458,Killed,0,1.0,UNKNOWN
-459,"Suffocation, Trampled",0,2.0,Nigeria
-463,Pulmonary edema,0,1.0,Somalia
-464,Drowning,0,37.0,UNKNOWN
+433,Drowning,0.0,4.0,Iraqi
+434,Drowning,1.0,0.0,Syrian
+436,Plane stowaway,0.0,1.0,Reported as unspecified national of Africa
+441,Drowning,0.0,1.0,Syrian
+443,Drowning,10.0,0.0,Gambia
+443,Drowning,10.0,0.0,Nigeria and Senegal
+447,Drowning,21.5,0.5,Reported as unspecified nationals of Somalia
+447,Drowning,21.5,0.5,Sudan and Nigeria
+450,Drowning,0.0,61.0,Indonesia
+452,Drowning,1.5,3.5,Syria
+452,Drowning,1.5,3.5,Iraq
+453,Drowning,0.0,5.0,Syria
+454,Drowning,0.0,1.0,Syrian
+459,"Suffocation, Trampled",0.0,2.0,Nigeria
+463,Pulmonary edema,0.0,1.0,Somalia
 465,Drowning,91.0,111.0,Mixed
-466,Asphyxiation,5.0,3.0,UNKNOWN
-467,Suffocation,0,71.0,Syrian
-467,Suffocation,0,71.0,Iraqi
-467,Suffocation,0,71.0,Afghan
+467,Suffocation,0.0,23.666666666666668,Syrian
+467,Suffocation,0.0,23.666666666666668,Iraqi
+467,Suffocation,0.0,23.666666666666668,Afghan
 469,Drowning,4.0,2.0,Iraq
-472,Drowning,0,1.0,UNKNOWN
-475,Drowning,0,6.0,Syrian. An infant was among the dead.
-477,Drowning,0,9.0,Pakistan
-483,Presumed drowning,0,30.0,Syria
-484,"Drowning, Trampling",0,12.0,UNKNOWN
-486,Drowning,60.0,,UNKNOWN
-492,Presumed asphyxiation,0,49.0,Mixed
-493,Vehicle accident,0,10.0,Syria
+475,Drowning,0.0,6.0,Syrian. An infant was among the dead.
+477,Drowning,0.0,9.0,Pakistan
+483,Presumed drowning,0.0,30.0,Syria
+492,Presumed asphyxiation,0.0,49.0,Mixed
+493,Vehicle accident,0.0,10.0,Syria
 494,Drowning,202.0,25.0,Syria
-498,Suffocation,0,1.0,Moroccan
-499,Drowning,0,4.0,Nigeria (2) Cameroon (2)
-504,Road accident,0,1.0,Pakistani
-506,Hit by vehicle,0,1.0,Sudan
-508,Drowning,40.0,,Somalia
-508,Drowning,40.0,,Eritrea
-508,Drowning,40.0,,Benin
-508,Drowning,40.0,,Mali
-509,Drowning,0,1.0,Eritrean
-511,Hit by vehicle,0,1.0,Pakistani
-512,"Gylcemic crisis (Diabetic, medicine thrown overboard)",0,1.0,Syria
-515,Drowning,0,100.0,UNKNOWN
-516,Hit by vehicle,0,1.0,Sudanese
-518,Drowning,15.0,3.0,UNKNOWN
-519,Fell from train,0,1.0,Eritrea
-524,Presumed drowning,0,9.0,UNKNOWN
-526,Hit by vehicle,0,1.0,Eritrea
-529,Vehicle accident,0,9.0,Guatemala and El Salvador
-530,Fell from train,0,1.0,Eritrea
-531,Drowning,0,6.0,Syrian
-532,Shot,0,1.0,UNKNOWN
-536,Drowning,0,3.0,Gambia (2) Guinea  Bissau (1)
-543,Violent robbery,0,3.0,UNKNOWN
-545,Hit by vehicle,0,1.0,Eritrea
-550,Fell from train,0,1.0,Unkown
-551,Drowning,0,5.0,African
-552,Drowning,0,5.0,Tunisia
-554,Inhalation of toxic fumes from boat engine,0,1.0,Eritrea
-555,Drowning,0,8.0,Malagasy
-556,Sickness,0,1.0,UNKNOWN
-559,Drowning,0,47.0,Myanmar
-559,Drowning,0,47.0,Bangladesh
+498,Suffocation,0.0,1.0,Moroccan
+499,Drowning,0.0,4.0,Nigeria (2) Cameroon (2)
+504,Road accident,0.0,1.0,Pakistani
+506,Hit by vehicle,0.0,1.0,Sudan
+508,Drowning,10.0,0.0,Somalia
+508,Drowning,10.0,0.0,Eritrea
+508,Drowning,10.0,0.0,Benin
+508,Drowning,10.0,0.0,Mali
+509,Drowning,0.0,1.0,Eritrean
+511,Hit by vehicle,0.0,1.0,Pakistani
+512,"Gylcemic crisis (Diabetic, medicine thrown overboard)",0.0,1.0,Syria
+516,Hit by vehicle,0.0,1.0,Sudanese
+519,Fell from train,0.0,1.0,Eritrea
+526,Hit by vehicle,0.0,1.0,Eritrea
+529,Vehicle accident,0.0,9.0,Guatemala and El Salvador
+530,Fell from train,0.0,1.0,Eritrea
+531,Drowning,0.0,6.0,Syrian
+536,Drowning,0.0,3.0,Gambia (2) Guinea  Bissau (1)
+545,Hit by vehicle,0.0,1.0,Eritrea
+550,Fell from train,0.0,1.0,Unkown
+551,Drowning,0.0,5.0,African
+552,Drowning,0.0,5.0,Tunisia
+554,Inhalation of toxic fumes from boat engine,0.0,1.0,Eritrea
+555,Drowning,0.0,8.0,Malagasy
+559,Drowning,0.0,23.5,Myanmar
+559,Drowning,0.0,23.5,Bangladesh
 561,"Drowning, Other",41.0,5.0,Mixed
-562,Drowning,0,3.0,UNKNOWN
-564,Drowning,0,5.0,UNKNOWN
-565,Vehicle accident,0,12.0,Nigeria
-566,Crushed by bus on ferry,0,1.0,Afghan
-569,Drowning,0,3.0,Syria
-569,Drowning,0,3.0,Afghanistan
-1363,Crushed by pallets,0,1.0,Afghanistan
-1763,Hit by vehicle,0,1.0,UNKNOWN
-1764,Presumed drowning,2.0,,UNKNOWN
-1766,Presumed drowning,0,10.0,Afghanistan
-1767,Drowning,1.0,14.0,UNKNOWN
-2163,Drowning,0,7.0,UNKNOWN
-2164,Presumed drowning,7.0,,UNKNOWN
-2166,Drowning,0,1.0,Syria
-2563,Drowning,2.0,4.0,UNKNOWN
-3363,Drowning,0,1.0,UNKNOWN
-3763,Hit by train,0,1.0,UNKNOWN
-3765,Shot,0,15.0,Sudan
-3766,Shot,0,1.0,Sudan
-4564,"Drowning, Asphyxiation",2.0,9.0,UNKNOWN
-5763,Drowning,0,8.0,Egypt
-6563,Suffocation,0,2.0,UNKNOWN
-6564,Drowning,2.0,1.0,UNKNOWN
-6973,Presumed drowning,0,1.0,UNKNOWN
-7763,Shot,0,5.0,Sudan
+565,Vehicle accident,0.0,12.0,Nigeria
+566,Crushed by bus on ferry,0.0,1.0,Afghan
+569,Drowning,0.0,1.5,Syria
+569,Drowning,0.0,1.5,Afghanistan
+1363,Crushed by pallets,0.0,1.0,Afghanistan
+1766,Presumed drowning,0.0,10.0,Afghanistan
+2166,Drowning,0.0,1.0,Syria
+3765,Shot,0.0,15.0,Sudan
+3766,Shot,0.0,1.0,Sudan
+5763,Drowning,0.0,8.0,Egypt
+7763,Shot,0.0,5.0,Sudan
 7764,Drowning,7.0,8.0,Syria
-8164,Train accident,0,14.0,Somalia
-8164,Train accident,0,14.0,Afghanistan
-8963,Drowning,0,1.0,UNKNOWN
-9763,Drowning,0,4.0,Afghanistan
-10163,Drowning,0,5.0,UNKNOWN
+8164,Train accident,0.0,7.0,Somalia
+8164,Train accident,0.0,7.0,Afghanistan
+9763,Drowning,0.0,4.0,Afghanistan
 10963,Drowning,30.0,3.0,Syria
-11364,Hit by vehicle,0,1.0,El Salvador
-11763,Drowning,0,1.0,UNKNOWN
-11764,Attacked by hippopotamus,0,3.0,Zimbabwe
-12163,Electrocution,0,1.0,Moroccan
-12164,Drowning,2.0,3.0,UNKNOWN
-12563,Hit by vehicle,0,1.0,Sudan
-12564,Hit by vehicle,0,1.0,Ethiopia
-12565,Drowning,0,6.0,Afghan
+11364,Hit by vehicle,0.0,1.0,El Salvador
+11764,Attacked by hippopotamus,0.0,3.0,Zimbabwe
+12163,Electrocution,0.0,1.0,Moroccan
+12563,Hit by vehicle,0.0,1.0,Sudan
+12564,Hit by vehicle,0.0,1.0,Ethiopia
+12565,Drowning,0.0,6.0,Afghan
 12566,Drowning,9.0,4.0,Iraq
 12964,Drowning,27.0,11.0,Reported as unspecified nationals of Africa
-12965,Vehicle accident,0,7.0,Ethiopia
-12966,Drowning,0,1.0,UNKNOWN
-12967,Drowning,0,1.0,UNKNOWN
-13763,Drowning,13.0,12.0,UNKNOWN
-14163,Drowning,0,4.0,UNKNOWN
-14563,Presumed drowning,0,1.0,UNKNOWN
-14565,Drowning,0,2.0,Iraq
-14963,Drowning,3.0,3.0,UNKNOWN
-14964,Drowning,0,1.0,UNKNOWN
-14965,Drowning,0,4.0,Iraq
-14965,Drowning,0,4.0,Syria
-14965,Drowning,0,4.0,Afghanistan
-15363,Drowning,0,4.0,UNKNOWN
-15364,Drowning,0,1.0,UNKNOWN
-15763,Drowning,0,1.0,UNKNOWN
-15764,Drowning,0,4.0,Iraq
-16163,Drowning,0,4.0,UNKNOWN
-16164,Drowning,0,1.0,UNKNOWN
-16165,Drowning,0,1.0,UNKNOWN
-16166,Drowning,0,36.0,Iraq
-16166,Drowning,0,36.0,Algeria and Syria (initial reports)
-16563,Drowning,0,1.0,Syria
-16565,Drowning,0,1.0,UNKNOWN
-16566,Drowning,0,1.0,UNKNOWN
-16567,Drowning,0,1.0,UNKNOWN
-16568,Vehicle accident,0,4.0,Syria
-16963,Vehicle accident,0,7.0,Syria (mostly)
-16964,Drowning,0,3.0,Afghanistan
+12965,Vehicle accident,0.0,7.0,Ethiopia
+14565,Drowning,0.0,2.0,Iraq
+14965,Drowning,0.0,1.3333333333333333,Iraq
+14965,Drowning,0.0,1.3333333333333333,Syria
+14965,Drowning,0.0,1.3333333333333333,Afghanistan
+15764,Drowning,0.0,4.0,Iraq
+16166,Drowning,0.0,18.0,Iraq
+16166,Drowning,0.0,18.0,Algeria and Syria (initial reports)
+16563,Drowning,0.0,1.0,Syria
+16568,Vehicle accident,0.0,4.0,Syria
+16963,Vehicle accident,0.0,7.0,Syria (mostly)
+16964,Drowning,0.0,3.0,Afghanistan
 17363,Drowning,8.0,1.0,Somalia
-17364,Drowning,0,15.0,UNKNOWN
-17763,Drowning,36.0,,Ethiopia and Somalia
-18163,Drowning,0,1.0,UNKNOWN
-18564,Drowning,3.0,3.0,UNKNOWN
-18565,Drowning,0,1.0,UNKNOWN
-18566,Hypothermia,0,1.0,India
-18963,Drowning,0,3.0,Syria
-18963,Drowning,0,3.0,Iraq
-18964,Drowning,0,4.0,UNKNOWN
-18965,Drowning,0,6.0,UNKNOWN
-18966,Drowning,0,1.0,UNKNOWN
-19363,Drowning,0,1.0,UNKNOWN
-19364,Drowning,0,2.0,UNKNOWN
-19365,Drowning,0,20.0,UNKNOWN
-19366,Drowning,0,2.0,UNKNOWN
-19367,Drowning,0,1.0,Afghanistan
-19368,Drowning,0,1.0,UNKNOWN
-19371,Drowning,0,2.0,UNKNOWN
-19763,Drowning,0,1.0,UNKNOWN
-19765,Drowning,0,11.0,Syria
-19766,Drowning,0,1.0,UNKNOWN
-19767,Drowning,0,1.0,UNKNOWN
-19769,Drowning,0,1.0,UNKNOWN
-19770,Shot,0,1.0,Palestine
-19771,Drowning,0,4.0,UNKNOWN
-19772,Drowning,0,2.0,UNKNOWN
-19773,Shot,0,3.0,UNKNOWN
-19774,Drowning,0,5.0,Iraq
-19775,Drowning,0,4.0,Syria
-19776,Drowning,0,18.0,UNKNOWN
-20163,Hypothermia,0,2.0,UNKNOWN
-20165,Vehicle accident,0,14.0,Zimbabwe
-20167,Drowning,0,1.0,UNKNOWN
-20169,Vehicle accident,0,20.0,Reported as unspecified nationals of Central America
-20171,Train accident,0,1.0,Honduras
-20173,Plane stowaway,0,1.0,UNKNOWN
-20563,Raped and murdered,0,1.0,Haiti
-20565,Fell from train,0,1.0,UNKNOWN
-20566,Murdered,0,1.0,UNKNOWN
-20567,Unspecified deaths on 'La Bestia' train,0,2.0,Honduras and Guatemala
-20568,Presumed shot,0,1.0,Reported as unspecified nationals of Central America
-20569,Shot,0,1.0,UNKNOWN
-20571,drowning,0,1.0,UNKNOWN
-21363,Drowning,8.0,1.0,UNKNOWN
-21364,Attacked by hippopotamus,0,1.0,Malawian
-21763,Drowning,0,8.0,UNKNOWN
-21764,Drowning,9.0,35.0,UNKNOWN
+17763,Drowning,36.0,0.0,Ethiopia and Somalia
+18566,Hypothermia,0.0,1.0,India
+18963,Drowning,0.0,1.5,Syria
+18963,Drowning,0.0,1.5,Iraq
+19367,Drowning,0.0,1.0,Afghanistan
+19765,Drowning,0.0,11.0,Syria
+19770,Shot,0.0,1.0,Palestine
+19774,Drowning,0.0,5.0,Iraq
+19775,Drowning,0.0,4.0,Syria
+20165,Vehicle accident,0.0,14.0,Zimbabwe
+20169,Vehicle accident,0.0,20.0,Reported as unspecified nationals of Central America
+20171,Train accident,0.0,1.0,Honduras
+20563,Raped and murdered,0.0,1.0,Haiti
+20567,Unspecified deaths on 'La Bestia' train,0.0,2.0,Honduras and Guatemala
+20568,Presumed shot,0.0,1.0,Reported as unspecified nationals of Central America
+21364,Attacked by hippopotamus,0.0,1.0,Malawian
 21765,Drowning,11.0,13.0,Iraq
-21766,Drowning,0,1.0,UNKNOWN
-22163,Drowning,0,6.0,UNKNOWN
-22563,Drowning,0,1.0,UNKNOWN
-22564,Drowning,0,1.0,Somalia
-22963,Drowning,0,1.0,UNKNOWN
-23363,Vehicle accident,0,1.0,Morocco
-23763,Violent robbery,0,1.0,Pakistan
-24163,Drowning,0,1.0,Somalia
+22564,Drowning,0.0,1.0,Somalia
+23363,Vehicle accident,0.0,1.0,Morocco
+23763,Violent robbery,0.0,1.0,Pakistan
+24163,Drowning,0.0,1.0,Somalia
 24164,Drowning,12.0,23.0,Indonesia
-24563,Drowning,16.0,5.0,UNKNOWN
-24963,Drowning,0,7.0,UNKNOWN
-25363,Drowning,0,2.0,UNKNOWN
-25364,Drowning,0,1.0,UNKNOWN
-25763,Drowning,0,2.0,UNKNOWN
-25764,Drowning,0,1.0,UNKNOWN
 25765,Drowning,13.0,28.0,Kurdistan
-26563,Drowning,64.0,6.0,Nigeria
-26563,Drowning,64.0,6.0,others
-26963,Drowning,0,39.0,Afghanistan
-26963,Drowning,0,39.0,Iraq
-26963,Drowning,0,39.0,Syria
-26964,Drowning,0,9.0,UNKNOWN
-26966,Drowning,0,1.0,Syrian
-26967,Meningitis,0,1.0,Syrian
-26968,Drowning,0,1.0,Guatemalan
-26969,Hit by vehicle,0,1.0,Syria
-26970,Shot,0,1.0,UNKNOWN
-26975,Mixed,0,243.0,UNKNOWN
-27364,Drowning,0,3.0,Syria
-27366,Mixed. Migrants were stranded on boats,0,60.0,Rohingya
-27369,Drowning,0,1.0,Morocco
-27372,Vehicle accident,0,3.0,Ecuador
-27373,Drowning,0,1.0,Ethiopian
-27374,Drowning,0,1.0,Salvadoran
-27379,Beating/shot by traffickers,0,3.0,Ethnic Rohingya
-27767,Mixed,0,10.0,Reported as unspecified nationals of Rohingya
-27768,Presumed drowning,130.0,,Rohingya
-28166,Drowning,13.0,,at least 4 Syrian
-28168,Drowning,0,3.0,Mexican
-28170,Drowning,0,1.0,Mexican
-28171,Drowning,0,1.0,Honduras
+26563,Drowning,32.0,3.0,Nigeria
+26563,Drowning,32.0,3.0,others
+26963,Drowning,0.0,13.0,Afghanistan
+26963,Drowning,0.0,13.0,Iraq
+26963,Drowning,0.0,13.0,Syria
+26966,Drowning,0.0,1.0,Syrian
+26967,Meningitis,0.0,1.0,Syrian
+26968,Drowning,0.0,1.0,Guatemalan
+26969,Hit by vehicle,0.0,1.0,Syria
+27364,Drowning,0.0,3.0,Syria
+27366,Mixed. Migrants were stranded on boats,0.0,60.0,Rohingya
+27369,Drowning,0.0,1.0,Morocco
+27372,Vehicle accident,0.0,3.0,Ecuador
+27373,Drowning,0.0,1.0,Ethiopian
+27374,Drowning,0.0,1.0,Salvadoran
+27379,Beating/shot by traffickers,0.0,3.0,Ethnic Rohingya
+27767,Mixed,0.0,10.0,Reported as unspecified nationals of Rohingya
+27768,Presumed drowning,130.0,0.0,Rohingya
+28166,Drowning,13.0,0.0,at least 4 Syrian
+28168,Drowning,0.0,3.0,Mexican
+28170,Drowning,0.0,1.0,Mexican
+28171,Drowning,0.0,1.0,Honduras
 28566,Drowning,3.0,2.0,Syrian
-28567,Drowning,0,1.0,UNKNOWN
-28568,Drowning,1.0,13.0,UNKNOWN
-28569,Vehicle accident,0,4.0,UNKNOWN
-28572,Drowning,0,1.0,Mexican
-28574,Drowning,0,1.0,UNKNOWN
-28576,Drowning,0,1.0,UNKNOWN
+28572,Drowning,0.0,1.0,Mexican
 28977,Presumed drowning,19.0,3.0,Comoran
-29778,"Exposure, Hypothermia",0,1.0,UNKNOWN
-29779,Hypothermia,0,1.0,Syria
-29780,Hypothermia,0,3.0,Syria
-30177,"Exposure, hypothermia",0,1.0,UNKNOWN
-30178,Hypothermia,0,2.0,Afghanistan
-30179,Landmine,0,1.0,Peru
-30180,Drowning,9.0,27.0,UNKNOWN
-30181,"Hypothermia, Malnutrition",0,1.0,Syria
-30182,"Exposure, hypothermia",0,1.0,Afghanistan
-30183,Vehicle accident,0,20.0,Afghanistan
-30577,Drowning,0,8.0,UNKNOWN
-30977,Drowning,0,1.0,Afghanistan
-31377,Exposure,0,1.0,Afghanistan
-31777,Drowning,1.0,,Cuba
-32177,Presumed drowning,0,2.0,UNKNOWN
-32977,Asphyxiation,0,5.0,UNKNOWN
-33377,mixed,0,11.0,UNKNOWN
-33777,Electrocution on railway,0,1.0,UNKNOWN
-34178,Drowning,0,1.0,El Salvador
-34577,Drowning,0,1.0,UNKNOWN
-34977,Drowning,0,25.0,UNKNOWN
-35377,Respiratory problem,0,1.0,UNKNOWN
-35777,Drowning,0,1.0,UNKNOWN
-35778,Drowning,2.0,5.0,Afghanistan
-35778,Drowning,2.0,5.0,Iran
-36178,Drowning,0,1.0,Mexico
-36577,Fell from train,0,1.0,Egypt
-36578,Drowning,0,3.0,UNKNOWN
-36977,Drowning,0,1.0,Maghreb
-37777,Drowning,8.0,,Pakistan
-38177,Drowning,0,1.0,Mexico
-38577,Boat fire,0,4.0,UNKNOWN
-38579,Drowning,0,49.0,mostly from Sudan
-38579,Drowning,0,49.0,Bangladesh
-38977,Drowning,0,3.0,UNKNOWN
-38978,Shot,0,1.0,Cuba
-40177,Lung infection,0,1.0,Somalia
-40577,Drowning,0,2.0,UNKNOWN
-40977,Drowning,86.0,4.0,UNKNOWN
-40978,Hit by Vehicle,0,1.0,Syria
-41378,Drowning,0,3.0,likely Comoros
-41379,Train accident,0,1.0,Honduras
-42177,Fell from train,0,1.0,UNKNOWN
-42178,Hit by vehicle,0,1.0,UNKNOWN
-42179,Drowning,84.0,,UNKNOWN
-42180,Truck crash (was clinging to bottom of truck),0,1.0,Unknown (Kurdish)
-43377,Drowning,0,1.0,UNKNOWN
-43777,Drowning,0,1.0,UNKNOWN
-44177,Drowning,0,1.0,Guatemala
-44577,Drowning,0,1.0,Salvadoran
-44578,Drowning,0,9.0,Reported as unspecified nationals of Africa
-44580,Drowning,0,20.0,UNKNOWN
-44581,Drowning,0,4.0,UNKNOWN
-44582,Hit by vehicle,0,1.0,UNKNOWN
-44583,Drowning,0,1.0,Mexican
-44584,drowning,0,1.0,Mexican
-44585,Drowning,0,1.0,Mexican
-44586,drowning,0,2.0,Mexican
-44587,Mixed,0,145.0,Mixed
-44588,Mixed,0,139.0,Mixed
-44589,Mixed,0,10.0,Mixed
-44978,drowning,0,1.0,Salvadoran
-44979,drowning,0,1.0,Ecuadorian
-44980,drowning,0,1.0,Honduras
-45377,Drowning,0,1.0,UNKNOWN
-45378,Drowning,0,1.0,UNKNOWN
-45778,Hypothermia,0,1.0,Mexico
-46178,Drowning,4.0,5.0,UNKNOWN
-46577,Hit by truck,0,1.0,Afghan
-46578,Drowning,0,1.0,UNKNOWN
-46977,Hit by train,0,1.0,Honduras
-47377,Drowning,0,3.0,UNKNOWN
-47777,Fell from train,0,1.0,Honduras
-47778,Hit by train,0,1.0,Honduras
-47779,Drowning,0,4.0,UNKNOWN
-48178,Car accident,0,1.0,Mexico
-48577,Shot,0,1.0,Guatemala
-48978,Hyperthermia,0,1.0,Honduras
-49377,Drowning,0,1.0,Syria
-49777,Hit by vehicle,0,1.0,Mexico
-50577,"AH1N1 influenza virus, while stuck at border",0,1.0,Cuba
-50978,Drowning,0,1.0,El Salvador
-51377,Hit by train,0,1.0,UNKNOWN
-51778,Drowning,24.0,8.0,UNKNOWN
-51779,Drowning,459.0,,Egypt (est.80)
-51779,Drowning,459.0,,Ethiopia (est.150)
-51779,Drowning,459.0,,Somalia (est.190)
-51779,Drowning,459.0,,Sudan
-51779,Drowning,459.0,,Syria
-52181,Drowning,0,2.0,Cuban
-52578,Mixed,0,147.0,Various
-53377,Drowning,0,12.0,UNKNOWN
-53777,Murdered,0,13.0,Egypt
-54177,Drowning,0,1.0,UNKNOWN
-54577,Drowning,84.0,,UNKNOWN
-54578,Drowning,18.0,2.0,Nigeria
-54578,Drowning,18.0,2.0,Ivory Coast
-54578,Drowning,18.0,2.0,Guinea
-54578,Drowning,18.0,2.0,Sudan
-54578,Drowning,18.0,2.0,Mali
-54579,Drowning,9.0,,UNKNOWN
+29779,Hypothermia,0.0,1.0,Syria
+29780,Hypothermia,0.0,3.0,Syria
+30178,Hypothermia,0.0,2.0,Afghanistan
+30179,Landmine,0.0,1.0,Peru
+30181,"Hypothermia, Malnutrition",0.0,1.0,Syria
+30182,"Exposure, hypothermia",0.0,1.0,Afghanistan
+30183,Vehicle accident,0.0,20.0,Afghanistan
+30977,Drowning,0.0,1.0,Afghanistan
+31377,Exposure,0.0,1.0,Afghanistan
+31777,Drowning,1.0,0.0,Cuba
+34178,Drowning,0.0,1.0,El Salvador
+35778,Drowning,1.0,2.5,Afghanistan
+35778,Drowning,1.0,2.5,Iran
+36178,Drowning,0.0,1.0,Mexico
+36577,Fell from train,0.0,1.0,Egypt
+36977,Drowning,0.0,1.0,Maghreb
+37777,Drowning,8.0,0.0,Pakistan
+38177,Drowning,0.0,1.0,Mexico
+38579,Drowning,0.0,24.5,mostly from Sudan
+38579,Drowning,0.0,24.5,Bangladesh
+38978,Shot,0.0,1.0,Cuba
+40177,Lung infection,0.0,1.0,Somalia
+40978,Hit by Vehicle,0.0,1.0,Syria
+41378,Drowning,0.0,3.0,likely Comoros
+41379,Train accident,0.0,1.0,Honduras
+44177,Drowning,0.0,1.0,Guatemala
+44577,Drowning,0.0,1.0,Salvadoran
+44578,Drowning,0.0,9.0,Reported as unspecified nationals of Africa
+44583,Drowning,0.0,1.0,Mexican
+44584,drowning,0.0,1.0,Mexican
+44585,Drowning,0.0,1.0,Mexican
+44586,drowning,0.0,2.0,Mexican
+44587,Mixed,0.0,145.0,Mixed
+44588,Mixed,0.0,139.0,Mixed
+44589,Mixed,0.0,10.0,Mixed
+44978,drowning,0.0,1.0,Salvadoran
+44979,drowning,0.0,1.0,Ecuadorian
+44980,drowning,0.0,1.0,Honduras
+45778,Hypothermia,0.0,1.0,Mexico
+46577,Hit by truck,0.0,1.0,Afghan
+46977,Hit by train,0.0,1.0,Honduras
+47777,Fell from train,0.0,1.0,Honduras
+47778,Hit by train,0.0,1.0,Honduras
+48178,Car accident,0.0,1.0,Mexico
+48577,Shot,0.0,1.0,Guatemala
+48978,Hyperthermia,0.0,1.0,Honduras
+49377,Drowning,0.0,1.0,Syria
+49777,Hit by vehicle,0.0,1.0,Mexico
+50577,"AH1N1 influenza virus, while stuck at border",0.0,1.0,Cuba
+50978,Drowning,0.0,1.0,El Salvador
+51779,Drowning,91.8,0.0,Egypt (est.80)
+51779,Drowning,91.8,0.0,Ethiopia (est.150)
+51779,Drowning,91.8,0.0,Somalia (est.190)
+51779,Drowning,91.8,0.0,Sudan
+51779,Drowning,91.8,0.0,Syria
+52181,Drowning,0.0,2.0,Cuban
+52578,Mixed,0.0,147.0,Various
+53777,Murdered,0.0,13.0,Egypt
+54578,Drowning,3.6,0.4,Nigeria
+54578,Drowning,3.6,0.4,Ivory Coast
+54578,Drowning,3.6,0.4,Guinea
+54578,Drowning,3.6,0.4,Sudan
+54578,Drowning,3.6,0.4,Mali
 54978,Drowning,2.0,5.0,Madagascar
-54979,Drowning,0,1.0,UNKNOWN
-54981,Drowning,0,1.0,UNKNOWN
-55377,Drowning,0,1.0,Mexico
-55379,Heart Attack,0,1.0,UNKNOWN
-56177,gang violence (body dismembered),0,1.0,Honduras
-56178,Shot,0,1.0,Syria
-56179,Beat-up and killed,0,1.0,Syria
-56577,Hit by vehicle,0,1.0,Pakistan
-56977,Shot,0,1.0,Syria
-56978,Shot,0,2.0,Syria
-57377,Vehicle accident,0,4.0,Reported as unspecified nationals of Honduras and Guatemala
-57779,"Exposure, Hypothermia",0,1.0,Guatemala
-57788,"Exposure, Hypothermia",0,1.0,UNKNOWN
-58182,"Exposure, Hypothermia",0,1.0,Mexico
-58577,Drowning,0,1.0,Egypt
-58578,Drowning,0,1.0,Somalia
-58977,Pulmonary complications,0,1.0,Haiti
-60177,Drowning,0,1.0,Algeria
-60577,Drowning,250.0,5.0,UNKNOWN
-60578,Violent robbery,0,1.0,Guatemala
-60977,Murdered,0,1.0,El Salvador
-61377,Drowning,550.0,,UNKNOWN
-61378,Burns and Suffocation,0,4.0,UNKNOWN
-62177,Drowning,0,1.0,Mexico
-62178,Drowning or suffocation in hull,200.0,45.0,UNKNOWN
-62577,Presumed drowning,47.0,,UNKNOWN
-62977,Presumed drowning,0,6.0,UNKNOWN
-62978,Presumed drowning,0,1.0,UNKNOWN
-62979,Presumed drowning,0,1.0,UNKNOWN
-62980,Presumed drowning,9.0,,UNKNOWN
-63377,Drowning,0,1.0,UNKNOWN
-64178,Bronchopneumonia,0,1.0,UNKNOWN
-64577,Drowning,0,1.0,UNKNOWN
-64977,Drowning,329.0,10.0,Egypt
-64977,Drowning,329.0,10.0,Ethiopia
-64977,Drowning,329.0,10.0,Eritrea
-64977,Drowning,329.0,10.0,Sudan
-64977,Drowning,329.0,10.0,Comoros
-65378,drowning,0,1.0,UNKNOWN
-65379,Hit by train,0,1.0,UNKNOWN
-65777,Likely suffocation (found dead in a truck),0,1.0,Afghanistan
-65778,Fell from train,0,1.0,UNKNOWN
-66177,Drowning,0,1.0,Algerian
-66178,Drowning,6.0,,Cameroon (2) Gambia (1)
-66178,Drowning,6.0,,Mauritius (1)
-66178,Drowning,6.0,,Ivory Coast (2)
-66179,Drowning,3.0,,UNKNOWN
-66181,Drowning,10.0,10.0,UNKNOWN
-66182,Drowning,0,1.0,Syria
-66579,Drowning,0,1.0,UNKNOWN
-66581,Drowning,57.0,,Ivory Coast and Guinea Conakry
-66582,Drowning,0,1.0,Cuba
-66977,Hit by train,0,1.0,UNKNOWN
-66978,Drowning,0,1.0,UNKNOWN
-67377,Hit by train,0,1.0,UNKNOWN
-67378,Fell from train,0,1.0,UNKNOWN
-67379,Heart Attack,0,1.0,Guatemala
-67777,Hypothermia,0,1.0,Honduras
-67778,Plane Stowaway,0,1.0,UNKNOWN
-68178,Vehicle accident,0,1.0,UNKNOWN
-68577,Drowning,0,1.0,UNKNOWN
-69777,Presumed dehydration,0,34.0,2 from Niger
-70209,Suffocation,0,19.0,Ethiopia
-72187,Bronchial aspiration,0,1.0,UNKNOWN
-72188,Fell from train,0,1.0,Honduras
+55377,Drowning,0.0,1.0,Mexico
+56177,gang violence (body dismembered),0.0,1.0,Honduras
+56178,Shot,0.0,1.0,Syria
+56179,Beat-up and killed,0.0,1.0,Syria
+56577,Hit by vehicle,0.0,1.0,Pakistan
+56977,Shot,0.0,1.0,Syria
+56978,Shot,0.0,2.0,Syria
+57377,Vehicle accident,0.0,4.0,Reported as unspecified nationals of Honduras and Guatemala
+57779,"Exposure, Hypothermia",0.0,1.0,Guatemala
+58182,"Exposure, Hypothermia",0.0,1.0,Mexico
+58577,Drowning,0.0,1.0,Egypt
+58578,Drowning,0.0,1.0,Somalia
+58977,Pulmonary complications,0.0,1.0,Haiti
+60177,Drowning,0.0,1.0,Algeria
+60578,Violent robbery,0.0,1.0,Guatemala
+60977,Murdered,0.0,1.0,El Salvador
+62177,Drowning,0.0,1.0,Mexico
+64977,Drowning,65.8,2.0,Egypt
+64977,Drowning,65.8,2.0,Ethiopia
+64977,Drowning,65.8,2.0,Eritrea
+64977,Drowning,65.8,2.0,Sudan
+64977,Drowning,65.8,2.0,Comoros
+65777,Likely suffocation (found dead in a truck),0.0,1.0,Afghanistan
+66177,Drowning,0.0,1.0,Algerian
+66178,Drowning,2.0,0.0,Cameroon (2) Gambia (1)
+66178,Drowning,2.0,0.0,Mauritius (1)
+66178,Drowning,2.0,0.0,Ivory Coast (2)
+66182,Drowning,0.0,1.0,Syria
+66581,Drowning,57.0,0.0,Ivory Coast and Guinea Conakry
+66582,Drowning,0.0,1.0,Cuba
+67379,Heart Attack,0.0,1.0,Guatemala
+67777,Hypothermia,0.0,1.0,Honduras
+69777,Presumed dehydration,0.0,34.0,2 from Niger
+70209,Suffocation,0.0,19.0,Ethiopia
+72188,Fell from train,0.0,1.0,Honduras
 72977,Drowning,1.0,3.0,At least 1 from Mexico
-73377,Fell from train,0,1.0,UNKNOWN
-73778,Presumed drowning,29.0,,UNKNOWN
-73779,Fell from train,0,1.0,Mexico
-73814,Shot,0,1.0,UNKNOWN
-74177,Vehicle accident,0,1.0,El Salvador
-74178,Hit by vehicle,0,1.0,Afghanistan
-74977,Presumed asphyxiation,0,2.0,UNKNOWN
-74980,Shot,0,1.0,Syria
-74981,Shot,0,11.0,Syria
-74982,Shot,0,1.0,Syria
-74983,Shot,0,1.0,Syria
-74984,Shot,0,1.0,Syria
-74985,Shot,0,1.0,Syria
-74986,Shot,0,3.0,Syria
-74987,Shot,0,1.0,Syria
-74988,Shot,0,1.0,Syria
-74989,Shot,0,1.0,Syria
-74990,Shot,0,2.0,Syria
-74991,Shot,0,1.0,Syria
-74992,Shot,0,2.0,Syria
-74993,Shot,0,1.0,Syria
-74994,Shot,0,1.0,Syria
-74995,Shot,0,1.0,Syria
-74996,Shot,0,1.0,Syria
-74997,Shot,0,1.0,Syria
-74998,Shot,0,1.0,Syria
-75377,Shot,0,1.0,Syria
-75378,Shot,0,1.0,Syria
-75380,Shot,0,1.0,Syria
-75381,Shot,0,8.0,Syria
-75382,Shot,0,1.0,Syria
-75383,Shot,0,1.0,Syria
-75384,Shot,0,1.0,Syria
-75385,Shot,0,1.0,Syria
-75386,Shot,0,1.0,Syria
-75387,Shot,0,1.0,Syria
-75388,Shot,0,1.0,Syria
-75389,Shot,0,1.0,Syria
-75390,Shot,0,1.0,Syria
-75391,Shot,0,1.0,Syria
-75392,Shot,0,1.0,Syria
-75393,Shot,0,1.0,Syria
-75394,Shot,0,1.0,Syria
-75395,Shot,0,1.0,Syria
-75396,Shot,0,1.0,Syria
-76177,Vehicle accident,0,1.0,UNKNOWN
-76577,Vehicle accident,0,1.0,UNKNOWN
-76578,Drowning,0,1.0,UNKNOWN
-76579,Drowning,0,1.0,Nigeria
-76580,Presumed drowning,17.0,,Ethiopia
-76977,Presumed drowning,0,9.0,UNKNOWN
-76978,Hit by train,0,1.0,UNKNOWN
-77377,Murdered by gang members,0,1.0,Honduras
-77777,Shot,0,1.0,UNKNOWN
-78177,Assaulted by smugglers,0,1.0,Cuban
-78577,Murdered (head wound),0,1.0,UNKNOWN
-78580,Drowning,0,1.0,Mexican
-78581,Dehydration and exposure to the elements,0,18.0,Niger (3)
-78581,Dehydration and exposure to the elements,0,18.0,Mali(3)
-78581,Dehydration and exposure to the elements,0,18.0,Senegal(3)
-78581,Dehydration and exposure to the elements,0,18.0,Guinea(3)
-78581,Dehydration and exposure to the elements,0,18.0,Ivory Coast(2)
-78581,Dehydration and exposure to the elements,0,18.0,CAR(1)
-78581,Dehydration and exposure to the elements,0,18.0,Liberia(1)
-78582,Dehydration and exposure to the elements,0,15.0,UNKNOWN
-78977,Shot,0,4.0,Mali
-78978,Suffocation,0,2.0,Cameroonian
-79777,Drowning,0,1.0,El Salvador
+73779,Fell from train,0.0,1.0,Mexico
+74177,Vehicle accident,0.0,1.0,El Salvador
+74178,Hit by vehicle,0.0,1.0,Afghanistan
+74980,Shot,0.0,1.0,Syria
+74981,Shot,0.0,11.0,Syria
+74982,Shot,0.0,1.0,Syria
+74983,Shot,0.0,1.0,Syria
+74984,Shot,0.0,1.0,Syria
+74985,Shot,0.0,1.0,Syria
+74986,Shot,0.0,3.0,Syria
+74987,Shot,0.0,1.0,Syria
+74988,Shot,0.0,1.0,Syria
+74989,Shot,0.0,1.0,Syria
+74990,Shot,0.0,2.0,Syria
+74991,Shot,0.0,1.0,Syria
+74992,Shot,0.0,2.0,Syria
+74993,Shot,0.0,1.0,Syria
+74994,Shot,0.0,1.0,Syria
+74995,Shot,0.0,1.0,Syria
+74996,Shot,0.0,1.0,Syria
+74997,Shot,0.0,1.0,Syria
+74998,Shot,0.0,1.0,Syria
+75377,Shot,0.0,1.0,Syria
+75378,Shot,0.0,1.0,Syria
+75380,Shot,0.0,1.0,Syria
+75381,Shot,0.0,8.0,Syria
+75382,Shot,0.0,1.0,Syria
+75383,Shot,0.0,1.0,Syria
+75384,Shot,0.0,1.0,Syria
+75385,Shot,0.0,1.0,Syria
+75386,Shot,0.0,1.0,Syria
+75387,Shot,0.0,1.0,Syria
+75388,Shot,0.0,1.0,Syria
+75389,Shot,0.0,1.0,Syria
+75390,Shot,0.0,1.0,Syria
+75391,Shot,0.0,1.0,Syria
+75392,Shot,0.0,1.0,Syria
+75393,Shot,0.0,1.0,Syria
+75394,Shot,0.0,1.0,Syria
+75395,Shot,0.0,1.0,Syria
+75396,Shot,0.0,1.0,Syria
+76579,Drowning,0.0,1.0,Nigeria
+76580,Presumed drowning,17.0,0.0,Ethiopia
+77377,Murdered by gang members,0.0,1.0,Honduras
+78177,Assaulted by smugglers,0.0,1.0,Cuban
+78580,Drowning,0.0,1.0,Mexican
+78581,Dehydration and exposure to the elements,0.0,2.5714285714285716,Niger (3)
+78581,Dehydration and exposure to the elements,0.0,2.5714285714285716,Mali(3)
+78581,Dehydration and exposure to the elements,0.0,2.5714285714285716,Senegal(3)
+78581,Dehydration and exposure to the elements,0.0,2.5714285714285716,Guinea(3)
+78581,Dehydration and exposure to the elements,0.0,2.5714285714285716,Ivory Coast(2)
+78581,Dehydration and exposure to the elements,0.0,2.5714285714285716,CAR(1)
+78581,Dehydration and exposure to the elements,0.0,2.5714285714285716,Liberia(1)
+78977,Shot,0.0,4.0,Mali
+78978,Suffocation,0.0,2.0,Cameroonian
+79777,Drowning,0.0,1.0,El Salvador
 80178,Drowning,4.0,13.0,Tunisia
-80179,Raped and murdered,0,1.0,Honduras
-80579,Presumed hyperthermia,0,1.0,Honduras
-80580,Hyperthermia,0,1.0,Mexico
-80582,Presumed hyperthermia,0,1.0,Mexico
-80583,Presumed hyperthermia,0,1.0,Mexico
-80584,Hyperthermia,0,1.0,Guatemala
-80586,Presumed hyperthermia,0,1.0,Mexico
-80977,Presumed hyperthermia,0,1.0,Mexico
-80978,Hyperthermia,0,1.0,Mexico
-80979,Hyperthermia,0,1.0,Guatemala
-80981,Shot,0,1.0,Mexico
-80982,Presumed hyperthermia,0,1.0,UNKNOWN
-80983,Presumed hyperthermia,0,1.0,UNKNOWN
-80985,Presumed hyperthermia,0,1.0,Mexico
-80988,Hit by vehicle,0,1.0,UNKNOWN
-81380,Hit by train,0,1.0,UNKNOWN
-81381,Hypothermia,0,1.0,UNKNOWN
-81777,Drowning,2.0,1.0,UNKNOWN
-81778,Hit by train,0,1.0,UNKNOWN
-81782,Hit by vehicle,0,1.0,Honduras
-81783,Fell from train,0,1.0,UNKNOWN
-81784,Vehicle accident,0,1.0,Honduras or El Salvador
-82177,Drowning,3.0,4.0,UNKNOWN
-82178,Suffocation,0,4.0,UNKNOWN
-82179,Murdered,0,1.0,El Salvador
-82181,Hit by vehicle,0,1.0,Eritria
-82183,Presumed dehydration,0,1.0,Mexico
-82578,Drowning,0,1.0,UNKNOWN
-82977,Vehicle Accident,0,1.0,Honduras
-83377,Criminal Violence,0,1.0,Nicaragua
+80179,Raped and murdered,0.0,1.0,Honduras
+80579,Presumed hyperthermia,0.0,1.0,Honduras
+80580,Hyperthermia,0.0,1.0,Mexico
+80582,Presumed hyperthermia,0.0,1.0,Mexico
+80583,Presumed hyperthermia,0.0,1.0,Mexico
+80584,Hyperthermia,0.0,1.0,Guatemala
+80586,Presumed hyperthermia,0.0,1.0,Mexico
+80977,Presumed hyperthermia,0.0,1.0,Mexico
+80978,Hyperthermia,0.0,1.0,Mexico
+80979,Hyperthermia,0.0,1.0,Guatemala
+80981,Shot,0.0,1.0,Mexico
+80985,Presumed hyperthermia,0.0,1.0,Mexico
+81782,Hit by vehicle,0.0,1.0,Honduras
+81784,Vehicle accident,0.0,1.0,Honduras or El Salvador
+82179,Murdered,0.0,1.0,El Salvador
+82181,Hit by vehicle,0.0,1.0,Eritria
+82183,Presumed dehydration,0.0,1.0,Mexico
+82977,Vehicle Accident,0.0,1.0,Honduras
+83377,Criminal Violence,0.0,1.0,Nicaragua
 83782,Presumed drowning,20.0,1.0,Reported as unspecified nationals of West Africa
-83783,Drowning,0,1.0,Reported as unspecified nationals of Honduras
-84177,Presumed drowning,15.0,,13 Cuba
-84177,Presumed drowning,15.0,,1 Dominican Republic
-84177,Presumed drowning,15.0,,1 Colombia
-84577,Mixed,0,32.0,Mixed
-84980,Drowning,0,1.0,Unkown
-85777,Drowning,0,1.0,UNKNOWN
-85779,Hit by vehicle,0,1.0,Sudan
-85780,Presumed drowning,0,120.0,UNKNOWN
-86177,Drowning,0,1.0,UNKNOWN
+83783,Drowning,0.0,1.0,Reported as unspecified nationals of Honduras
+84177,Presumed drowning,5.0,0.0,13 Cuba
+84177,Presumed drowning,5.0,0.0,1 Dominican Republic
+84177,Presumed drowning,5.0,0.0,1 Colombia
+84577,Mixed,0.0,32.0,Mixed
+84980,Drowning,0.0,1.0,Unkown
+85779,Hit by vehicle,0.0,1.0,Sudan
 86577,Drowning,11.0,15.0,Indonesia
-86977,Violence during riot,0,1.0,Ethiopia
-86978,Presumed dehydration,0,1.0,Mexico
-87377,Drowning,0,1.0,Mexico
-88177,Poison,0,1.0,Mexico
-88577,Drowning,0,1.0,UNKNOWN
-88977,Drowning,0,1.0,Honduras
-88979,Drowning,0,1.0,Mexico
-88981,Drowning,0,4.0,UNKNOWN
-89378,Shot,0,9.0,Sudan
-89777,Drowning,0,1.0,Mexico
-89778,Drowning,0,1.0,UNKNOWN
-89781,Drowning,0,8.0,Reported as unspecified nationals of Africa
-89782,Drowning,0,1.0,Morocco
-89783,Presumed drowning,56.0,,UNKNOWN
-89784,Drowning,7.0,3.0,UNKNOWN
-89788,Presumed hyperthermia,0,1.0,Guatemala
-89790,Presumed hyperthermia,0,1.0,Mexico
-89792,Presumed hyperthermia,0,1.0,Honduras
-89795,Presumed hyperthermia,0,1.0,Honduras
-90177,Drowning,0,1.0,Mahgreb
-90178,Presumed drowning,28.0,,UNKNOWN
-90179,Drowning,0,1.0,UNKNOWN
-90180,Presumed hyperthermia,0,1.0,Mexico
-90181,Presumed hyperthermia,0,1.0,El Salvador
-90183,Presumed hyperthermia,0,1.0,Honduras
-90184,Presumed hyperthermia,0,1.0,Guatemala
-90186,Hyperthermia,0,1.0,Ecuador
-90187,Hyperthermia,0,1.0,Guatemala
-90188,Multiple blunt force injuries,0,1.0,Mexico
-90189,Presumed hyperthermia,0,1.0,Guatemala
-90577,Presumed exposure,0,1.0,Guatemala
-90578,Drowning,0,2.0,UNKNOWN
-90977,Drowning,0,1.0,UNKNOWN
-91377,Hit by vehicle,0,1.0,Haiti
-91777,Presumed Drowning,0,21.0,Mixed
-91778,Injuries caused by boat motor,0,1.0,UNKNOWN
-92177,Vehicle accident,0,1.0,Mexico
-92178,Vehicle accident,0,4.0,Mexico
-92179,Vehicle accident,0,1.0,Honduras
-92180,Drowning,0,3.0,El Salvador and Honduras
-92577,Fell from train,0,1.0,UNKNOWN
-92578,Drowning,0,1.0,Guatemala
-92579,Fell from train,0,1.0,Honduras
-92580,Presumed Drowning,0,1.0,UNKNOWN
-92977,Drowning,0,1.0,UNKNOWN
-92978,Presumed exposure,0,1.0,UNKNOWN
-92979,Dehydration,0,1.0,Mexico
-93377,Presumed exposure,0,1.0,UNKNOWN
-93378,Presumed Dehydration,0,1.0,Guatemala
-93777,Dehydration,0,1.0,Dominican Republic
-94177,Dehydration,0,1.0,El Salvador
-94178,Presumed drowning,0,1.0,UNKNOWN
-94179,Presumed drowning,0,3.0,UNKNOWN
-94180,Dehydration,0,1.0,Honduras
-94577,Hypothermia,0,1.0,Haiti
-94977,Murdered,0,4.0,1 Honduran
-94977,Murdered,0,4.0,3 Mexican
-94978,Vehicle accident,0,1.0,Mexico
+86977,Violence during riot,0.0,1.0,Ethiopia
+86978,Presumed dehydration,0.0,1.0,Mexico
+87377,Drowning,0.0,1.0,Mexico
+88177,Poison,0.0,1.0,Mexico
+88977,Drowning,0.0,1.0,Honduras
+88979,Drowning,0.0,1.0,Mexico
+89378,Shot,0.0,9.0,Sudan
+89777,Drowning,0.0,1.0,Mexico
+89781,Drowning,0.0,8.0,Reported as unspecified nationals of Africa
+89782,Drowning,0.0,1.0,Morocco
+89788,Presumed hyperthermia,0.0,1.0,Guatemala
+89790,Presumed hyperthermia,0.0,1.0,Mexico
+89792,Presumed hyperthermia,0.0,1.0,Honduras
+89795,Presumed hyperthermia,0.0,1.0,Honduras
+90177,Drowning,0.0,1.0,Mahgreb
+90180,Presumed hyperthermia,0.0,1.0,Mexico
+90181,Presumed hyperthermia,0.0,1.0,El Salvador
+90183,Presumed hyperthermia,0.0,1.0,Honduras
+90184,Presumed hyperthermia,0.0,1.0,Guatemala
+90186,Hyperthermia,0.0,1.0,Ecuador
+90187,Hyperthermia,0.0,1.0,Guatemala
+90188,Multiple blunt force injuries,0.0,1.0,Mexico
+90189,Presumed hyperthermia,0.0,1.0,Guatemala
+90577,Presumed exposure,0.0,1.0,Guatemala
+91377,Hit by vehicle,0.0,1.0,Haiti
+91777,Presumed Drowning,0.0,21.0,Mixed
+92177,Vehicle accident,0.0,1.0,Mexico
+92178,Vehicle accident,0.0,4.0,Mexico
+92179,Vehicle accident,0.0,1.0,Honduras
+92180,Drowning,0.0,3.0,El Salvador and Honduras
+92578,Drowning,0.0,1.0,Guatemala
+92579,Fell from train,0.0,1.0,Honduras
+92979,Dehydration,0.0,1.0,Mexico
+93378,Presumed Dehydration,0.0,1.0,Guatemala
+93777,Dehydration,0.0,1.0,Dominican Republic
+94177,Dehydration,0.0,1.0,El Salvador
+94180,Dehydration,0.0,1.0,Honduras
+94577,Hypothermia,0.0,1.0,Haiti
+94977,Murdered,0.0,2.0,1 Honduran
+94977,Murdered,0.0,2.0,3 Mexican
+94978,Vehicle accident,0.0,1.0,Mexico
 94980,Drowning,2.0,5.0,Syria
-95377,Presumed exposure,0,1.0,Mexico
-95378,Presumed drowning,1.0,,Morocco
+95377,Presumed exposure,0.0,1.0,Mexico
+95378,Presumed drowning,1.0,0.0,Morocco
 95379,Drowning,2.0,1.0,Syria
-96577,Car accident,0,1.0,Guatemala
+96577,Car accident,0.0,1.0,Guatemala
 96977,Drowning,2.0,1.0,Mexican
-96978,Drowning,0,9.0,UNKNOWN
-96979,Head injury from fall,0,1.0,Eritrea
-97377,Stabbed,0,1.0,Sudan
-97378,Hit by train,0,1.0,UNKNOWN
-97778,Presumed drowning,151.0,,'Sub-Saharan African'
-98177,Drowning,0,1.0,Mexico
-98977,Fell from train,0,1.0,UNKNOWN
-98978,Drowning,0,1.0,UNKNOWN
-99377,Fell from train,0,1.0,UNKNOWN
-100178,Renal insufficiency and pulmonary edema,0,1.0,Cuban
-100179,Drowning,0,1.0,Guatemala
-100578,Vehicle accident,0,6.0,Guatemala
-100578,Vehicle accident,0,6.0,Honduras
-100578,Vehicle accident,0,6.0,El Salvador
-100977,Cut in half by train,0,1.0,UNKNOWN
-101779,Drowning,0,1.0,Honduras
-101780,Murdered,0,1.0,Honduras
-101781,Hit by vehicle,0,1.0,UNKNOWN
-102577,Presumed hyperthermia,0,1.0,Mexico
-102578,Presumed hyperthermia,0,1.0,UNKNOWN
-102579,Presumed hyperthermia,0,1.0,Mexico
-102581,Presumed hyperthermia,0,1.0,UNKNOWN
-102584,Presumed hyperthermia,0,1.0,Guatemala
-102588,Murdered,0,2.0,Honduras
-102977,Blunt force head trauma,0,1.0,Mexico
-102979,Presumed hyperthermia,0,1.0,Mexico
-102980,Presumed hyperthermia,0,1.0,Mexico
-102983,Hyperthermia,0,1.0,Mexico
-102987,Hyperthermia,0,1.0,UNKNOWN
-102988,Hit by vehicle,0,1.0,Honduras
-103377,Fell from train,0,1.0,UNKNOWN
-103378,Drowning,0,2.0,UNKNOWN
-103379,Drowning,0,1.0,UNKNOWN
-103777,Vehicle accident,0,3.0,Honduras
-103778,Drowning,0,7.0,Reported as unspecified nationals of Africa
-103779,Drowning,0,1.0,Mexico
-104577,Presumed drowning,0,5.0,UNKNOWN
-104977,Presumed drowning,0,4.0,UNKNOWN
-105377,Vehicle accident,0,3.0,Ethiopia
-105377,Vehicle accident,0,3.0,Somalia
-105378,Drowning,0,1.0,UNKNOWN
-105379,Drowning,0,6.0,Iraq
-105380,Shot,0,1.0,Afghanistan
-105777,Violent robbery,0,2.0,Cuba
-106577,Drowning,0,1.0,Honduras
-106578,Heart attack,0,1.0,Honduras
-107377,Heart attack,0,1.0,Haiti
-107378,"Pulmonary edema, Kidney failure",0,1.0,Cuba
-107379,Drowning,0,1.0,UNKNOWN
-107381,Drowning,0,1.0,UNKNOWN
-107382,Respiratory illness,0,1.0,Democratic Republic of Congo
-107383,Drowning,0,1.0,UNKNOWN
-107384,Hit by vehicle,0,1.0,Afghanistan
-107385,Mixed - mostly drownings or shootings,0,7.0,UNKNOWN
-107777,Mixed,0,25.0,Mixed
-108178,Stabbed,0,1.0,Afghanistan
-108179,"Hunger, fatigue",0,1.0,Algerian
-108577,Drowning,84.0,204.0,Egyptian
-108577,Drowning,84.0,204.0,Eritrean
-108577,Drowning,84.0,204.0,Sudanese
-108577,Drowning,84.0,204.0,Syrian
-108977,Fell from train,0,1.0,Honduras
-109377,Hit by train,0,1.0,Sudan
-109777,Drowning,0,1.0,UNKNOWN
-109778,Sickness,0,1.0,Haiti
-109779,Presumed drowning,1.0,,Mexico
+96979,Head injury from fall,0.0,1.0,Eritrea
+97377,Stabbed,0.0,1.0,Sudan
+97778,Presumed drowning,151.0,0.0,'Sub-Saharan African'
+98177,Drowning,0.0,1.0,Mexico
+100178,Renal insufficiency and pulmonary edema,0.0,1.0,Cuban
+100179,Drowning,0.0,1.0,Guatemala
+100578,Vehicle accident,0.0,2.0,Guatemala
+100578,Vehicle accident,0.0,2.0,Honduras
+100578,Vehicle accident,0.0,2.0,El Salvador
+101779,Drowning,0.0,1.0,Honduras
+101780,Murdered,0.0,1.0,Honduras
+102577,Presumed hyperthermia,0.0,1.0,Mexico
+102579,Presumed hyperthermia,0.0,1.0,Mexico
+102584,Presumed hyperthermia,0.0,1.0,Guatemala
+102588,Murdered,0.0,2.0,Honduras
+102977,Blunt force head trauma,0.0,1.0,Mexico
+102979,Presumed hyperthermia,0.0,1.0,Mexico
+102980,Presumed hyperthermia,0.0,1.0,Mexico
+102983,Hyperthermia,0.0,1.0,Mexico
+102988,Hit by vehicle,0.0,1.0,Honduras
+103777,Vehicle accident,0.0,3.0,Honduras
+103778,Drowning,0.0,7.0,Reported as unspecified nationals of Africa
+103779,Drowning,0.0,1.0,Mexico
+105377,Vehicle accident,0.0,1.5,Ethiopia
+105377,Vehicle accident,0.0,1.5,Somalia
+105379,Drowning,0.0,6.0,Iraq
+105380,Shot,0.0,1.0,Afghanistan
+105777,Violent robbery,0.0,2.0,Cuba
+106577,Drowning,0.0,1.0,Honduras
+106578,Heart attack,0.0,1.0,Honduras
+107377,Heart attack,0.0,1.0,Haiti
+107378,"Pulmonary edema, Kidney failure",0.0,1.0,Cuba
+107382,Respiratory illness,0.0,1.0,Democratic Republic of Congo
+107384,Hit by vehicle,0.0,1.0,Afghanistan
+107777,Mixed,0.0,25.0,Mixed
+108178,Stabbed,0.0,1.0,Afghanistan
+108179,"Hunger, fatigue",0.0,1.0,Algerian
+108577,Drowning,21.0,51.0,Egyptian
+108577,Drowning,21.0,51.0,Eritrean
+108577,Drowning,21.0,51.0,Sudanese
+108577,Drowning,21.0,51.0,Syrian
+108977,Fell from train,0.0,1.0,Honduras
+109377,Hit by train,0.0,1.0,Sudan
+109778,Sickness,0.0,1.0,Haiti
+109779,Presumed drowning,1.0,0.0,Mexico
 110178,Drowning,15.0,5.0,Cuba
-110577,Drowning,0,1.0,Reported as unspecified national of Sub-Saharan Africa
-110578,Drowning,0,1.0,UNKNOWN
-110977,Drowning,0,1.0,UNKNOWN
-110978,Drowning,0,11.0,UNKNOWN
-111377,Fell from train,0,1.0,UNKNOWN
-111378,Drowning,20.0,7.0,Afghanistan
-111378,Drowning,20.0,7.0,Pakistan
-111379,Vehicle accident,0,14.0,Afghanistan
-111381,Drowning,0,30.0,Libya
-111381,Drowning,0,30.0,Morocco
-111381,Drowning,0,30.0,Syria
-111382,Asphyxiation,0,28.0,Nigeria
-111382,Asphyxiation,0,28.0,Eritrea
-111382,Asphyxiation,0,28.0,Guinea
-111382,Asphyxiation,0,28.0,Gambia
-111382,Asphyxiation,0,28.0,Sudan
-111382,Asphyxiation,0,28.0,Ivory Coast
-111382,Asphyxiation,0,28.0,Somalia
-111383,"Dehydration, Asphyxiation",0,6.0,Guatemala
-111383,"Dehydration, Asphyxiation",0,6.0,Ecuador
-112182,Presumed hyperthermia,0,1.0,Mexico
-112190,Presumed drowning,0,1.0,UNKNOWN
-112977,Drowning,0,1.0,UNKNOWN
-113377,Drowning,0,1.0,UNKNOWN
-113378,Presumed drowning,25.0,,Unspecified nationalities of Subsaharan Africa
-113379,Hit by train,0,1.0,UNKNOWN
-113380,Presumed drowning,22.0,,Unspecified nationalities of Sub-Saharan Africa
-113381,Drowning,0,1.0,Unspecified nationality of Sub-Saharan Africa
+110577,Drowning,0.0,1.0,Reported as unspecified national of Sub-Saharan Africa
+111378,Drowning,10.0,3.5,Afghanistan
+111378,Drowning,10.0,3.5,Pakistan
+111379,Vehicle accident,0.0,14.0,Afghanistan
+111381,Drowning,0.0,10.0,Libya
+111381,Drowning,0.0,10.0,Morocco
+111381,Drowning,0.0,10.0,Syria
+111382,Asphyxiation,0.0,4.0,Nigeria
+111382,Asphyxiation,0.0,4.0,Eritrea
+111382,Asphyxiation,0.0,4.0,Guinea
+111382,Asphyxiation,0.0,4.0,Gambia
+111382,Asphyxiation,0.0,4.0,Sudan
+111382,Asphyxiation,0.0,4.0,Ivory Coast
+111382,Asphyxiation,0.0,4.0,Somalia
+111383,"Dehydration, Asphyxiation",0.0,3.0,Guatemala
+111383,"Dehydration, Asphyxiation",0.0,3.0,Ecuador
+112182,Presumed hyperthermia,0.0,1.0,Mexico
+113378,Presumed drowning,25.0,0.0,Unspecified nationalities of Subsaharan Africa
+113380,Presumed drowning,22.0,0.0,Unspecified nationalities of Sub-Saharan Africa
+113381,Drowning,0.0,1.0,Unspecified nationality of Sub-Saharan Africa
 113382,Drowning,1.0,1.0,Morocco
-113383,Drowning,0,1.0,Mexico
-113384,Drowning,0,1.0,UNKNOWN
-113777,Fell from boat,0,1.0,UNKNOWN
-113778,Shot,0,1.0,Honduras
-114177,Drowning,0,18.0,UNKNOWN
-114178,Drowning,0,3.0,UNKNOWN
-114179,Hit by vehicle,0,1.0,Eritrea
-114180,Drowning,0,1.0,Mexico
-114577,Presumed drowning,0,1.0,UNKNOWN
-114977,Drowning,0,1.0,UNKNOWN
-114978,Drowning,17.0,,Nigeria
-114978,Drowning,17.0,,Senegal
-114979,Hit by train,0,1.0,Iraq
-115377,unknown (corpses recovered from boats),0,3.0,UNKNOWN
-115777,Suffocation,0,1.0,Eritrea
-115778,Presumed drowning,0,1.0,Cuba
-116177,Injured from a fight,0,1.0,Sudan
-116577,Drowning,0,1.0,UNKNOWN
-116578,Vehicle accident,0,7.0,Ethiopia
-116579,Drowning,0,1.0,Guatemala
-116580,Drowning,0,1.0,Honduras
-116977,Drowning,0,13.0,UNKNOWN
-117377,Drowning,0,1.0,UNKNOWN
-117378,Drowning,0,1.0,UNKNOWN
-117379,Drowning,0,2.0,1 Venezuelan
-117379,Drowning,0,2.0,1 unknown
-117777,Asphyxiation,0,3.0,UNKNOWN
-117778,Drowning,10.0,4.0,UNKNOWN
-118177,Plane Stowaway,0,1.0,UNKNOWN
-118178,Drowning,0,2.0,UNKNOWN
-118179,"Drowning, Asphyxiation",30.0,,UNKNOWN
-118180,Mixed,0,44.0,Honduras
-118977,Fuel Inhalation,0,29.0,UNKNOWN
-119377,Drowning,29.0,1.0,UNKNOWN
-119378,Drowning,29.0,,UNKNOWN
-119380,Drowning,0,97.0,Senegal
-119380,Drowning,0,97.0,Mali
-119380,Drowning,0,97.0,Guinea
-120577,Presumed drowning,10.0,,UNKNOWN
-120578,Drowning,0,1.0,UNKNOWN
-120579,Fell from train,0,1.0,Honduras
+113383,Drowning,0.0,1.0,Mexico
+113778,Shot,0.0,1.0,Honduras
+114179,Hit by vehicle,0.0,1.0,Eritrea
+114180,Drowning,0.0,1.0,Mexico
+114978,Drowning,8.5,0.0,Nigeria
+114978,Drowning,8.5,0.0,Senegal
+114979,Hit by train,0.0,1.0,Iraq
+115777,Suffocation,0.0,1.0,Eritrea
+115778,Presumed drowning,0.0,1.0,Cuba
+116177,Injured from a fight,0.0,1.0,Sudan
+116578,Vehicle accident,0.0,7.0,Ethiopia
+116579,Drowning,0.0,1.0,Guatemala
+116580,Drowning,0.0,1.0,Honduras
+117379,Drowning,0.0,1.0,1 Venezuelan
+117379,Drowning,0.0,1.0,1 unknown
+118180,Mixed,0.0,44.0,Honduras
+119380,Drowning,0.0,32.333333333333336,Senegal
+119380,Drowning,0.0,32.333333333333336,Mali
+119380,Drowning,0.0,32.333333333333336,Guinea
+120579,Fell from train,0.0,1.0,Honduras
 120977,Drowning,1.0,1.0,Honduras
 120978,Drowning,6.0,54.0,Malaysia
-120979,Drowning,0,3.0,UNKNOWN
-121377,Drowning,4.0,2.0,UNKNOWN
-121777,Drowning,99.0,12.0,UNKNOWN
-121778,Presumed drowning,128.0,,UNKNOWN
-122184,Hit by vehicle,0,1.0,Syria
-122977,Dehydration,0,1.0,El Salvador
-122978,Drowning,0,1.0,Mexico
-122979,Drowning,0,1.0,UNKNOWN
-122981,"Hyperthermia, Dehydration",0,1.0,Mexico
-123377,Fell from train,0,1.0,Honduras
-123378,Drowning,0,1.0,Nicaragua
-123379,Drowning,0,1.0,Honduras
-123381,Drowning,0,1.0,Reported as unspecified national of Africa
-123777,"Drowning, Asphyxiation",0,1.0,Mexico
-124177,Drowning,0,1.0,Mexico
+122184,Hit by vehicle,0.0,1.0,Syria
+122977,Dehydration,0.0,1.0,El Salvador
+122978,Drowning,0.0,1.0,Mexico
+122981,"Hyperthermia, Dehydration",0.0,1.0,Mexico
+123377,Fell from train,0.0,1.0,Honduras
+123378,Drowning,0.0,1.0,Nicaragua
+123379,Drowning,0.0,1.0,Honduras
+123381,Drowning,0.0,1.0,Reported as unspecified national of Africa
+123777,"Drowning, Asphyxiation",0.0,1.0,Mexico
+124177,Drowning,0.0,1.0,Mexico
 124577,Drowning,22.0,4.0,Reported as unspecified nationals of Africa
-125377,Road accident,0,1.0,Pakistan
+125377,Road accident,0.0,1.0,Pakistan
 125777,Drowning,1.0,5.0,Reported as unspecified nationals of West Africa
-125778,Presumed drowning,135.0,,Reported as unspecified nationals of West Africa
-125779,Presumed drowning,3.0,,UNKNOWN
-125780,Drowning,0,4.0,UNKNOWN
-125782,Shot,0,1.0,Rohingya
-126178,Drowning,95.0,4.0,UNKNOWN
-126179,Drowning,0,1.0,Venezuela
-126180,Hit by vehicle,0,1.0,Honduras
-126181,Heart attack,0,1.0,Cuba
-126577,Drowning,96.0,7.0,UNKNOWN
-126977,Presumed drowning,25.0,,UNKNOWN
+125778,Presumed drowning,135.0,0.0,Reported as unspecified nationals of West Africa
+125782,Shot,0.0,1.0,Rohingya
+126179,Drowning,0.0,1.0,Venezuela
+126180,Hit by vehicle,0.0,1.0,Honduras
+126181,Heart attack,0.0,1.0,Cuba
 127777,Drowning,3.0,6.0,Syria
-127778,Mixed,0,6.0,Mixed
-128177,Presumed drowning,0,1.0,Mexico
-128178,Stabbed,0,1.0,Afghanistan
-128579,Fell from train,0,1.0,Reported as unspecified national of Central America
-128582,Hypothermia,0,1.0,Afghanistan
-128977,Crushed to death,0,1.0,UNKNOWN
-128978,Drowning,0,1.0,El Salvador
-129377,Cervix cancer,0,1.0,Haiti
-129378,Suicide,0,1.0,Afghanistan
-129777,Digestive bleeding,0,1.0,Nepal
-130177,Presumed drowning,0,5.0,Ghana
-130178,Hit by train,0,1.0,Honduras
-130179,Presumed drowning,0,1.0,Guatemala
-130977,Presumed hypothermia,0,1.0,Dominican Republic
-130978,Drowning,0,1.0,Nigeria
-130979,Drowning,0,1.0,Reported as unspecified national of Sub-Saharan Africa
-131377,Dehydration,0,8.0,UNKNOWN
-131783,Fell from train,0,1.0,Honduran
-131784,Hit by truck,0,2.0,UNKNOWN
-132180,Hypothermia,0,1.0,Mexico
-132181,Hypothermia,0,2.0,UNKNOWN
-132182,Drowning,6.0,14.0,UNKNOWN
-132577,Hit by train,0,1.0,Eritrea
+127778,Mixed,0.0,6.0,Mixed
+128177,Presumed drowning,0.0,1.0,Mexico
+128178,Stabbed,0.0,1.0,Afghanistan
+128579,Fell from train,0.0,1.0,Reported as unspecified national of Central America
+128582,Hypothermia,0.0,1.0,Afghanistan
+128978,Drowning,0.0,1.0,El Salvador
+129377,Cervix cancer,0.0,1.0,Haiti
+129378,Suicide,0.0,1.0,Afghanistan
+129777,Digestive bleeding,0.0,1.0,Nepal
+130177,Presumed drowning,0.0,5.0,Ghana
+130178,Hit by train,0.0,1.0,Honduras
+130179,Presumed drowning,0.0,1.0,Guatemala
+130977,Presumed hypothermia,0.0,1.0,Dominican Republic
+130978,Drowning,0.0,1.0,Nigeria
+130979,Drowning,0.0,1.0,Reported as unspecified national of Sub-Saharan Africa
+131783,Fell from train,0.0,1.0,Honduran
+132180,Hypothermia,0.0,1.0,Mexico
+132577,Hit by train,0.0,1.0,Eritrea
 132578,Drowning,4.0,26.0,Myanmar (Rohingya)
-132579,Drowning,0,4.0,UNKNOWN
-132580,Hypothermia,0,2.0,UNKNOWN
-132581,Presumed hypothermia,0,1.0,Dominican Republic
-132979,Presumed drowning,20.0,,UNKNOWN
-133380,Hit by train,0,1.0,Honduras
-133381,Heart attack,0,1.0,Honduras
-133777,Asphyxiation (Silica sand inhalation),0,1.0,Guatemala
-133778,Fell from wall,0,1.0,El Salvador
-133779,Drowning,0,1.0,UNKNOWN
-134177,Drowning,0,11.0,Reported as unspecified nationals of Sub-Saharan Africa
-134180,Vehicle accident,0,2.0,Honduras
-134181,Drowning,20.0,,UNKNOWN
-134183,Sickness_and_lack_of_access_to_medicines Starvation Harsh_weather_lack_of_adequate_shelter,0,6.0,UNKNOWN
-134577,Sickness_and_lack_of_access_to_medicines Harsh_weather_lack_of_adequate_shelter Other,0,2.0,UNKNOWN
-134578,Sickness_and_lack_of_access_to_medicines,0,2.0,UNKNOWN
-134579,Vehicle_Accident,0,2.0,UNKNOWN
-134580,Sickness_and_lack_of_access_to_medicines Harsh_weather_lack_of_adequate_shelter,0,1.0,UNKNOWN
-134581,Sickness_and_lack_of_access_to_medicines Starvation Dehydration,0,3.0,UNKNOWN
-134582,Sickness_and_lack_of_access_to_medicines Dehydration,0,1.0,UNKNOWN
-134583,Sickness_and_lack_of_access_to_medicines,0,1.0,UNKNOWN
-134584,Sickness_and_lack_of_access_to_medicines Starvation Dehydration,0,1.0,UNKNOWN
-134585,Sickness_and_lack_of_access_to_medicines Starvation Dehydration,0,1.0,UNKNOWN
-134586,Vehicle_Accident,0,1.0,UNKNOWN
-134587,Sickness_and_lack_of_access_to_medicines,0,1.0,UNKNOWN
-134588,Sickness_and_lack_of_access_to_medicines Dehydration Shot_or_Stabbed,0,4.0,UNKNOWN
-134589,Dehydration,0,14.0,UNKNOWN
-134590,Sickness_and_lack_of_access_to_medicines Dehydration,0,1.0,UNKNOWN
-134591,Sickness_and_lack_of_access_to_medicines Starvation Dehydration,0,1.0,UNKNOWN
-134592,Sickness_and_lack_of_access_to_medicines Starvation Dehydration,0,2.0,UNKNOWN
-134593,Shot_or_Stabbed,0,2.0,UNKNOWN
-134594,Sickness_and_lack_of_access_to_medicines Harsh_weather_lack_of_adequate_shelter Suffocation,0,1.0,UNKNOWN
-134595,Vehicle_Accident,0,2.0,UNKNOWN
-134596,Shot_or_Stabbed,0,2.0,UNKNOWN
-134597,Vehicle_Accident,0,2.0,UNKNOWN
-134598,Vehicle_Accident,0,3.0,UNKNOWN
-134599,Sickness_and_lack_of_access_to_medicines Harsh_weather_lack_of_adequate_shelter,0,1.0,UNKNOWN
-134600,Vehicle_Accident,0,2.0,UNKNOWN
-134601,Shot_or_Stabbed,0,5.0,UNKNOWN
-134602,Starvation Dehydration Harsh_weather_lack_of_adequate_shelter,0,1.0,UNKNOWN
-134603,Sickness_and_lack_of_access_to_medicines,0,1.0,UNKNOWN
-134604,Sickness_and_lack_of_access_to_medicines,0,1.0,UNKNOWN
-134605,Excessive_physical_abuse,0,2.0,UNKNOWN
-134606,Sickness_and_lack_of_access_to_medicines,0,7.0,UNKNOWN
-134607,Sickness_and_lack_of_access_to_medicines,0,1.0,UNKNOWN
-134608,Sickness_and_lack_of_access_to_medicines Starvation,0,4.0,UNKNOWN
-134609,Sickness_and_lack_of_access_to_medicines Starvation Dehydration,0,1.0,UNKNOWN
-134610,Shot_or_Stabbed,0,1.0,UNKNOWN
-134611,Sickness_and_lack_of_access_to_medicines,0,7.0,UNKNOWN
-134612,Shot_or_Stabbed,0,1.0,UNKNOWN
-134613,Sickness_and_lack_of_access_to_medicines,0,3.0,UNKNOWN
-134614,Shot_or_Stabbed,0,3.0,UNKNOWN
-134615,Sickness_and_lack_of_access_to_medicines Starvation,0,6.0,UNKNOWN
-134616,Shot_or_Stabbed,0,2.0,UNKNOWN
-134617,Sickness_and_lack_of_access_to_medicines Starvation,0,3.0,UNKNOWN
-134618,Sickness_and_lack_of_access_to_medicines Starvation Harsh_weather_lack_of_adequate_shelter Suffocation,0,2.0,UNKNOWN
-134619,Sickness_and_lack_of_access_to_medicines,0,1.0,UNKNOWN
-134620,Shot_or_Stabbed,0,1.0,UNKNOWN
-134621,Vehicle_Accident,0,1.0,UNKNOWN
-134622,Sickness_and_lack_of_access_to_medicines,0,3.0,UNKNOWN
-134623,Shot_or_Stabbed,0,2.0,UNKNOWN
-134624,Sickness_and_lack_of_access_to_medicines,0,1.0,UNKNOWN
-134625,Excessive_physical_abuse,0,3.0,UNKNOWN
-134626,Sickness_and_lack_of_access_to_medicines,0,6.0,UNKNOWN
-134627,Sickness_and_lack_of_access_to_medicines,0,5.0,UNKNOWN
-134628,Sickness_and_lack_of_access_to_medicines,0,1.0,UNKNOWN
-134629,"Starvation, Dehydration",0,1.0,UNKNOWN
-134630,Vehicle_Accident,0,2.0,UNKNOWN
-134631,Harsh_weather_lack_of_adequate_shelter,0,3.0,UNKNOWN
-134632,Sickness_and_lack_of_access_to_medicines,0,6.0,UNKNOWN
-134633,Sickness_and_lack_of_access_to_medicines,0,1.0,UNKNOWN
-134634,Sickness_and_lack_of_access_to_medicines Shot_or_Stabbed,0,25.0,UNKNOWN
-134635,Sickness_and_lack_of_access_to_medicines,0,1.0,UNKNOWN
-134636,Sickness_and_lack_of_access_to_medicines,0,3.0,UNKNOWN
-134637,Sickness_and_lack_of_access_to_medicines,0,1.0,UNKNOWN
-134638,Sickness_and_lack_of_access_to_medicines,0,3.0,UNKNOWN
-134639,Shot_or_Stabbed,0,6.0,UNKNOWN
-134640,Sickness_and_lack_of_access_to_medicines,0,1.0,UNKNOWN
-134641,Shot_or_Stabbed,0,2.0,UNKNOWN
-134642,Sickness_and_lack_of_access_to_medicines,0,8.0,UNKNOWN
-134643,"Suffocation, Other",0,1.0,UNKNOWN
-134644,Vehicle_Accident,0,2.0,UNKNOWN
-134645,Sickness_and_lack_of_access_to_medicines,0,1.0,UNKNOWN
-134646,Sickness_and_lack_of_access_to_medicines,0,1.0,UNKNOWN
-134647,Shot_or_Stabbed,0,13.0,UNKNOWN
-134648,Vehicle_Accident,0,3.0,UNKNOWN
-134649,Sickness_and_lack_of_access_to_medicines Starvation,0,3.0,UNKNOWN
-134650,Sickness_and_lack_of_access_to_medicines Starvation,0,6.0,UNKNOWN
-134651,Suffocation,0,1.0,UNKNOWN
-134652,Shot_or_Stabbed,0,10.0,UNKNOWN
-134653,Sickness_and_lack_of_access_to_medicines,0,2.0,UNKNOWN
-134654,Sickness_and_lack_of_access_to_medicines,0,1.0,UNKNOWN
-134655,Vehicle_Accident,0,30.0,UNKNOWN
-134656,Vehicle_Accident,0,5.0,UNKNOWN
-134657,Sickness_and_lack_of_access_to_medicines Starvation,0,3.0,UNKNOWN
-134658,Sickness_and_lack_of_access_to_medicines,0,3.0,UNKNOWN
-134659,Sickness_and_lack_of_access_to_medicines,0,1.0,UNKNOWN
-134660,Sickness_and_lack_of_access_to_medicines Starvation Harsh_weather_lack_of_adequate_shelter,0,28.0,UNKNOWN
-134661,Shot_or_Stabbed,0,1.0,UNKNOWN
-134662,Sickness_and_lack_of_access_to_medicines,0,6.0,UNKNOWN
-134663,Other,0,3.0,UNKNOWN
-134664,Starvation,0,1.0,UNKNOWN
-134665,Vehicle_Accident,0,2.0,UNKNOWN
-134666,Vehicle_Accident,0,3.0,UNKNOWN
-134667,Starvation Suffocation Excessive_physical_abuse Sexual_abuse,0,2.0,UNKNOWN
-134668,Sickness_and_lack_of_access_to_medicines,0,1.0,UNKNOWN
-134669,Sickness_and_lack_of_access_to_medicines,0,1.0,UNKNOWN
-134670,Sickness_and_lack_of_access_to_medicines Suffocation,0,1.0,UNKNOWN
-134671,Starvation Excessive_physical_abuse Sexual_abuse,0,1.0,UNKNOWN
-134672,Sickness_and_lack_of_access_to_medicines Starvation Dehydration,0,1.0,UNKNOWN
-134673,Sickness_and_lack_of_access_to_medicines Dehydration Harsh_weather_lack_of_adequate_shelter Excessive_physical_abuse Sexual_abuse,0,1.0,UNKNOWN
-134674,Excessive_physical_abuse Sexual_abuse,0,1.0,UNKNOWN
-134675,Vehicle_Accident,0,1.0,UNKNOWN
-134676,Sickness_and_lack_of_access_to_medicines Starvation Dehydration,0,1.0,UNKNOWN
-134677,Sickness_and_lack_of_access_to_medicines,0,1.0,UNKNOWN
-134678,Shot_or_Stabbed,0,6.0,UNKNOWN
-134679,Sickness_and_lack_of_access_to_medicines,0,11.0,UNKNOWN
-134680,Starvation,0,1.0,UNKNOWN
-134681,Vehicle_Accident,0,20.0,UNKNOWN
-134682,Sickness_and_lack_of_access_to_medicines,0,1.0,UNKNOWN
-134683,Shot_or_Stabbed,0,5.0,UNKNOWN
-134684,Suffocation,0,1.0,UNKNOWN
-134685,Sickness_and_lack_of_access_to_medicines Starvation,0,3.0,UNKNOWN
-134686,Shot_or_Stabbed,0,1.0,UNKNOWN
-134687,Starvation Suffocation Excessive_physical_abuse Sexual_abuse,0,2.0,UNKNOWN
-134688,Vehicle_Accident,0,6.0,UNKNOWN
-134689,Sickness_and_lack_of_access_to_medicines Starvation Dehydration Harsh_weather_lack_of_adequate_shelter Suffocation,0,9.0,UNKNOWN
-134690,Sickness_and_lack_of_access_to_medicines,0,1.0,UNKNOWN
-134691,Vehicle_Accident,0,3.0,UNKNOWN
-134692,Vehicle_Accident,0,2.0,UNKNOWN
-134693,Starvation Suffocation Excessive_physical_abuse,0,5.0,UNKNOWN
-134694,Sickness_and_lack_of_access_to_medicines,0,1.0,UNKNOWN
-134695,Sickness_and_lack_of_access_to_medicines Starvation,0,2.0,UNKNOWN
-134696,Sickness_and_lack_of_access_to_medicines Starvation,0,21.0,UNKNOWN
-134697,Shot_or_Stabbed,0,2.0,UNKNOWN
-134698,Sickness_and_lack_of_access_to_medicines Starvation,0,3.0,UNKNOWN
-134699,Sickness_and_lack_of_access_to_medicines,0,1.0,UNKNOWN
-134700,Sickness_and_lack_of_access_to_medicines,0,11.0,UNKNOWN
-134701,Shot_or_Stabbed,0,5.0,UNKNOWN
-134702,Sickness_and_lack_of_access_to_medicines,0,2.0,UNKNOWN
-134703,Starvation,0,2.0,UNKNOWN
-134704,Vehicle_Accident,0,10.0,UNKNOWN
-134705,Sickness_and_lack_of_access_to_medicines Starvation,0,1.0,UNKNOWN
-134706,Sickness_and_lack_of_access_to_medicines,0,1.0,UNKNOWN
-134707,Starvation,0,3.0,UNKNOWN
-134708,Sickness_and_lack_of_access_to_medicines,0,8.0,UNKNOWN
-134709,Vehicle_Accident,0,2.0,UNKNOWN
-134710,Shot_or_Stabbed,0,3.0,UNKNOWN
-134711,Sickness_and_lack_of_access_to_medicines,0,1.0,UNKNOWN
-134712,Shot_or_Stabbed,0,1.0,UNKNOWN
-134713,Starvation Dehydration Harsh_weather_lack_of_adequate_shelter Suffocation,0,5.0,UNKNOWN
-134714,Sickness_and_lack_of_access_to_medicines Starvation Harsh_weather_lack_of_adequate_shelter Suffocation Excessive_physical_abuse Sexual_abuse,0,7.0,UNKNOWN
-134715,Vehicle_Accident,0,2.0,UNKNOWN
-134716,Vehicle_Accident,0,3.0,UNKNOWN
-134717,Vehicle_Accident,0,2.0,UNKNOWN
-134718,Sickness_and_lack_of_access_to_medicines,0,1.0,UNKNOWN
-134719,Sickness_and_lack_of_access_to_medicines Dehydration,0,1.0,UNKNOWN
-134720,Vehicle_Accident,0,3.0,UNKNOWN
-134721,Other,0,1.0,UNKNOWN
-134722,Sickness_and_lack_of_access_to_medicines,0,3.0,UNKNOWN
-134723,Sickness_and_lack_of_access_to_medicines Harsh_weather_lack_of_adequate_shelter,0,1.0,UNKNOWN
-134724,Sickness_and_lack_of_access_to_medicines Excessive_physical_abuse Sexual_abuse,0,2.0,UNKNOWN
-134725,Sickness_and_lack_of_access_to_medicines Harsh_weather_lack_of_adequate_shelter Suffocation Sexual_abuse,0,2.0,UNKNOWN
-134726,Vehicle_Accident Other,0,5.0,UNKNOWN
-134727,Sickness_and_lack_of_access_to_medicines Harsh_weather_lack_of_adequate_shelter Suffocation Excessive_physical_abuse Sexual_abuse,0,3.0,UNKNOWN
-134728,Sickness_and_lack_of_access_to_medicines,0,2.0,UNKNOWN
-134729,Sickness_and_lack_of_access_to_medicines Harsh_weather_lack_of_adequate_shelter,0,2.0,UNKNOWN
-134730,Harsh_weather_lack_of_adequate_shelter,0,1.0,UNKNOWN
-134731,Harsh_weather_lack_of_adequate_shelter,0,2.0,UNKNOWN
-134732,Sickness_and_lack_of_access_to_medicines Harsh_weather_lack_of_adequate_shelter,0,3.0,UNKNOWN
-134733,Harsh_weather_lack_of_adequate_shelter Excessive_physical_abuse,0,2.0,UNKNOWN
-134734,Sickness_and_lack_of_access_to_medicines Dehydration Harsh_weather_lack_of_adequate_shelter Suffocation Excessive_physical_abuse Sexual_abuse,0,2.0,UNKNOWN
-134735,Harsh_weather_lack_of_adequate_shelter Suffocation Vehicle_Accident,0,6.0,UNKNOWN
-134736,Harsh_weather_lack_of_adequate_shelter Suffocation Excessive_physical_abuse Sexual_abuse,0,2.0,UNKNOWN
-134737,Sickness_and_lack_of_access_to_medicines,0,1.0,UNKNOWN
-134738,Vehicle_Accident,0,2.0,UNKNOWN
-134739,Excessive_physical_abuse,0,1.0,UNKNOWN
-134740,Sickness_and_lack_of_access_to_medicines Starvation,0,2.0,UNKNOWN
-134741,Sickness_and_lack_of_access_to_medicines Harsh_weather_lack_of_adequate_shelter Suffocation Excessive_physical_abuse Sexual_abuse,0,3.0,UNKNOWN
-134742,Other,0,9.0,UNKNOWN
-134743,Vehicle_Accident,0,3.0,UNKNOWN
-134744,Other,0,5.0,UNKNOWN
-134745,Vehicle_Accident,0,1.0,UNKNOWN
-134746,Harsh_weather_lack_of_adequate_shelter,0,1.0,UNKNOWN
-134747,Sickness_and_lack_of_access_to_medicines Dehydration Vehicle_Accident,0,1.0,UNKNOWN
-134748,Shot_or_Stabbed,0,1.0,UNKNOWN
-134749,Excessive_physical_abuse,0,3.0,UNKNOWN
-134750,Sickness_and_lack_of_access_to_medicines,0,1.0,UNKNOWN
-134751,Vehicle_Accident,0,2.0,UNKNOWN
-134752,Shot_or_Stabbed,0,1.0,UNKNOWN
-134753,Shot_or_Stabbed,0,2.0,UNKNOWN
-134754,Sickness_and_lack_of_access_to_medicines Starvation Dehydration,0,1.0,UNKNOWN
-134755,Sickness_and_lack_of_access_to_medicines,0,1.0,UNKNOWN
-134756,Excessive_physical_abuse Sexual_abuse,0,2.0,UNKNOWN
-134757,Dehydration Harsh_weather_lack_of_adequate_shelter Suffocation Excessive_physical_abuse Sexual_abuse,0,3.0,UNKNOWN
-134758,Harsh_weather_lack_of_adequate_shelter Excessive_physical_abuse Sexual_abuse,0,1.0,UNKNOWN
-134759,Sickness_and_lack_of_access_to_medicines,0,1.0,UNKNOWN
-134760,Excessive_physical_abuse,0,1.0,UNKNOWN
-134761,"Sickness_and_lack_of_access_to_medicines, Dehydration",0,1.0,UNKNOWN
-134762,"Harsh_weather_lack_of_adequate_shelter, Suffocation, Excessive_physical_abuse, Sexual_abuse",0,2.0,UNKNOWN
-134763,Sickness_and_lack_of_access_to_medicines Dehydration Harsh_weather_lack_of_adequate_shelter,0,2.0,UNKNOWN
-134764,Vehicle_Accident,0,3.0,UNKNOWN
-134765,Vehicle_Accident,0,3.0,UNKNOWN
-134766,Sickness_and_lack_of_access_to_medicines,0,1.0,UNKNOWN
-134767,Harsh_weather_lack_of_adequate_shelter Suffocation,0,11.0,UNKNOWN
-134768,Shot_or_Stabbed,0,2.0,UNKNOWN
-134769,"Sickness_and_lack_of_access_to_medicines, Starvation, Dehydration, Excessive_physical_abuse, Sexual_abuse",0,4.0,UNKNOWN
-134770,"Sickness_and_lack_of_access_to_medicines, Dehydration",0,1.0,UNKNOWN
-134771,Vehicle_Accident,0,1.0,UNKNOWN
-134772,Vehicle_Accident,0,1.0,UNKNOWN
-134773,Harsh_weather_lack_of_adequate_shelter Suffocation Vehicle_Accident,0,3.0,UNKNOWN
-134774,Vehicle_Accident,0,2.0,UNKNOWN
-134775,Dehydration Harsh_weather_lack_of_adequate_shelter,0,1.0,UNKNOWN
-134776,Harsh_weather_lack_of_adequate_shelter Vehicle_Accident,0,5.0,UNKNOWN
-134777,Sickness_and_lack_of_access_to_medicines Starvation Harsh_weather_lack_of_adequate_shelter,0,9.0,UNKNOWN
-134778,Shot_or_Stabbed,0,1.0,UNKNOWN
-134779,Vehicle_Accident,0,2.0,UNKNOWN
-134780,Harsh_weather_lack_of_adequate_shelter,0,2.0,UNKNOWN
-134781,Shot_or_Stabbed,0,1.0,UNKNOWN
-134782,Sickness_and_lack_of_access_to_medicines,0,1.0,UNKNOWN
-134783,Vehicle_Accident,0,2.0,UNKNOWN
-134784,Harsh_weather_lack_of_adequate_shelter Vehicle_Accident,0,4.0,UNKNOWN
-134785,Vehicle_Accident,0,2.0,UNKNOWN
-134786,Sickness_and_lack_of_access_to_medicines Harsh_weather_lack_of_adequate_shelter,0,3.0,UNKNOWN
-134787,Sickness_and_lack_of_access_to_medicines,0,1.0,UNKNOWN
-134788,Sickness_and_lack_of_access_to_medicines Harsh_weather_lack_of_adequate_shelter Suffocation,0,5.0,UNKNOWN
-134789,Sickness_and_lack_of_access_to_medicines Harsh_weather_lack_of_adequate_shelter Suffocation,0,3.0,UNKNOWN
-134790,Sickness_and_lack_of_access_to_medicines Starvation Harsh_weather_lack_of_adequate_shelter,0,1.0,UNKNOWN
-134791,Sickness_and_lack_of_access_to_medicines Starvation Harsh_weather_lack_of_adequate_shelter Suffocation Excessive_physical_abuse,0,6.0,UNKNOWN
-134792,Sickness_and_lack_of_access_to_medicines Starvation Harsh_weather_lack_of_adequate_shelter Suffocation Excessive_physical_abuse,0,2.0,UNKNOWN
-134793,Vehicle_Accident,0,1.0,UNKNOWN
-134794,Sickness_and_lack_of_access_to_medicines,0,1.0,UNKNOWN
-134795,Vehicle_Accident Shot_or_Stabbed,0,3.0,UNKNOWN
-134796,Sickness_and_lack_of_access_to_medicines Starvation Harsh_weather_lack_of_adequate_shelter Suffocation Excessive_physical_abuse,0,3.0,UNKNOWN
-134797,Sickness_and_lack_of_access_to_medicines Starvation Dehydration Harsh_weather_lack_of_adequate_shelter Vehicle_Accident Sexual_abuse,0,4.0,UNKNOWN
-134798,Other,0,1.0,UNKNOWN
-134799,Sickness_and_lack_of_access_to_medicines,0,1.0,UNKNOWN
-134800,Sickness_and_lack_of_access_to_medicines,0,1.0,UNKNOWN
-134801,Vehicle_Accident,0,3.0,UNKNOWN
-134802,Starvation Dehydration Suffocation Excessive_physical_abuse,0,2.0,UNKNOWN
-134804,Sickness_and_lack_of_access_to_medicines Starvation Dehydration Harsh_weather_lack_of_adequate_shelter,0,2.0,UNKNOWN
-134805,Harsh_weather_lack_of_adequate_shelter Suffocation Vehicle_Accident,0,6.0,UNKNOWN
-134806,Starvation Harsh_weather_lack_of_adequate_shelter Suffocation Excessive_physical_abuse,0,6.0,UNKNOWN
-134807,Sickness_and_lack_of_access_to_medicines Starvation Harsh_weather_lack_of_adequate_shelter Suffocation Excessive_physical_abuse Sexual_abuse,0,3.0,UNKNOWN
-134808,"Sickness_and_lack_of_access_to_medicines, Dehydration, Harsh_weather_lack_of_adequate_shelter",0,1.0,UNKNOWN
-134809,Shot_or_Stabbed,0,2.0,UNKNOWN
-134810,Harsh_weather_lack_of_adequate_shelter Excessive_physical_abuse,0,1.0,UNKNOWN
-134811,Vehicle_Accident,0,2.0,UNKNOWN
-134812,Harsh_weather_lack_of_adequate_shelter Vehicle_Accident,0,2.0,UNKNOWN
-134813,Harsh_weather_lack_of_adequate_shelter Other,0,2.0,UNKNOWN
-134814,Sickness_and_lack_of_access_to_medicines Dehydration Suffocation,0,1.0,UNKNOWN
-134815,Excessive_physical_abuse,0,2.0,UNKNOWN
-134816,Sickness_and_lack_of_access_to_medicines Starvation Harsh_weather_lack_of_adequate_shelter Suffocation Excessive_physical_abuse Sexual_abuse,0,2.0,UNKNOWN
-134817,Sickness_and_lack_of_access_to_medicines Dehydration Suffocation,0,1.0,UNKNOWN
-134818,Sickness_and_lack_of_access_to_medicines Starvation Harsh_weather_lack_of_adequate_shelter Suffocation Excessive_physical_abuse Sexual_abuse,0,7.0,UNKNOWN
-134819,Sickness_and_lack_of_access_to_medicines Starvation Harsh_weather_lack_of_adequate_shelter Suffocation Excessive_physical_abuse Sexual_abuse,0,3.0,UNKNOWN
-134820,Sickness_and_lack_of_access_to_medicines Starvation Harsh_weather_lack_of_adequate_shelter Suffocation Vehicle_Accident Excessive_physical_abuse Sexual_abuse,0,8.0,UNKNOWN
-134821,Vehicle_Accident,0,2.0,UNKNOWN
-134822,Sickness_and_lack_of_access_to_medicines Harsh_weather_lack_of_adequate_shelter Suffocation,0,1.0,UNKNOWN
-134823,Sickness_and_lack_of_access_to_medicines Dehydration,0,2.0,UNKNOWN
-134824,Other,0,1.0,UNKNOWN
-134825,Dehydration,0,3.0,UNKNOWN
-134826,Sickness_and_lack_of_access_to_medicines,0,1.0,UNKNOWN
-134827,Shot_or_Stabbed,0,1.0,UNKNOWN
-134828,Harsh_weather_lack_of_adequate_shelter,0,2.0,UNKNOWN
-134829,Vehicle_Accident,0,2.0,UNKNOWN
-134830,Sickness_and_lack_of_access_to_medicines Dehydration Harsh_weather_lack_of_adequate_shelter Excessive_physical_abuse,0,1.0,UNKNOWN
-134831,Sickness_and_lack_of_access_to_medicines Starvation Harsh_weather_lack_of_adequate_shelter Suffocation Excessive_physical_abuse Sexual_abuse,0,1.0,UNKNOWN
-134832,Other Shot_or_Stabbed,0,1.0,UNKNOWN
-134833,Sickness_and_lack_of_access_to_medicines Dehydration,0,2.0,UNKNOWN
-134834,Sickness_and_lack_of_access_to_medicines Vehicle_Accident,0,1.0,UNKNOWN
-134835,Sickness_and_lack_of_access_to_medicines,0,2.0,UNKNOWN
-134836,Vehicle_Accident,0,2.0,UNKNOWN
-134837,Shot_or_Stabbed,0,1.0,UNKNOWN
-134838,Sickness_and_lack_of_access_to_medicines Starvation Harsh_weather_lack_of_adequate_shelter Suffocation Excessive_physical_abuse Sexual_abuse,0,1.0,UNKNOWN
-134839,Sickness_and_lack_of_access_to_medicines Starvation Harsh_weather_lack_of_adequate_shelter Suffocation Excessive_physical_abuse Sexual_abuse,0,2.0,UNKNOWN
-134840,Vehicle_Accident,0,2.0,UNKNOWN
-134841,Sickness_and_lack_of_access_to_medicines Starvation Dehydration Harsh_weather_lack_of_adequate_shelter Suffocation Sexual_abuse,0,3.0,UNKNOWN
-134842,Sickness_and_lack_of_access_to_medicines Dehydration,0,1.0,UNKNOWN
-134843,Starvation Dehydration Harsh_weather_lack_of_adequate_shelter,0,7.0,UNKNOWN
-134844,Sickness_and_lack_of_access_to_medicines,0,1.0,UNKNOWN
-134845,Shot_or_Stabbed,0,1.0,UNKNOWN
-134846,Sickness_and_lack_of_access_to_medicines,0,1.0,UNKNOWN
-134847,Sickness_and_lack_of_access_to_medicines,0,1.0,UNKNOWN
-134848,Sickness_and_lack_of_access_to_medicines,0,1.0,UNKNOWN
-134849,Sickness_and_lack_of_access_to_medicines,0,1.0,UNKNOWN
-134850,Sickness_and_lack_of_access_to_medicines,0,1.0,UNKNOWN
-134851,Vehicle_Accident,0,30.0,UNKNOWN
-134852,Sickness_and_lack_of_access_to_medicines Excessive_physical_abuse,0,6.0,UNKNOWN
-134853,Sickness_and_lack_of_access_to_medicines,0,5.0,UNKNOWN
-134854,Vehicle_Accident,0,3.0,UNKNOWN
-134855,Sickness_and_lack_of_access_to_medicines,0,3.0,UNKNOWN
-134856,Shot_or_Stabbed,0,6.0,UNKNOWN
-134857,Sickness_and_lack_of_access_to_medicines,0,2.0,UNKNOWN
-134858,Sickness_and_lack_of_access_to_medicines Starvation Harsh_weather_lack_of_adequate_shelter Suffocation Excessive_physical_abuse,0,2.0,UNKNOWN
-134859,Sickness_and_lack_of_access_to_medicines Starvation Harsh_weather_lack_of_adequate_shelter Suffocation Excessive_physical_abuse,0,1.0,UNKNOWN
-134860,Sickness_and_lack_of_access_to_medicines Excessive_physical_abuse Sexual_abuse Shot_or_Stabbed,0,1.0,UNKNOWN
-134861,Sickness_and_lack_of_access_to_medicines Starvation Harsh_weather_lack_of_adequate_shelter Suffocation Excessive_physical_abuse Sexual_abuse,0,2.0,UNKNOWN
-134862,Sickness_and_lack_of_access_to_medicines Starvation Harsh_weather_lack_of_adequate_shelter Suffocation Excessive_physical_abuse Sexual_abuse,0,2.0,UNKNOWN
-134863,Shot_or_Stabbed,0,1.0,UNKNOWN
-134864,Excessive_physical_abuse,0,1.0,UNKNOWN
-134865,Starvation Harsh_weather_lack_of_adequate_shelter,0,1.0,UNKNOWN
-134866,Vehicle_Accident,0,5.0,UNKNOWN
-134867,Sickness_and_lack_of_access_to_medicines,0,1.0,UNKNOWN
-134868,Sickness_and_lack_of_access_to_medicines Harsh_weather_lack_of_adequate_shelter,0,1.0,UNKNOWN
-134869,Vehicle_Accident,0,1.0,UNKNOWN
-134870,Other,0,1.0,UNKNOWN
-134871,Vehicle_Accident,0,6.0,UNKNOWN
-134872,Vehicle_Accident,0,2.0,UNKNOWN
-134873,Sickness_and_lack_of_access_to_medicines Starvation Harsh_weather_lack_of_adequate_shelter Excessive_physical_abuse Sexual_abuse,0,1.0,UNKNOWN
-134874,Sickness_and_lack_of_access_to_medicines Starvation Harsh_weather_lack_of_adequate_shelter Excessive_physical_abuse Sexual_abuse,0,1.0,UNKNOWN
-134875,Sickness_and_lack_of_access_to_medicines Harsh_weather_lack_of_adequate_shelter Excessive_physical_abuse,0,2.0,UNKNOWN
-134876,Sickness_and_lack_of_access_to_medicines Starvation,0,2.0,UNKNOWN
-134877,Vehicle_Accident,0,30.0,UNKNOWN
-134878,Sickness_and_lack_of_access_to_medicines Starvation,0,6.0,UNKNOWN
-134879,Vehicle_Accident,0,1.0,UNKNOWN
-134880,Sickness_and_lack_of_access_to_medicines Starvation,0,3.0,UNKNOWN
-134881,Vehicle_Accident,0,1.0,UNKNOWN
-134882,Sickness_and_lack_of_access_to_medicines Starvation,0,6.0,UNKNOWN
-134883,Sickness_and_lack_of_access_to_medicines Starvation,0,5.0,UNKNOWN
-134884,Shot_or_Stabbed,0,2.0,UNKNOWN
-134885,Sickness_and_lack_of_access_to_medicines,0,12.0,UNKNOWN
-134886,Vehicle_Accident,0,5.0,UNKNOWN
-134887,Other,0,1.0,UNKNOWN
-134888,Sickness_and_lack_of_access_to_medicines Starvation,0,2.0,UNKNOWN
-134889,Sickness_and_lack_of_access_to_medicines,0,1.0,UNKNOWN
-134890,Excessive_physical_abuse,0,1.0,UNKNOWN
-134891,Harsh_weather_lack_of_adequate_shelter,0,1.0,UNKNOWN
-135777,Presumed drowning,87.0,,UNKNOWN
-136177,Shot_or_Stabbed,0,2.0,UNKNOWN
-136178,"Sickness_and_lack_of_access_to_medicines, Starvation, Harsh_weather_lack_of_adequate_shelter, Excessive_physical_abuse, Sexual_abuse",0,1.0,UNKNOWN
-136179,"Sickness_and_lack_of_access_to_medicines, Starvation, Harsh_weather_lack_of_adequate_shelter, Excessive_physical_abuse, Sexual_abuse",0,1.0,UNKNOWN
-136180,"Sickness_and_lack_of_access_to_medicines, Starvation, Harsh_weather_lack_of_adequate_shelter, Excessive_physical_abuse, Sexual_abuse",0,3.0,UNKNOWN
-136181,"Sickness_and_lack_of_access_to_medicines, Harsh_weather_lack_of_adequate_shelter, Vehicle_Accident",0,10.0,UNKNOWN
-136182,"Sickness_and_lack_of_access_to_medicines, Starvation, Excessive_physical_abuse, Sexual_abuse",0,3.0,UNKNOWN
-136183,Sexual_abuse,0,2.0,UNKNOWN
-136184,Excessive_physical_abuse,0,4.0,UNKNOWN
-136577,Other,0,1.0,UNKNOWN
-136578,"Sickness_and_lack_of_access_to_medicines, Starvation, Harsh_weather_lack_of_adequate_shelter, Excessive_physical_abuse, Sexual_abuse",0,1.0,UNKNOWN
-136579,Sickness_and_lack_of_access_to_medicines Starvation Harsh_weather_lack_of_adequate_shelter Excessive_physical_abuse Sexual_abuse,0,2.0,UNKNOWN
-136580,Other,0,1.0,UNKNOWN
-136581,"Sickness_and_lack_of_access_to_medicines, Starvation, Harsh_weather_lack_of_adequate_shelter, Vehicle_Accident, Excessive_physical_abuse",0,4.0,UNKNOWN
-136582,"Sickness_and_lack_of_access_to_medicines, Starvation",0,1.0,UNKNOWN
-136583,Presumed drowning,0,2.0,UNKNOWN
-136977,Hit by vehicle,0,1.0,UNKNOWN
+132581,Presumed hypothermia,0.0,1.0,Dominican Republic
+133380,Hit by train,0.0,1.0,Honduras
+133381,Heart attack,0.0,1.0,Honduras
+133777,Asphyxiation (Silica sand inhalation),0.0,1.0,Guatemala
+133778,Fell from wall,0.0,1.0,El Salvador
+134177,Drowning,0.0,11.0,Reported as unspecified nationals of Sub-Saharan Africa
+134180,Vehicle accident,0.0,2.0,Honduras
 137377,Glycemic crisis (Lack of Insuline Treatment),0.0,1.0,Mexican
-137777,Drowning,0,5.0,UNKNOWN
-137778,shot,0,1.0,Rohingya
-138177,Hypothermia,0,1.0,Somalia
-138579,Fell from train,0,1.0,Honduras
-138580,Plane stowaway,0,1.0,UNKNOWN
-138587,Fell from truck,0,1.0,Unknown (Kurdish)
-138588,Vehicle accident,0,1.0,Haiti
-138978,Beat-up and thrown into river,0,1.0,Brazil
-138985,Pending,0,1.0,UNKNOWN
+137778,shot,0.0,1.0,Rohingya
+138177,Hypothermia,0.0,1.0,Somalia
+138579,Fell from train,0.0,1.0,Honduras
+138588,Vehicle accident,0.0,1.0,Haiti
+138978,Beat-up and thrown into river,0.0,1.0,Brazil
 138988,Drowning,56.0,5.0,Reported as unspecified nationals of West Africa
-138989,Drowning,3.0,4.0,Cameroon
-138989,Drowning,3.0,4.0,Senegal and Ivory Coast
-138991,Various,0,12.0,UNKNOWN
-138993,Drowning,3.0,,UNKNOWN
-139377,Drowning,0,1.0,UNKNOWN
-139378,Vehicle accident,0,3.0,Afghanistan
-139379,Mixed,0,18.0,Mixed
-139380,Hypothermia,0,1.0,Afghanistan
-139381,Drowning,0,5.0,"Reported as ""mostly"" Senegal"
-139382,Drowning,0,3.0,UNKNOWN
-139777,Hypothermia,0,2.0,Iraq
-140578,"Hypothermia, Exhaustion",0,2.0,Syria
-140977,Fell from train,0,1.0,Honduras
-141377,Hypothermia,0,14.0,UNKNOWN
-141378,Suffocation,0,2.0,UNKNOWN
-141777,Drowning,6.0,8.0,Unknown (5 reported as nationals from Sub-Saharan Africa and 1 from Morocco)
-141778,Hypothermia,0,1.0,Reported as unspecified nationals of Sub-Saharan Africa
-141779,Hypothermia,0,3.0,UNKNOWN
-142177,Hypothermia,0,1.0,UNKNOWN
-142577,Drowning,172.0,4.0,UNKNOWN
-143377,Presumed drowning,1.0,2.0,UNKNOWN
-143378,Presumed drowning,0,1.0,UNKNOWN
-143379,Presumed drowning,0,1.0,UNKNOWN
-143380,Drowning,0,1.0,Mexican
-143382,Drowning,3.0,,UNKNOWN
-143780,Drowning,0,1.0,El Salvador
-143781,Presumed drowning,0,1.0,UNKNOWN
-144177,Drowning,0,1.0,El Salvador
-144577,"Starvation, Dehydration, Suffocation",0,4.0,UNKNOWN
-144578,Excessive_physical_abuse,0,1.0,UNKNOWN
-144579,Sickness_and_lack_of_access_to_medicines,0,2.0,UNKNOWN
-144580,Excessive_physical_abuse Shot_or_Stabbed,0,4.0,UNKNOWN
-144581,Other,0,1.0,UNKNOWN
-144582,Dehydration,0,1.0,UNKNOWN
-144583,Vehicle_Accident,0,1.0,UNKNOWN
-144584,"Starvation, Suffocation",0,1.0,UNKNOWN
-144585,Suffocation,0,1.0,UNKNOWN
-144586,Sickness_and_lack_of_access_to_medicines Dehydration,0,1.0,UNKNOWN
-144587,Dehydration Harsh_weather_lack_of_adequate_shelter,0,1.0,UNKNOWN
-144588,Vehicle_Accident,0,1.0,UNKNOWN
-144589,Sickness_and_lack_of_access_to_medicines,0,2.0,UNKNOWN
-144590,Shot_or_Stabbed,0,1.0,UNKNOWN
-144591,Starvation,0,1.0,UNKNOWN
-144592,Sickness_and_lack_of_access_to_medicines Starvation Dehydration,0,1.0,UNKNOWN
-144593,Starvation,0,1.0,UNKNOWN
-144594,Starvation,0,7.0,UNKNOWN
-144595,Vehicle_Accident,0,1.0,UNKNOWN
-144596,Excessive_physical_abuse,0,2.0,UNKNOWN
-144597,Dehydration Suffocation Vehicle_Accident,0,3.0,UNKNOWN
-144598,Vehicle_Accident,0,5.0,UNKNOWN
-144599,Sickness_and_lack_of_access_to_medicines Harsh_weather_lack_of_adequate_shelter,0,2.0,UNKNOWN
-144600,Sickness_and_lack_of_access_to_medicines Starvation Harsh_weather_lack_of_adequate_shelter,0,5.0,UNKNOWN
-144601,Dehydration Harsh_weather_lack_of_adequate_shelter,0,1.0,UNKNOWN
-144602,Dehydration Harsh_weather_lack_of_adequate_shelter,0,4.0,UNKNOWN
-144603,Starvation,0,2.0,UNKNOWN
-144604,Sickness_and_lack_of_access_to_medicines Starvation,0,3.0,UNKNOWN
-144605,Starvation,0,2.0,UNKNOWN
-144606,Sickness_and_lack_of_access_to_medicines Harsh_weather_lack_of_adequate_shelter,0,1.0,UNKNOWN
-144607,Shot_or_Stabbed,0,1.0,UNKNOWN
-144608,Sickness_and_lack_of_access_to_medicines Starvation,0,3.0,UNKNOWN
-144609,Harsh_weather_lack_of_adequate_shelter,0,1.0,UNKNOWN
-144610,Harsh_weather_lack_of_adequate_shelter,0,2.0,UNKNOWN
-144611,Suffocation Vehicle_Accident,0,5.0,UNKNOWN
-144612,Harsh_weather_lack_of_adequate_shelter Suffocation Vehicle_Accident,0,1.0,UNKNOWN
-144613,Sickness_and_lack_of_access_to_medicines Starvation Harsh_weather_lack_of_adequate_shelter Suffocation,0,1.0,UNKNOWN
-144614,Dehydration,0,1.0,UNKNOWN
-144615,Sickness_and_lack_of_access_to_medicines Harsh_weather_lack_of_adequate_shelter,0,1.0,UNKNOWN
-144616,Sickness_and_lack_of_access_to_medicines,0,1.0,UNKNOWN
-144617,Sickness_and_lack_of_access_to_medicines Harsh_weather_lack_of_adequate_shelter,0,2.0,UNKNOWN
-144618,Sickness_and_lack_of_access_to_medicines,0,1.0,UNKNOWN
-144619,Sickness_and_lack_of_access_to_medicines Starvation,0,3.0,UNKNOWN
-144620,Sickness_and_lack_of_access_to_medicines Harsh_weather_lack_of_adequate_shelter,0,1.0,UNKNOWN
-144621,Sickness_and_lack_of_access_to_medicines Dehydration,0,1.0,UNKNOWN
-144622,Starvation,0,1.0,UNKNOWN
-144623,Vehicle_Accident,0,2.0,UNKNOWN
-144624,Sickness_and_lack_of_access_to_medicines,0,1.0,UNKNOWN
-144625,Starvation,0,3.0,UNKNOWN
-144626,Starvation,0,1.0,UNKNOWN
-144627,Starvation Dehydration Excessive_physical_abuse Shot_or_Stabbed,0,14.0,UNKNOWN
-144628,Sickness_and_lack_of_access_to_medicines,0,3.0,UNKNOWN
-144629,Shot_or_Stabbed,0,1.0,UNKNOWN
-144630,Starvation,0,4.0,UNKNOWN
-144631,Other,0,1.0,UNKNOWN
-144632,Starvation,0,8.0,UNKNOWN
-144633,"Starvation, Dehydration",0,2.0,UNKNOWN
-144634,Starvation,0,1.0,UNKNOWN
-144635,Starvation,0,5.0,UNKNOWN
-144636,Sickness_and_lack_of_access_to_medicines Starvation,0,28.0,UNKNOWN
-144637,Sickness_and_lack_of_access_to_medicines,0,1.0,UNKNOWN
-144638,Starvation,0,1.0,UNKNOWN
-144639,Dehydration,0,1.0,UNKNOWN
-144640,Sickness_and_lack_of_access_to_medicines,0,1.0,UNKNOWN
-144641,Starvation Harsh_weather_lack_of_adequate_shelter Suffocation,0,1.0,UNKNOWN
-144642,Vehicle_Accident,0,1.0,UNKNOWN
-144643,Harsh_weather_lack_of_adequate_shelter Vehicle_Accident,0,2.0,UNKNOWN
-144644,Starvation Harsh_weather_lack_of_adequate_shelter Suffocation,0,2.0,UNKNOWN
-144645,Shot_or_Stabbed,0,1.0,UNKNOWN
-144646,Starvation Dehydration Excessive_physical_abuse Sexual_abuse Shot_or_Stabbed,0,3.0,UNKNOWN
-144647,Vehicle_Accident,0,5.0,UNKNOWN
-144648,Shot_or_Stabbed,0,1.0,UNKNOWN
-144649,Starvation,0,5.0,UNKNOWN
-144650,Starvation,0,2.0,UNKNOWN
-144651,Starvation,0,1.0,UNKNOWN
-144652,Sickness_and_lack_of_access_to_medicines Starvation Harsh_weather_lack_of_adequate_shelter Suffocation,0,2.0,UNKNOWN
-144653,Starvation,0,1.0,UNKNOWN
-144654,Starvation,0,30.0,UNKNOWN
-144655,Vehicle_Accident,0,20.0,UNKNOWN
-144656,Sickness_and_lack_of_access_to_medicines Starvation,0,3.0,UNKNOWN
-144657,Sickness_and_lack_of_access_to_medicines,0,1.0,UNKNOWN
-144658,Sickness_and_lack_of_access_to_medicines,0,1.0,UNKNOWN
-144659,Sickness_and_lack_of_access_to_medicines Starvation,0,3.0,UNKNOWN
-144660,Starvation Suffocation Shot_or_Stabbed,0,4.0,UNKNOWN
-144661,Vehicle_Accident Shot_or_Stabbed,0,3.0,UNKNOWN
-144662,Shot_or_Stabbed,0,2.0,UNKNOWN
-144663,Other,0,2.0,UNKNOWN
-144664,Harsh_weather_lack_of_adequate_shelter Vehicle_Accident,0,2.0,UNKNOWN
-144665,Sickness_and_lack_of_access_to_medicines Harsh_weather_lack_of_adequate_shelter,0,2.0,UNKNOWN
-144666,Vehicle_Accident,0,1.0,UNKNOWN
-144667,Shot_or_Stabbed,0,2.0,UNKNOWN
-144668,"Starvation, Dehydration",0,1.0,UNKNOWN
-144669,Starvation Dehydration Harsh_weather_lack_of_adequate_shelter Suffocation,0,1.0,UNKNOWN
-144670,Vehicle_Accident,0,1.0,UNKNOWN
-144671,Starvation Dehydration Harsh_weather_lack_of_adequate_shelter Suffocation,0,5.0,UNKNOWN
-144672,Dehydration,0,1.0,UNKNOWN
-144673,Excessive_physical_abuse Shot_or_Stabbed,0,4.0,UNKNOWN
-144674,Vehicle_Accident,0,1.0,UNKNOWN
-144675,Harsh_weather_lack_of_adequate_shelter Suffocation Vehicle_Accident,0,5.0,UNKNOWN
-144676,Starvation Dehydration Harsh_weather_lack_of_adequate_shelter Excessive_physical_abuse,0,1.0,UNKNOWN
-144677,Vehicle_Accident,0,1.0,UNKNOWN
-144678,Sickness_and_lack_of_access_to_medicines Harsh_weather_lack_of_adequate_shelter,0,3.0,UNKNOWN
-144679,Vehicle_Accident,0,1.0,UNKNOWN
-144680,Harsh_weather_lack_of_adequate_shelter,0,1.0,UNKNOWN
-144681,Sickness_and_lack_of_access_to_medicines Harsh_weather_lack_of_adequate_shelter,0,1.0,UNKNOWN
-144682,Sickness_and_lack_of_access_to_medicines Starvation,0,6.0,UNKNOWN
-144683,Starvation,0,1.0,UNKNOWN
-144684,Starvation,0,3.0,UNKNOWN
-144685,Sickness_and_lack_of_access_to_medicines,0,2.0,UNKNOWN
-144686,Sickness_and_lack_of_access_to_medicines Starvation,0,3.0,UNKNOWN
-144687,Starvation Dehydration Suffocation Excessive_physical_abuse Sexual_abuse Shot_or_Stabbed,0,3.0,UNKNOWN
-144688,Vehicle_Accident,0,3.0,UNKNOWN
-144689,Vehicle_Accident,0,4.0,UNKNOWN
-144690,"Starvation, Suffocation",0,1.0,UNKNOWN
-144691,Other,0,2.0,UNKNOWN
-144692,Shot_or_Stabbed,0,3.0,UNKNOWN
-144693,Sickness_and_lack_of_access_to_medicines Harsh_weather_lack_of_adequate_shelter,0,3.0,UNKNOWN
-144694,"Starvation, Dehydration",0,5.0,UNKNOWN
-144695,Starvation Dehydration Excessive_physical_abuse,0,3.0,UNKNOWN
-144696,Sickness_and_lack_of_access_to_medicines Starvation Excessive_physical_abuse,0,1.0,UNKNOWN
-144697,Harsh_weather_lack_of_adequate_shelter,0,3.0,UNKNOWN
-144698,Vehicle_Accident,0,9.0,UNKNOWN
-144699,Sickness_and_lack_of_access_to_medicines,0,2.0,UNKNOWN
-144700,Sickness_and_lack_of_access_to_medicines,0,2.0,UNKNOWN
-144701,Sickness_and_lack_of_access_to_medicines,0,3.0,UNKNOWN
-144702,Sickness_and_lack_of_access_to_medicines Harsh_weather_lack_of_adequate_shelter,0,1.0,UNKNOWN
-144703,Sickness_and_lack_of_access_to_medicines,0,3.0,UNKNOWN
-144704,Vehicle_Accident,0,10.0,UNKNOWN
-144705,Sickness_and_lack_of_access_to_medicines,0,3.0,UNKNOWN
-144706,Sickness_and_lack_of_access_to_medicines,0,8.0,UNKNOWN
-144707,Sickness_and_lack_of_access_to_medicines,0,1.0,UNKNOWN
-144708,Starvation,0,2.0,UNKNOWN
-144709,Sickness_and_lack_of_access_to_medicines Starvation Dehydration,0,1.0,UNKNOWN
-144710,Sickness_and_lack_of_access_to_medicines Starvation,0,34.0,UNKNOWN
-144711,Sickness_and_lack_of_access_to_medicines,0,5.0,UNKNOWN
-144712,Sickness_and_lack_of_access_to_medicines Starvation Harsh_weather_lack_of_adequate_shelter,0,2.0,UNKNOWN
-144713,Sickness_and_lack_of_access_to_medicines Starvation,0,8.0,UNKNOWN
-144714,Shot_or_Stabbed,0,1.0,UNKNOWN
-144715,Sickness_and_lack_of_access_to_medicines,0,4.0,UNKNOWN
-144716,Sickness_and_lack_of_access_to_medicines Starvation Dehydration,0,1.0,UNKNOWN
-144717,Sickness_and_lack_of_access_to_medicines,0,2.0,UNKNOWN
-144718,Sickness_and_lack_of_access_to_medicines,0,5.0,UNKNOWN
-144719,Sickness_and_lack_of_access_to_medicines Harsh_weather_lack_of_adequate_shelter,0,3.0,UNKNOWN
-144720,Vehicle_Accident,0,2.0,UNKNOWN
-144721,Sickness_and_lack_of_access_to_medicines,0,1.0,UNKNOWN
-144722,Vehicle_Accident,0,1.0,UNKNOWN
-144723,Sickness_and_lack_of_access_to_medicines Starvation Dehydration,0,1.0,UNKNOWN
-144724,Sickness_and_lack_of_access_to_medicines Dehydration,0,1.0,UNKNOWN
-144725,Sickness_and_lack_of_access_to_medicines Starvation Dehydration,0,1.0,UNKNOWN
-144726,Sickness_and_lack_of_access_to_medicines Harsh_weather_lack_of_adequate_shelter,0,2.0,UNKNOWN
-144727,Sickness_and_lack_of_access_to_medicines Dehydration,0,1.0,UNKNOWN
-144728,Shot_or_Stabbed,0,2.0,UNKNOWN
-144729,Sickness_and_lack_of_access_to_medicines Starvation,0,6.0,UNKNOWN
-144730,Sickness_and_lack_of_access_to_medicines,0,3.0,UNKNOWN
-144731,Sickness_and_lack_of_access_to_medicines,0,1.0,UNKNOWN
-144732,Sickness_and_lack_of_access_to_medicines,0,6.0,UNKNOWN
-144733,Sickness_and_lack_of_access_to_medicines,0,1.0,UNKNOWN
-144734,Sickness_and_lack_of_access_to_medicines Starvation,0,2.0,UNKNOWN
-144735,Starvation Dehydration Vehicle_Accident,0,3.0,UNKNOWN
-144736,Shot_or_Stabbed,0,12.0,UNKNOWN
-144737,Sickness_and_lack_of_access_to_medicines,0,1.0,UNKNOWN
-144738,Sickness_and_lack_of_access_to_medicines Starvation Dehydration,0,3.0,UNKNOWN
-144739,Sickness_and_lack_of_access_to_medicines,0,1.0,UNKNOWN
-144740,Sickness_and_lack_of_access_to_medicines,0,23.0,UNKNOWN
-144741,Sickness_and_lack_of_access_to_medicines,0,11.0,UNKNOWN
-144742,Shot_or_Stabbed,0,36.0,UNKNOWN
-144743,Sickness_and_lack_of_access_to_medicines,0,1.0,UNKNOWN
-144744,Shot_or_Stabbed,0,1.0,UNKNOWN
-144745,Shot_or_Stabbed,0,1.0,UNKNOWN
-144747,Murdered,0,1.0,Honduras
-145146,Van accident,0,1.0,El Salvador
-145546,Presumed drowning,0,5.0,Venezulean
-145547,Hit by truck,0,1.0,Ethiopia
-146346,Presumed drowning,0,1.0,UNKNOWN
-146347,Presumed drowning,0,5.0,UNKNOWN
-146348,Presumed drowning,0,1.0,UNKNOWN
+138989,Drowning,1.5,2.0,Cameroon
+138989,Drowning,1.5,2.0,Senegal and Ivory Coast
+139378,Vehicle accident,0.0,3.0,Afghanistan
+139379,Mixed,0.0,18.0,Mixed
+139380,Hypothermia,0.0,1.0,Afghanistan
+139381,Drowning,0.0,5.0,"Reported as ""mostly"" Senegal"
+139777,Hypothermia,0.0,2.0,Iraq
+140578,"Hypothermia, Exhaustion",0.0,2.0,Syria
+140977,Fell from train,0.0,1.0,Honduras
+141778,Hypothermia,0.0,1.0,Reported as unspecified nationals of Sub-Saharan Africa
+143380,Drowning,0.0,1.0,Mexican
+143780,Drowning,0.0,1.0,El Salvador
+144177,Drowning,0.0,1.0,El Salvador
+144747,Murdered,0.0,1.0,Honduras
+145146,Van accident,0.0,1.0,El Salvador
+145546,Presumed drowning,0.0,5.0,Venezulean
+145547,Hit by truck,0.0,1.0,Ethiopia
 146746,Presumed drowning,51.0,17.0,Haiti
-146747,Drowning,0,2.0,Indonesia
-146748,Drowning,0,4.0,Indonesia
+146747,Drowning,0.0,2.0,Indonesia
+146748,Drowning,0.0,4.0,Indonesia
 146749,Drowning,7.0,10.0,Indonesia
-146751,Presumed drowning,0,1.0,El Salvador
-146752,Presumed drowning,0,10.0,UNKNOWN
-147146,Drowning,0,8.0,Indonesia
-147147,Presumed drowning,2.0,1.0,UNKNOWN
-147148,Presumed drowning,0,1.0,Congo
-147546,Hypothermia,0,2.0,Ivory Coast
-147946,Drowning,0,1.0,Guatemala
-147947,Presumed drowning,0,2.0,UNKNOWN
-147949,Presumed drowning,0,1.0,UNKNOWN
-147950,Presumed drowning,0,1.0,Honduras
-147951,Presumed drowning,0,1.0,Honduras
-147952,Presumed drowning,0,1.0,Honduras
-148346,Drowning,0,1.0,El Salvador
-148746,Drowning,0,1.0,Honduras
-148747,Drowning,0,1.0,Ethiopia
-149146,Presumed drowning,0,1.0,UNKNOWN
-149546,Hit by train,0,1.0,UNKNOWN
-149952,Head trauma (hit by boat propeller),0,1.0,Somalia
-149953,Presumed Drowning,3.0,,UNKNOWN
-149954,Hit by train,0,1.0,UNKNOWN
-150355,Drowning,0,7.0,Somalia
-150356,"Undernourished, dehydration",0,1.0,Ethiopia
-150746,Hit by vehicle,0,1.0,Eritrea
-150747,Shot,0,1.0,Syrian
-150748,Presumed drowning,0,1.0,UNKNOWN
-150749,Shot,0,3.0,Syria
-150750,Shot,0,4.0,Syria
-150751,Shot,0,3.0,Syrian
-150752,Hypothermia,0,1.0,Guatemala
-150753,Hit by car,0,1.0,Sudan
-150754,Heart attack,0,1.0,El Salvador
-150755,Renal insufficiency,0,1.0,Guatemala
-151147,Hit by train,0,1.0,Argelia
-151148,Drowning,0,2.0,UNKNOWN
-151546,Presumed drowning,3.0,0.0,UNKNOWN
-151547,Presumed drowning,2.0,0.0,UNKNOWN
+146751,Presumed drowning,0.0,1.0,El Salvador
+147146,Drowning,0.0,8.0,Indonesia
+147148,Presumed drowning,0.0,1.0,Congo
+147546,Hypothermia,0.0,2.0,Ivory Coast
+147946,Drowning,0.0,1.0,Guatemala
+147950,Presumed drowning,0.0,1.0,Honduras
+147951,Presumed drowning,0.0,1.0,Honduras
+147952,Presumed drowning,0.0,1.0,Honduras
+148346,Drowning,0.0,1.0,El Salvador
+148746,Drowning,0.0,1.0,Honduras
+148747,Drowning,0.0,1.0,Ethiopia
+149952,Head trauma (hit by boat propeller),0.0,1.0,Somalia
+150355,Drowning,0.0,7.0,Somalia
+150356,"Undernourished, dehydration",0.0,1.0,Ethiopia
+150746,Hit by vehicle,0.0,1.0,Eritrea
+150747,Shot,0.0,1.0,Syrian
+150749,Shot,0.0,3.0,Syria
+150750,Shot,0.0,4.0,Syria
+150751,Shot,0.0,3.0,Syrian
+150752,Hypothermia,0.0,1.0,Guatemala
+150753,Hit by car,0.0,1.0,Sudan
+150754,Heart attack,0.0,1.0,El Salvador
+150755,Renal insufficiency,0.0,1.0,Guatemala
+151147,Hit by train,0.0,1.0,Argelia
 151946,Drowning,0.0,1.0,Afghanistan
 151947,Hypothermia,0.0,1.0,Pakistan
-151948,Presumed drowning,9.0,,UNKNOWN
-152346,Drowning,0,5.0,Myanmar
-152347,Shot,0,1.0,Myanmar
-152348,Presumed drowning,0,18.0,Myanmar
-152349,Shot,0,1.0,Myanmar
-152746,Drowning,0,3.0,Myanmar
-153146,Raped and Murdured,0,1.0,Honduras
-153546,Drowning,0,74.0,Mixed
-153548,Hypothermia,0,1.0,Iraqui
-153946,Starvation Dehydration Harsh_weather_lack_of_adequate_shelter Suffocation Excessive_physical_abuse,0,1.0,UNKNOWN
-154346,Mixed,0,18.0,Mixed
+152346,Drowning,0.0,5.0,Myanmar
+152347,Shot,0.0,1.0,Myanmar
+152348,Presumed drowning,0.0,18.0,Myanmar
+152349,Shot,0.0,1.0,Myanmar
+152746,Drowning,0.0,3.0,Myanmar
+153146,Raped and Murdured,0.0,1.0,Honduras
+153546,Drowning,0.0,74.0,Mixed
+153548,Hypothermia,0.0,1.0,Iraqui
+154346,Mixed,0.0,18.0,Mixed
 154746,Drowning,8.0,4.0,Domican Republic
 155146,Presumed Drowning,6.0,7.0,Indonesia
-155147,Fell from train,0,1.0,Guatemala
-155148,Hit by train,0,1.0,UNKNOWN
-155149,Presumed drowning,0,3.0,Pakistan
-155151,Suffocation,0,13.0,UNKNOWN
-155152,Presumed drowning,0,14.0,UNKNOWN
-155546,Presumed drowning,0,1.0,Honduras
-155946,Presumed drowning,0,6.0,UNKNOWN
-156346,Presumed drowning,0,1.0,UNKNOWN
-156347,Vehicle incident,0,2.0,UNKNOWN
-156348,Drowning,0,1.0,UNKNOWN
-156349,Hit by vehicle,0,1.0,UNKNOWN
-156746,Presumed drowning,105.0,,UNKNOWN
-157146,Drowning,0,13.0,UNKNOWN
-157546,Murdered,0,1.0,Haitian
-157547,Presumed drowning,9.0,,UNKNOWN
-157548,"Starvation, sickness",0,12.0,Reported as unspecified nationals of Africa
-157549,Electrocution on railway,0,1.0,Somalia
+155147,Fell from train,0.0,1.0,Guatemala
+155149,Presumed drowning,0.0,3.0,Pakistan
+155546,Presumed drowning,0.0,1.0,Honduras
+157546,Murdered,0.0,1.0,Haitian
+157548,"Starvation, sickness",0.0,12.0,Reported as unspecified nationals of Africa
+157549,Electrocution on railway,0.0,1.0,Somalia
 157946,Presumed drowning,3.0,1.0,Algerian
-158346,Presumed drowning,0,1.0,UNKNOWN
-158347,Presumed drowning,0,1.0,Brazil
-158348,Presumed drowning,0,1.0,UNKNOWN
-158746,Vehicle accident,0,1.0,Ethiopia
-158747,Drowning,0,4.0,Ethiopia
-158748,Presumed drowning,0,1.0,UNKNOWN
-158749,Presumed drowning,25.0,,UNKNOWN
-158750,Presumed drowning,6.0,,UNKNOWN
-158757,Pima County (see spreadsheet for exact location),0,1.0,UNKNOWN
-158762,Sickness,0,1.0,UNKNOWN
-159146,Suffocation,0,1.0,Ethiopia
-159147,Presumed drowning,0,1.0,UNKNOWN
-159148,Shot,0,22.0,UNKNOWN
-159153,Sickness,0,1.0,Mexico
-159946,heart attack,0,1.0,Cuban
-159947,Presumed drowning,0,1.0,Cuban
-159948,Drowning,0,7.0,UNKNOWN
-160346,Presumed drowning,0,1.0,UNKNOWN
-160746,Hit by vehicle,0,1.0,Honduras
-161146,Drowning,0,3.0,UNKNOWN
-161147,Sickness_and_lack_of_access_to_medicines Starvation Dehydration Excessive_physical_abuse,0,3.0,UNKNOWN
-161148,Sickness_and_lack_of_access_to_medicines Starvation Excessive_physical_abuse Sexual_abuse,0,1.0,UNKNOWN
-161149,Sickness_and_lack_of_access_to_medicines Starvation Excessive_physical_abuse Sexual_abuse,0,1.0,UNKNOWN
-161150,Sickness_and_lack_of_access_to_medicines Starvation Excessive_physical_abuse Sexual_abuse,0,1.0,UNKNOWN
-161547,Sickness_and_lack_of_access_to_medicines Vehicle_Accident,0,3.0,UNKNOWN
-161548,Sickness_and_lack_of_access_to_medicines Excessive_physical_abuse Sexual_abuse,0,2.0,UNKNOWN
-161549,Starvation Excessive_physical_abuse,0,3.0,UNKNOWN
-161550,Sickness_and_lack_of_access_to_medicines Starvation Dehydration Suffocation,0,4.0,UNKNOWN
-161946,Vehicle_Accident,0,2.0,UNKNOWN
-161947,Excessive_physical_abuse,0,2.0,UNKNOWN
-161949,Excessive_physical_abuse,0,4.0,UNKNOWN
-161950,Sickness_and_lack_of_access_to_medicines Vehicle_Accident,0,2.0,UNKNOWN
-161951,Shot_or_Stabbed,0,2.0,UNKNOWN
-161952,Excessive_physical_abuse,0,1.0,UNKNOWN
-161953,Sickness_and_lack_of_access_to_medicines Starvation Dehydration,0,1.0,UNKNOWN
-161954,Sickness_and_lack_of_access_to_medicines,0,1.0,UNKNOWN
-161955,Sexual_abuse,0,1.0,UNKNOWN
-161957,Sickness_and_lack_of_access_to_medicines Dehydration,0,3.0,UNKNOWN
-161958,Vehicle_Accident,0,3.0,UNKNOWN
-161959,Sickness_and_lack_of_access_to_medicines Starvation Excessive_physical_abuse,0,2.0,UNKNOWN
-161960,Shot_or_Stabbed,0,1.0,UNKNOWN
-161962,Dehydration Harsh_weather_lack_of_adequate_shelter,0,1.0,UNKNOWN
-161963,Sickness_and_lack_of_access_to_medicines,0,1.0,UNKNOWN
-161964,Vehicle_Accident,0,1.0,UNKNOWN
-161965,Sickness_and_lack_of_access_to_medicines Starvation Excessive_physical_abuse Sexual_abuse,0,1.0,UNKNOWN
-161966,Sickness_and_lack_of_access_to_medicines Starvation Excessive_physical_abuse Sexual_abuse,0,2.0,UNKNOWN
-161967,Sickness_and_lack_of_access_to_medicines Starvation Dehydration,0,1.0,UNKNOWN
-161968,Vehicle_Accident,0,2.0,UNKNOWN
-161969,Dehydration,0,1.0,UNKNOWN
-161970,Sickness_and_lack_of_access_to_medicines,0,1.0,UNKNOWN
-161971,Sickness_and_lack_of_access_to_medicines Starvation Harsh_weather_lack_of_adequate_shelter Excessive_physical_abuse,0,5.0,UNKNOWN
-161972,Sickness_and_lack_of_access_to_medicines Starvation Harsh_weather_lack_of_adequate_shelter Excessive_physical_abuse Sexual_abuse,0,1.0,UNKNOWN
-161974,Sickness_and_lack_of_access_to_medicines Vehicle_Accident,0,6.0,UNKNOWN
-161975,Sickness_and_lack_of_access_to_medicines,0,1.0,UNKNOWN
-161976,Shot_or_Stabbed,0,1.0,UNKNOWN
-161977,Sickness_and_lack_of_access_to_medicines,0,1.0,UNKNOWN
-161978,Excessive_physical_abuse,0,1.0,UNKNOWN
-161979,Sickness_and_lack_of_access_to_medicines,0,1.0,UNKNOWN
-161980,Excessive_physical_abuse,0,2.0,UNKNOWN
-161981,Shot_or_Stabbed,0,1.0,UNKNOWN
-161982,Sickness_and_lack_of_access_to_medicines Starvation Dehydration,0,1.0,UNKNOWN
-161983,Sickness_and_lack_of_access_to_medicines Starvation Excessive_physical_abuse Sexual_abuse,0,5.0,UNKNOWN
-161984,Sickness_and_lack_of_access_to_medicines Excessive_physical_abuse Sexual_abuse,0,2.0,UNKNOWN
-161985,Sickness_and_lack_of_access_to_medicines,0,1.0,UNKNOWN
-161986,Vehicle_Accident,0,1.0,UNKNOWN
-161987,Sickness_and_lack_of_access_to_medicines Harsh_weather_lack_of_adequate_shelter,0,1.0,UNKNOWN
-161988,Starvation,0,20.0,UNKNOWN
-161989,Sickness_and_lack_of_access_to_medicines Starvation Dehydration,0,1.0,UNKNOWN
-161990,Excessive_physical_abuse,0,1.0,UNKNOWN
-161991,Shot_or_Stabbed,0,2.0,UNKNOWN
-161992,Vehicle_Accident,0,2.0,UNKNOWN
-161993,Sickness_and_lack_of_access_to_medicines Starvation,0,5.0,UNKNOWN
-161994,Sickness_and_lack_of_access_to_medicines,0,1.0,UNKNOWN
-161995,Sickness_and_lack_of_access_to_medicines Starvation Suffocation Excessive_physical_abuse,0,4.0,UNKNOWN
-161996,Harsh_weather_lack_of_adequate_shelter,0,3.0,UNKNOWN
-161997,Harsh_weather_lack_of_adequate_shelter,0,3.0,UNKNOWN
-161998,Vehicle_Accident,0,2.0,UNKNOWN
-161999,Sickness_and_lack_of_access_to_medicines Starvation Harsh_weather_lack_of_adequate_shelter Suffocation,0,12.0,UNKNOWN
-162000,Sickness_and_lack_of_access_to_medicines Vehicle_Accident,0,6.0,UNKNOWN
-162001,Sickness_and_lack_of_access_to_medicines,0,1.0,UNKNOWN
-162002,Sickness_and_lack_of_access_to_medicines Starvation Harsh_weather_lack_of_adequate_shelter Excessive_physical_abuse Sexual_abuse,0,2.0,UNKNOWN
-162003,Sickness_and_lack_of_access_to_medicines,0,1.0,UNKNOWN
-162346,Excessive_physical_abuse,0,3.0,UNKNOWN
-162348,Excessive_physical_abuse,0,2.0,UNKNOWN
-162349,Vehicle_Accident,0,2.0,UNKNOWN
-162350,Sickness_and_lack_of_access_to_medicines Excessive_physical_abuse,0,2.0,UNKNOWN
-162351,Vehicle_Accident,0,5.0,UNKNOWN
-162352,Sickness_and_lack_of_access_to_medicines Dehydration,0,1.0,UNKNOWN
-162353,Sickness_and_lack_of_access_to_medicines Starvation Dehydration Harsh_weather_lack_of_adequate_shelter Suffocation Excessive_physical_abuse,0,1.0,UNKNOWN
-162354,Shot_or_Stabbed,0,1.0,UNKNOWN
-162355,Sickness_and_lack_of_access_to_medicines Starvation,0,1.0,UNKNOWN
-162356,Excessive_physical_abuse,0,4.0,UNKNOWN
-162357,Sickness_and_lack_of_access_to_medicines Starvation Harsh_weather_lack_of_adequate_shelter Excessive_physical_abuse Sexual_abuse,0,1.0,UNKNOWN
-162358,Starvation Dehydration Harsh_weather_lack_of_adequate_shelter Suffocation,0,2.0,UNKNOWN
-162359,Sickness_and_lack_of_access_to_medicines Excessive_physical_abuse Sexual_abuse,0,1.0,UNKNOWN
-162746,Shot_or_Stabbed,0,1.0,UNKNOWN
-162747,Suffocation Excessive_physical_abuse,0,4.0,UNKNOWN
-162748,Sickness_and_lack_of_access_to_medicines Dehydration Excessive_physical_abuse Sexual_abuse,0,5.0,UNKNOWN
-162749,Sickness_and_lack_of_access_to_medicines Excessive_physical_abuse,0,1.0,UNKNOWN
-162750,Excessive_physical_abuse Sexual_abuse,0,2.0,UNKNOWN
-162751,Sickness_and_lack_of_access_to_medicines Harsh_weather_lack_of_adequate_shelter,0,1.0,UNKNOWN
-162752,Harsh_weather_lack_of_adequate_shelter,0,2.0,UNKNOWN
-162753,Harsh_weather_lack_of_adequate_shelter,0,1.0,UNKNOWN
-162754,"Tekeze River, near Himora, Ethiopia",0,1.0,UNKNOWN
-162755,Sickness_and_lack_of_access_to_medicines Harsh_weather_lack_of_adequate_shelter Excessive_physical_abuse,0,2.0,UNKNOWN
-162756,Starvation Dehydration,0,2.0,UNKNOWN
-162757,Suffocation Vehicle_Accident,0,3.0,UNKNOWN
-162758,Vehicle_Accident,0,2.0,UNKNOWN
-162759,Sickness_and_lack_of_access_to_medicines Suffocation Vehicle_Accident,0,3.0,UNKNOWN
-162760,Starvation Dehydration Other,0,1.0,UNKNOWN
-162761,Sickness_and_lack_of_access_to_medicines,0,6.0,UNKNOWN
-162762,Sickness_and_lack_of_access_to_medicines Starvation Excessive_physical_abuse Shot_or_Stabbed,0,2.0,UNKNOWN
-162763,Vehicle_Accident,0,2.0,UNKNOWN
-163146,Sickness_and_lack_of_access_to_medicines,0,1.0,UNKNOWN
-163147,Shot_or_Stabbed,0,2.0,UNKNOWN
-163148,Vehicle_Accident,0,1.0,UNKNOWN
-163149,Vehicle_Accident,0,1.0,UNKNOWN
-163150,Harsh_weather_lack_of_adequate_shelter Vehicle_Accident,0,3.0,UNKNOWN
-163151,Sickness_and_lack_of_access_to_medicines Starvation Excessive_physical_abuse Sexual_abuse,0,3.0,UNKNOWN
-163153,Sickness_and_lack_of_access_to_medicines,0,1.0,UNKNOWN
-163154,Sickness_and_lack_of_access_to_medicines Excessive_physical_abuse Shot_or_Stabbed,0,3.0,UNKNOWN
-163155,Other,0,1.0,UNKNOWN
-163156,Sickness_and_lack_of_access_to_medicines Dehydration Excessive_physical_abuse,0,5.0,UNKNOWN
-163157,Dehydration Vehicle_Accident Excessive_physical_abuse,0,3.0,UNKNOWN
-163158,Vehicle_Accident,0,2.0,UNKNOWN
-163159,Starvation Dehydration Harsh_weather_lack_of_adequate_shelter Excessive_physical_abuse,0,32.0,UNKNOWN
-163160,Sickness_and_lack_of_access_to_medicines,0,1.0,UNKNOWN
-163161,Excessive_physical_abuse,0,1.0,UNKNOWN
-163162,Vehicle_Accident,0,1.0,UNKNOWN
-163163,Sickness_and_lack_of_access_to_medicines Harsh_weather_lack_of_adequate_shelter,0,2.0,UNKNOWN
-163164,Harsh_weather_lack_of_adequate_shelter,0,1.0,UNKNOWN
-163165,Sickness_and_lack_of_access_to_medicines Harsh_weather_lack_of_adequate_shelter,0,1.0,UNKNOWN
-163166,Excessive_physical_abuse,0,1.0,UNKNOWN
-163167,Sickness_and_lack_of_access_to_medicines Starvation Excessive_physical_abuse Sexual_abuse,0,5.0,UNKNOWN
-163168,Starvation,0,3.0,UNKNOWN
-163169,Shot_or_Stabbed,0,1.0,UNKNOWN
-163170,Sickness_and_lack_of_access_to_medicines,0,1.0,UNKNOWN
-163171,Sickness_and_lack_of_access_to_medicines Starvation Excessive_physical_abuse Sexual_abuse,0,1.0,UNKNOWN
-163172,Sickness_and_lack_of_access_to_medicines Starvation Excessive_physical_abuse Sexual_abuse,0,1.0,UNKNOWN
-163173,Sickness_and_lack_of_access_to_medicines,0,1.0,UNKNOWN
-163174,Sickness_and_lack_of_access_to_medicines Starvation Excessive_physical_abuse,0,3.0,UNKNOWN
-163175,Vehicle_Accident,0,3.0,UNKNOWN
-163176,Excessive_physical_abuse,0,1.0,UNKNOWN
-163177,Presumed drowning,0,2.0,Peru (1)
-163177,Presumed drowning,0,2.0,Unknown (1)
-163546,Vehicle_Accident,0,4.0,UNKNOWN
-163547,Sickness_and_lack_of_access_to_medicines Starvation Excessive_physical_abuse Sexual_abuse,0,6.0,UNKNOWN
-163548,Shot_or_Stabbed,0,1.0,UNKNOWN
-163549,Vehicle_Accident,0,2.0,UNKNOWN
-163550,Starvation Dehydration Vehicle_Accident,0,10.0,UNKNOWN
-163551,Sickness_and_lack_of_access_to_medicines,0,1.0,UNKNOWN
-163552,Sickness_and_lack_of_access_to_medicines Starvation Harsh_weather_lack_of_adequate_shelter Excessive_physical_abuse,0,7.0,UNKNOWN
-163553,Other,0,9.0,UNKNOWN
-163554,Vehicle_Accident,0,3.0,UNKNOWN
-163555,Shot_or_Stabbed,0,1.0,UNKNOWN
-163556,Harsh_weather_lack_of_adequate_shelter Vehicle_Accident,0,2.0,UNKNOWN
-163557,Dehydration Harsh_weather_lack_of_adequate_shelter,0,1.0,UNKNOWN
-163558,Other,0,5.0,UNKNOWN
-163559,Sickness_and_lack_of_access_to_medicines Starvation Excessive_physical_abuse,0,3.0,UNKNOWN
-163560,Sickness_and_lack_of_access_to_medicines,0,6.0,UNKNOWN
-163561,Vehicle_Accident,0,7.0,UNKNOWN
-163946,Harsh_weather_lack_of_adequate_shelter Suffocation,0,2.0,UNKNOWN
-163947,Sickness_and_lack_of_access_to_medicines Starvation Suffocation Excessive_physical_abuse Shot_or_Stabbed,0,7.0,UNKNOWN
-164346,Hit by train,0,1.0,Honduras
-164746,Shot by Apache helicopter,0,42.0,Somalia
-164747,Shot,0,2.0,Somalia
-164747,Shot,0,2.0,Ethiopia
-165146,Beaten to death on train,0,1.0,Honduras
-165547,Likely drowning,0,11.0,UNKNOWN
-165548,Fuel burns,0,10.0,UNKNOWN
-165549,Likely drowning,8.0,,UNKNOWN
-165550,Electrocution on railway,0,1.0,UNKNOWN
-165946,Likely drowning,0,3.0,UNKNOWN
-166346,Presumed drowning,66.0,2.0,UNKNOWN
-166347,Shot,0,1.0,Honduras
-166349,Drowning,0,3.0,Syria
-166746,Hypothermia,0,5.0,Unspecified national of Sub-Saharan Africa
-166747,Violent robbery,0,1.0,Honduras
-166748,Presumed drowning,1.0,3.0,UNKNOWN
-166749,Presumed drowning,0,11.0,UNKNOWN
-166750,Presumed drowning,0,1.0,Unspecified national of Sub-Saharan Africa
-167146,Hit by vehicle,0,1.0,UNKNOWN
-167546,Drowning,0,1.0,UNKNOWN
+158347,Presumed drowning,0.0,1.0,Brazil
+158746,Vehicle accident,0.0,1.0,Ethiopia
+158747,Drowning,0.0,4.0,Ethiopia
+159146,Suffocation,0.0,1.0,Ethiopia
+159153,Sickness,0.0,1.0,Mexico
+159946,heart attack,0.0,1.0,Cuban
+159947,Presumed drowning,0.0,1.0,Cuban
+160746,Hit by vehicle,0.0,1.0,Honduras
+164346,Hit by train,0.0,1.0,Honduras
+164746,Shot by Apache helicopter,0.0,42.0,Somalia
+164747,Shot,0.0,1.0,Somalia
+164747,Shot,0.0,1.0,Ethiopia
+165146,Beaten to death on train,0.0,1.0,Honduras
+166347,Shot,0.0,1.0,Honduras
+166349,Drowning,0.0,3.0,Syria
+166746,Hypothermia,0.0,5.0,Unspecified national of Sub-Saharan Africa
+166747,Violent robbery,0.0,1.0,Honduras
+166750,Presumed drowning,0.0,1.0,Unspecified national of Sub-Saharan Africa
 167547,Drowning,5.0,1.0,Unspecfied nationals of Western Africa
-167946,Fell from train,0,2.0,UNKNOWN
-167948,Probable drowning,0,4.0,UNKNOWN
-167949,Drowning,0,1.0,UNKNOWN
-167950,Probable drowning,0,1.0,UNKNOWN
-168346,Probable drowning,0,3.0,UNKNOWN
-168746,Unknow (skeletal remains),0,1.0,UNKNOWN
-169546,Vehicle accident,0,1.0,El Salvador
-169547,Train accident,0,1.0,UNKNOWN
-169946,Murdered,0,2.0,Honduras
-170346,Violence,0,1.0,UNKNOWN
-170347,Violence,0,1.0,UNKNOWN
-170348,Starvation,0,6.0,UNKNOWN
-170350,Violence,0,1.0,UNKNOWN
-170352,Violence,0,1.0,UNKNOWN
-170353,Hypothermia,0,2.0,UNKNOWN
-170354,Dehydration,0,2.0,UNKNOWN
-170355,Vehicle accident,0,1.0,UNKNOWN
-170356,Vehicle accident,0,2.0,UNKNOWN
-170357,Murdered,0,1.0,UNKNOWN
-170358,Starvation,0,1.0,UNKNOWN
-170359,Violence,0,1.0,UNKNOWN
-170360,Dehydration,0,3.0,UNKNOWN
-170361,Vehicle accident,0,2.0,UNKNOWN
-170362,Violence,0,3.0,UNKNOWN
-170363,Suffocation,0,1.0,UNKNOWN
-170364,Murdered,0,1.0,UNKNOWN
-170365,Vehicle accident,0,1.0,UNKNOWN
-170366,Starvation,0,1.0,UNKNOWN
-170367,Murdered,0,2.0,UNKNOWN
-170368,Harsh conditions,0,3.0,UNKNOWN
-170369,Dehydration,0,1.0,UNKNOWN
-170371,Starvation,0,1.0,UNKNOWN
-170372,Murdered,0,1.0,UNKNOWN
-170373,Murdered,0,1.0,UNKNOWN
-170374,Sickness,0,1.0,UNKNOWN
-170375,Murdered,0,7.0,UNKNOWN
-170377,Vehicle accident,0,1.0,UNKNOWN
-170378,Hit by train,0,1.0,UNKNOWN
-170379,Dehydration,0,1.0,Mexico
-170380,Fell from train,0,1.0,El Salvador
-170381,Drowning,0,1.0,Mexico
-170382,Fell from train,0,1.0,Honduras
-170383,Hyperthermia,0,1.0,Mexico
-170746,Vehicle accident,0,1.0,UNKNOWN
-170747,Dehydration,0,1.0,UNKNOWN
-170748,Dehydration,0,1.0,UNKNOWN
-170749,Vehicle accident,0,3.0,UNKNOWN
-170750,Vehicle accident,0,3.0,UNKNOWN
-170751,Vehicle accident,0,2.0,UNKNOWN
-170752,Starvation,0,2.0,UNKNOWN
-170753,Murdered,0,1.0,UNKNOWN
-170754,Murdered,0,1.0,UNKNOWN
-170755,Murdered,0,1.0,UNKNOWN
-170756,Violence,0,1.0,UNKNOWN
-170758,Hypothermia,0,1.0,UNKNOWN
-170759,Vehicle accident,0,1.0,UNKNOWN
-170760,Murdered,0,3.0,UNKNOWN
-170761,"Sickness, Harsh conditions",0,1.0,UNKNOWN
-170762,Violence,0,5.0,UNKNOWN
-170763,Vehicle accident,0,7.0,UNKNOWN
-170764,Murdered,0,1.0,UNKNOWN
-170765,Fell from train,0,1.0,Mexico
-171146,Presumed drowning,0,1.0,UNKNOWN
-171147,Sickness,0,1.0,UNKNOWN
-171546,Drowning,0,1.0,UNKNOWN
-171946,Presumed drowning,130.0,,UNKNOWN
-171947,Drowning,0,3.0,Unspecified national of Sub-Saharan Africa
-171948,Presumed drowning,97.0,,Unspecified nationals of Africa
-171949,Drowning,0,5.0,2 Senegal
-171949,Drowning,0,5.0,2 Guinea
-171949,Drowning,0,5.0,1 Ghana
+169546,Vehicle accident,0.0,1.0,El Salvador
+169946,Murdered,0.0,2.0,Honduras
+170379,Dehydration,0.0,1.0,Mexico
+170380,Fell from train,0.0,1.0,El Salvador
+170381,Drowning,0.0,1.0,Mexico
+170382,Fell from train,0.0,1.0,Honduras
+170383,Hyperthermia,0.0,1.0,Mexico
+170765,Fell from train,0.0,1.0,Mexico
+171947,Drowning,0.0,3.0,Unspecified national of Sub-Saharan Africa
+171948,Presumed drowning,97.0,0.0,Unspecified nationals of Africa
+171949,Drowning,0.0,1.6666666666666667,2 Senegal
+171949,Drowning,0.0,1.6666666666666667,2 Guinea
+171949,Drowning,0.0,1.6666666666666667,1 Ghana
 171950,Drowning,20.0,13.0,Unspecified nationals of West Africa
-172346,Violence,0,1.0,Ghana
-172347,Harsh conditions,0,26.0,UNKNOWN
-172348,Sickness,0,2.0,UNKNOWN
-172349,Murdered,0,2.0,UNKNOWN
-172350,Violence,0,1.0,UNKNOWN
-172351,Dehydration,0,1.0,UNKNOWN
-172352,Murdered,0,2.0,UNKNOWN
-172353,Vehicle accident,0,1.0,UNKNOWN
-172354,"Dehydration, Starvation",0,28.0,UNKNOWN
-172746,Murdered,0,1.0,UNKNOWN
-172747,Harsh conditions,0,3.0,UNKNOWN
-172748,Violence,0,2.0,UNKNOWN
-172749,Murdered,0,1.0,UNKNOWN
-172750,Sickness,0,1.0,UNKNOWN
-172751,Sickness,0,2.0,UNKNOWN
-172752,Dehydration,0,6.0,UNKNOWN
-172753,Violence,0,2.0,UNKNOWN
-172754,Shot,0,1.0,Myanmar
-172755,Starvation,0,1.0,UNKNOWN
-172756,Sickness,0,2.0,UNKNOWN
-172758,Murdered,0,12.0,UNKNOWN
-172759,Dehydration,0,7.0,UNKNOWN
-172760,Hypothermia,0,2.0,Iraq
-172762,Violence,0,2.0,UNKNOWN
-172763,Vehicle accident,0,1.0,UNKNOWN
-172764,Suffocation,0,1.0,UNKNOWN
-172766,"Dehydration, Starvation",0,2.0,UNKNOWN
-172767,Violence,0,1.0,UNKNOWN
-173146,Presumed drowning,0,1.0,Honduras
-173546,"Dehydration, Starvation",0,1.0,UNKNOWN
-173547,Vehicle accident,0,3.0,UNKNOWN
-173549,Vehicle accident,0,1.0,UNKNOWN
-173550,Starvation,0,3.0,UNKNOWN
-173551,"Exposure, Hyperthermia",0,1.0,UNKNOWN
-173553,Murdered,0,1.0,UNKNOWN
-173554,Murdered,0,2.0,UNKNOWN
-173555,Hit by train,0,1.0,UNKNOWN
-173556,Fell from train,0,1.0,UNKNOWN
-173558,Sickness,0,2.0,UNKNOWN
-173559,Violence,0,1.0,UNKNOWN
-173560,Violence,0,2.0,UNKNOWN
-173561,Violence,0,1.0,UNKNOWN
-173562,Murdered,0,3.0,UNKNOWN
-173563,Violence,0,2.0,UNKNOWN
-173564,Starvation,0,2.0,UNKNOWN
-173565,Vehicle accident,0,2.0,UNKNOWN
-173566,Violence,0,1.0,UNKNOWN
-173567,Hypothermia,0,1.0,UNKNOWN
-173568,Violence,0,2.0,UNKNOWN
-173569,Dehydration,0,1.0,UNKNOWN
-173571,Murdered,0,1.0,UNKNOWN
-173573,Starvation,0,1.0,UNKNOWN
-173574,Murdered,0,1.0,UNKNOWN
-173946,Violence,0,1.0,UNKNOWN
-174346,Drowning,0,4.0,UNKNOWN
-174347,Violence,0,1.0,UNKNOWN
-174348,Violence,0,1.0,UNKNOWN
-174349,Murdered,0,1.0,UNKNOWN
-174746,Vehicle accident,0,1.0,UNKNOWN
-174747,Harsh conditions,0,1.0,UNKNOWN
-174748,Hypothermia,0,1.0,Afghanistan
-174749,Drowning,0,1.0,UNKNOWN
-175146,Shot,0,1.0,Mexico
-175147,Drowning,7.0,16.0,Cameroon
-175147,Drowning,7.0,16.0,Democratic Republic of Congo
-175147,Drowning,7.0,16.0,Syria
-175147,Drowning,7.0,16.0,Turkey
-175148,Drowning,0,1.0,Honduras
-175149,Presumed drowning,7.0,,UNKNOWN
-175150,Presumed drowning,17.0,,UNKNOWN
-175151,Crushed,0,4.0,UNKNOWN
-175546,Hit by vehicle,0,1.0,Honduras
-175547,Presumed drowning,30.0,,UNKNOWN
-175548,Presumed drowning,35.0,,UNKNOWN
-175549,Presumed drowning,10.0,,UNKNOWN
-175946,Vehicle accident,0,1.0,Iran
-175947,Sickness,0,1.0,UNKNOWN
-175948,Presumed violence,0,15.0,UNKNOWN
-175952,Presumed drowning,0,1.0,UNKNOWN
-176746,Vehicle incident,0,3.0,Afghanistan
-177146,Drowning,0,6.0,UNKNOWN
-177147,Electrocution on railway,0,1.0,UNKNOWN
-177148,Presumed drowning,8.0,,UNKNOWN
-177546,Drowning,0,1.0,UNKNOWN
-177547,Drowning,0,1.0,UNKNOWN
-177548,Dehydration,0,8.0,UNKNOWN
-177946,Drowning,0,19.0,UNKNOWN
-177947,Drowning,0,1.0,Brazilian
-177948,Presumed drowning,102.0,,UNKNOWN
-177949,Presumed drowning,0,11.0,UNKNOWN
-177950,Presumed drowning,80.0,,UNKNOWN
-178346,Shot,0,1.0,Gambia
-178746,Hit by train,0,1.0,UNKNOWN
-178747,Drowning,0,1.0,UNKNOWN
-179146,Drowning,0,1.0,Guatemala
+172346,Violence,0.0,1.0,Ghana
+172754,Shot,0.0,1.0,Myanmar
+172760,Hypothermia,0.0,2.0,Iraq
+173146,Presumed drowning,0.0,1.0,Honduras
+174748,Hypothermia,0.0,1.0,Afghanistan
+175146,Shot,0.0,1.0,Mexico
+175147,Drowning,1.75,4.0,Cameroon
+175147,Drowning,1.75,4.0,Democratic Republic of Congo
+175147,Drowning,1.75,4.0,Syria
+175147,Drowning,1.75,4.0,Turkey
+175148,Drowning,0.0,1.0,Honduras
+175546,Hit by vehicle,0.0,1.0,Honduras
+175946,Vehicle accident,0.0,1.0,Iran
+176746,Vehicle incident,0.0,3.0,Afghanistan
+177947,Drowning,0.0,1.0,Brazilian
+178346,Shot,0.0,1.0,Gambia
+179146,Drowning,0.0,1.0,Guatemala
 179147,Drowning,10.0,1.0,Comoran
-179546,Crushed / drowning,15.0,7.0,20 Unknown
-179546,Crushed / drowning,15.0,7.0,1 Bangladesh
-179546,Crushed / drowning,15.0,7.0,1 Senegal
-179547,Fell from train,0,1.0,UNKNOWN
-179946,Drowning,0,1.0,UNKNOWN
-179947,Presumed drowning,0,1.0,Haitian
-180346,Drowning,0,1.0,UNKNOWN
-180347,Presumed drowning,1.0,,UNKNOWN
-180746,Presumed drowning,0,1.0,UNKNOWN
-180747,Presumed drowning,0,1.0,UNKNOWN
-180748,Presumed drowning,0,2.0,UNKNOWN
-180749,Presumed drowning,0,2.0,UNKNOWN
-180750,Electrocuted on train,0,1.0,UNKNOWN
+179947,Presumed drowning,0.0,1.0,Haitian
 181146,Drowning,1.0,1.0,Unspecified nationals of West Africa
-181546,Presumed drowning,156.0,,Unspecified nationals of West Africa
-181547,Shot,0,1.0,Syria
-181946,Drowning,0,34.0,UNKNOWN
-182346,Presumed drowning,0,1.0,UNKNOWN
-182347,Fall from cliff,0,1.0,Bangladesh
-182348,Electrocution,0,1.0,UNKNOWN
-182746,Drowning,0,7.0,Unspecified nationals of Sub-Saharan Africa
-182747,Presumed drowning,0,7.0,UNKNOWN
-182748,Presumed drowning,18.0,2.0,UNKNOWN
-183146,Drowning,0,1.0,UNKNOWN
-183546,Murdered (bandits),0,1.0,UNKNOWN
-183946,Murdered (militia),0,1.0,UNKNOWN
-184346,Drowning,0,1.0,Iraq
-184347,Drowning,0,1.0,UNKNOWN
-184348,Dehydration,0,1.0,Mexican
-184350,Presumed drowning,82.0,,UNKNOWN
-184352,Hypothermia,0,1.0,Ghana
-184353,Drowning,0,1.0,Guatemala
-184746,Drowning,0,1.0,UNKNOWN
-184747,Train accident,0,1.0,Honduras
-184749,Train accident,0,1.0,UNKNOWN
-184750,Dehydration,0,44.0,Ghana
-184750,Dehydration,0,44.0,Nigeria
+181546,Presumed drowning,156.0,0.0,Unspecified nationals of West Africa
+181547,Shot,0.0,1.0,Syria
+182347,Fall from cliff,0.0,1.0,Bangladesh
+182746,Drowning,0.0,7.0,Unspecified nationals of Sub-Saharan Africa
+184346,Drowning,0.0,1.0,Iraq
+184348,Dehydration,0.0,1.0,Mexican
+184352,Hypothermia,0.0,1.0,Ghana
+184353,Drowning,0.0,1.0,Guatemala
+184747,Train accident,0.0,1.0,Honduras
+184750,Dehydration,0.0,22.0,Ghana
+184750,Dehydration,0.0,22.0,Nigeria
