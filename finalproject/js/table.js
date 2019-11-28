@@ -3,12 +3,25 @@ class Table {
         this.data = data;
         this.width = 900;
         this.height = 900;
+        this.aggregate = null;
         this.toggle = null;
-        this.aggregated = d3.nest()
+        this.nested = d3.nest()
             .key(d => {
                 return d.affected_nationality;
             })
             .rollup(v => {
+                let regionMax = 0;
+                let targetRegion = 'UNKNOWN';
+                let targetCause = 'UNKNOWN';
+                v.map((entry) => {
+                    if (regionMax < (entry.dead + entry.missing)) {
+                        targetRegion = entry.incident_region;
+                        targetCause = entry.cause_of_death;
+                        regionMax = entry.dead;
+                    }
+
+                });
+
                 return {
                     death: d3.sum(v, d => {
                         return d.dead;
@@ -16,6 +29,9 @@ class Table {
                     missing: d3.sum(v, d => {
                         return d.missing;
                     }),
+                    incident_region: targetRegion,
+                    cause_of_death: targetCause
+
                 }
             })
             .entries(this.data);
@@ -41,17 +57,17 @@ class Table {
             let sorted;
             switch (col) {
                 case "Nationality":
-                    sorted = that.aggregated.sort(function (a, b) {
+                    sorted = that.nested.sort(function (a, b) {
                         return d3.ascending(a.key, b.key);
                     });
                     break;
                 case "Death":
-                    sorted = that.aggregated.sort(function (a, b) {
+                    sorted = that.nested.sort(function (a, b) {
                         return d3.ascending(a.value.death, b.value.death);
                     });
                     break;
                 case "Missing":
-                    sorted = that.aggregated.sort(function (a, b) {
+                    sorted = that.nested.sort(function (a, b) {
                         return d3.ascending(a.value.missing, b.value.missing);
                     });
                     break;
@@ -62,14 +78,15 @@ class Table {
             if (sorted != undefined) {
                 that.data = that.toggle > 0 ? sorted : sorted.reverse();
 
-                that.updateTable(that.aggregated);
+                that.updateTable(that.nested);
             }
         }
 
-        this.updateTable(this.aggregated);
+        this.updateTable(this.nested);
     }
 
     updateTable(updatedData) {
+        var self = this;
         d3.select("#matchTable").select("tbody").selectAll("tr").remove();
         var table = d3.select("#matchTable");
 
@@ -93,31 +110,40 @@ class Table {
                 } else {
                     return "not known";
                 }
+            })
+            .on('click', (d) => {
+                self.updateList(self, d.key);
             });
 
         var rowtd = tbodytr.selectAll("td")
             .data(d => {
                 return [{
-                        "vis": "death count",
-                        "key": "death",
-                        "value": d.value.death
-                    },
-                    {
-                        "vis": "miss count",
-                        "key": "missing",
-                        "value": d.value.missing
-                    },
-                    
-                    {
-                        "vis": "cause",
-                        "key": "cause of death",
-                        "value": d.cause
-                    }
+                    "vis": "death count",
+                    "key": "death",
+                    "value": d.value.death
+                },
+                {
+                    "vis": "miss count",
+                    "key": "missing",
+                    "value": d.value.missing
+                },
+
+                {
+                    "vis": "incident region",
+                    "key": "incident region",
+                    "value": d.value.incident_region
+                },
+                {
+                    "vis": "cause",
+                    "key": "cause of death",
+                    "value": d.value.cause_of_death
+                }
                 ]
             })
             .enter()
             .append("td");
 
+        let formatDecimal = d3.format(".1f");
         let deathCount = rowtd.filter(d => {
             return d.vis == "death count";
         });
@@ -125,7 +151,7 @@ class Table {
         deathCount
             .style("text-align", "center")
             .text(d => {
-                return d.value;
+                return formatDecimal(d.value);
             });
 
         let missCount = rowtd.filter(d => {
@@ -135,10 +161,10 @@ class Table {
         missCount
             .style("text-align", "center")
             .text(d => {
-                return d.value;
+                return formatDecimal(d.value);
             });
 
-        /*let incidentRegion = rowtd.filter(d => {
+        let incidentRegion = rowtd.filter(d => {
             return d.vis == "incident region";
         });
 
@@ -146,7 +172,7 @@ class Table {
             .style("text-align", "center")
             .text(d => {
                 return d.value;
-            });*/
+            });
 
         let deathCause = rowtd.filter(d => {
             return d.vis == "cause";
@@ -155,9 +181,53 @@ class Table {
         deathCause
             .style("text-align", "center")
             .text(d => {
-                //console.log(d);
                 return d.value;
             });
 
+    }
+    
+    updateList(self, key){
+        self.aggregate = !self.aggregate;
+        if (!self.aggregate) return;
+
+        let filtered = self.data.filter( d => {
+            return d.affected_nationality !== key;
+        })
+        //expand
+        
+        let nested = d3.nest()
+            .key(d => {
+                return d.affected_nationality;
+            })
+            .rollup(v => {
+                
+                let regionMax = 0;
+                let targetRegion = 'UNKNOWN';
+                let targetCause = 'UNKNOWN';
+                v.map((entry) => {
+                    if (regionMax < (entry.dead + entry.missing)) {
+                        targetRegion = entry.incident_region;
+                        targetCause = entry.cause_of_death;
+                        regionMax = entry.dead;
+                    }
+
+                });
+
+                return {
+                    death: d3.sum(v, d => {
+                        return d.dead;
+                    }),
+                    missing: d3.sum(v, d => {
+                        return d.missing;
+                    }),
+                    incident_region: targetRegion,
+                    cause_of_death: targetCause
+
+                }
+            })
+            .entries(filtered);
+        console.log(self.data.filter( d=>{
+            return d.affected_nationality === key;
+        }));
     }
 }
