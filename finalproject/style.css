@@ -204,3 +204,11 @@ tbody td {
 .aggregate{
     color: #317f19;
 }
+
+.nation {
+    color: #b1b1b1;
+}
+
+tbody tr .nation {
+    background-color: #f0f0f0;
+}

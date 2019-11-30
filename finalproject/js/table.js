@@ -5,36 +5,9 @@ class Table {
         this.height = 900;
         this.aggregate = null;
         this.toggle = null;
-        this.nested = d3.nest()
-            .key(d => {
-                return d.affected_nationality;
-            })
-            .rollup(v => {
-                let regionMax = 0;
-                let targetRegion = 'UNKNOWN';
-                let targetCause = 'UNKNOWN';
-                v.map((entry) => {
-                    if (regionMax < (entry.dead + entry.missing)) {
-                        targetRegion = entry.incident_region;
-                        targetCause = entry.cause_of_death;
-                        regionMax = entry.dead;
-                    }
+        this.tableElements = data.slice(0, data.length);
+        this.countryData = data;
 
-                });
-
-                return {
-                    death: d3.sum(v, d => {
-                        return d.dead;
-                    }),
-                    missing: d3.sum(v, d => {
-                        return d.missing;
-                    }),
-                    incident_region: targetRegion,
-                    cause_of_death: targetCause
-
-                }
-            })
-            .entries(this.data);
     }
 
     createTable() {
@@ -49,6 +22,7 @@ class Table {
             let asc = 1,
                 desc = -1;
 
+            let toSortlist = that.collapseList();
             if (that.toggle == null || that.toggle == asc)
                 that.toggle = desc;
             else
@@ -57,17 +31,17 @@ class Table {
             let sorted;
             switch (col) {
                 case "Nationality":
-                    sorted = that.nested.sort(function (a, b) {
+                    sorted = toSortlist.sort(function (a, b) {
                         return d3.ascending(a.key, b.key);
                     });
                     break;
                 case "Death":
-                    sorted = that.nested.sort(function (a, b) {
+                    sorted = toSortlist.sort(function (a, b) {
                         return d3.ascending(a.value.death, b.value.death);
                     });
                     break;
                 case "Missing":
-                    sorted = that.nested.sort(function (a, b) {
+                    sorted = toSortlist.sort(function (a, b) {
                         return d3.ascending(a.value.missing, b.value.missing);
                     });
                     break;
@@ -76,44 +50,46 @@ class Table {
             }
 
             if (sorted != undefined) {
-                that.data = that.toggle > 0 ? sorted : sorted.reverse();
-
-                that.updateTable(that.nested);
+                that.tableElements = that.toggle > 0 ? sorted : sorted.reverse();
+                d3.select('#matchTable').select('tbody').selectAll('tr').remove();
+                that.updateTable();
             }
         }
 
-        this.updateTable(this.nested);
+        this.updateTable();
     }
 
-    updateTable(updatedData) {
+    updateTable() {
         var self = this;
         d3.select("#matchTable").select("tbody").selectAll("tr").remove();
         var table = d3.select("#matchTable");
 
         var tbody = table.select("tbody");
 
-        var tbodytr = tbody.selectAll("tr").data(updatedData)
+        var tbodytr = tbody.selectAll("tr").data(this.tableElements)
             .enter()
-            .append("tr");
+            .append("tr")
+            .attr('class', d => { return d.value.type; })
+            .on('click', (d, i) => {
+                self.updateList(i);
+            });
+
         tbodytr.selectAll("th")
             .data(trdata => {
                 return [{
-                    "key": trdata.key
+                    "key": trdata.key,
+                    "type": trdata.value.type
                 }]
             })
             .enter()
             .append("th")
-            .attr("class", "nationality")
             .text(d => {
-                if (d.key.length > 0) {
+                if (d.type === "aggregate")
                     return d.key;
-                } else {
-                    return "not known";
-                }
+                else
+                    return "+" + d.key;
             })
-            .on('click', (d) => {
-                self.updateList(self, d.key);
-            });
+
 
         var rowtd = tbodytr.selectAll("td")
             .data(d => {
@@ -185,49 +161,25 @@ class Table {
             });
 
     }
-    
-    updateList(self, key){
-        self.aggregate = !self.aggregate;
-        if (!self.aggregate) return;
 
-        let filtered = self.data.filter( d => {
-            return d.affected_nationality !== key;
-        })
+    updateList(i) {
+        if (i == undefined || this.tableElements[i].value.type != 'aggregate') return;
+
         //expand
-        
-        let nested = d3.nest()
-            .key(d => {
-                return d.affected_nationality;
-            })
-            .rollup(v => {
-                
-                let regionMax = 0;
-                let targetRegion = 'UNKNOWN';
-                let targetCause = 'UNKNOWN';
-                v.map((entry) => {
-                    if (regionMax < (entry.dead + entry.missing)) {
-                        targetRegion = entry.incident_region;
-                        targetCause = entry.cause_of_death;
-                        regionMax = entry.dead;
-                    }
-
-                });
-
-                return {
-                    death: d3.sum(v, d => {
-                        return d.dead;
-                    }),
-                    missing: d3.sum(v, d => {
-                        return d.missing;
-                    }),
-                    incident_region: targetRegion,
-                    cause_of_death: targetCause
-
-                }
-            })
-            .entries(filtered);
-        console.log(self.data.filter( d=>{
-            return d.affected_nationality === key;
-        }));
+        if (this.tableElements[i + 1] == undefined || this.tableElements[i + 1].value.type == 'aggregate') {
+            let nationsList = this.tableElements[i].value.entries;
+            this.tableElements = this.tableElements.slice(0, i + 1).concat(nationsList).concat(this.tableElements.slice(i + 1));
+        } else {
+            this.tableElements = this.tableElements.slice(0, i + 1).concat(this.tableElements.slice(i + 1 + this.tableElements[i].value.entries.length));
+        }
+        d3.select('#matchTable').select('tbody').selectAll('tr').remove();
+        this.updateTable();
     }
+
+    collapseList() {
+
+        // ******* TODO: PART IV *******
+        return this.tableElements.filter(function (d) { return d.value.type == 'aggregate'; });
+    }
+
 }
