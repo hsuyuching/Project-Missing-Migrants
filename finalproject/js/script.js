@@ -48,7 +48,8 @@ loadData().then(data => {
     let table = new Table(tableData);
     table.createTable();
 
-    this.activeRoute = "1000"
+    // console.log(data)
+    this.activeRoute = "300"
     let that = this;
 
     function updateRoute(number) {
@@ -56,7 +57,7 @@ loadData().then(data => {
         // world.numRounteBar(that.activeRoute)
     }
 
-    let world = new worldmap(data, updateRoute, this.activeRoute)
+    let world = new worldmap(data, updateRoute, this.activeRoute, table)
     d3.json("data/world-countries.json").then(mapData => {
         world.createMap(mapData)
     })

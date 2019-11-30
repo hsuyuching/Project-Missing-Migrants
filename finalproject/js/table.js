@@ -55,6 +55,7 @@ class Table {
                 that.updateTable();
             }
         }
+        window.tableData = this.aggregated
 
         this.updateTable();
     }
