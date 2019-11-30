@@ -86,8 +86,10 @@ class Table {
             .text(d => {
                 if (d.type === "aggregate")
                     return d.key;
-                else
-                    return "+" + d.key;
+                else {
+
+                    return (d.key == null) ? 'N/A' : d.key;
+                }
             })
 
 

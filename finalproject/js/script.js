@@ -32,7 +32,7 @@ loadData().then(data => {
                     'cause_of_death': d['cause_of_death'],
                     'type': 'nation'
                 };
-                return { 'key': d.affected_nationality, 'value': value };
+                return { 'key': d['date'], 'value': value };
             });
 
             return{
