@@ -65,11 +65,14 @@ class Table {
                 that.updateTable(that.aggregated);
             }
         }
+        window.tableData = this.aggregated
 
         this.updateTable(this.aggregated);
     }
 
     updateTable(updatedData) {
+        console.log("haha")
+
         d3.select("#matchTable").select("tbody").selectAll("tr").remove();
         var table = d3.select("#matchTable");
 

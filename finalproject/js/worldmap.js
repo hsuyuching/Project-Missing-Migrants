@@ -8,7 +8,8 @@ class CountryData {
     }
 }
 class worldmap{
-    constructor(data, updateRoute, activeRoute){
+    constructor(data, updateRoute, activeRoute, tableObject){
+        this.table = tableObject;
         window.migrant = data;
         this.activeRoute = activeRoute;
         this.updateRoute = updateRoute;
@@ -19,13 +20,15 @@ class worldmap{
             .translate( [this.width / 2, this.height /3]);
     }
     createMap(world){
+        let that = this
         window.worldData = world
-
         let data = new preprocess()
         const IncidentRegionBasedData = data.IncidentRegionBased()
         window.RegionsInclude = data.DefineRegion()
         const countryData = data.WorldMapData()
         window.startData = data.OriginRegion()
+
+        console.log(window.migrant)
 
         // Set tooltips
         let tooltipdiv = d3.select("body")
@@ -99,8 +102,17 @@ class worldmap{
             });
 
         /* draw migrant incident point */
-        let dataslice = window.migrant.filter(function(d){return d.lon != "" && d.region_origin!=""}).slice(0, this.activeRoute)
+        let dataslice = window.migrant.filter(function(d){return d.region_origin!="Mixed" && d.region_origin!="UNKNOWN"}).slice(0, this.activeRoute)
 
+        // let dicRegion_origin = []
+        // window.migrant.forEach(function(d){
+        //     if(dicRegion_origin.indexOf(d.region_origin)<=-1){
+        //         dicRegion_origin.push(d.region_origin)
+        //     }
+        // })
+        // console.log(dicRegion_origin)
+
+        /* draw incidentPoint point */
         d3.select("#svgmap").append("g").attr("id", "incidentPoint")
             .selectAll("circle")
             .data(dataslice)
@@ -110,6 +122,20 @@ class worldmap{
             .attr("cy", d=> this.projection([parseFloat(d.lon),parseFloat(d.lat)])[1])
             .attr("r", "3px")
             .attr("fill", "red")
+            .on("mouseover", function (d) {
+                d3.select(this)
+                    .style("opacity", 1)
+                    .style("stroke","yellow")
+                    .style("stroke-width",5)
+                console.log(this)
+                that.table.updateTable(window.tableData);
+            })
+            .on('mouseout', function(d){
+                d3.select(this)
+                    .style("stroke","red")
+                    .style("stroke-width","1px");
+
+            });
 
 
         /* draw region_origin point */
@@ -180,8 +206,6 @@ class worldmap{
                     .html(d.dead>0? "Dead: "+ d.dead: "Dead: 0")
                     .append("div")
                     .html(d.missing>0? "Missing: "+ d.missing: "Missing: 0")
-
-
             })
             .on('mouseout', function(d){
                 d3.select(this)
@@ -195,7 +219,7 @@ class worldmap{
             });
     }
     updateRoutePlot(activeRoute){
-        let data = window.migrant.filter(function(d){return d.lon != "" && d.region_origin!=""}).slice(0, activeRoute)
+        let data = window.migrant.filter(function(d){return d.region_origin!="Mixed" && d.region_origin!="UNKNOWN"}).slice(0, activeRoute)
 
         /* update line */
         let lines = d3.select("#migratePath").selectAll("line").data(data)

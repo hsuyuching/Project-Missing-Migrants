@@ -32,7 +32,7 @@ class preprocess{
         {region: "Central America & Mexico",lon: 264.12890397, lat:16.77088981},
         {region: "MENA", lon: 43.03124785,lat: 28.64431799},
         {region: "South East Asia", lon:  466.87500335,  lat:13.54775471},
-        {region: "", lon:  0, lat:0},
+        {region: "UNKNOWN", lon:  -1, lat:-1},
         {region: "South Asia", lon:  438.01171996, lat: 22.95031305},
         {region: "Middle East/ South Asia", lon:  24.774265, lat: 46.738586},
         {region: "Sub-Saharan Africa", lon:  383.73046674, lat: 3.65378603},
@@ -43,7 +43,7 @@ class preprocess{
         {region: "Central America", lon:   274.32421982,  lat:13.27417061},
         {region: "North Africa", lon:  377.2265625,  lat:24.59108635},
         {region: "Southern Europe", lon:  13.53515625, lat: 41.56120985},
-        {region: "Mixed", lon:  0, lat:0},
+        {region: "Mixed", lon:  -1, lat:-1},
         {region: "Horn of Africa (P)", lon:  403.7695346,  lat:6.42013471}
         ]
         return OriginRegionBased
