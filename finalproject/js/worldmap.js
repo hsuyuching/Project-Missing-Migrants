@@ -7,8 +7,8 @@ class CountryData {
         this.geometry = geometry;
     }
 }
-class worldmap{
-    constructor(data, updateRoute, activeRoute, tableObject){
+class worldmap {
+    constructor(data, updateRoute, activeRoute, tableObject) {
         this.table = tableObject;
         window.migrant = data;
         this.activeRoute = activeRoute;
@@ -17,9 +17,9 @@ class worldmap{
         this.height = 900;
         this.projection = d3.geoEqualEarth()
             .scale(200)
-            .translate( [this.width / 2, this.height /3]);
+            .translate([this.width / 2, this.height / 3]);
     }
-    createMap(world){
+    createMap(world) {
         let that = this
         window.worldData = world
         let data = new preprocess()
@@ -37,8 +37,8 @@ class worldmap{
             .style("opacity", 0);
 
         var color = d3.scaleLinear()
-            .domain([0,10,100,500,1000,2000,3000,5000])
-            .range(["rgb(222,235,247)", "rgb(158,202,225)", "rgb(107,174,214)", "rgb(66,146,198)","rgb(33,113,181)","rgb(8,81,156)","rgb(8,48,107)","rgb(3,19,43)"]);
+            .domain([0, 10, 100, 500, 1000, 2000, 3000, 5000])
+            .range(["rgb(222,235,247)", "rgb(158,202,225)", "rgb(107,174,214)", "rgb(66,146,198)", "rgb(33,113,181)", "rgb(8,81,156)", "rgb(8,48,107)", "rgb(3,19,43)"]);
 
         var svg = d3.select("#map-chart")
             .append("svg")
@@ -56,9 +56,9 @@ class worldmap{
             .data(countryData)
             .enter().append("path")
             .attr("d", path)
-            .style("fill", function(d) {
-                for (const region of Object.keys(RegionsInclude)){
-                    if (RegionsInclude[region].indexOf(d.properties)>-1){
+            .style("fill", function (d) {
+                for (const region of Object.keys(RegionsInclude)) {
+                    if (RegionsInclude[region].indexOf(d.properties) > -1) {
                         // console.log(d.properties,"*",region, IncidentRegionBasedData[region])
                         return color(IncidentRegionBasedData[region])
                     }
@@ -67,16 +67,16 @@ class worldmap{
             })
             .style('stroke', 'white')
             .style('stroke-width', 1.5)
-            .style("opacity",0.8)
+            .style("opacity", 0.8)
             // .on("click", clicked)
             // tooltips
-            .style("stroke","white")
+            .style("stroke", "white")
             .style('stroke-width', 0.3)
-            .on('mouseover',function(d){
+            .on('mouseover', function (d) {
                 d3.select(this)
                     .style("opacity", 1)
-                    .style("stroke","white")
-                    .style("stroke-width",3);
+                    .style("stroke", "white")
+                    .style("stroke-width", 3);
 
                 tooltipdiv.transition()
                     .duration("50")
@@ -90,11 +90,11 @@ class worldmap{
                     .style("left", (d3.event.pageX + 10) + "px")
                     .style("top", (d3.event.pageY - 15) + "px")
             })
-            .on('mouseout', function(d){
+            .on('mouseout', function (d) {
                 d3.select(this)
                     .style("opacity", 0.8)
-                    .style("stroke","white")
-                    .style("stroke-width",0.3);
+                    .style("stroke", "white")
+                    .style("stroke-width", 0.3);
 
                 tooltipdiv.transition()
                     .duration('50')
@@ -102,7 +102,7 @@ class worldmap{
             });
 
         /* draw migrant incident point */
-        let dataslice = window.migrant.filter(function(d){return d.region_origin!="Mixed" && d.region_origin!="UNKNOWN"}).slice(0, this.activeRoute)
+        let dataslice = window.migrant.filter(function (d) { return d.region_origin != "Mixed" && d.region_origin != "UNKNOWN" }).slice(0, this.activeRoute)
 
         // let dicRegion_origin = []
         // window.migrant.forEach(function(d){
@@ -117,24 +117,23 @@ class worldmap{
             .selectAll("circle")
             .data(dataslice)
             .enter()
-            .append("circle").attr("class", d=>{return d.id})
-            .attr("cx", d=> this.projection([parseFloat(d.lon),parseFloat(d.lat)])[0])
-            .attr("cy", d=> this.projection([parseFloat(d.lon),parseFloat(d.lat)])[1])
+            .append("circle").attr("class", d => { return d.id })
+            .attr("cx", d => this.projection([parseFloat(d.lon), parseFloat(d.lat)])[0])
+            .attr("cy", d => this.projection([parseFloat(d.lon), parseFloat(d.lat)])[1])
             .attr("r", "3px")
             .attr("fill", "red")
             .on("mouseover", function (d) {
                 d3.select(this)
                     .style("opacity", 1)
-                    .style("stroke","yellow")
-                    .style("stroke-width",5)
-                console.log(this)
-                that.table.updateTable(window.tableData);
+                    .style("stroke", "yellow")
+                    .style("stroke-width", 5)
+                that.table.highlightRow(d);
             })
-            .on('mouseout', function(d){
+            .on('mouseout', function (d) {
                 d3.select(this)
-                    .style("stroke","red")
-                    .style("stroke-width","1px");
-
+                    .style("stroke", "red")
+                    .style("stroke-width", "1px");
+                that.table.clearRow(d);
             });
 
 
@@ -143,18 +142,18 @@ class worldmap{
             .selectAll("circle")
             .data(dataslice)
             .enter()
-            .append("circle").attr("class", d=>{return d.id})
-            .attr("cx", d=> {
+            .append("circle").attr("class", d => { return d.id })
+            .attr("cx", d => {
                 let coord = getstartpoint(d.region_origin)
-                return this.projection([coord[0],coord[1]])[0]
+                return this.projection([coord[0], coord[1]])[0]
             })
-            .attr("cy", d=> {
+            .attr("cy", d => {
                 let coord = getstartpoint(d.region_origin)
-                return this.projection([coord[0],coord[1]])[1]
+                return this.projection([coord[0], coord[1]])[1]
             })
-            .attr("r", d=> {
+            .attr("r", d => {
                 let coord = getstartpoint(d.region_origin)
-                return coord[0] === 0? "0px": "3px"
+                return coord[0] === 0 ? "0px" : "3px"
             })
             .attr("fill", "black")
 
@@ -163,17 +162,17 @@ class worldmap{
             .selectAll("line")
             .data(dataslice)
             .enter()
-            .append("line").attr("class", d=>{return d.id})
-            .attr("x1", d=> {
+            .append("line").attr("class", d => { return d.id })
+            .attr("x1", d => {
                 let coord = getstartpoint(d.region_origin)
-                return this.projection([coord[0],coord[1]])[0]
+                return this.projection([coord[0], coord[1]])[0]
             })
-            .attr("y1", d=>{
+            .attr("y1", d => {
                 let coord = getstartpoint(d.region_origin)
-                return this.projection([coord[0],coord[1]])[1]
+                return this.projection([coord[0], coord[1]])[1]
             })
-            .attr("x2", d=> this.projection([parseFloat(d.lon),parseFloat(d.lat)])[0])
-            .attr("y2", d=> this.projection([parseFloat(d.lon),parseFloat(d.lat)])[1])
+            .attr("x2", d => this.projection([parseFloat(d.lon), parseFloat(d.lat)])[0])
+            .attr("y2", d => this.projection([parseFloat(d.lon), parseFloat(d.lat)])[1])
             .attr("stroke", "black")
             .attr("stroke-width", "1px")
             // .on("click", function (d) {
@@ -183,18 +182,18 @@ class worldmap{
             //         .style("stroke-width",5)
             //     console.log(this)
             // })
-            .on('mouseover',function(d){
+            .on('mouseover', function (d) {
                 d3.select(this)
                     .style("opacity", 1)
-                    .style("stroke","yellow")
-                    .style("stroke-width",3);
+                    .style("stroke", "yellow")
+                    .style("stroke-width", 3);
 
                 tooltipdiv.transition()
                     .duration("50")
                     .style("opacity", "1");
 
                 // text to add
-                tooltipdiv.html(d.region_origin +"→" + d.incident_region)
+                tooltipdiv.html(d.region_origin + "→" + d.incident_region)
                     .style("text-transform", "capitalize")
                     .style("font-size", 50)
                     .style("font-weight", "bold")
@@ -203,46 +202,46 @@ class worldmap{
                     .append("div")
                     .style("font-size", 13)
                     .style("font-weight", "normal")
-                    .html(d.dead>0? "Dead: "+ d.dead: "Dead: 0")
+                    .html(d.dead > 0 ? "Dead: " + d.dead : "Dead: 0")
                     .append("div")
-                    .html(d.missing>0? "Missing: "+ d.missing: "Missing: 0")
+                    .html(d.missing > 0 ? "Missing: " + d.missing : "Missing: 0")
             })
-            .on('mouseout', function(d){
+            .on('mouseout', function (d) {
                 d3.select(this)
                     // .style("opacity", 0.8)
-                    .style("stroke","black")
-                    .style("stroke-width","1px");
+                    .style("stroke", "black")
+                    .style("stroke-width", "1px");
 
                 tooltipdiv.transition()
                     .duration('50')
                     .style("opacity", 0);
             });
     }
-    updateRoutePlot(activeRoute){
-        let data = window.migrant.filter(function(d){return d.region_origin!="Mixed" && d.region_origin!="UNKNOWN"}).slice(0, activeRoute)
+    updateRoutePlot(activeRoute) {
+        let data = window.migrant.filter(function (d) { return d.region_origin != "Mixed" && d.region_origin != "UNKNOWN" }).slice(0, activeRoute)
 
         /* update line */
         let lines = d3.select("#migratePath").selectAll("line").data(data)
         lines.enter().append("line")
             .merge(lines)
-            .attr("class", d=>{return d.id})
-            .attr("x1", d=> {
+            .attr("class", d => { return d.id })
+            .attr("x1", d => {
                 let coord = getstartpoint(d.region_origin)
-                return this.projection([coord[0],coord[1]])[0]
+                return this.projection([coord[0], coord[1]])[0]
             })
-            .attr("y1", d=>{
+            .attr("y1", d => {
                 let coord = getstartpoint(d.region_origin)
-                return this.projection([coord[0],coord[1]])[1]
+                return this.projection([coord[0], coord[1]])[1]
             })
-            .attr("x2", d=> this.projection([parseFloat(d.lon),parseFloat(d.lat)])[0])
-            .attr("y2", d=> this.projection([parseFloat(d.lon),parseFloat(d.lat)])[1])
+            .attr("x2", d => this.projection([parseFloat(d.lon), parseFloat(d.lat)])[0])
+            .attr("y2", d => this.projection([parseFloat(d.lon), parseFloat(d.lat)])[1])
             .attr("stroke", "black")
             .attr("stroke-width", "1px")
             .on("click", function (d) {
                 d3.select(this)
                     .style("opacity", 1)
-                    .style("stroke","yellow")
-                    .style("stroke-width",5)
+                    .style("stroke", "yellow")
+                    .style("stroke-width", 5)
                 //console.log(this)
             })
         lines.exit().remove()
@@ -252,9 +251,9 @@ class worldmap{
         let incidentCircles = d3.select("#incidentPoint").selectAll("circle").data(data)
         incidentCircles.enter().append("circle")
             .merge(incidentCircles)
-            .attr("class", d=>{return d.id})
-            .attr("cx", d=> this.projection([parseFloat(d.lon),parseFloat(d.lat)])[0])
-            .attr("cy", d=> this.projection([parseFloat(d.lon),parseFloat(d.lat)])[1])
+            .attr("class", d => { return d.id })
+            .attr("cx", d => this.projection([parseFloat(d.lon), parseFloat(d.lat)])[0])
+            .attr("cy", d => this.projection([parseFloat(d.lon), parseFloat(d.lat)])[1])
             .attr("r", "3px")
             .attr("fill", "red")
         incidentCircles.exit().remove()
@@ -263,25 +262,25 @@ class worldmap{
         let regionOriginCircles = d3.select("#regionOrigin").selectAll("circle").data(data)
         regionOriginCircles.enter().append("circle")
             .merge(regionOriginCircles)
-            .attr("class", d=>{return d.id})
-            .attr("cx", d=> {
+            .attr("class", d => { return d.id })
+            .attr("cx", d => {
                 let coord = getstartpoint(d.region_origin)
-                return this.projection([coord[0],coord[1]])[0]
+                return this.projection([coord[0], coord[1]])[0]
             })
-            .attr("cy", d=> {
+            .attr("cy", d => {
                 let coord = getstartpoint(d.region_origin)
-                return this.projection([coord[0],coord[1]])[1]
+                return this.projection([coord[0], coord[1]])[1]
             })
-            .attr("r", d=> {
+            .attr("r", d => {
                 let coord = getstartpoint(d.region_origin)
-                return coord[0] === 0? "0px": "3px"
+                return coord[0] === 0 ? "0px" : "3px"
             })
             .attr("fill", "black")
         regionOriginCircles.exit().remove()
 
 
     }
-    numRounteBar(){
+    numRounteBar() {
         let that = this
         let yearScale = d3.scaleLinear().domain([0, 2420]).range([30, 730]);
 
@@ -302,7 +301,7 @@ class worldmap{
         sliderText.attr('x', yearScale(this.activeRoute));
         sliderText.attr('y', 25);
 
-        yearSlider.on('input', function() {
+        yearSlider.on('input', function () {
             sliderText.text(this.value);
             sliderText.attr('x', yearScale(this.value));
 
@@ -340,22 +339,22 @@ function clicked(d) {
     }
     //set class of country to .active
     g.selectAll("path")
-        .classed("active", centered && function(d) { return d === centered; })
+        .classed("active", centered && function (d) { return d === centered; })
 
 
     // make contours thinner before zoom for smoothness
-    if (centered !== null){
+    if (centered !== null) {
         g.selectAll("path")
             .style("stroke-width", (0.75 / k) + "px");
     }
 
     // map transition
     g.transition()
-    //.style("stroke-width", (0.75 / k) + "px")
+        //.style("stroke-width", (0.75 / k) + "px")
         .duration(750)
         .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")scale(" + k + ")translate(" + -x + "," + -y + ")")
-        .on('end', function() {
-            if (centered === null){
+        .on('end', function () {
+            if (centered === null) {
                 g.selectAll("path")
                     .style("stroke-width", (0.75 / k) + "px");
             }

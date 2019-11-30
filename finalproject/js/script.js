@@ -35,11 +35,11 @@ loadData().then(data => {
                 return { 'key': d['date'], 'value': value };
             });
 
-            return{
+            return {
                 'death': totalDeath,
                 'missing': totalMissing,
-                'incident_region':targetRegion,
-                'cause_of_death':targetCause,
+                'incident_region': targetRegion,
+                'cause_of_death': targetCause,
                 'type': 'aggregate',
                 'entries': entries
             };

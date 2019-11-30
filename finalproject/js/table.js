@@ -11,7 +11,7 @@ class Table {
     }
 
     createTable() {
-        let tr = d3.select("#matchTable").select("thead").select("tr");
+        let tr = d3.select('#matchTable').select("thead").select("tr");
         let that = this;
         tr.selectAll('th')
             .on('click', function () {
@@ -55,13 +55,14 @@ class Table {
                 that.updateTable();
             }
         }
-        window.tableData = this.aggregated
+        //window.tableData = this.aggregated
 
         this.updateTable();
     }
 
-    updateTable() {
-        var self = this;
+    updateTable(data) {
+        console.log('call from worldmap: ', data);
+        var that = this;
         d3.select("#matchTable").select("tbody").selectAll("tr").remove();
         var table = d3.select("#matchTable");
 
@@ -70,9 +71,9 @@ class Table {
         var tbodytr = tbody.selectAll("tr").data(this.tableElements)
             .enter()
             .append("tr")
-            .attr('class', d => { return d.value.type; })
+            .attr('class', (d, i) => { return d.value.type === 'aggregate' ? d.key : d.value.type; })
             .on('click', (d, i) => {
-                self.updateList(i);
+                that.updateList(i);
             });
 
         tbodytr.selectAll("th")
@@ -185,4 +186,13 @@ class Table {
         return this.tableElements.filter(function (d) { return d.value.type == 'aggregate'; });
     }
 
+    highlightRow(entry) {
+        d3.select('.' + entry.affected_nationality)
+            .style('background-color', 'rgb(96, 205, 42)');
+    }
+
+    clearRow(entry) {
+        d3.select('.' + entry.affected_nationality)
+            .style('background-color', 'white');
+    }
 }
