@@ -6,10 +6,12 @@ class textCloudChart {
 
         let sizeScale = d3.scaleLinear()
             .domain([1, 3369])
-            .range([10, 50]);
-        d3.layout.cloud().size([800, 600])
+            .range([9, 60]);
+        d3.layout.cloud().size([800, 425])
             .words(this.freqData)
             .rotate(0)
+            .padding(1)
+            .spiral('archimedean')
             .fontSize(function (d) { return sizeScale(d.frequency) + 10; })
             .on("end", this.draw)
             .start();
