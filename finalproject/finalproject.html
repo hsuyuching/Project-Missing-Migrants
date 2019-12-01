@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="style.css"/>
     <script src="https://d3js.org/d3.v5.js"></script>
     <script src="https://d3js.org/d3-array.v2.min.js"></script>
-    <script src="//d3js.org/topojson.v1.min.js"></script>
 
+    <script type="application/javascript" src="js/button-storytelling.js"  ></script>
     <script type="application/javascript" src="js/preprocess.js" ></script>
     <script type="application/javascript" src="js/worldmap.js" ></script>
     <script type="application/javascript" src="js/table.js" ></script>
@@ -20,7 +20,13 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/1.6.19/topojson.js"></script>
     <script src="https://d3js.org/d3-geo-projection.v2.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.js"></script>
-  </head>
+
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
 <body>
 
 <div id="highlightdiv" onclick="off()">
@@ -35,6 +41,7 @@
     </div>
     <div id="buttons">
         <div id="routeBar"></div>
+        <div id="storyButton"></div>
     </div>
     <div id="map-chart"></div>
 

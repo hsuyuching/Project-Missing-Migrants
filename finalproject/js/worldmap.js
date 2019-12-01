@@ -18,6 +18,12 @@ class worldmap {
         this.projection = d3.geoEqualEarth()
             .scale(200)
             .translate([this.width / 2, this.height / 3]);
+        window.projtmp = this.projection
+        // console.log("haha", window.projtmp, this.projection)
+        this.storyButton = renderButton(
+            d3.select("#storyButton"),
+            "Show Extremes"
+        );
     }
     createMap(world) {
         let that = this
@@ -25,10 +31,9 @@ class worldmap {
         let data = new preprocess()
         const IncidentRegionBasedData = data.IncidentRegionBased()
         window.RegionsInclude = data.DefineRegion()
-        const countryData = data.WorldMapData()
+        var countryData = data.WorldMapData()
+        window.storyTellingCountry = countryData
         window.startData = data.OriginRegion()
-
-        console.log(window.migrant)
 
         // Set tooltips
         let tooltipdiv = d3.select("body")
@@ -58,7 +63,7 @@ class worldmap {
             .attr("d", path)
             .style("fill", function (d) {
                 for (const region of Object.keys(RegionsInclude)) {
-                    if (RegionsInclude[region].indexOf(d.properties) > -1) {
+                    if (RegionsInclude[region].indexOf(d.properties) > -1 ) {
                         // console.log(d.properties,"*",region, IncidentRegionBasedData[region])
                         return color(IncidentRegionBasedData[region])
                     }
@@ -218,6 +223,8 @@ class worldmap {
             });
     }
     updateRoutePlot(activeRoute) {
+        this.storyButton.on("click", showExtreme)
+
         let data = window.migrant.filter(function (d) { return d.region_origin != "Mixed" && d.region_origin != "UNKNOWN" }).slice(0, activeRoute)
 
         /* update line */
@@ -310,17 +317,9 @@ class worldmap {
             that.updateRoutePlot(String(this.value));
             that.updateRoute(String(this.value));
         });
+
     }
 
-}
-function reset() {
-    active.classed("active", false);
-    active = d3.select(null);
-
-    g.transition()
-        .duration(750)
-        .style("stroke-width", "1.5px")
-        .attr("transform", "");
 }
 
 function getstartpoint(region) {
@@ -329,47 +328,34 @@ function getstartpoint(region) {
     })
     return [coord[0].lon, coord[0].lat]
 }
+function showExtreme(){
+    document.getElementById("highlightdiv").style.display = "block";
+    //
+    let highlightDiv = d3.select("#highlightdiv")
+    let width = highlightDiv.node().getBoundingClientRect().width
+        ,height = highlightDiv.node().getBoundingClientRect().height;
+    let svg = d3.select("#highlightdiv").append("svg").attr("id", "extremeSVG")
+        .attr("width", width)
+        .attr("height", height)
+    let img = svg.selectAll("image").data([0])
+    img.enter()
+        .append("svg:image")
+        .attr("xlink:href", "data/Mediterranean.PNG")
+        .attr("x", width / 3)
+        .attr("y", height / 2.3)
+        .attr("width", width / 2)
+        .attr("height", height / 2);
 
-// function clicked(d) {
-//     var x, y, k;
-//     //if not centered into that country and clicked country in visited countries
-//     if ((d && centered !== d) & (visited_countries.includes(d.id))) {
-//         var centroid = path.centroid(d); //get center of country
-//         var bounds = path.bounds(d); //get bounds of country
-//         var dx = bounds[1][0] - bounds[0][0], //get bounding box
-//             dy = bounds[1][1] - bounds[0][1];
-//         //get transformation values
-//         x = (bounds[0][0] + bounds[1][0]) / 2;
-//         y = (bounds[0][1] + bounds[1][1]) / 2;
-//         k = Math.min(width / dx, height / dy);
-//         centered = d;
-//     } else {
-//         //else reset to world view
-//         x = width / 2;
-//         y = height / 2;
-//         k = 1;
-//         centered = null;
-//     }
-//     //set class of country to .active
-//     g.selectAll("path")
-//         .classed("active", centered && function (d) { return d === centered; })
-//
-//
-//     // make contours thinner before zoom for smoothness
-//     if (centered !== null) {
-//         g.selectAll("path")
-//             .style("stroke-width", (0.75 / k) + "px");
-//     }
-//
-//     // map transition
-//     g.transition()
-//         //.style("stroke-width", (0.75 / k) + "px")
-//         .duration(750)
-//         .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")scale(" + k + ")translate(" + -x + "," + -y + ")")
-//         .on('end', function () {
-//             if (centered === null) {
-//                 g.selectAll("path")
-//                     .style("stroke-width", (0.75 / k) + "px");
-//             }
-//         });
-// }
+
+    d3.select("#storyA").attr("class", "tooltip-donut")
+        .style("top", "400px")
+        .style("left", "26.9px")
+        .style("font-size", "14px")
+        .text("The Mediterranean is a major body of water south of Europe, west of Asia and north of Africa. " +
+            "It contains Gibraltar, Spain, Monaco, Italy, Slovenia, Croatia, " +
+            "Montenegro, Albania, Greece, Turkey, " +
+            "Lybia, Malta, Tunisia, Bosnia-Herzegovina." + " Here, it shows that Mediterranean has" +
+            " the highest number of migrants death in the world.")
+
+
+}
