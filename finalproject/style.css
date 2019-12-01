@@ -32,8 +32,8 @@
 	/*position: fixed;*/
 	/*padding: 15% 0% 10%;*/
 	/*max-width: 900px;*/
-	width: 900px;
-	height: 230px;
+	width: 100%;
+	height: 180px;
 	/*margin-left: auto;*/
 	/*margin-right: auto;*/
 	color: white;
@@ -49,7 +49,7 @@ h3 {
 	/*letter-spacing: .5em;*/
 	/*position: relative;*/
 	top: 130px;
-	width: 900px;
+	width: 100%;
 }
 
 h1 {
@@ -60,7 +60,7 @@ h1 {
 	letter-spacing: 0.5em;
 	/*position: absolute;*/
 	top: 1%;
-	width: 900px;
+	width: 100%;
 }
 
 /* world map style */
@@ -192,7 +192,8 @@ tbody td {
 .slider-wrap {
 	display: inline-block;
 	float: left;
-	width: 750px;
+	width: 100%;
+	margin-top: 50px;
 	margin-left: 50px;
 }
 
@@ -211,4 +212,21 @@ tbody tr:hover {
 
 tbody tr:first-child td {
 	padding-top: 2px;
+}
+
+/*zoom in*/
+.feature {
+	fill: #ccc;
+	cursor: pointer;
+}
+
+.feature.active {
+	fill: orange;
+}
+
+.mesh {
+	fill: none;
+	stroke: #fff;
+	stroke-linecap: round;
+	stroke-linejoin: round;
 }
