@@ -22,7 +22,7 @@ class worldmap {
         // console.log("haha", window.projtmp, this.projection)
         this.storyButton = renderButton(
             d3.select("#storyButton"),
-            "Show Extremes"
+            "Show Highest Death Region"
         );
     }
     createMap(world) {
