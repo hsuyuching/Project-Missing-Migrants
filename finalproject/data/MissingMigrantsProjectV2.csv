@@ -2,7 +2,7 @@ id,cause_of_death,region_origin,missing,dead,incident_region,date,source,reliabi
 1,Drowning,Middle East,1.0,1.0,Mediterranean,05/11/2015,IOM Greece,Verified,36.8915,27.2877,Iraq
 3,Fell from train,Central America & Mexico,0.0,1.0,Central America incl. Mexico,03/11/2015,La Jornada,Partially Verified,15.9564,-93.6631,Honduras
 7,Vehicle accident,South East Asia,0.0,4.0,Southeast Asia,01/11/2015,Phnom Penh Post,Partially Verified,13.3611,100.985,Cambodia
-12,Died of unknown cause in hospital shortly after rescue,MENA,0.0,1.0,Mediterranean,28/10/2015,IOM Greece,Verified,39.37081581,26.17647329,Syria
+12,Disease,MENA,0.0,1.0,Mediterranean,28/10/2015,IOM Greece,Verified,39.37081581,26.17647329,Syria
 13,Drowning,MENA,0.0,1.0,Mediterranean,26/10/2015,IOM Greece,Verified,39.28097838,26.38413005,Iran
 14,Drowning,South Asia,7.0,3.0,Mediterranean,23/10/2015,IOM Greece,Verified,39.27300546,26.42326885,Afghanistan
 16,Drowning,UNKNOWN,0.0,4.0,Mediterranean,31/10/2015,Hurriyet Daily News,Partially Verified,39.27991538,26.38893657,Afghanistan
@@ -32,7 +32,7 @@ id,cause_of_death,region_origin,missing,dead,incident_region,date,source,reliabi
 75,Vehicle accident,Caribbean,0.0,3.0,Caribbean,08/10/2015,Yahoo! News,Partially Verified,18.6046,-70.1862,Haiti
 79,Hit by train,Horn of Africa,0.0,1.0,Europe,30/09/2015,CNN,Partially Verified,50.9171,1.79277,Eritrea
 82,drowning,South Asia,0.0,2.0,Mediterranean,30/09/2015,IOM Greece,Verified,39.3346,26.4755,Afghan
-85,Hi by truck,Middle East/ South Asia,0.0,1.0,Europe,29/09/2015,BBC,Partially Verified,50.9513,1.8586900000000002,Iraq
+85,Hit by truck,Middle East/ South Asia,0.0,1.0,Europe,29/09/2015,BBC,Partially Verified,50.9513,1.8586900000000002,Iraq
 86,Drowning,MENA,5.0,1.0,Mediterranean,29/09/2015,Hurriyet Daily News,Partially verified,40.6765414,25.94885313,Syria
 87,Crushed to death,Middle East/ South Asia,0.0,1.0,Europe,29/09/2015,BBC,Partially Verified,50.9513,1.8586900000000002,Iraq
 89,Drowning,MENA,0.0,8.5,Mediterranean,27/09/2015,Hurriyet Daily News,Partially Verified,37.01356685,27.181960399999998,Syria
@@ -328,7 +328,7 @@ id,cause_of_death,region_origin,missing,dead,incident_region,date,source,reliabi
 20165,Vehicle accident,Sub-Saharan Africa,0.0,14.0,Sub-Saharan Africa,19/01/2016,"UBAlert, Chronicle.co.zw",Verified,-24.16714086,29.02050585,Zimbabwe
 20169,Vehicle accident,Central America & Mexico,0.0,20.0,Central America incl. Mexico,18/08/2015,El Popular,Partially Verified,19.04999685,-98.199999,Central America
 20171,Train accident,Central America,0.0,1.0,Central America incl. Mexico,29/10/2015,Canal 6,Partially Verified,17.76151818,-92.59649775,Honduras
-20563,Raped and murdered,Caribbean,0.0,1.0,Caribbean,02/03/2015,El Caribe,Partially Verified,19.61185749,-71.6307297,Haiti
+20563,Raped and Murdered,Caribbean,0.0,1.0,Caribbean,02/03/2015,El Caribe,Partially Verified,19.61185749,-71.6307297,Haiti
 20567,Vehicle accident,Central America & Mexico,0.0,1.0,Central America incl. Mexico,22/09/2015,IOM,Partially Verified,19.04999685,-98.199999,Honduras
 20567,Vehicle accident,Central America & Mexico,0.0,1.0,Central America incl. Mexico,22/09/2015,IOM,Partially Verified,19.04999685,-98.199999,Guatemala
 20568,Shot,Central America & Mexico,0.0,1.0,Central America incl. Mexico,23/09/2015,Quadratin,Partially Verified,20.49123178,-99.92931052,Central America
@@ -412,7 +412,7 @@ id,cause_of_death,region_origin,missing,dead,incident_region,date,source,reliabi
 48978,Hyperthermia,Central America & Mexico,0.0,1.0,Central America incl. Mexico,08/01/2016,El Heroico,Partially Verified,17.266665600000003,-90.99999891,Honduras
 49377,Drowning,MENA,0.0,1.0,Mediterranean,14/04/2016,Daily Star,Partially Verified,38.45484192,27.05853886,Syria
 49777,Hit by vehicle,Central America & Mexico,0.0,1.0,U.S./Mexico Border,18/03/2016,"South Austin Patch, Guanajuato Informa",Partially Verified,30.25210496,-97.7358722,Mexico
-50577,s,Caribbean,0.0,1.0,Central America incl. Mexico,03/01/2016,AFP,Partially Verified,9.370277058,-82.91137395,Cuba
+50577,Shot,Caribbean,0.0,1.0,Central America incl. Mexico,03/01/2016,AFP,Partially Verified,9.370277058,-82.91137395,Cuba
 50978,Drowning,Central America & Mexico,0.0,1.0,Central America incl. Mexico,13/10/2015,102Nueve,Partially Verified,26.10209127,-98.30425898,El Salvador
 51779,Drowning,UNKNOWN,91.8,0.0,Mediterranean,08/04/2016,"IOM Greece, Reuters",Partially Verified,32.63577598,25.59686922,Egypt
 51779,Drowning,UNKNOWN,91.8,0.0,Mediterranean,08/04/2016,"IOM Greece, Reuters",Partially Verified,32.63577598,25.59686922,Ethiopia
@@ -730,9 +730,9 @@ id,cause_of_death,region_origin,missing,dead,incident_region,date,source,reliabi
 133777,Asphyxiation,Central America & Mexico,0.0,1.0,Central America incl. Mexico,07/12/2016,Noreste,Verified,18.821360000000002,-97.16518,Guatemala
 133778,Fell from wall,Central America & Mexico,0.0,1.0,U.S./Mexico Border,29/03/2016,canalestrellatv,Partially Verified,31.3377623,-110.58689299999999,El Salvador
 134177,Drowning,Sub-Saharan Africa,0.0,11.0,Mediterranean,04/12/2016,IOM Libya,Verified,32.99475788,13.37045003,Sub-Saharan Africa
-134180,Vehicle accident,Central America & Mexico,0.0,2.0,Central America incl. Mexico,13/12/2016,El Sol de Tlaxcala,Partially Verified,14.83629515,-92.45180897,Honduras
+134180,Vehicle Accident,Central America & Mexico,0.0,2.0,Central America incl. Mexico,13/12/2016,El Sol de Tlaxcala,Partially Verified,14.83629515,-92.45180897,Honduras
 137377,Disease,Central America & Mexico,0.0,1.0,U.S./Mexico Border,12/01/2016,Guanajuato Informa and Facebook,Verified,27.18464463,-98.15041226,Mexico
-137778,shot,South East Asia,0.0,1.0,Southeast Asia,18/12/2016,Daily Star,Partially Verified,20.866667,92.3,Rohingya
+137778,Shot,South East Asia,0.0,1.0,Southeast Asia,18/12/2016,Daily Star,Partially Verified,20.866667,92.3,Rohingya
 138177,Hypothermia,Horn of Africa,0.0,1.0,Europe,01/01/2017,Novinite,Partially Verified,42.3488894,27.5591397,Somalia
 138579,Fell from train,Central America & Mexico,0.0,1.0,Central America incl. Mexico,10/11/2016,Diario Presente,Partially Verified,17.59830268,-92.85879035,Honduras
 138588,Vehicle accident,Caribbean,0.0,1.0,Central America incl. Mexico,24/12/2016,Radio Formula,Partially Verified,18.10980568,-94.44958184,Haiti
@@ -790,7 +790,7 @@ id,cause_of_death,region_origin,missing,dead,incident_region,date,source,reliabi
 152348,Drowning,South East Asia,0.0,18.0,Southeast Asia,14/12/2016,OHCHR,Verified,20.59295417,92.39558721,Myanmar
 152349,Shot,South East Asia,0.0,1.0,Southeast Asia,29/12/2016,OHCHR,Verified,20.71845779,92.37075765,Myanmar
 152746,Drowning,South East Asia,0.0,3.0,Southeast Asia,14/11/2016,Report of OHCHR mission to Bangladesh,Verified,20.98652606,92.25909613,Myanmar
-153146,Raped and Murdured,Central America & Mexico,0.0,1.0,Central America incl. Mexico,16/01/2017,La Policiaca and Cuarto de Guerra,Partially Verified,19.41681721,-98.12923511,Honduras
+153146,Raped and Murdered,Central America & Mexico,0.0,1.0,Central America incl. Mexico,16/01/2017,La Policiaca and Cuarto de Guerra,Partially Verified,19.41681721,-98.12923511,Honduras
 153546,Drowning,Sub-Saharan Africa,0.0,74.0,Mediterranean,19/02/2017,"IOM Libya, Libyan Red Crescent",Verified,32.79602863,12.73482604,Mexico
 153548,Hypothermia,Middle East,0.0,1.0,Europe,25/12/2016,UNHCR,Partially Verified,43.22980166,22.8833203,Iraq
 154346,Mixed,Central America & Mexico,0.0,18.0,U.S./Mexico Border,30/12/2016,Hidalgo County Sheriff,Verified,26.10034921,-98.26306991,Mexico
@@ -849,7 +849,7 @@ id,cause_of_death,region_origin,missing,dead,incident_region,date,source,reliabi
 175148,Drowning,Central America & Mexico,0.0,1.0,U.S./Mexico Border,19/04/2017,La Prensa,Partially Verified,27.442846399999997,-99.49682059999999,Honduras
 175546,Hit by vehicle,Central America & Mexico,0.0,1.0,Central America incl. Mexico,09/04/2017,Presencia,Partially Verified,18.10335939,-94.39590227,Honduras
 175946,Vehicle accident,Middle East/ South Asia,0.0,1.0,Europe,23/04/2017,AP,Partially Verified,41.10828645,24.93716717,Iran
-176746,Vehicle incident,South Asia,0.0,3.0,Middle East ,19/04/2017,The Refugee Voice,Partially Verified,30.49727449,57.65820146,Afghanistan
+176746,Vehicle accident,South Asia,0.0,3.0,Middle East ,19/04/2017,The Refugee Voice,Partially Verified,30.49727449,57.65820146,Afghanistan
 177947,Drowning,South America,0.0,1.0,U.S./Mexico Border,04/05/2017,La Tarde,Partially Verified,26.05676125,-98.20100466,Brazilian
 178346,Shot,Sub-Saharan Africa,0.0,1.0,Mediterranean,04/05/2017,Reuters,Partially Verified,34.57463806,13.97847484,Gambia
 179146,Drowning,Central America & Mexico,0.0,1.0,Central America incl. Mexico,06/05/2017,Prensa Libre,Partially Verified,32.33868379,-117.0591491,Guatemala

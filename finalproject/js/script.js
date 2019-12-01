@@ -1,3 +1,18 @@
+
+function fetchJSONFile(path, callback) {
+    var httpRequest = new XMLHttpRequest();
+    httpRequest.onreadystatechange = function () {
+        if (httpRequest.readyState === 4) {
+            if (httpRequest.status === 200) {
+                let data = JSON.parse(httpRequest.responseText);
+                if (callback) callback(data);
+            }
+        }
+    };
+    httpRequest.open('GET', path);
+    httpRequest.send();
+}
+
 loadData().then(data => {
 
 
@@ -48,7 +63,12 @@ loadData().then(data => {
     let table = new Table(tableData);
     table.createTable();
 
-    // console.log(data)
+    fetchJSONFile('data/tag_frequency.json', f => {
+        let cloudChart = new textCloudChart(f);
+        //cloudChart.update();
+    });
+
+
     this.activeRoute = "300"
     let that = this;
 
@@ -82,3 +102,4 @@ async function loadData() {
     let migrant = await loadFile('data/MissingMigrantsProjectV2.csv');
     return migrant;
 }
+

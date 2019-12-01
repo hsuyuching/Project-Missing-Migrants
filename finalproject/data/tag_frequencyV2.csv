@@ -1,0 +1,53 @@
+cause_of_death, count, frequency
+Asphyxiation,126.0,2.41
+Assaulted by smugglers,1.0,0.019
+Attacked by hippopotamus,4.0,0.076
+Beaten to death,45.0,0.86
+Blunt force head trauma,1.0,0.019
+Blunt force injuries,1.0,0.019
+Burned,1.0,0.019
+Car accident,1.0,0.019
+Cervix cancer,1.0,0.019
+Criminal Violence,1.0,0.019
+Crushed to death,1.0,0.019
+Dehydration,128.0,2.45
+Disease,27.0,0.52
+Drowning,3369.0,64.42
+Electrocution,3.0,0.057
+Electrocution on railway,1.0,0.019
+Exposure,7.0,0.134
+Fall from cliff,1.0,0.019
+Fell from train,20.0, 0.38
+Fell from truck,2.0,0.038
+Fell from wall,2.0,0.038
+Found hanged,1.0,0.019
+Hit by Vehicle,1.0,0.019
+Hit by car,1.0,0.019
+Hit by train,11.0,0.21
+Hit by truck,5.0,0.096
+Hit by vehicle,28.0,0.54
+Hyperthermia,35.0,0.67
+Hypothermia,84.0,1.61
+Inhalation of toxic fumes,1.0,0.019
+Injured,3.0,0.057
+Injured from a fight,1.0,0.019
+Landmine,1.0,0.019
+Meningitis,1.0,0.019
+Mixed,734.0,14.03
+Murdered,56.0,1.07
+Plane stowaway,1.0,0.019
+Poison,1.0,0.019
+Pulmonary complications,1.0,0.019
+Pulmonary edema,1.0,0.019
+Raped and Murdered,2.0,0.038
+Road accident,2.0,0.038
+Shot,194.0,3.71
+Stabbed,1.0,0.019
+Starvation,2.0,0.038
+Suffocation,98.0,1.87
+Suicide,1.0,0.019
+Tortured to death,1.0,0.019
+Train accident,24.0,0.46
+Vehicle accident,191.0,3.65
+Violence,1.0,0.019
+Violent robbery,3.0,0.057
