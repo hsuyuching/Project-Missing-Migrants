@@ -25,7 +25,7 @@ class textCloudChart {
             .range([10, 60]);
         let colorScale = d3.scaleLinear()
             .domain([1, 3369])
-            .range(["#EE82EE", "#FF00FF"]);
+            .range(["#87CEFA", "#1E90FF"]);
         this.cloud
             .words(this.freqData)
             .rotate(0)
@@ -36,13 +36,13 @@ class textCloudChart {
 
         let that = this;
         this.cloud.on('end', words => {
-            let alltext = this.gtext.selectAll('text')
+            this.gtext.selectAll('text')
                 .data(words)
                 .enter()
                 .append('text')
                 .style("font-size", function (d) { return sizeScale(d.frequency) + "px"; })
                 .style("fill", function (d, i) { return colorScale(i); })
-                .style("font-family", "Comic Sans MS")
+                .style("font-family", "Anton")
                 .attr("transform", function (d) {
                     return "translate(" + [d.x, d.y] + ")rotate(" + d.rotate + ")";
                 })
