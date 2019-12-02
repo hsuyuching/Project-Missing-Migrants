@@ -64,8 +64,7 @@ loadData().then(data => {
     table.createTable();
 
     fetchJSONFile('data/tag_frequency.json', f => {
-        let cloudChart = new textCloudChart(f);
-        //cloudChart.update();
+        let cloudChart = new textCloudChart(f, table);
     });
 
 

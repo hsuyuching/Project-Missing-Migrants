@@ -61,7 +61,15 @@ class Table {
     }
 
     updateTable(data) {
-        console.log('call from worldmap: ', data);
+
+        if (data != null) {
+            this.tableElements = this.tableElements.filter(d => {
+                return d.value.cause_of_death == data;
+            })
+            console.log("TCL: Table -> updateTable -> tableElements", this.tableElements)
+
+        }
+
         var that = this;
         d3.select("#matchTable").select("tbody").selectAll("tr").remove();
         var table = d3.select("#matchTable");
@@ -164,6 +172,7 @@ class Table {
                 return d.value;
             });
 
+        this.tableElements = this.data.slice(0, this.data.length);
     }
 
     updateList(i) {
