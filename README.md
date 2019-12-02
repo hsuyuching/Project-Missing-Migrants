@@ -8,7 +8,7 @@ data folder(data): this contains all the data processing scripts.
 
 js folder(js): this contains all the js scripts that implement the logic of the visualizations.
 
-Project is hosted on this URL: http://45.77.0.129:8080/finalproject/finalproject.html
+Project is hosted on this URL: http://45.77.0.129:8080/finalproject.html
 
 Showcase video can be found on the website given above.
 
