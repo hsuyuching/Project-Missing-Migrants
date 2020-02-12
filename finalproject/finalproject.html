@@ -1,67 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Visualization - Final Project - Missing Migrants</title>
+		<link rel="stylesheet" href="style.css" />
+		<script src="https://d3js.org/d3.v5.js"></script>
+		<script src="https://d3js.org/d3-array.v2.min.js"></script>
+		<script
+			type="application/javascript"
+			src="js/button-storytelling.js"
+		></script>
+		<script type="application/javascript" src="js/preprocess.js"></script>
+		<script type="application/javascript" src="js/worldmap.js"></script>
+		<script type="application/javascript" src="js/table.js"></script>
+		<script type="application/javascript" src="js/textCloudChart.js"></script>
+		<script type="application/javascript" src="js/d3.layout.cloud.js"></script>
+		<script type="application/javascript" src="js/script.js"></script>
+		<link
+			href="https://fonts.googleapis.com/css?family=Roboto"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+			integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+			crossorigin="anonymous"
+		/>
 
-<head>
-    <meta charset="UTF-8">
-    <title>Visualization - Final Project - Missing Migrants </title>
-    <link rel="stylesheet" href="style.css"/>
-    <script src="https://d3js.org/d3.v5.js"></script>
-    <script src="https://d3js.org/d3-array.v2.min.js"></script>
+		<link
+			href="https://fonts.googleapis.com/css?family=Work+Sans:400,700&display=swap"
+			rel="stylesheet"
+		/>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/1.6.19/topojson.js"></script>
+		<script src="https://d3js.org/d3-geo-projection.v2.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.js"></script>
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+			integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+			crossorigin="anonymous"
+		/>
+		<script
+			src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+			integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+			integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+			integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+			crossorigin="anonymous"
+		></script>
 
-    <script type="application/javascript" src="js/preprocess.js" ></script>
-    <script type="application/javascript" src="js/worldmap.js" ></script>
-    <script type="application/javascript" src="js/table.js" ></script>
-    <script type="application/javascript" src="js/script.js" ></script>
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+		<script
+			src="http://code.jquery.com/jquery-3.3.1.min.js"
+			integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+			crossorigin="anonymous"
+		></script>
+		<link
+			rel="stylesheet"
+			href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css"
+		/>
+		<script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+		<script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js"></script>
 
-    <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,700&display=swap" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/1.6.19/topojson.js"></script>
-    <script src="https://d3js.org/d3-geo-projection.v2.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.js"></script>
-  </head>
-<body>
+		<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+	</head>
+	<body>
+		<div id="highlightdiv" onclick="off()">
+			<div id="storyA"></div>
+			<div id="storyB"></div>
+		</div>
+		<div id="container">
+			<div class="sample-header-section">
+				<h1>
+					Missing Migrants
+					<small> Mysterious Dead/Missing Migrants visualization </small>
+				</h1>
+				<h3>Member: William Tang * u1169036@utah.edu * u1169036</h3>
+				<h3>Member: Yu-Ching Hsu * ruby841009@gmail.com * u1264420</h3>
+				<a href="https://www.youtube.com/watch?v=jLRQxGouYS0&feature=youtu.be"
+					><button id="video" type="button" class="btn btn-primary">
+						How to Use
+					</button>
+				</a>
+			</div>
+			<div id="buttons">
+				<div id="routeBar"></div>
+				<div id="storyButton"></div>
+			</div>
+			<div id="map-chart"></div>
+			<div class="col-md-12 container" id="tagCloud">
+				<div id="text-cloud-chart">
+					<h3>Word Cloud - Category of Tags</h3>
+				</div>
+			</div>
+			<div id="ranking-table">
+				<h3>Missing Migrants Statistics Table</h3>
+				<table
+					id="matchTable"
+					class="tableHeader table table-striped table-bordered table-hover"
+				>
+					<thead>
+						<tr id="sortHeader" style="text-align: center;">
+							<th>Nationality</th>
+							<th>Death</th>
+							<th>Missing</th>
+							<th>Incident Region</th>
+							<th>Cause of Death</th>
+						</tr>
+					</thead>
+					<tbody></tbody>
+				</table>
+			</div>
+		</div>
+		<script>
+			function off() {
+				document.getElementById('highlightdiv').style.display = 'none';
+			}
+		</script>
+		<script>
+			$(document).ready(function() {
+				$('#matchTable').DataTable({ iDisplayLength: 10 });
+			});
+		</script>
 
-<div id="highlightdiv" onclick="off()">
-    <div id="storyA"></div>
-    <div id="storyB"></div>
-</div>
-<div id="container">
-    <div class="sample-header-section">
-        <h1>Missing Migrants</h1>
-        <h3>Member: William Tang * u1169036@utah.edu * u1169036</h3>
-        <h3>Member: Yu-Ching Hsu * ruby841009@gmail.com * u1264420</h3>
-    </div>
-
-    <div id="map-chart"></div>
-    <div id="buttons">
-        <div id="routeBar"></div>
-    </div>
-    <div id="ranking-table">
-        <table id="matchTable">
-            <thead>
-                <tr id="sortHeader">
-                    <th>Nationality</th>
-                    <th>Death</th>
-                    <th>Missing</th>
-                    <th>Incident Region</th>
-                    <th>Cause of Death</th>
-                </tr>
-            </thead>
-            <tbody></tbody>
-        </table>
-    </div>
-</div>
-<script>
-    function off() {
-        document.getElementById("highlightdiv").style.display = "none";
-    }
-</script>
-
-<!--<script src="trip_data.js"></script>-->
-<!--<script src="https://unpkg.com/topojson-client@3"></script>-->
-
-</body>
-
-
+		<!--<script src="trip_data.js"></script>-->
+		<!--<script src="https://unpkg.com/topojson-client@3"></script>-->
+	</body>
 </html>
