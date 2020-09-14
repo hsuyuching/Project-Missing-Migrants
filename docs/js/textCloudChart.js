@@ -24,8 +24,8 @@ class textCloudChart {
             .domain([10, 3369])
             .range([10, 60]);
         let colorScale = d3.scaleLinear()
-            .domain([1, 3369])
-            .range(["#87CEFA", "#1E90FF"]);
+            .domain([1, 40])
+            .range(["#C70039", "#FFC300"]);
         this.cloud
             .words(this.freqData)
             .rotate(0)
